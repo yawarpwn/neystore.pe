@@ -2,11 +2,14 @@
 import Layout from '../layouts/Layout.astro'
 
 const logo = 'logotipe'
+import Button from '@/components/Button.astro'
 console.log(logo)
 ---
 
-<Layout>
+<Layout title="Start">
   <main>
+    <Button />
     <h1 class="text-center text-orange-500">Start</h1>
+    <img src="/logo.svg" />
   </main>
 </Layout>
