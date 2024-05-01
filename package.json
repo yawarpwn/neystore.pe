@@ -16,6 +16,7 @@
     "@astrojs/tailwind": "5.1.0",
     "@typescript-eslint/parser": "^7.8.0",
     "astro": "4.7.0",
+    "astro-icon": "^1.1.0",
     "eslint": "^9.1.1",
     "eslint-plugin-astro": "^1.1.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
@@ -23,8 +24,9 @@
     "typescript": "5.4.5"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.66",
+    "@types/bun": "^1.1.1",
     "prettier": "3.2.5",
-    "prettier-plugin-astro": "^0.13.0",
-    "@types/bun": "^1.1.1"
+    "prettier-plugin-astro": "^0.13.0"
   }
 }

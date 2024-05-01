@@ -1,3 +1,15 @@
-:root {
-  --background: #f2d --foreground: #000;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --background: 0% 0 0;
+    --foreground: 100% 0 0;
+  }
+
+  body {
+    @apply bg-background text-foreground h-screen;
+  }
 }

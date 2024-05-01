@@ -1,15 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro'
-
-const logo = 'logotipe'
+import { Icon } from 'astro-icon/components'
 import Button from '@/components/Button.astro'
-console.log(logo)
+import Dialog from '@/components/Dialog.astro'
 ---
 
-<Layout title="Start">
+<Layout>
+  ---
   <main>
+    <Dialog> Contenido de dialog </Dialog>
     <Button />
-    <h1 class="text-center text-orange-500">Start</h1>
-    <img src="/logo.svg" />
+    <h1>Start</h1>
   </main>
 </Layout>

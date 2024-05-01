@@ -1,17 +1,26 @@
-import { defineConfig } from "astro/config";
+import { defineConfig } from 'astro/config'
+import tailwind from '@astrojs/tailwind'
+import icons from 'astro-icons'
 
-import tailwind from "@astrojs/tailwind";
+import icon from 'astro-icon'
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ney-store.vercel.app",
-  base: "/",
-  trailingSlash: "never",
-  output: "static",
+  site: 'https://ney-store.vercel.app',
+  base: '/',
+  trailingSlash: 'never',
+  output: 'static',
   compressHTML: true,
-  scopedStyleStrategy: "attribute",
+  scopedStyleStrategy: 'attribute',
   build: {
-    assets: "_astro",
+    assets: '_astro',
   },
-  integrations: [tailwind()],
-});
+  integrations: [
+    tailwind({
+      applyBaseStyles: false,
+    }),
+    icons(),
+    icon(),
+  ],
+})
+
