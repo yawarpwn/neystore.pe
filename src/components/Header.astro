@@ -1,8 +1,9 @@
 ---
 import Logo from '@/components/Logo.astro'
-import { Icon } from 'astro-icon/components'
+import Icon from '@/components/Icon.astro'
 import site from '@/constants/site'
 const socialLinks = Object.entries(site.socialLinks)
+import { type Props as IconProps } from '@/components/Icon.astro'
 
 const navigation = [
   {
@@ -30,31 +31,31 @@ const navigation = [
       </a>
       <menu
         id="mobile-menu"
-        class="fixed left-0 top-[4rem] bg-background  w-full h-[calc(100svh-4rem)] text-primary flex justify-center"
+        class="fixed left-0 top-[4rem] bg-background w-full h-[calc(100svh-4rem)] text-primary flex justify-center"
       >
-          <div class=" p-6">
-            <ul class="flex flex-col gap-4">
-              {
+        <div class="p-6">
+          <ul class="flex flex-col gap-4">
+            {
               navigation.map((item) => (
                 <li>
-                <a href={item.href}>{item.title}</a>
-              </li>
+                  <a href={item.href}>{item.title}</a>
+                </li>
               ))
-              }
-            </ul>
-            <div class="flex items-center mt-4">
-              {
-              socialLinks.map(([name, link]) =>(
+            }
+          </ul>
+          <div class="flex items-center mt-4">
+            {
+              socialLinks.map(([name, link]) => (
                 <a href={link} rel="noopener noreferrer" target="_blank">
-                <Icon name=`tabler:brand-${name}` size={28} />
-              </a>
+                  <Icon name={name as IconProps['name']} size="2rem" />
+                </a>
               ))
-              }
-            </div>
+            }
+          </div>
         </div>
       </menu>
       <button id="burger-button" aria-label="menu mobile">
-        <Icon class="text-primary" name="mdi:menu" size={28} />
+        <Icon class="text-primary" name="bars" size="2rem" />
       </button>
     </div>
   </div>
