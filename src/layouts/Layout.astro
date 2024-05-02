@@ -2,6 +2,7 @@
 import '@/styles/global.css'
 import SiteMeta from '@/components/SiteMeta.astro'
 import Footer from '@/components/Footer.astro'
+import Header from '@/components/Header.astro'
 
 const {
   title = 'Astro',
@@ -26,7 +27,10 @@ const {
     <SiteMeta {title} {description} {image} {author} {url} />
   </head>
   <body>
-    <slot />
+    <Header />
+    <main class="container mx-auto px-4">
+      <slot />
+    </main>
     <Footer />
   </body>
 </html>

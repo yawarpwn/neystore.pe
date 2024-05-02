@@ -6,6 +6,8 @@ export default {
       colors: {
         background: 'oklch(var(--background))',
         foreground: 'oklch(var(--foreground))',
+        border: 'oklch(var(--border))',
+        primary: 'var(--primary)',
       },
     },
   },
