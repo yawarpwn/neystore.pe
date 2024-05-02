@@ -1,10 +1,8 @@
 ---
 import Logo from '@/components/Logo.astro'
 import { Icon } from 'astro-icon/components'
-// import Icon from '@/components/Icon.astro'
 import site from '@/constants/site'
 const socialLinks = Object.entries(site.socialLinks)
-import { type Props as IconProps } from '@/components/Icon.astro'
 
 const navigation = [
   {
@@ -32,7 +30,12 @@ const navigation = [
       </a>
       <menu
         id="mobile-menu"
-        class="fixed left-0 top-[4rem] bg-background w-full h-[calc(100svh-4rem)] text-primary flex justify-center"
+        data-open="false"
+        class={`fixed left-0 top-[4rem] bg-background w-full h-[calc(100svh-4rem)] text-primary justify-center flex
+data-[open=false]:invisible data-[open=false]:translate-x-[-100%]  data-[open=false]:opacity-0
+data-[open=true]:visible data-[open=true]:opacity-100 data-[open=true]:translate-x-0
+transition duration-300
+`}
       >
         <div class="p-6">
           <ul class="flex flex-col gap-4">
@@ -66,6 +69,11 @@ const navigation = [
   const $burgerBtn = document.getElementById('burger-button')!
 
   $burgerBtn.addEventListener('click', () => {
-    $menuBtn.classList.toggle('hidden')
+    const open = $menuBtn.getAttribute('data-open') === 'true'
+    if (open) {
+      $menuBtn.setAttribute('data-open', 'false')
+    } else {
+      $menuBtn.setAttribute('data-open', 'true')
+    }
   })
 </script>

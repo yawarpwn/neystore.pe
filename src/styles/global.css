@@ -8,7 +8,8 @@
     --background: 9% 4% 240;
     --foreground: 90% 0 0;
     --border: 20% 0 0;
-    --primary: #f7572d;
+    --primary: 70% 0.4 280;
+    --primary-foreground: 100% 0 0;
   }
 
   * {

@@ -4,10 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: 'oklch(var(--background))',
-        foreground: 'oklch(var(--foreground))',
-        border: 'oklch(var(--border))',
-        primary: 'var(--primary)',
+        background: 'oklch(var(--background) / <alpha-value>)',
+        foreground: 'oklch(var(--foreground) / <alpha-value>)',
+        border: 'oklch(var(--border) / <alpha-value>)',
+        primary: {
+          DEFAULT: 'oklch(var(--primary) / <alpha-value>)',
+          foreground: 'oklch(var(--primary-foreground) / <alpha-value>)',
+        },
       },
     },
   },

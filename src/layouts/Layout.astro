@@ -3,6 +3,7 @@ import '@/styles/global.css'
 import SiteMeta from '@/components/SiteMeta.astro'
 import Footer from '@/components/Footer.astro'
 import Header from '@/components/Header.astro'
+import WhatsappPopup from '@/components/WhatsappPopup.astro'
 
 const {
   title = 'Astro',
@@ -31,6 +32,7 @@ const {
     <main class="container mx-auto px-4">
       <slot />
     </main>
+    <WhatsappPopup />
     <Footer />
   </body>
 </html>
