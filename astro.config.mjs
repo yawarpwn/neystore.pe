@@ -1,8 +1,5 @@
 import { defineConfig } from 'astro/config'
 import tailwind from '@astrojs/tailwind'
-import icons from 'astro-icons'
-
-import icon from 'astro-icon'
 
 // https://astro.build/config
 export default defineConfig({
@@ -19,7 +16,5 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    icons(),
-    icon(),
   ],
 })
