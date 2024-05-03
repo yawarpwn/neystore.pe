@@ -2,8 +2,10 @@
 import Logo from '@/components/Logo.astro'
 import Separator from '@/components/ui/Separator.astro'
 import { Icon } from 'astro-icon/components'
+import { cn } from '@/lib/utils'
 import site from '@/constants/site'
 const socialLinks = Object.entries(site.socialLinks)
+import { buttonVariants } from '@/components/ui/Button.astro'
 
 const navigation = [
   {
@@ -30,7 +32,7 @@ const navigation = [
       <menu
         id="mobile-menu"
         data-open="false"
-        class={`fixed left-0 top-[4rem] bg-background w-full h-[calc(100svh-4rem)] text-primary justify-center flex
+        class={`fixed z-50 left-0 top-[calc(4rem+1px)] bg-background w-full h-[calc(100svh-4rem)] text-primary justify-center flex
 data-[open=false]:invisible data-[open=false]:translate-x-[-100%]  data-[open=false]:opacity-0
 data-[open=true]:visible data-[open=true]:opacity-100 data-[open=true]:translate-x-0
 transition duration-300
@@ -41,7 +43,15 @@ transition duration-300
             {
               navigation.map((item) => (
                 <li>
-                  <a href={item.href}>{item.title}</a>
+                  <a
+                    class={cn(
+                      buttonVariants({ variant: 'link', size: 'lg' }),
+                      '',
+                    )}
+                    href={item.href}
+                  >
+                    {item.title}
+                  </a>
                 </li>
               ))
             }

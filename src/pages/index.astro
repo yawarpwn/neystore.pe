@@ -2,13 +2,14 @@
 import Layout from '../layouts/Layout.astro'
 import Button from '@/components/ui/Button.astro'
 import Dialog from '@/components/Dialog.astro'
+import { Icon } from 'astro-icon/components'
 ---
 
 <Layout>
   ---
   <main>
-    <h1 class="text-5xl font-extrabold text-red">Bienvenidos a NeyStore</h1>
-    <ul>
+    <h2>#Colores</h2>
+    <ul class="flex gap-6">
       <li class="text-green">Green</li>
       <li class="text-red">Red</li>
       <li class="text-blue">Blue</li>
@@ -20,6 +21,14 @@ import Dialog from '@/components/Dialog.astro'
     </ul>
   </main>
   <div>
-    <Button variant="secondary">primer boton</Button>
+    <h2>#Botones</h2>
+    <div class="flex gap-4">
+      <Button size="sm">Default</Button>
+      <Button variant="outline">Outline</Button>
+      <Button disabled variant="outline">disabled</Button>
+      <Button variant="outline">
+        <Icon class="mr-2" size={20} name="tabler:x" />icon
+      </Button>
+    </div>
   </div>
 </Layout>

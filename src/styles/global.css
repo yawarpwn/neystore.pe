@@ -35,4 +35,22 @@
   .gradient-accent {
     @apply bg-gradient-to-r from-primary to-secondary;
   }
+
+  .border-gradient {
+    border: 1px solid transparent;
+    background:
+      linear-gradient(oklch(var(--background)), oklch(var(--background)))
+        no-repeat padding-box,
+      linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary)))
+        border-box;
+
+    &:hover {
+      background:
+        linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary)))
+          no-repeat padding-box,
+        linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary)))
+          border-box;
+      color: oklch(var(--black));
+    }
+  }
 }
