@@ -1,0 +1,26 @@
+:root {
+  /* Valores en OKLCH */
+  --accent-left: 328 76 61; /* #fc28a8 */
+  --accent-right: 84 91 94; /* #f5e949 */
+  --background: 238 11 4; /* #0c0a20 */
+  --foreground: 233 33 69; /* #7984d1 */
+  --details: 220 22 19; /* "darker" */
+  /* Terminal Colors */
+  --black: 200 8 15; /* #283034 */
+  --red: 337 100 47; /* #ff0081 */
+  --green: 91 82 63; /* #a7da1e */
+  --yellow: 44 89 67; /* #f7b83d */
+  --blue: 202 73 69; /* #1ea8fc */
+  --magenta: 277 65 68; /* #A875FF */
+  --cyan: 182 85 60; /* #16f1fc */
+  --white: 199 3 100; /* #f9faff */
+
+  --bright-black: 200 8 25; /* #435056 */
+  --bright-red: 336 91 55; /* #ff2e97 */
+  --bright-green: 88 90 77; /* #cbfc44 */
+  --bright-yellow: 45 90 95; /* #ffd400 */
+  --bright-blue: 197 81 74; /* #42c6ff */
+  --bright-magenta: 300 92 66; /* #ff2afc */
+  --bright-cyan: 180 87 90; /* #39fff6 */
+  --bright-white: 199 3 100; /* #ffffff */
+}
