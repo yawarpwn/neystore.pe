@@ -30,3 +30,9 @@
     @apply bg-background text-foreground h-screen;
   }
 }
+
+@layer components {
+  .gradient-accent {
+    @apply bg-gradient-to-r from-primary to-secondary;
+  }
+}

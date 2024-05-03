@@ -1,5 +1,6 @@
 ---
 import Logo from '@/components/Logo.astro'
+import Separator from '@/components/ui/Separator.astro'
 import { Icon } from 'astro-icon/components'
 import site from '@/constants/site'
 const socialLinks = Object.entries(site.socialLinks)
@@ -61,11 +62,9 @@ transition duration-300
       </button>
     </div>
   </div>
-  <div
-    class="h-px bg-gradient-to-r from-primary to-secondary container mx-auto"
-  >
-  </div>
+  <Separator />
 </header>
+
 <script>
   const $menuBtn = document.getElementById('mobile-menu')!
   const $burgerBtn = document.getElementById('burger-button')!

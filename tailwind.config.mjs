@@ -24,6 +24,9 @@ export default {
         white: 'oklch(var(--white) / <alpha-value>)',
         black: 'oklch(var(--black) / <alpha-value>)',
       },
+      backgroundImage: {
+        pepe: 'linear-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
     },
   },
   plugins: [],
