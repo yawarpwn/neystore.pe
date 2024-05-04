@@ -1,0 +1,44 @@
+---
+import { Icon } from 'astro-icon/components'
+const { ranking } = Astro.props
+import { cn } from '@/lib/utils'
+const isBig = false
+
+const TOTAL_STARS = 5
+
+// const Stars = Array.from({ length: TOTAL_STARS }, (_, index) => {
+//   return index + 1 < ranking
+//     ? (
+//       <StarFilledIcon
+//         key={index}
+//         classs={cn('text-[#cc0d88]', isBig ? 'w-6 h-6' : 'w-4 h-4')}
+//       />
+//     )
+//     : (
+//       <StarIcon
+//         key={index}
+//         classs={cn('text-[#cc0d88]', isBig ? 'w-6 h-6' : 'w-4 h-4')}
+//       />
+//     )
+// })
+//
+// return <div classs='flex gap-1 py-1'>{Stars}</div>
+---
+
+<div class="flex gap-1 py-1">
+  {
+    Array.from({ length: TOTAL_STARS }, (_, index) => {
+      return index + 1 < ranking ? (
+        <Icon
+          name="tabler:star-filled"
+          class={cn('text-primary', isBig ? 'w-6 h-6' : 'w-4 h-4')}
+        />
+      ) : (
+        <Icon
+          name="tabler:star"
+          class={cn('text-primary', isBig ? 'w-6 h-6' : 'w-4 h-4')}
+        />
+      )
+    })
+  }
+</div>

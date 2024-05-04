@@ -1,0 +1,23 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import ProductCard from '@/components/ProductCard.astro'
+import products from '@/muckup/products.json'
+---
+
+<Layout title="Layout">
+  <main class="container mx-auto p-4 py-6">
+    <ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-1">
+      {
+        products.map((product) => (
+          <ProductCard
+            id={product.id}
+            title={product.title}
+            price={product.price}
+            imgUrl={product.images[0].url}
+            ranking={product.ranking}
+          />
+        ))
+      }
+    </ul>
+  </main>
+</Layout>

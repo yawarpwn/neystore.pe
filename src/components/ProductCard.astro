@@ -1,0 +1,39 @@
+---
+import ProductPrice from './ProductPrice.astro'
+import ProductRanking from './ProductRanking.astro'
+
+interface Props {
+  id: string
+  title: string
+  price: number
+  imgUrl: string
+  ranking: number
+}
+
+const { title, price, imgUrl, ranking, id } = Astro.props
+---
+
+<a href={`/productos/${id}`} class="p-2">
+  <!-- {/* Image Card */ -->
+  <div class="h-0 pb-[100%] relative mb-2.5 border-gradient rounded-md">
+    <img
+      width={160}
+      height={160}
+      src={imgUrl}
+      alt={title}
+      class="absolute inset-0 z-10 object-contain w-full h-full p-2"
+    />
+    <div class="absolute inset-0 w-full bg-[#fff] rounded-md"></div>
+  </div>
+  <!-- {/* Info Card */} -->
+  <div class="flex flex-col gap-1">
+    <!-- {/* Title */} -->
+    <div>
+      <p class="text-truncate">{title}</p>
+    </div>
+
+    <ProductRanking ranking={ranking} />
+
+    <ProductPrice price={price} />
+  </div>
+</a>

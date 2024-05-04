@@ -1,0 +1,29 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import products from '@/muckup/products.json'
+
+export function getStaticPaths() {
+  return products.map((product) => {
+    return {
+      params: { id: product.id },
+      props: { product },
+    }
+  })
+}
+
+// const { id } = Astro.params
+const { product } = Astro.props
+const { title, images } = product
+---
+
+<Layout title="product">
+  <!-- <div>Good dog, {product.title}</div> -->
+  <main class="container mx-auto px-4 py-6">
+    <div>
+      {product.title}
+    </div>
+    <div>
+      <img src={images[0].url} alt={title} />
+    </div>
+  </main>
+</Layout>

@@ -1,0 +1,31 @@
+---
+import { cn, formatedToLocal } from '@/lib/utils'
+
+const formatedPrice = formatedToLocal(150)
+
+const isBig = false
+---
+
+<div class={cn('inline-flex', isBig ? 'gap-4' : 'gap-2')}>
+  {/* <span */}
+  {/*   class={cn( */}
+  {/*     'line-through  text-red-600', */}
+  {/*     isBig ? 'text-5xl' : 'text-lg', */}
+  {/*   )} */}
+  {/* > */}
+  {/*   -{discoucountPercent} % */}
+  {/* </span> */}
+  <span class="">
+    <span class={cn('algin-top', isBig ? 'text-5xl' : 'text-xl')}>
+      {formatedPrice}
+    </span>
+    {/* <span */}
+    {/*   class={cn( */}
+    {/*     'text-xs relative ', */}
+    {/*     isBig ? 'text-lg -top-4' : 'text-xs -top-1', */}
+    {/*   )} */}
+    {/* > */}
+    {/*   00 */}
+    {/* </span> */}
+  </span>
+</div>
