@@ -1,6 +1,6 @@
 export default {
   name: 'Ney Store',
-  url: 'https://www.neystore.pe',
+  url: 'https://ney-store.vercel.app',
   ogImage: 'https://www.neystore.pe/assets/images/banner-juguetes-desktop.webp',
   description:
     'Somos importadores de juegos didácticos, periféricos originales y artículos relacionados. Consulta nuestras promociones y descuentos.',

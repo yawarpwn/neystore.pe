@@ -1,1 +1,5 @@
-<div class="h-px gradient-accent w-ful"></div>
+---
+import { cn } from '@/lib/utils'
+---
+
+<div class={cn(`h-px  gradient-accent w-full`, Astro.props.class)}></div>

@@ -15,7 +15,7 @@ const {
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
@@ -27,7 +27,7 @@ const {
     <title>{title}</title>
     <HeadSeo {title} {description} {image} {author} {url} />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <Header />
     <div class="main-container">
       <slot />
