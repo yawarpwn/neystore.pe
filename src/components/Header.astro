@@ -16,6 +16,11 @@ const normalizedPathName =
 
 const pages = [
   {
+    title: 'Inicio',
+    href: '/',
+    active: pathname === '/',
+  },
+  {
     title: 'Productos',
     href: '/productos',
     active: normalizedPathName.startsWith('/productos'),
@@ -88,6 +93,15 @@ md:hidden
             </a>
           ))
         }
+
+        <div
+          class="border-b h-16 flex items-center justify-center border-b-foreground/20"
+        >
+          <a href={`tel:+51${site.phone}`} class="flex items-center">
+            <Icon class="mr-2" name="tabler:phone" />
+            {site.phone}
+          </a>
+        </div>
         <div class="flex justify-center">
           <div class="flex items-center mt-4">
             {

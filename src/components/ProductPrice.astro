@@ -23,7 +23,7 @@ const formatedPrice = formatedToLocal(price || 0)
   <span class="">
     <span
       transition:name={`product-price-${id}`}
-      class={cn('algin-top', size === 'lg' ? 'text-5xl' : 'text-xl')}
+      class={cn('algin-top font-bold', size === 'lg' ? 'text-5xl' : 'text-xl')}
     >
       {formatedPrice}
     </span>
