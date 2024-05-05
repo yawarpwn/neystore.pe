@@ -81,26 +81,31 @@
     </button>
   </div>
 
+  <!-- TODO: -->
   <div class="embla__dots"></div>
 </div>
 
 <script>
-  import EmblaCarousel from 'embla-carousel'
+  import EmblaCarousel, { type EmblaOptionsType } from 'embla-carousel'
   import { addPrevNextBtnsClickHandlers } from './EmblaCarouselArrowButtons'
   import { addDotBtnsAndClickHandlers } from './EmblaCarouselDotButton'
-  // import '../css/base.css'
-  // import '../css/sandbox.css'
-  // import '../css/embla.css'
+  import AutoPlay from 'embla-carousel-autoplay'
 
-  const OPTIONS = {}
+  const OPTIONS: EmblaOptionsType = {
+    loop: true,
+  }
+
+  const plugins = [AutoPlay({ delay: 5000 })]
 
   const emblaNode = document.querySelector('.embla')!
-  const viewportNode = emblaNode.querySelector('.embla__viewport')!
+  const viewportNode = emblaNode.querySelector(
+    '.embla__viewport',
+  ) as HTMLElement
   const prevBtnNode = emblaNode.querySelector('.embla__button--prev')!
   const nextBtnNode = emblaNode.querySelector('.embla__button--next')!
   const dotsNode = emblaNode.querySelector('.embla__dots')!
 
-  const emblaApi = EmblaCarousel(viewportNode, OPTIONS)
+  const emblaApi = EmblaCarousel(viewportNode, OPTIONS, plugins)
 
   const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(
     prevBtnNode,
