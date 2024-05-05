@@ -1,6 +1,9 @@
 ---
+import ProductRanking from '@/components/ProductRanking.astro'
 import ProductViewer from '@/components/ProductViewer.astro'
+import ProductPrice from '@/components/ProductPrice.astro'
 import Layout from '@/layouts/Layout.astro'
+import { Icon } from 'astro-icon/components'
 import { cn } from '@/lib/utils'
 import products from '@/muckup/products.json'
 
@@ -15,17 +18,60 @@ export function getStaticPaths() {
 
 // const { id } = Astro.params
 const { product } = Astro.props
-const { title, images, id } = product
+const { title, images, id, features, details, video } = product
+console.log(video)
 ---
 
 <Layout title="product">
   <main class="container px-4 mx-auto">
-    <section class="grid grid-cols-2">
-      <ProductViewer id={id} images={images} title={title} />
-      <article>
-        <p transition:name={`product-title-${id}`}>
-          {product.title}
-        </p>
+    <div class="md:hidden">
+      <a
+        href="/productos"
+        class="inline-flex items-center gap-3 hover:cursor-pointer mt-4"
+      >
+        <Icon name="tabler:arrow-narrow-left" />
+        <span class="text-sm"> Volver </span>
+      </a>
+    </div>
+    <section class="grid md:grid-cols-2 gap-4">
+      <div class="relative">
+        <div class="sticky top-[calc(4rem+1px)] md:h-[calc(100svh-4.6rem)]">
+          <ProductViewer video={video} id={id} images={images} title={title} />
+        </div>
+      </div>
+      <article class="flex flex-col gap-4 md:mt-4">
+        <div>
+          <h1
+            class="text-xl md:text-3xl font-extrabold"
+            transition:name={`product-title-${id}`}
+          >
+            {product.title}
+          </h1>
+        </div>
+        <div>
+          <ProductRanking iisBigize="lg" ranking={product.ranking} />
+          <ProductPrice size="lg" price={product.price} />
+        </div>
+        <div>
+          <table class="w-full">
+            <tbody>
+              {
+                details &&
+                  Object.entries(details).map(([key, value]) => (
+                    <tr class="border-b">
+                      <td class="p-2.5">{key}</td>
+                      <td class="p-2.5">{value}</td>
+                    </tr>
+                  ))
+              }
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <ul class="flex flex-col gap-4">
+            {features.map((feature) => <li>{feature}</li>)}
+          </ul>
+        </div>
       </article>
     </section>
   </main>

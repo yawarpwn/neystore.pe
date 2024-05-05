@@ -1,12 +1,16 @@
 ---
 import { cn, formatedToLocal } from '@/lib/utils'
 
-const formatedPrice = formatedToLocal(150)
+interface Props {
+  price: number
+  size: 'md' | 'lg'
+}
 
-const isBig = false
+const { price, size = 'md' } = Astro.props
+const formatedPrice = formatedToLocal(price || 0)
 ---
 
-<div class={cn('inline-flex', isBig ? 'gap-4' : 'gap-2')}>
+<div class={cn('inline-flex', size === 'lg' ? 'gap-4' : 'gap-2')}>
   {/* <span */}
   {/*   class={cn( */}
   {/*     'line-through  text-red-600', */}
@@ -16,7 +20,7 @@ const isBig = false
   {/*   -{discoucountPercent} % */}
   {/* </span> */}
   <span class="">
-    <span class={cn('algin-top', isBig ? 'text-5xl' : 'text-xl')}>
+    <span class={cn('algin-top', size === 'lg' ? 'text-5xl' : 'text-xl')}>
       {formatedPrice}
     </span>
     {/* <span */}

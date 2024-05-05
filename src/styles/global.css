@@ -21,11 +21,12 @@
     --primary-foreground: 100% 0 0;
     --secondary-foreground: 100% 0 0;
 
-    --border: var(--mangenta);
+    --border: var(--foreground);
+    --navbar-height: 65px;
   }
 
   * {
-    @apply border-green;
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground h-screen;
