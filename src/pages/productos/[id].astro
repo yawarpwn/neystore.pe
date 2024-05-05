@@ -22,7 +22,7 @@ const { product } = Astro.props
 const { title, images, id, features, details, video } = product
 ---
 
-<Layout title="product">
+<Layout title={title} description={title} image={images[0].url}>
   <main class="container px-4 mx-auto">
     <div class="md:hidden">
       <a

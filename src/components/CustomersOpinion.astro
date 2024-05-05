@@ -1,0 +1,56 @@
+---
+import ProductRanking from '@/components/ProductRanking.astro'
+const reviews = [
+  {
+    avatar:
+      'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80',
+    name: 'Jesus',
+    date: 'Mar 23, 2023',
+    rating: 3,
+    comment:
+      'Me gusto su atencion, constestan rapido y aclaran dudas del producto.  Muchas gracias',
+    productID: '01',
+  },
+  {
+    avatar:
+      'https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80',
+    name: 'Daniel',
+    date: 'Aug 18, 2023',
+    rating: 4,
+    comment:
+      'El producto es muy bueno, me encanto su atencion.  Muchas gracias',
+    productID: '01',
+  },
+  {
+    avatar:
+      'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80',
+    name: 'Milagros',
+    date: 'Dec 01, 2023',
+    rating: 5,
+    comment: 'Su tiempo de entrega fue rapido, los recomiendo',
+    productID: '01',
+  },
+]
+---
+
+<section class="container px-4 mx-auto">
+  <h3 class="text-xl md:text-2xl font-bold mb-4">
+    Opinion de nuestros clientes
+  </h3>
+  <p class="mb-4">
+    Con esfuerzo y dedicación, brindamos la mejor experiencia de compra.
+  </p>
+  <ul class="flex flex-col md:flex-row gap-4">
+    {
+      reviews.map((review) => (
+        <div class="p-4 flex flex-col bg-secondary rounded-md border-gradient">
+          <ProductRanking ranking={review.rating} />
+          <p class="mb-4">{review.comment}</p>
+          <div class="flex justify-end">
+            <small>{review.name}</small>
+          </div>
+        </div>
+      ))
+    }
+  </ul>
+</section>

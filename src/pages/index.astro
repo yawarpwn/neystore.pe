@@ -1,13 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Button from '@/components/ui/Button.astro'
 import Hero from '@/components/Hero.astro'
-import { Icon } from 'astro-icon/components'
+import CustomersOpinion from '@/components/CustomersOpinion.astro'
+import Subscribe from '@/components/Subscribe.astro'
+import Categories from '@/components/Categories.astro'
 ---
 
 <Layout>
-  <main class="mx-auto">
+  <main class="mx-auto flex flex-col gap-12">
     <Hero />
-    <section class="container mx-auto px-4 min-h-screen"></section>
+    <Categories />
+    <CustomersOpinion />
+    <Subscribe />
   </main>
 </Layout>

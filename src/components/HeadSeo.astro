@@ -1,25 +1,30 @@
 ---
 import { ViewTransitions } from 'astro:transitions'
+import site from '@/constants/site'
 
-const { title, description, url, image, author } = Astro.props
+export interface Props {
+  title: string
+  description: string
+  image: URL
+  url: URL
+}
 
-let subtitle = 'Accessible Astro Starter'
+const { title, description, url, image } = Astro.props
+
+const subtitle = 'NeyStore'
 ---
 
 <!-- general meta -->
 <meta name="title" content={`${title} - ${subtitle}`} />
 <meta name="description" content={description} />
-<meta name="author" content={author} />
+<!-- <meta name="author" content={author} /> -->
 
 <!-- open graph -->
 <meta property="og:title" content={`${title} - ${subtitle}`} />
 <meta property="og:description" content={description} />
 <meta property="og:type" content="website" />
-<meta property="og:url" content={url} />
-<meta
-  property="og:image"
-  content={Astro.site ? `${Astro.site}${image}` : image}
-/>
+<meta property="og:url" content={new URL(site.url, url)} />
+<meta property="og:image" content={image} />
 
 <!-- twitter card -->
 

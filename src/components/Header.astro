@@ -19,6 +19,7 @@ const pages = [
     title: 'Inicio',
     href: '/',
     active: pathname === '/',
+    noReload: true,
   },
   {
     title: 'Productos',
@@ -36,22 +37,23 @@ const pages = [
   <div
     class="main-navigation container flex items-center mx-auto justify-between px-4 h-full"
   >
-    <a href="/">
+    <a href="/" data-astro-reload>
       <Logo />
     </a>
 
     <!-- Desktop Nav -->
     <nav class="hidden md:flex gap-4 items-center">
       {
-        pages.map((item) => (
+        pages.map((page) => (
           <a
-            href={item.href}
+            href={page.href}
+            data-astro-reload
             class={cn(
               'flex justify-center items-center  hover:text-primary ',
-              item.active && 'text-primary font-bold',
+              page.active && 'text-primary font-bold',
             )}
           >
-            <span class="">{item.title}</span>
+            <span class="">{page.title}</span>
           </a>
         ))
       }
@@ -84,6 +86,7 @@ md:hidden
           pages.map((item) => (
             <a
               href={item.href}
+              data-astro-reload
               class={cn(
                 'flex justify-center flex-col items-center h-16 w-full hover:text-primary border-b border-b-foreground/20',
                 item.active && 'text-primary font-bold',

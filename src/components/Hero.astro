@@ -59,7 +59,7 @@
     </div>
   </div>
 </section>
-
+<!--
 <div class="embla__controls">
   <div class="embla__buttons">
     <button class="embla__button embla__button--prev" type="button">
@@ -81,14 +81,11 @@
     </button>
   </div>
 
-  <!-- TODO: -->
   <div class="embla__dots"></div>
-</div>
+  -->
 
 <script>
   import EmblaCarousel, { type EmblaOptionsType } from 'embla-carousel'
-  import { addPrevNextBtnsClickHandlers } from './EmblaCarouselArrowButtons'
-  import { addDotBtnsAndClickHandlers } from './EmblaCarouselDotButton'
   import AutoPlay from 'embla-carousel-autoplay'
 
   const OPTIONS: EmblaOptionsType = {
@@ -101,22 +98,22 @@
   const viewportNode = emblaNode.querySelector(
     '.embla__viewport',
   ) as HTMLElement
-  const prevBtnNode = emblaNode.querySelector('.embla__button--prev')!
-  const nextBtnNode = emblaNode.querySelector('.embla__button--next')!
-  const dotsNode = emblaNode.querySelector('.embla__dots')!
+  // const prevBtnNode = emblaNode.querySelector('.embla__button--prev')!
+  // const nextBtnNode = emblaNode.querySelector('.embla__button--next')!
+  // const dotsNode = emblaNode.querySelector('.embla__dots')!
 
-  const emblaApi = EmblaCarousel(viewportNode, OPTIONS, plugins)
+  EmblaCarousel(viewportNode, OPTIONS, plugins)
 
-  const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(
-    prevBtnNode,
-    emblaApi,
-    nextBtnNode,
-  )
-  const removeDotBtnsAndClickHandlers = addDotBtnsAndClickHandlers(
-    emblaApi,
-    dotsNode,
-  )
+  // const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(
+  //   prevBtnNode,
+  //   nextBtnNode,
+  //   emblaApi,
+  // )
+  // const removeDotBtnsAndClickHandlers = addDotBtnsAndClickHandlers(
+  //   emblaApi,
+  //   dotsNode,
+  // )
 
-  emblaApi.on('destroy', removePrevNextBtnsClickHandlers)
-  emblaApi.on('destroy', removeDotBtnsAndClickHandlers)
+  // emblaApi.on('destroy', removePrevNextBtnsClickHandlers)
+  // emblaApi.on('destroy', removeDotBtnsAndClickHandlers)
 </script>

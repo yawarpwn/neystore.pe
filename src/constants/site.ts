@@ -1,5 +1,6 @@
 export default {
   name: 'Ney Store',
+  title: 'Tecnologia y juguetes Didacticos',
   url: 'https://ney-store.vercel.app',
   ogImage: 'https://www.neystore.pe/assets/images/banner-juguetes-desktop.webp',
   description:
