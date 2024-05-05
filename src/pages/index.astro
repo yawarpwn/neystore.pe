@@ -1,95 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Button from '@/components/ui/Button.astro'
+import Hero from '@/components/Hero.astro'
 import { Icon } from 'astro-icon/components'
 ---
 
 <Layout>
-  <main class="px-4 mx-auto">
-    <h2>#Colores</h2>
-    <ul class="flex gap-6 flex-wrap">
-      <li class="text-green">Green</li>
-      <li class="text-red">Red</li>
-      <li class="text-blue">Blue</li>
-      <li class="text-magenta">Purple</li>
-      <li class="text-yellow">Yellow</li>
-      <li class="text-cyan">Cyan</li>
-      <li class="text-white">white</li>
-      <li class="text-black">Black</li>
-    </ul>
-    <div>
-      <h2>#Botones</h2>
-      <div class="flex gap-4">
-        <Button size="sm">Default</Button>
-        <Button variant="outline">Outline</Button>
-        <Button disabled variant="outline">disabled</Button>
-        <Button variant="outline">
-          <Icon class="mr-2" size={20} name="tabler:x" />icon
-        </Button>
-      </div>
-    </div>
-    <div>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-        doloremque atque, beatae accusamus repellendus eaque praesentium
-        eligendi asperiores. Nobis quae exercitationem odit esse in? Ex aliquam
-        omnis nobis veritatis quo.
-      </p>
-    </div>
+  <main class="mx-auto">
+    <Hero />
+    <section class="container mx-auto px-4 min-h-screen"></section>
   </main>
 </Layout>
