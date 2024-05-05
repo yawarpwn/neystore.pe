@@ -3,10 +3,11 @@ import { cn, formatedToLocal } from '@/lib/utils'
 
 interface Props {
   price: number
-  size: 'md' | 'lg'
+  size?: 'md' | 'lg'
+  id: string
 }
 
-const { price, size = 'md' } = Astro.props
+const { price, size = 'md', id } = Astro.props
 const formatedPrice = formatedToLocal(price || 0)
 ---
 
@@ -20,7 +21,10 @@ const formatedPrice = formatedToLocal(price || 0)
   {/*   -{discoucountPercent} % */}
   {/* </span> */}
   <span class="">
-    <span class={cn('algin-top', size === 'lg' ? 'text-5xl' : 'text-xl')}>
+    <span
+      transition:name={`product-price-${id}`}
+      class={cn('algin-top', size === 'lg' ? 'text-5xl' : 'text-xl')}
+    >
       {formatedPrice}
     </span>
     {/* <span */}

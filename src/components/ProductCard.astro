@@ -35,8 +35,8 @@ const { title, price, imgUrl, ranking, id } = Astro.props
       </p>
     </div>
 
-    <ProductRanking ranking={ranking} />
+    <ProductRanking id={id} ranking={ranking} />
 
-    <ProductPrice price={price} />
+    <ProductPrice id={id} price={price} />
   </div>
 </a>

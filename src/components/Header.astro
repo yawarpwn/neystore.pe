@@ -50,21 +50,21 @@ const pages = [
           </a>
         ))
       }
-      <div class="flex justify-center items-center">
-        {
-          socialLinks.map(([name, link]) => (
-            <a
-              class="hover:text-primary"
-              href={link}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <Icon name={`tabler:brand-${name}`} size={30} />
-            </a>
-          ))
-        }
-      </div>
     </nav>
+    <div class="hidden md:flex justify-center items-center">
+      {
+        socialLinks.map(([name, link]) => (
+          <a
+            class="hover:text-primary"
+            href={link}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Icon name={`tabler:brand-${name}`} size={30} />
+          </a>
+        ))
+      }
+    </div>
     <aside
       id="mobile-menu"
       class={`fixed z-50 left-0 top-[calc(4rem+1px)] bg-background 

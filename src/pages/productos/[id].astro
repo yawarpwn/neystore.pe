@@ -4,7 +4,6 @@ import ProductViewer from '@/components/ProductViewer.astro'
 import ProductPrice from '@/components/ProductPrice.astro'
 import Layout from '@/layouts/Layout.astro'
 import { Icon } from 'astro-icon/components'
-import { cn } from '@/lib/utils'
 import products from '@/muckup/products.json'
 
 export function getStaticPaths() {
@@ -15,7 +14,6 @@ export function getStaticPaths() {
     }
   })
 }
-
 // const { id } = Astro.params
 const { product } = Astro.props
 const { title, images, id, features, details, video } = product
@@ -49,8 +47,8 @@ console.log(video)
           </h1>
         </div>
         <div>
-          <ProductRanking iisBigize="lg" ranking={product.ranking} />
-          <ProductPrice size="lg" price={product.price} />
+          <ProductRanking id={id} size="lg" ranking={product.ranking} />
+          <ProductPrice id={id} size="lg" price={product.price} />
         </div>
         <div>
           <table class="w-full">
