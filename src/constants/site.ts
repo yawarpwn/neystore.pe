@@ -1,8 +1,8 @@
 export default {
   name: 'Ney Store',
   title: 'Tecnologia y juguetes Didacticos',
-  url: 'https://ney-store.vercel.app',
-  ogImage: 'https://www.neystore.pe/assets/images/banner-juguetes-desktop.webp',
+  url: 'https://www.neystore.pe',
+  ogImage: 'https://www.neystore.pe/assets/images/tecnologia.avif',
   description:
     'Somos importadores de juegos didácticos, periféricos originales y artículos relacionados. Consulta nuestras promociones y descuentos.',
   phone: '900224005',
