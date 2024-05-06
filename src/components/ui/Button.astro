@@ -39,6 +39,9 @@ export interface Props
 const { variant, size } = Astro.props
 ---
 
-<button class={cn(buttonVariants({ variant, size }), Astro.props.class)}>
+<button
+  class={cn(buttonVariants({ variant, size }), Astro.props.class)}
+  {...Astro.props}
+>
   <slot />
 </button>

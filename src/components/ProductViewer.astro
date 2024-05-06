@@ -1,6 +1,7 @@
 ---
 import { cn } from '@/lib/utils'
 import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
+import ProductShareButton from '@/components/ProductShareButton.astro'
 interface Props {
   images: { url: string; thumb: string }[]
   id: string
@@ -19,8 +20,12 @@ const { images, id, title, video } = Astro.props
   {/* Main */}
   <div
     id="main-image"
-    class="w-full flex items-center justify-center bg-white rounded-md h-[90%]"
+    class="w-full flex items-center justify-center bg-white rounded-md h-[90%] relative"
   >
+    <!-- Share Button -->
+    <div class="absolute top-2 right-2 z-10">
+      <ProductShareButton />
+    </div>
     <div class="size-[320px] md:w-full md:h-full p-2 md:p-4">
       <img
         transition:name={`product-image-${id}`}
