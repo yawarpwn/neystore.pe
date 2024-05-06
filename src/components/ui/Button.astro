@@ -32,16 +32,13 @@ export const buttonVariants = cva(
   },
 )
 
-export interface Props
-  extends HTMLAttributes<'button'>,
-    VariantProps<typeof buttonVariants> {}
+export interface Props extends HTMLAttributes<'button'>, VariantProps<typeof buttonVariants> {}
 
 const { variant, size } = Astro.props
 ---
 
 <button
   class={cn(buttonVariants({ variant, size }), Astro.props.class)}
-  {...Astro.props}
->
+  {...Astro.props}>
   <slot />
 </button>

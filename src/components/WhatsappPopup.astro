@@ -12,8 +12,7 @@ const team = [
   {
     name: 'Jesus Saavedra',
     job: 'Asistente Ventas',
-    image:
-      'https://img.freepik.com/premium-vector/cute-boy-avatar-illustration_637684-31.jpg',
+    image: 'https://img.freepik.com/premium-vector/cute-boy-avatar-illustration_637684-31.jpg',
     phone: '900224005',
   },
 
@@ -31,13 +30,11 @@ const team = [
   <article
     data-state='closed'
     id='container'
-    class='fixed z-40 right-2.5 bottom-2.5 flex items-center justify-center'
-  >
+    class='fixed z-40 right-2.5 bottom-2.5 flex items-center justify-center'>
     <div
       class={`window fixed bottom-14 right-2 p-4 shadow-sm rounded-md 
 bg-gradient-to-r from-primary to-secondary text-black
-transition-transform translate-x-full invisible`}
-    >
+transition-transform translate-x-full invisible`}>
       <p class='mb-2 text-center'>
         Contacte con nosotros vía <strong>WhatsApp</strong>
       </p>
@@ -50,8 +47,7 @@ transition-transform translate-x-full invisible`}
               <a
                 class='flex bg-primary-foreground/20 items-center gap-4 p-2 hover:bg-white/40 hover:shadow-sm rounded-md cursor-pointer transition'
                 href={whatsappLink}
-                target='_blank'
-              >
+                target='_blank'>
                 <img
                   class='rounded-sm'
                   alt='Foto de raquel Raquel Maldonado Ramirez'
@@ -78,10 +74,15 @@ transition-transform translate-x-full invisible`}
       aria-label='contacto via whatsapp boton'
       class={`btn w-10 h-10 flex items-center justify-center rounded-full text-white
 bg-gradient-to-r from-green to-cyan
-transition-transform`}
-    >
-      <Icon name='tabler:brand-whatsapp' size={30} />
-      <Icon name='tabler:x' size={30} />
+transition-transform`}>
+      <Icon
+        name='tabler:brand-whatsapp'
+        size={30}
+      />
+      <Icon
+        name='tabler:x'
+        size={30}
+      />
     </button>
   </article>
 </whatsapp-popup>

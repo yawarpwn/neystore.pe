@@ -16,20 +16,19 @@ interface Props {
 const { images, id, title, video } = Astro.props
 ---
 
-<article class="flex flex-col justify-center relative gap-4 h-full">
+<article class='flex flex-col justify-center relative gap-4 h-full'>
   {/* Main */}
   <div
-    id="main-image"
-    class="w-full flex items-center justify-center bg-white rounded-md h-[90%] relative"
-  >
+    id='main-image'
+    class='w-full flex items-center justify-center bg-white rounded-md h-[90%] relative'>
     <!-- Share Button -->
-    <div class="absolute top-2 right-2 z-10">
+    <div class='absolute top-2 right-2 z-10'>
       <ProductShareButton />
     </div>
-    <div class="size-[320px] md:w-full md:h-full p-2 md:p-4">
+    <div class='size-[320px] md:w-full md:h-full p-2 md:p-4'>
       <img
         transition:name={`product-image-${id}`}
-        class="w-full h-full object-contain"
+        class='w-full h-full object-contain'
         src={images[0].url}
         alt={title}
       />
@@ -37,9 +36,11 @@ const { images, id, title, video } = Astro.props
   </div>
 
   {/* Thumbs */}
-  <div class="overflow-hidden h-[10%]">
+  <div class='overflow-hidden h-[10%]'>
     {/* Container */}
-    <ul id="thumb-list" class="flex gap-1">
+    <ul
+      id='thumb-list'
+      class='flex gap-1'>
       {
         images.slice(0, 5).map((img, index) => {
           return (
@@ -47,10 +48,12 @@ const { images, id, title, video } = Astro.props
               data-thumb-active={index === 0}
               data-large-url={img.url}
               class={`thumb-item border-2 border-transparent opacity-50 
-              data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}
-            >
-              <div class=" size-[55px]">
-                <img class="w-full h-full object-contain" src={img.thumb} />
+              data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
+              <div class=' size-[55px]'>
+                <img
+                  class='w-full h-full object-contain'
+                  src={img.thumb}
+                />
               </div>
             </li>
           )

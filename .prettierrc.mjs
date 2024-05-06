@@ -12,6 +12,10 @@ export default {
       files: '*.astro',
       options: {
         parser: 'astro',
+        astroAllowShorthand: true,
+        printWidth: 120,
+        bracketSameLine: true,
+        singleAttributePerLine: true,
       },
     },
   ],

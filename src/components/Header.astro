@@ -9,10 +9,7 @@ import { buttonVariants } from '@/components/ui/Button.astro'
 
 const pathname = Astro.url.pathname
 
-const normalizedPathName =
-  pathname.length > 1 && pathname.endsWith('/')
-    ? pathname.slice(0, -1)
-    : pathname
+const normalizedPathName = pathname.length > 1 && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname
 
 const pages = [
   {
@@ -37,12 +34,11 @@ const pages = [
 <header
   id='main-header'
   class='sticky z-50 top-0 left-0 h-[64px] bg-background'
-  data-state='closed'
->
-  <div
-    class='main-navigation container flex items-center mx-auto justify-between px-4 h-full'
-  >
-    <a href='/' data-astro-reload>
+  data-state='closed'>
+  <div class='main-navigation container flex items-center mx-auto justify-between px-4 h-full'>
+    <a
+      href='/'
+      data-astro-reload>
       <Logo />
     </a>
 
@@ -56,8 +52,7 @@ const pages = [
             class={cn(
               'flex justify-center items-center  hover:text-primary ',
               page.active && 'text-primary font-bold',
-            )}
-          >
+            )}>
             <span class=''>{page.title}</span>
           </a>
         ))
@@ -70,9 +65,11 @@ const pages = [
             class='hover:text-primary'
             href={link}
             rel='noopener noreferrer'
-            target='_blank'
-          >
-            <Icon name={`tabler:brand-${name}`} size={30} />
+            target='_blank'>
+            <Icon
+              name={`tabler:brand-${name}`}
+              size={30}
+            />
           </a>
         ))
       }
@@ -83,8 +80,7 @@ const pages = [
 w-screen h-[calc(100svh-4rem)] justify-center flex
           transition duration-300 -translate-x-full invisible
 md:hidden
-        `}
-    >
+        `}>
       <!-- Mobile Nav -->
       <nav class='flex flex-col w-full px-10 pt-4'>
         {
@@ -95,18 +91,20 @@ md:hidden
               class={cn(
                 'flex justify-center flex-col items-center h-16 w-full hover:text-primary border-b border-b-foreground/20',
                 item.active && 'text-primary font-bold',
-              )}
-            >
+              )}>
               <span class=''>{item.title}</span>
             </a>
           ))
         }
 
-        <div
-          class='border-b h-16 flex items-center justify-center border-b-foreground/20'
-        >
-          <a href={`tel:+51${site.phone}`} class='flex items-center'>
-            <Icon class='mr-2' name='tabler:phone' />
+        <div class='border-b h-16 flex items-center justify-center border-b-foreground/20'>
+          <a
+            href={`tel:+51${site.phone}`}
+            class='flex items-center'>
+            <Icon
+              class='mr-2'
+              name='tabler:phone'
+            />
             {site.phone}
           </a>
         </div>
@@ -118,9 +116,11 @@ md:hidden
                   class='hover:text-primary'
                   href={link}
                   rel='noopener noreferrer'
-                  target='_blank'
-                >
-                  <Icon name={`tabler:brand-${name}`} size={35} />
+                  target='_blank'>
+                  <Icon
+                    name={`tabler:brand-${name}`}
+                    size={35}
+                  />
                 </a>
               ))
             }
@@ -129,9 +129,18 @@ md:hidden
       </nav>
     </aside>
     <div class='md:hidden'>
-      <button id='burger-button' class='transition' aria-label='menu mobile'>
-        <Icon name='tabler:menu' size={30} />
-        <Icon name='tabler:x' size={35} />
+      <button
+        id='burger-button'
+        class='transition'
+        aria-label='menu mobile'>
+        <Icon
+          name='tabler:menu'
+          size={30}
+        />
+        <Icon
+          name='tabler:x'
+          size={35}
+        />
       </button>
     </div>
   </div>
@@ -141,9 +150,7 @@ md:hidden
 <script>
   document.addEventListener('astro:page-load', () => {
     const $header = document.querySelector('#main-header') as HTMLDivElement
-    const $burgerBtn = $header.querySelector(
-      '#burger-button',
-    ) as HTMLButtonElement
+    const $burgerBtn = $header.querySelector('#burger-button') as HTMLButtonElement
 
     $burgerBtn.addEventListener('click', () => {
       const isOpen = $header.getAttribute('data-state') !== 'open'

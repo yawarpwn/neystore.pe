@@ -13,31 +13,37 @@ const { video } = Astro.props
 // class="fixed z-50 inset-0 w-full h-full bg-black backdrop:bg-white backdrop:backdrop-blur"
 ---
 
-<li class="">
+<li class=''>
   <button
-    id="show-dialog-btn"
-    class="size-[55px] flex items-center justify-center focus-visible:outline-none"
-  >
-    <Icon name="tabler:play" size={30} />
+    id='show-dialog-btn'
+    class='size-[55px] flex items-center justify-center focus-visible:outline-none'>
+    <Icon
+      name='tabler:play'
+      size={30}
+    />
   </button>
   <dialog>
-    <div class="max-w-sm md:max-w-3xl relative">
+    <div class='max-w-sm md:max-w-3xl relative'>
       <video
-        class="w-full h-full"
-        id="player"
+        class='w-full h-full'
+        id='player'
         playsinline
         controls
         poster={video.cover}
-        data-poster={video.cover}
-      >
-        <source src={video.url} type="video/mp4" />
+        data-poster={video.cover}>
+        <source
+          src={video.url}
+          type='video/mp4'
+        />
       </video>
-      <source src="/path/to/video.webm" type="video/webm" />
+      <source
+        src='/path/to/video.webm'
+        type='video/webm'
+      />
       <button
-        id="close-dialog-btn"
-        class="absolute top-1 right-1 size-7 bg-background flex items-center justify-center rounded-full"
-      >
-        <Icon name="tabler:x" />
+        id='close-dialog-btn'
+        class='absolute top-1 right-1 size-7 bg-background flex items-center justify-center rounded-full'>
+        <Icon name='tabler:x' />
       </button>
     </div>
   </dialog>
@@ -99,7 +105,10 @@ because the nesting selector cannot represent pseudo-elements. */
   }
 </style>
 
-<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<link
+  rel='stylesheet'
+  href='https://cdn.plyr.io/3.7.8/plyr.css'
+/>
 <style is:global>
   :root {
     --plyr-color-main: oklch(var(--primary));
@@ -109,9 +118,7 @@ because the nesting selector cannot represent pseudo-elements. */
   import Plyr from 'plyr'
   document.addEventListener('astro:page-load', () => {
     const player = new Plyr('#player')
-    const $showDialogBtn = document.querySelector(
-      '#show-dialog-btn',
-    ) as HTMLButtonElement
+    const $showDialogBtn = document.querySelector('#show-dialog-btn') as HTMLButtonElement
     const $closeDialogBtn = document.querySelector('#close-dialog-btn')!
     const $dialogEl = document.querySelector('dialog')!
 

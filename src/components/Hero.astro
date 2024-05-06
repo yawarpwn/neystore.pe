@@ -35,25 +35,25 @@
 //     </div>
 ---
 
-<section class="embla relative">
-  <div class="embla__viewport overflow-x-hidden">
-    <div class="embla__container flex">
-      <div class="embla__slide flex-[0_0_100%] min-w-0">
+<section class='embla relative'>
+  <div class='embla__viewport overflow-x-hidden'>
+    <div class='embla__container flex'>
+      <div class='embla__slide flex-[0_0_100%] min-w-0'>
         <picture>
           <source
-            srcset="/assets/images/banner-tecnologia-desktop.avif"
-            media="(min-width: 720px)"
+            srcset='/assets/images/banner-tecnologia-desktop.avif'
+            media='(min-width: 720px)'
           />
-          <img src="/assets/images/banner-tecnologia-mobile.avif" />
+          <img src='/assets/images/banner-tecnologia-mobile.avif' />
         </picture>
       </div>
-      <div class="embla__slide flex-[0_0_100%] min-w-0">
+      <div class='embla__slide flex-[0_0_100%] min-w-0'>
         <picture>
           <source
-            srcset="/assets/images/banner-juguetes-desktop.avif"
-            media="(min-width: 720px)"
+            srcset='/assets/images/banner-juguetes-desktop.avif'
+            media='(min-width: 720px)'
           />
-          <img src="/assets/images/banner-juguetes-mobile.avif" />
+          <img src='/assets/images/banner-juguetes-mobile.avif' />
         </picture>
       </div>
     </div>
@@ -95,9 +95,7 @@
   const plugins = [AutoPlay({ delay: 5000 })]
 
   const emblaNode = document.querySelector('.embla')!
-  const viewportNode = emblaNode.querySelector(
-    '.embla__viewport',
-  ) as HTMLElement
+  const viewportNode = emblaNode.querySelector('.embla__viewport') as HTMLElement
   // const prevBtnNode = emblaNode.querySelector('.embla__button--prev')!
   // const nextBtnNode = emblaNode.querySelector('.embla__button--next')!
   // const dotsNode = emblaNode.querySelector('.embla__dots')!

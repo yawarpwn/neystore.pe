@@ -10,18 +10,16 @@ export interface Props {
 }
 
 const { name, label, size = '1rem', color } = Astro.props
-const allyAttrs = label
-  ? ({ 'arial-label': label } as const)
-  : ({ 'aria-label': 'true' } as const)
+const allyAttrs = label ? ({ 'arial-label': label } as const) : ({ 'aria-label': 'true' } as const)
 ---
 
 <svg
   {...allyAttrs}
   class={Astro.props.class}
-  width="16"
-  height="16"
-  viewBox="0 0 24 24"
-  fill="currentColor"
+  width='16'
+  height='16'
+  viewBox='0 0 24 24'
+  fill='currentColor'
   set:html={icons[name]}
 />
 

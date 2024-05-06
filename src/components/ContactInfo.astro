@@ -3,33 +3,41 @@ import { Icon } from 'astro-icon/components'
 import site from '@/constants/site'
 ---
 
-<div
-  class='grid justify-items-center gap-10 sm:grid-cols-2 lg:grid-cols-3 font-medium'
->
+<div class='grid justify-items-center gap-10 sm:grid-cols-2 lg:grid-cols-3 font-medium'>
   <div
-    class='grid min-h-36 w-64 grid-rows-[auto_1fr] justify-items-center gap-y-4 rounded-lg border-gradient px-3 py-6 text-white xl:min-h-40 xl:w-72 xl:px-6 xl:py-8'
-  >
-    <Icon name='tabler:phone' size={30} />
+    class='grid min-h-36 w-64 grid-rows-[auto_1fr] justify-items-center gap-y-4 rounded-lg border-gradient px-3 py-6 text-white xl:min-h-40 xl:w-72 xl:px-6 xl:py-8'>
+    <Icon
+      name='tabler:phone'
+      size={30}
+    />
     <div class='flex flex-col gap-y-1 text-sm'>
-      <a href={`tel:+51${site.phone}`} class='hover:text-gradient'>
+      <a
+        href={`tel:+51${site.phone}`}
+        class='hover:text-gradient'>
         {site.phone}
       </a>
     </div>
   </div>
   <div
-    class='group grid min-h-36 w-64 grid-rows-[auto_1fr] justify-items-center gap-y-4 rounded-lg border-gradient px-3 py-6 text-white xl:min-h-40 xl:w-72 xl:px-6 xl:py-8'
-  >
-    <Icon name='tabler:mail' size={30} />
+    class='group grid min-h-36 w-64 grid-rows-[auto_1fr] justify-items-center gap-y-4 rounded-lg border-gradient px-3 py-6 text-white xl:min-h-40 xl:w-72 xl:px-6 xl:py-8'>
+    <Icon
+      name='tabler:mail'
+      size={30}
+    />
     <div class='flex flex-col gap-y-1 text-sm'>
-      <a href={`mailto:${site.email}`} class='hover:text-gradient'>
+      <a
+        href={`mailto:${site.email}`}
+        class='hover:text-gradient'>
         {site.email}
       </a>
     </div>
   </div>
   <div
-    class='group grid min-h-36 w-64 grid-rows-[auto_1fr] justify-items-center gap-y-4 rounded-lg border-gradient px-3 py-6 text-white sm:col-span-2 lg:col-span-1 xl:min-h-40 xl:w-72 xl:px-6 xl:py-8'
-  >
-    <Icon name='tabler:map-pin' size={30} />
+    class='group grid min-h-36 w-64 grid-rows-[auto_1fr] justify-items-center gap-y-4 rounded-lg border-gradient px-3 py-6 text-white sm:col-span-2 lg:col-span-1 xl:min-h-40 xl:w-72 xl:px-6 xl:py-8'>
+    <Icon
+      name='tabler:map-pin'
+      size={30}
+    />
     <p class='hover:text-gradient text-center text-sm/relaxed'>
       {site.address}
     </p>

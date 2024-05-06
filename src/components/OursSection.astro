@@ -6,72 +6,73 @@ import { cn } from '@/lib/utils'
 
 <section class='relative container mt-8 mx-auto'>
   <div
-    class='flex rounded-2xl px-4 text-white max-xl:flex-col max-xl:gap-y-20 max-md:text-sm/normal sm:items-center lg:px-14 xl:justify-between xl:gap-x-10 xl:py-8 xl:pl-14 xl:pr-8'
-  >
-    <div
-      class='flex flex-col gap-y-12 max-xl:items-center xl:max-w-md xl:gap-y-10'
-    >
+    class='flex rounded-2xl px-4 text-white max-xl:flex-col max-xl:gap-y-20 max-md:text-sm/normal sm:items-center lg:px-14 xl:justify-between xl:gap-x-10 xl:py-8 xl:pl-14 xl:pr-8'>
+    <div class='flex flex-col gap-y-12 max-xl:items-center xl:max-w-md xl:gap-y-10'>
       <h1
-        class='text-4xl/tight font-bold max-xl:text-center md:max-w-lg lg:max-w-2xl lg:text-5xl/tight xl:text-4xl/tight'
-      >
+        class='text-4xl/tight font-bold max-xl:text-center md:max-w-lg lg:max-w-2xl lg:text-5xl/tight xl:text-4xl/tight'>
         Productos Tecnológicos y Juguetes Didácticos
       </h1>
       <div class='space-y-4'>
         <div class='flex gap-x-3'>
-          <Icon name='tabler:circle-check' class='size-5 text-primary' />
+          <Icon
+            name='tabler:circle-check'
+            class='size-5 text-primary'
+          />
           <p class='first-letter:uppercase'>Dedicacion y experiencia</p>
         </div>
         <div class='flex gap-x-3'>
-          <Icon name='tabler:circle-check' class='size-5 text-primary' />
+          <Icon
+            name='tabler:circle-check'
+            class='size-5 text-primary'
+          />
           <p class='first-letter:uppercase'>Importadores y distribudidores</p>
         </div>
         <div class='flex gap-x-3'>
-          <Icon name='tabler:circle-check' class='size-5 text-primary' />
-          <p class='first-letter:uppercase'>
-            Calidad y seguridad para distinguirnos
-          </p>
+          <Icon
+            name='tabler:circle-check'
+            class='size-5 text-primary'
+          />
+          <p class='first-letter:uppercase'> Calidad y seguridad para distinguirnos </p>
         </div>
       </div>
       <a
         href='/productos'
         data-astro-reload
-        class={cn(buttonVariants({ size: 'lg' }), 'w-full')}>Ver Productos</a
+        class={cn(buttonVariants({ size: 'lg' }), 'w-full')}
+        >Ver Productos</a
       >
     </div><div
-      class='flex shrink-0 flex-col gap-7 max-sm:grow sm:grid sm:grid-cols-[repeat(2,15rem)] sm:grid-rows-2 sm:gap-4 lg:grid-cols-[repeat(3,15rem)] xl:grid-cols-[repeat(2,15rem)]'
-    >
+      class='flex shrink-0 flex-col gap-7 max-sm:grow sm:grid sm:grid-cols-[repeat(2,15rem)] sm:grid-rows-2 sm:gap-4 lg:grid-cols-[repeat(3,15rem)] xl:grid-cols-[repeat(2,15rem)]'>
       <div
-        class='rounded-lg bg-gradient-to-br from-red-500 to-main p-px text-white drop-shadow-2xl h-52 sm:col-span-1 sm:col-start-1 sm:row-start-2'
-      >
+        class='rounded-lg bg-gradient-to-br from-red-500 to-main p-px text-white drop-shadow-2xl h-52 sm:col-span-1 sm:col-start-1 sm:row-start-2'>
         <div class='h-full rounded-lg'>
-          <div
-            class='flex h-full flex-col justify-evenly gap-y-2 rounded-lg bg-black/45 py-2'
-          >
+          <div class='flex h-full flex-col justify-evenly gap-y-2 rounded-lg bg-black/45 py-2'>
             <div class='space-y-1.5 px-6 max-sm:py-2'>
               <div>
-                <p
-                  class='text-gradient text-sm font-medium first-letter:uppercase'
-                >
-                  Experiencia
-                </p>
+                <p class='text-gradient text-sm font-medium first-letter:uppercase'> Experiencia </p>
                 <p class='text-2xl font-medium'>4 años sin parar</p>
               </div>
               <div class='flex gap-x-2 items-center'>
-                <Icon name='tabler:graph' size={24} />
+                <Icon
+                  name='tabler:graph'
+                  size={24}
+                />
                 <p class='flex gap-2 text-xs font-medium'> Desde el 2020 </p>
               </div>
             </div>
             <div class='bg-neutral-800 h-px w-full'> </div>
             <div class='flex items-center justify-between px-6 max-sm:py-2'>
               <div class='space-y-0.5'>
-                <p
-                  class='text-gradient whitespace-nowrap text-xs font-semibold first-letter:uppercase'
-                >
+                <p class='text-gradient whitespace-nowrap text-xs font-semibold first-letter:uppercase'>
                   Ventas Totales
                 </p>
                 <p class='text-2xl text-white'><!-- -->2840</p>
               </div>
-              <Icon name='tabler:shopping-bag' class='opacity-10' size={30} />
+              <Icon
+                name='tabler:shopping-bag'
+                class='opacity-10'
+                size={30}
+              />
             </div>
           </div>
         </div>

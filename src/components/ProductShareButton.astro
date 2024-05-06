@@ -7,12 +7,14 @@ const shareUrl = new URL(Astro.url.pathname, Astro.site).toString()
 
 <Button
   data-share-url={shareUrl}
-  id="share-product-button"
-  variant="outline"
-  size="icon"
-  class="size-9"
->
-  <Icon name="tabler:share" class="size-5" />
+  id='share-product-button'
+  variant='outline'
+  size='icon'
+  class='size-9'>
+  <Icon
+    name='tabler:share'
+    class='size-5'
+  />
 </Button>
 
 <script>
