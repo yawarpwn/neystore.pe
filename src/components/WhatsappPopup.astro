@@ -27,46 +27,46 @@ const team = [
 ]
 ---
 
-<whatsapp-popup aria-expanded="false">
+<whatsapp-popup aria-expanded='false'>
   <article
-    data-state="closed"
-    id="container"
-    class="fixed z-40 right-2.5 bottom-2.5 flex items-center justify-center"
+    data-state='closed'
+    id='container'
+    class='fixed z-40 right-2.5 bottom-2.5 flex items-center justify-center'
   >
     <div
       class={`window fixed bottom-14 right-2 p-4 shadow-sm rounded-md 
 bg-gradient-to-r from-primary to-secondary text-black
 transition-transform translate-x-full invisible`}
     >
-      <p class="mb-2 text-center">
+      <p class='mb-2 text-center'>
         Contacte con nosotros vía <strong>WhatsApp</strong>
       </p>
-      <div class="flex flex-col gap-2">
+      <div class='flex flex-col gap-2'>
         {
           team.map((member) => {
             const whatsappLink = `https://wa.me/51${member.phone}?text=Hola ${member.name}, vengo de la pagina. Estoy interesando en:`
 
             return (
               <a
-                class="flex bg-primary-foreground/20 items-center gap-4 p-2 hover:bg-white/40 hover:shadow-sm rounded-md cursor-pointer transition"
+                class='flex bg-primary-foreground/20 items-center gap-4 p-2 hover:bg-white/40 hover:shadow-sm rounded-md cursor-pointer transition'
                 href={whatsappLink}
-                target="_blank"
+                target='_blank'
               >
                 <img
-                  class="rounded-sm"
-                  alt="Foto de raquel Raquel Maldonado Ramirez"
-                  title="Raquel Maldonado Ramirez"
-                  width="60"
-                  height="80"
-                  class="rounded-sm"
+                  class='rounded-sm'
+                  alt='Foto de raquel Raquel Maldonado Ramirez'
+                  title='Raquel Maldonado Ramirez'
+                  width='60'
+                  height='80'
+                  class='rounded-sm'
                   src={member.image}
                 />
-                <div class="wap__texts flex-1">
-                  <div class="name text-sm">{member.name}</div>
-                  <div class="post text-xs font-bold">{member.job}</div>
-                  <div class="online text-xs">online</div>
+                <div class='wap__texts flex-1'>
+                  <div class='name text-sm'>{member.name}</div>
+                  <div class='post text-xs font-bold'>{member.job}</div>
+                  <div class='online text-xs'>online</div>
                 </div>
-                <div class="whatsapp-wrap" />
+                <div class='whatsapp-wrap' />
               </a>
             )
           })
@@ -74,14 +74,14 @@ transition-transform translate-x-full invisible`}
       </div>
     </div>
     <button
-      id="whatsapp-button"
-      aria-label="contacto via whatsapp boton"
-      class={`btn border w-10 h-10 flex items-center justify-center rounded-full text-white
+      id='whatsapp-button'
+      aria-label='contacto via whatsapp boton'
+      class={`btn w-10 h-10 flex items-center justify-center rounded-full text-white
 bg-gradient-to-r from-green to-cyan
 transition-transform`}
     >
-      <Icon name="tabler:brand-whatsapp" size={30} />
-      <Icon name="tabler:x" size={30} />
+      <Icon name='tabler:brand-whatsapp' size={30} />
+      <Icon name='tabler:x' size={30} />
     </button>
   </article>
 </whatsapp-popup>

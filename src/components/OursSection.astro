@@ -4,128 +4,88 @@ import Button, { buttonVariants } from '@/components/ui/Button.astro'
 import { cn } from '@/lib/utils'
 ---
 
-<div
-  data-state="active"
-  data-orientation="horizontal"
-  role="tabpanel"
-  aria-labelledby="radix-:r16R0:-trigger-software"
-  id="radix-:r16R0:-content-software"
-  tabindex="0"
-  class="w-full rounded-2xl text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-main max-md:text-sm/normal"
-  style="animation-duration:0s"
->
-  <div class="relative mx-auto w-full">
+<section class='relative container mt-8 mx-auto'>
+  <div
+    class='flex rounded-2xl px-4 text-white max-xl:flex-col max-xl:gap-y-20 max-md:text-sm/normal sm:items-center lg:px-14 xl:justify-between xl:gap-x-10 xl:py-8 xl:pl-14 xl:pr-8'
+  >
     <div
-      class="flex rounded-2xl px-8 py-12 text-white max-xl:flex-col max-xl:gap-y-20 max-md:text-sm/normal sm:items-center lg:px-14 xl:justify-between xl:gap-x-10 xl:py-8 xl:pl-14 xl:pr-8"
+      class='flex flex-col gap-y-12 max-xl:items-center xl:max-w-md xl:gap-y-10'
+    >
+      <h1
+        class='text-4xl/tight font-bold max-xl:text-center md:max-w-lg lg:max-w-2xl lg:text-5xl/tight xl:text-4xl/tight'
+      >
+        Productos Tecnológicos y Juguetes Didácticos
+      </h1>
+      <div class='space-y-4'>
+        <div class='flex gap-x-3'>
+          <Icon name='tabler:circle-check' class='size-5 text-primary' />
+          <p class='first-letter:uppercase'>Dedicacion y experiencia</p>
+        </div>
+        <div class='flex gap-x-3'>
+          <Icon name='tabler:circle-check' class='size-5 text-primary' />
+          <p class='first-letter:uppercase'>Importadores y distribudidores</p>
+        </div>
+        <div class='flex gap-x-3'>
+          <Icon name='tabler:circle-check' class='size-5 text-primary' />
+          <p class='first-letter:uppercase'>
+            Calidad y seguridad para distinguirnos
+          </p>
+        </div>
+      </div>
+      <a
+        href='/productos'
+        data-astro-reload
+        class={cn(buttonVariants({ size: 'lg' }), 'w-full')}>Ver Productos</a
+      >
+    </div><div
+      class='flex shrink-0 flex-col gap-7 max-sm:grow sm:grid sm:grid-cols-[repeat(2,15rem)] sm:grid-rows-2 sm:gap-4 lg:grid-cols-[repeat(3,15rem)] xl:grid-cols-[repeat(2,15rem)]'
     >
       <div
-        class="flex flex-col gap-y-12 max-xl:items-center xl:max-w-md xl:gap-y-10"
+        class='rounded-lg bg-gradient-to-br from-red-500 to-main p-px text-white drop-shadow-2xl h-52 sm:col-span-1 sm:col-start-1 sm:row-start-2'
       >
-        <h1
-          class="text-4xl/tight font-bold max-xl:text-center md:max-w-lg lg:max-w-2xl lg:text-5xl/tight xl:text-4xl/tight"
-        >
-          Productos Tecnológicos y Juguetes Didácticos
-        </h1><div class="space-y-4">
-          <div class="flex gap-x-3">
-            <Icon name="tabler:circle-check" class="size-5 text-primary" />
-            <p class="first-letter:uppercase">Dedicacion y experiencia</p>
-          </div><div class="flex gap-x-3">
-            <Icon name="tabler:circle-check" class="size-5 text-primary" />
-            <p class="first-letter:uppercase">Importadores y distribudidores</p>
-          </div><div class="flex gap-x-3">
-            <Icon name="tabler:circle-check" class="size-5 text-primary" />
-            <p class="first-letter:uppercase">
-              Calidad y seguridad para distinguirnos
-            </p>
-          </div>
-        </div>
-        <a
-          href="/productos"
-          data-astro-reload
-          class={cn(buttonVariants({ size: 'lg' }), 'w-full')}>Ver Productos</a
-        >
-      </div><div
-        class="flex shrink-0 flex-col gap-7 max-sm:grow sm:grid sm:grid-cols-[repeat(2,15rem)] sm:grid-rows-2 sm:gap-4 lg:grid-cols-[repeat(3,15rem)] xl:grid-cols-[repeat(2,15rem)]"
-      >
-        <div
-          class="rounded-lg bg-gradient-to-br from-red-500 to-main p-px text-white drop-shadow-2xl h-52 sm:col-span-1 sm:col-start-1 sm:row-start-2"
-        >
-          <div class="h-full rounded-lg">
-            <div
-              class="flex h-full flex-col justify-evenly gap-y-2 rounded-lg bg-black/45 py-2"
-            >
-              <div class="space-y-1.5 px-6 max-sm:py-2">
-                <div>
-                  <p
-                    class="text-gradient text-sm font-medium first-letter:uppercase"
-                  >
-                    Experiencia
-                  </p><p class="text-2xl font-medium">4 años sin parar</p>
-                </div><div class="flex gap-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-trending-up size-4 stroke-green-400"
-                    ><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"
-                    ></polyline><polyline points="16 7 22 7 22 13"
-                    ></polyline></svg
-                  ><p class="flex gap-2 text-xs font-medium">
-                    <span class="">60<!-- -->%</span><span
-                      class="whitespace-nowrap text-neutral-300 first-letter:uppercase"
-                      >Desde el 2020
-                    </span>
-                  </p>
-                </div>
-              </div><div
-                data-orientation="horizontal"
-                role="none"
-                class="bg-neutral-800 h-px w-full"
-              >
-              </div><div
-                class="flex items-center justify-between px-6 max-sm:py-2"
-              >
-                <div class="space-y-0.5">
-                  <p
-                    class="text-gradient whitespace-nowrap text-xs font-semibold first-letter:uppercase"
-                  >
-                    Ventas Totales
-                  </p><p class="text-2xl text-white"><!-- -->2840</p>
-                </div><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-badge-dollar-sign size-9 select-none stroke-white stroke-1 opacity-10 md:size-10"
-                  ><path
-                    d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"
-                  ></path><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"
-                  ></path><path d="M12 18V6"></path></svg
+        <div class='h-full rounded-lg'>
+          <div
+            class='flex h-full flex-col justify-evenly gap-y-2 rounded-lg bg-black/45 py-2'
+          >
+            <div class='space-y-1.5 px-6 max-sm:py-2'>
+              <div>
+                <p
+                  class='text-gradient text-sm font-medium first-letter:uppercase'
                 >
+                  Experiencia
+                </p>
+                <p class='text-2xl font-medium'>4 años sin parar</p>
+              </div>
+              <div class='flex gap-x-2 items-center'>
+                <Icon name='tabler:graph' size={24} />
+                <p class='flex gap-2 text-xs font-medium'> Desde el 2020 </p>
               </div>
             </div>
+            <div class='bg-neutral-800 h-px w-full'> </div>
+            <div class='flex items-center justify-between px-6 max-sm:py-2'>
+              <div class='space-y-0.5'>
+                <p
+                  class='text-gradient whitespace-nowrap text-xs font-semibold first-letter:uppercase'
+                >
+                  Ventas Totales
+                </p>
+                <p class='text-2xl text-white'><!-- -->2840</p>
+              </div>
+              <Icon name='tabler:shopping-bag' class='opacity-10' size={30} />
+            </div>
           </div>
-        </div><img
-          src="/assets/images/shop-cart.avif"
-          alt="finance"
-          class="h-52 w-full rounded-lg object-cover shadow-md shadow-black max-sm:aspect-video sm:col-span-1 sm:col-start-1 sm:row-start-1"
-        /><img
-          src="/assets/images/web-shop.avif"
-          alt="finance"
-          class="h-full w-full rounded-lg object-cover shadow-md shadow-black max-lg:col-start-2 max-sm:aspect-video sm:row-span-2 lg:col-span-2 lg:col-start-2 lg:w-full xl:col-span-1"
-        />
+        </div>
       </div>
+      <img
+        src='/assets/images/shop-cart.avif'
+        alt='finance'
+        class='h-52 w-full rounded-lg object-cover shadow-md shadow-black max-sm:aspect-video sm:col-span-1 sm:col-start-1 sm:row-start-1'
+      />
+      <img
+        src='/assets/images/web-shop.avif'
+        alt='finance'
+        class='h-full w-full rounded-lg object-cover shadow-md shadow-black max-lg:col-start-2 max-sm:aspect-video sm:row-span-2 lg:col-span-2 lg:col-start-2 lg:w-full xl:col-span-1'
+      />
     </div>
   </div>
-</div>
+</section>

@@ -6,6 +6,8 @@ export default {
   description:
     'Somos importadores de juegos didácticos, periféricos originales y artículos relacionados. Consulta nuestras promociones y descuentos.',
   phone: '900224005',
+  email: 'ventas.neystore@gmail.com',
+  address: 'Maquinaria 325 - Reynoso - Lima ',
   socialLinks: {
     tiktok: 'https://www.tiktok.com/@mamaazulraquel',
     facebook:
