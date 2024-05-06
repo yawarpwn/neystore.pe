@@ -8,6 +8,5 @@ export default [
       'no-unused-vars': 'warn',
       'no-undef': 'warn',
     },
-    ignores: ['/src/__backup__/*'],
   },
 ]
