@@ -109,7 +109,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
         <div>
           <h2 class='text-2xl text-yellow font-medium my-4'> Sobre el Producto </h2>
           <ul class='flex flex-col gap-4'>
-            {features.map((feature) => <li class='list-disc ml-4'>{feature}</li>)}
+            {features && features.length > 0 && features.map((feature) => <li class='list-disc ml-4'>{feature}</li>)}
           </ul>
         </div>
       </article>

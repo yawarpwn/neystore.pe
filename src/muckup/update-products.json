@@ -795,7 +795,6 @@
     "category": "Juguetes",
     "ranking": 3
   },
-
   {
     "id": "82c4f6aa-11f9-40be-b263-82276209a9e8",
     "title": "Magnetic Alphabet Maze Letter Puzzle,Montessori Fine Motor Skills Toys for Toddler Kids 3 Year Old,Sensory Toys for Girls Boys,Learning Educational Toys,Birthdays Gifts for Kids",
@@ -852,7 +851,6 @@
     "category": "Juguetes",
     "ranking": 3
   },
-
   {
     "id": "1959f781-9ad1-4411-a49e-034f6efc8096",
     "title": "Rompecabezas de expresión de juego de madera a juego para niños pequeños de 1 a 3 años, juguetes Montessori para niños de 1, 2 y 3 años, juguetes educativos STEM de aprendizaje preescolar para niños",
@@ -871,33 +869,34 @@
     },
     "images": [
       {
-        "url": "https://m.media-amazon.com/images/I/41Kzsw0ypdL._AC_ST450_.jpg",
-        "thumb": "https://m.media-amazon.com/images/I/41Kzsw0ypdL._AC_US100_.jpg"
+        "url": "https://m.media-amazon.com/images/I/41Kzsw0ypdL._AC_US40_.jpg",
+        "thumb": "https://m.media-amazon.com/images/I/41Kzsw0ypdL._AC_US40_.jpg"
       },
       {
-        "url": "https://m.media-amazon.com/images/I/51Oy5mLtAOL._AC_ST450_.jpg",
-        "thumb": "https://m.media-amazon.com/images/I/51Oy5mLtAOL._AC_US100_.jpg"
+        "url": "https://m.media-amazon.com/images/I/51Oy5mLtAOL._AC_US40_.jpg",
+        "thumb": "https://m.media-amazon.com/images/I/51Oy5mLtAOL._AC_US40_.jpg"
       },
       {
-        "url": "https://m.media-amazon.com/images/I/51aK8tNZ8ML._AC_ST450_.jpg",
-        "thumb": "https://m.media-amazon.com/images/I/51aK8tNZ8ML._AC_US100_.jpg"
+        "url": "https://m.media-amazon.com/images/I/51aK8tNZ8ML._AC_US40_.jpg",
+        "thumb": "https://m.media-amazon.com/images/I/51aK8tNZ8ML._AC_US40_.jpg"
       },
       {
-        "url": "https://m.media-amazon.com/images/I/51aTYSfLe4L._AC_ST450_.jpg",
-        "thumb": "https://m.media-amazon.com/images/I/51aTYSfLe4L._AC_US100_.jpg"
+        "url": "https://m.media-amazon.com/images/I/51aTYSfLe4L._AC_US40_.jpg",
+        "thumb": "https://m.media-amazon.com/images/I/51aTYSfLe4L._AC_US40_.jpg"
       },
       {
-        "url": "https://m.media-amazon.com/images/I/51Th1vb4OyL._AC_ST450_.jpg",
-        "thumb": "https://m.media-amazon.com/images/I/51Th1vb4OyL._AC_US100_.jpg"
+        "url": "https://m.media-amazon.com/images/I/51Th1vb4OyL._AC_US40_.jpg",
+        "thumb": "https://m.media-amazon.com/images/I/51Th1vb4OyL._AC_US40_.jpg"
       },
       {
-        "url": "https://m.media-amazon.com/images/I/51UHEyWAc+L._AC_ST450_.jpg",
-        "thumb": "https://m.media-amazon.com/images/I/51UHEyWAc+L._AC_US100_.jpg"
+        "url": "https://m.media-amazon.com/images/I/51UHEyWAc+L._AC_US40_.jpg",
+        "thumb": "https://m.media-amazon.com/images/I/51UHEyWAc+L._AC_US40_.jpg"
       }
     ],
-    "price": 50,
-    "cost": 30,
+    "price": 0,
+    "cost": 0,
     "category": "Juguetes",
-    "ranking": 3
+    "ranking": 5
   }
 ]
+
