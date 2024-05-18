@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "@iconify-json/tabler": "^1.1.110",
-    "@playwright/test": "^1.44.0",
     "@types/bun": "^1.1.1",
     "@typescript-eslint/parser": "^7.8.0",
     "eslint": "^9.1.1",

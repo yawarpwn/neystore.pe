@@ -32,7 +32,7 @@ export async function extractVideoFromAmazon(
     const validJSon = `{${result}}`
     const productInfo = JSON.parse(validJSon)
     const videos = productInfo.videos
-    const mappedVideos = videos.map((video) => ({
+    const mappedVideos = videos.map((video: any) => ({
       url: video.url,
       title: video.title,
       cover: video.slateUrl,
