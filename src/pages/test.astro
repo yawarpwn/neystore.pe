@@ -1,0 +1,16 @@
+---
+import { db, Products, Videos, Images } from 'astro:db'
+import { getProducts } from '@/lib/data'
+import { seedTables } from '@/lib/utils/products'
+
+// const { products, images, videos } = seedTables()
+
+const products = await getProducts()
+---
+
+<div>
+  <h1>Test Page</h1>
+  <pre>
+{JSON.stringify(products, null, 2)}
+  </pre>
+</div>

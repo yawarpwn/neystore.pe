@@ -7,9 +7,12 @@ import { Icon } from 'astro-icon/components'
 import { cn } from '@/lib/utils'
 import Button, { buttonVariants } from '@/components/ui/Button.astro'
 import site from '@/constants/site'
-import products from '@/muckup/products.json'
+// import products from '@/muckup/products.json'
+import { getProducts } from '@/lib/data'
 
-export function getStaticPaths() {
+export async function getStaticPaths() {
+  const products = await getProducts()
+
   return products.map((product) => {
     return {
       params: { id: product.id },
