@@ -43,9 +43,7 @@ export async function extractVideoFromAmazon(
   }
 }
 
-export async function extractImagesFromAmazon(
-  page: Page,
-): Promise<{ url: string; thumb: string }[]> {
+export async function extractImagesFromAmazon(page: Page): Promise<string[]> {
   const imagesEl = await page.locator('#altImages ul li img').all()
 
   let imageLinks: string[] = []
@@ -63,10 +61,10 @@ export async function extractImagesFromAmazon(
   )
 
   // const slicedImagesLinks = [...imagesLinks].slice(0, imagesLinks.length - 1)
-  const mappedImages = filteredImages.map((link) => ({
-    url: link.replace(/US(100|40)/, 'ST450'),
-    thumb: link.replace(/US40/, 'US100'),
-  }))
+  //https://m.media-amazon.com/images/I/810wmUE2vhL._AC_SL1500_.jpg
+  const mappedImages = filteredImages.map((img) =>
+    img.replace(/US(100|40)/, 'SL1500'),
+  )
 
   return mappedImages
 }
@@ -80,7 +78,9 @@ export async function extractFeaturesFromAmazon(page: Page) {
   return cleanedFeatures
 }
 
-export async function extractDetailsFromAmazon(page: Page) {
+export async function extractDetailsFromAmazon(
+  page: Page,
+): Promise<Record<string, string> | null> {
   try {
     const overviewRows = await page
       .locator('#productOverview_feature_div table tr')
@@ -115,7 +115,7 @@ export async function extractDetailsFromAmazon(page: Page) {
         }
       }
 
-      return details
+      return !details ? null : details
     }
 
     return null
