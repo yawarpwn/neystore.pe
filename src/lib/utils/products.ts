@@ -6,8 +6,8 @@ export function seedTables() {
   const videos = []
 
   for (const product of productsJson) {
-    const { title, price, cost, ranking, category, features, details } = product
-    const id = crypto.randomUUID()
+    const { title, price, cost, ranking, category, features, details, id } =
+      product
 
     const productToInsert = {
       id,

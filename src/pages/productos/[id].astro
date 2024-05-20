@@ -5,6 +5,7 @@ import ProductPrice from '@/components/ProductPrice.astro'
 import Layout from '@/layouts/Layout.astro'
 import { Icon } from 'astro-icon/components'
 import { cn } from '@/lib/utils'
+import { type Product } from '@/types'
 import Button, { buttonVariants } from '@/components/ui/Button.astro'
 import site from '@/constants/site'
 // import products from '@/muckup/products.json'
@@ -21,6 +22,9 @@ export async function getStaticPaths() {
   })
 }
 // const { id } = Astro.params
+export interface Props {
+  product: Product
+}
 const { product } = Astro.props
 const { title, images, id, features, details, video } = product
 const productUrl = new URL(Astro.url.pathname, Astro.site)

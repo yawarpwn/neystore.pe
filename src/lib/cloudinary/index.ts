@@ -1,30 +1,38 @@
-import { v2 as cloudinary } from 'cloudinary'
+import {
+  v2 as cloudinary,
+  type UploadApiResponse,
+  type UploadApiOptions,
+  type TransformationOptions,
+  type ConfigAndUrlOptions,
+} from 'cloudinary'
 
 cloudinary.config({
   cloud_name: 'dyshhk5h6',
   api_key: '533526923894852',
-  api_secret: import.meta.env.ClOUDINARY_API_SECRET,
+  api_secret: import.meta.env.CLOUDINARY_API_SECRET,
 })
 
-export async function uploadAsset(url: string) {
+export async function uploadAsset(
+  file: string,
+  type?: 'image' | 'video',
+): Promise<[undefined, UploadApiResponse] | [Error, undefined]> {
   try {
-    const result = await cloudinary.uploader.upload(url, {
+    const data = await cloudinary.uploader.upload(file, {
       folder: 'neystore',
+      resource_type: type ?? 'image',
     })
 
-    console.log(result.url)
+    return [undefined, data]
   } catch (error) {
     console.log(error)
+    return [new Error('Error uploading asset to cloudinary'), undefined]
   }
 }
 
-export function transform(publicId: string) {
-  const url = cloudinary.url(publicId, {
-    width: 100,
-    height: 150,
-    crop: 'fill',
-  })
+export function transformAsset(
+  publicId: string,
+  options: TransformationOptions | ConfigAndUrlOptions,
+) {
+  const url = cloudinary.url(publicId, options)
   return url
 }
-
-;(() => {})()
