@@ -20,8 +20,7 @@ const { images, id, title, video } = Astro.props
   {/* Main */}
   <div
     id='main-image'
-    class='w-full flex items-center justify-center bg-white rounded-md h-[90%] relative'>
-    <!-- Share Button -->
+    class='w-full flex items-center justify-center bg-white rounded-md h-[90%] relative md:mt-6'>
     <div class='absolute top-2 right-2 z-10'>
       <ProductShareButton />
     </div>
@@ -49,7 +48,7 @@ const { images, id, title, video } = Astro.props
               data-large-url={img.url}
               class={`thumb-item border-2 border-transparent opacity-50 
               data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
-              <div class=' size-[55px]'>
+              <div class=' size-[55px] bg-white'>
                 <img
                   class='w-full h-full object-contain'
                   src={img.thumb}

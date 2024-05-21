@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 
   return products.map((product) => {
     return {
-      params: { slug: slugify(product.title) },
+      params: { slug: product.slug },
       props: { product },
     }
   })

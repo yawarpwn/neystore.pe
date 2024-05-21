@@ -4,6 +4,7 @@ import ProductCard from '@/components/ProductCard.astro'
 // import products from '@/muckup/products.json'
 import { getProducts } from '@/lib/data'
 const products = await getProducts()
+console.log(products)
 ---
 
 <Layout title='Nuestros Productos'>
@@ -20,6 +21,7 @@ const products = await getProducts()
               price={product.price}
               imgUrl={product.images[0].url}
               ranking={product.ranking}
+              slug={product.slug}
             />
           ))
       }

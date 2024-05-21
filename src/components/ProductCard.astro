@@ -9,13 +9,14 @@ interface Props {
   price: number
   imgUrl: string
   ranking: number
+  slug: string
 }
 
-const { title, price, imgUrl, ranking, id } = Astro.props
+const { title, price, imgUrl, ranking, id, slug } = Astro.props
 ---
 
 <a
-  href={`/productos/${slugify(title)}`}
+  href={`/productos/${slug}`}
   class='p-2'>
   <!-- {/* Image Card */ -->
   <div class='h-0 pb-[100%] relative mb-2.5 rounded-md'>

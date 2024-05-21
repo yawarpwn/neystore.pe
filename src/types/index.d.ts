@@ -40,4 +40,5 @@ export type Product = {
   cost: number
   ranking: number
   category: ProductCategory
+  slug: string
 }
