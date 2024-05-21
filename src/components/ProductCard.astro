@@ -1,6 +1,7 @@
 ---
 import ProductPrice from './ProductPrice.astro'
 import ProductRanking from './ProductRanking.astro'
+import { slugify } from '@/lib/utils/string'
 
 interface Props {
   id: string
@@ -14,7 +15,7 @@ const { title, price, imgUrl, ranking, id } = Astro.props
 ---
 
 <a
-  href={`/productos/${id}`}
+  href={`/productos/${slugify(title)}`}
   class='p-2'>
   <!-- {/* Image Card */ -->
   <div class='h-0 pb-[100%] relative mb-2.5 rounded-md'>
