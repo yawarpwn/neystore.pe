@@ -39,9 +39,9 @@ const { images, id, title, video } = Astro.props
     {/* Container */}
     <ul
       id='thumb-list'
-      class='flex gap-1'>
+      class='flex gap-1 w-[380px] md:w-full overflow-x-auto'>
       {
-        images.slice(0, 5).map((img, index) => {
+        images.slice(0, 8).map((img, index) => {
           return (
             <li
               data-thumb-active={index === 0}
