@@ -1,47 +1,48 @@
-import type { Product } from '../src/types'
-import products from '../src/muckup/products.json'
-import { scrapAmazonProduct } from './amazon'
+import { scrapAmazonProduct } from '../src/lib/scrap/amazon'
+import { scrapProductFromAliExpress } from '../src/lib/scrap/aliexpress'
+import { slugify } from '../src/lib/utils/string'
 import fs from 'node:fs/promises'
 import readline from 'node:readline/promises'
 import { uploadAsset, transformAsset } from '../src/lib/cloudinary/index'
-
-const CATEGORIES = {
-  1: 'Juguetes',
-  2: 'Tecnologia',
-}
-
-function isValidUrl(text: string) {
-  return
-}
+import {
+  getCategory,
+  getRank,
+  getProvider,
+  getCost,
+  getPrice,
+  getCanUpload,
+  getUrl,
+} from '../src/lib/scrap/questions'
 
 async function main() {
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  })
-
   try {
-    const url = await rl.question('Url to scrap \n')
-    const productFromAmazon = await scrapAmazonProduct(url)
+    const provider = await getProvider()
+    const url = await getUrl()
 
-    console.log(productFromAmazon)
+    let productScrapped
+    if (provider === 'amazon') {
+      productScrapped = await scrapAmazonProduct(url)
+    } else {
+      productScrapped = await scrapProductFromAliExpress(url)
+    }
 
-    const canUploadImage = await rl.question('Subo la imagen (Y/N) \n')
-    if (canUploadImage.toLowerCase() === 'n') return
+    console.log(productScrapped)
+    const canUpload = await getCanUpload()
+
+    if (!canUpload) return
 
     let video
-    const price = await rl.question('Dame un precio \n')
-    const cost = await rl.question('Dame un Costo \n')
-    const ranking = await rl.question('Dame un ranking de 1 - 5')
-    const category = await rl.question('--1 Juguetes \n --2 Tecnologia \n')
-    rl.close()
+    const price = await getPrice()
+    const cost = await getCost()
+    const ranking = await getRank()
+    const category = await getCategory()
 
     const id = crypto.randomUUID()
 
     //format video
-    if (productFromAmazon.video) {
+    if (productScrapped.video) {
       const [error, data] = await uploadAsset(
-        productFromAmazon.video.url,
+        productScrapped.video.url,
         'video',
       )
       if (error) console.log('ERROR UPLOADIN VIDEO', error)
@@ -55,8 +56,8 @@ async function main() {
           product_id: id,
           publid_id: data.public_id,
           type: data.resource_type,
-          cover: productFromAmazon.video.cover,
-          title: productFromAmazon.video.title,
+          cover: productScrapped.video.cover,
+          title: productScrapped.video.title,
         }
       } else {
         video = null
@@ -67,7 +68,7 @@ async function main() {
 
     //Guardar imagenes  en cloudinary
     const images = await Promise.all(
-      productFromAmazon.images.map(async (url) => {
+      productScrapped.images.map(async (url) => {
         const [error, data] = await uploadAsset(url)
         if (error) console.log('ERROR UPLOADING IMAGE')
         if (data) {
@@ -84,7 +85,7 @@ async function main() {
             product_id: id,
             publid_id: data.public_id,
             type: data.resource_type,
-            title: productFromAmazon.title,
+            title: productScrapped.title,
             thumb: transformAsset(data.public_id, {
               height: 100,
               crop: 'thumb',
@@ -97,13 +98,14 @@ async function main() {
 
     const product = {
       id,
-      title: productFromAmazon.title,
-      features: productFromAmazon.features,
-      details: productFromAmazon.details,
+      title: productScrapped.title,
+      features: productScrapped.features,
+      details: productScrapped.details,
       price: Number(price),
       cost: Number(cost),
-      category: CATEGORIES[category],
+      category: category,
       ranking: Number(ranking),
+      slug: slugify(productScrapped.title),
       images,
       video: video,
     }

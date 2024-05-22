@@ -1,4 +1,5 @@
 import { type Page } from 'playwright'
+import { chromium } from 'playwright'
 
 function cleanData(data: string) {
   let cleanedData = data.split(/\s+/).join(' ').trim()
@@ -60,8 +61,6 @@ export async function extractImagesFromAmazon(page: Page): Promise<string[]> {
     (url) => url.endsWith('AC_US100_.jpg') || url.endsWith('AC_US40_.jpg'),
   )
 
-  // const slicedImagesLinks = [...imagesLinks].slice(0, imagesLinks.length - 1)
-  //https://m.media-amazon.com/images/I/810wmUE2vhL._AC_SL1500_.jpg
   const mappedImages = filteredImages.map((img) =>
     img.replace(/US(100|40)/, 'SL1500'),
   )
@@ -122,4 +121,44 @@ export async function extractDetailsFromAmazon(
   } catch (error) {
     return null
   }
+}
+
+type ProductRaw = {
+  title: string
+  details: Record<string, string> | null
+  features: string[]
+  video: {
+    url: string
+    cover: string
+    title: string
+  } | null
+  images: string[]
+}
+
+export async function scrapAmazonProduct(url: string): Promise<ProductRaw> {
+  const browser = await chromium.launch({ headless: false })
+  // const context = await browser.newContext()
+  const page = await browser.newPage()
+
+  page.setDefaultTimeout(30000)
+  await page.goto(url)
+
+  const title = await extractTitleFromAmazon(page)
+  const features = await extractFeaturesFromAmazon(page)
+  const images = await extractImagesFromAmazon(page)
+  const video = await extractVideoFromAmazon(page)
+  const details = await extractDetailsFromAmazon(page)
+
+  // await context.close()
+  await browser.close()
+
+  const product = {
+    title,
+    details,
+    features,
+    video,
+    images,
+  }
+
+  return product
 }
