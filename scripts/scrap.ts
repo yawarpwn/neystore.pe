@@ -2,7 +2,7 @@ import { scrapAmazonProduct } from '../src/lib/scrap/amazon'
 import { scrapProductFromAliExpress } from '../src/lib/scrap/aliexpress'
 import { slugify } from '../src/lib/utils/string'
 import fs from 'node:fs/promises'
-import readline from 'node:readline/promises'
+import products from '../src/muckup/products.json'
 import { uploadAsset, transformAsset } from '../src/lib/cloudinary/index'
 import {
   getCategory,
@@ -110,7 +110,12 @@ async function main() {
       video: video,
     }
 
-    fs.writeFile('./src/muckup/new-product.json', JSON.stringify(product))
+    const productsToUpdate = {
+      ...products,
+      product,
+    }
+
+    fs.writeFile('./src/muckup/products.json', JSON.stringify(productsToUpdate))
       .then((data) => console.log('saved product', data))
       .catch((error) => console.log(error))
   } catch (error) {

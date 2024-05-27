@@ -36,10 +36,10 @@ export async function extractImagesFromAliExpress(
 export async function extractDetailsFromAliExpress(
   page: Page,
 ): Promise<Record<string, string> | null> {
-  await page
-    .locator('#nav-specification')
-    .getByRole('button', { name: 'Ver más' })
-    .click()
+  // await page
+  //   .locator('#nav-specification')
+  //   .getByRole('button', { name: 'Ver más' })
+  //   .click()
 
   const itemsList = await page.locator('.specification--line--iUJOqof').all()
 
@@ -76,14 +76,13 @@ export async function scrapProductFromAliExpress(
   url: string,
 ): Promise<ProductRaw> {
   const browser = await chromium.launch({ headless: false })
-  const context = await browser.newContext()
+  // const context = await browser.newContext()
   const page = await browser.newPage()
 
   page.setDefaultTimeout(30000)
   await page.goto(url)
 
   const title = await extractTitleFromAliExpress(page)
-
   // TODO: scrap features
   // const features = await extractFeaturesFromAmazon(page)
   const images = await extractImagesFromAliExpress(page)
@@ -99,7 +98,7 @@ export async function scrapProductFromAliExpress(
     images,
   }
 
-  await context.close()
+  // await context.close()
   await browser.close()
 
   return product
