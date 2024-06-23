@@ -110,12 +110,12 @@ async function main() {
       video: video,
     }
 
-    const productsToUpdate = {
-      ...products,
-      product,
-    }
+    const productsToUpdate = [...products, product]
 
-    fs.writeFile('./src/muckup/products.json', JSON.stringify(productsToUpdate))
+    fs.writeFile(
+      './src/muckup/products.json',
+      JSON.stringify(productsToUpdate, null, 2),
+    )
       .then((data) => console.log('saved product', data))
       .catch((error) => console.log(error))
   } catch (error) {

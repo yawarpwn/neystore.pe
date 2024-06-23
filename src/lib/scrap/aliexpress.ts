@@ -9,7 +9,9 @@ function cleanData(data: string) {
 }
 
 export async function extractTitleFromAliExpress(page: Page) {
-  const title = (await page.locator('h1').textContent()) || 'Default title'
+  const titles = await page.locator('h1').all()
+  const title = (await titles[0].textContent()) || 'Default title'
+
   const cleanedTitle = cleanData(title)
   return cleanedTitle
 }

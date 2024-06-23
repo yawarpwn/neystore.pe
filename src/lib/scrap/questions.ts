@@ -40,9 +40,9 @@ export async function getProvider() {
   return provider as 'amazon' | 'aliexpress'
 }
 
-export async function getUrl() {
+export async function getUrl(provider: 'amazon' | 'aliexpress') {
   const url = await input({
-    message: 'type url amazon product',
+    message: `type url ${provider} product`,
     validate: (url) => isValidAmazonUrl(url) || isValidAliExpressUrl(url),
   })
   return url
