@@ -17,7 +17,7 @@ import {
 async function main() {
   try {
     const provider = await getProvider()
-    const url = await getUrl()
+    const url = await getUrl(provider)
 
     let productScrapped
     if (provider === 'amazon') {
