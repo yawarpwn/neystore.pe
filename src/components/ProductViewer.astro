@@ -16,26 +16,29 @@ interface Props {
 const { images, id, title, video } = Astro.props
 ---
 
-<article class='flex flex-col justify-center relative gap-4 h-full'>
+<article class='image-view-wrap'>
   {/* Main */}
   <div
     id='main-image'
-    class='w-full flex items-center justify-center bg-white rounded-md h-[90%] relative md:mt-6'>
+    class='image-view--previewWrap relative rounded-md overflow-hidden'>
     <div class='absolute top-2 right-2 z-10'>
       <ProductShareButton />
     </div>
-    <div class='size-[320px] md:w-full md:h-full p-2 md:p-4'>
-      <img
-        transition:name={`product-image-${id}`}
-        class='w-full h-full object-contain'
-        src={images[0].url}
-        alt={title}
-      />
+    <div class='image-view--previewBox absolute left-0 top-0 w-full h-full'>
+      <div class='maginifier--wrap w-full h-full'>
+        <img
+          transition:name={`product-image-${id}`}
+          class='magnifier-image max-w-full max-h-full w-full h-full object-cover'
+          src={images[0].url}
+          alt={title}
+        />
+      </div>
     </div>
+    <div class='image-view--previewCover pt-[100%]'> </div>
   </div>
 
   {/* Thumbs */}
-  <div class='overflow-hidden h-[10%]'>
+  <div class='slider-wrap mt-4'>
     {/* Container */}
     <ul
       id='thumb-list'
