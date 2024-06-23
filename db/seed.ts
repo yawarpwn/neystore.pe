@@ -1,4 +1,4 @@
-import { db, Products, Videos, Images } from 'astro:db'
+// import { db, Products, Videos, Images } from 'astro:db'
 import { seedTables } from '@/lib/utils/products'
 import productsJson from '@/muckup/products.json'
 import { uploadAsset } from '@/lib/cloudinary'

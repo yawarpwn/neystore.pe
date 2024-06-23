@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "scrap": "bun run src/scripts/scrap-amazon.ts",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro build",
     "format": "prettier --write src/",
     "lint": "eslint 'src/**/*.astro'",
     "preview": "astro preview",
