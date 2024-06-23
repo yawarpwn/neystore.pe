@@ -122,6 +122,8 @@ because the nesting selector cannot represent pseudo-elements. */
     const $closeDialogBtn = document.querySelector('#close-dialog-btn')!
     const $dialogEl = document.querySelector('dialog')!
 
+    if (!$showDialogBtn) return
+
     $showDialogBtn.addEventListener('click', () => {
       $dialogEl.showModal()
     })

@@ -36,7 +36,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
   description={title}
   image={images[0].url}
   url={productUrl}>
-  <main class='container px-4 mx-auto'>
+  <main class='container mx-auto px-4'>
     <div class='md:hidden'>
       <a
         href='/productos'
@@ -60,7 +60,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
         <!-- Title -->
         <div>
           <h1
-            class='text-xl font-semibold'
+            class='text-xl md:text-3xl font-semibold'
             transition:name={`product-title-${id}`}>
             {product.title}
           </h1>
@@ -86,7 +86,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
             href={`https://wa.me/51${site.phone}?text=Hola,%20estoy%20interesado%20en%20el%20producto%20${title}, este es su enlace ${productUrl}`}
             rel='noopener noreferrer'
             target='_blank'
-            class={cn(buttonVariants({ variant: 'outline', size: 'lg' }), `w-full max-w-sm`)}>
+            class={cn(buttonVariants({ variant: 'outline', size: 'lg' }), `w-full md:max-w-md`)}>
             <span>Comprar</span>
             <Icon
               class='ml-2'

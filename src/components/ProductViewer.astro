@@ -1,5 +1,5 @@
 ---
-import { cn } from '@/lib/utils'
+import { Icon } from 'astro-icon/components'
 import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
 import ProductShareButton from '@/components/ProductShareButton.astro'
 interface Props {
@@ -16,7 +16,7 @@ interface Props {
 const { images, id, title, video } = Astro.props
 ---
 
-<article class='image-view-wrap'>
+<article class='image-view-wrap w-[calc(100vw-2rem)] md:w-full md:mt-6'>
   {/* Main */}
   <div
     id='main-image'
@@ -25,10 +25,10 @@ const { images, id, title, video } = Astro.props
       <ProductShareButton />
     </div>
     <div class='image-view--previewBox absolute left-0 top-0 w-full h-full'>
-      <div class='maginifier--wrap w-full h-full'>
+      <div class='maginifier--wrap w-full h-full bg-white'>
         <img
           transition:name={`product-image-${id}`}
-          class='magnifier-image max-w-full max-h-full w-full h-full object-cover'
+          class='magnifier-image max-w-full max-h-full w-full h-full object-contain'
           src={images[0].url}
           alt={title}
         />
@@ -38,38 +38,73 @@ const { images, id, title, video } = Astro.props
   </div>
 
   {/* Thumbs */}
-  <div class='slider-wrap mt-4'>
+  <div class='slider-wrap relative'>
     {/* Container */}
-    <ul
-      id='thumb-list'
-      class='flex gap-1 w-[380px] md:w-full overflow-x-auto'>
-      {
-        images.slice(0, 8).map((img, index) => {
-          return (
-            <li
-              data-thumb-active={index === 0}
-              data-large-url={img.url}
-              class={`thumb-item border-2 border-transparent opacity-50 
-              data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
-              <div class=' size-[55px] bg-white'>
+    <div class='slider--slider mt-4 overflow-x-auto snap-x snap-mandatory'>
+      <ul class='slider--box flex'>
+        {
+          images.map((img, index) => {
+            return (
+              <li
+                data-thumb-active={index === 0}
+                data-large-url={img.url}
+                class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white 
+                  flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0
+                  data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
                 <img
-                  class='w-full h-full object-contain'
+                  class='max-w-full max-h-full'
                   src={img.thumb}
                 />
-              </div>
-            </li>
-          )
-        })
-      }
-
-      {video?.url && <ProductVideoDialog video={video} />}
-    </ul>
+              </li>
+            )
+          })
+        }
+        {video?.url && <ProductVideoDialog video={video} />}
+      </ul>
+    </div>
+    <button
+      aria-label='imagen anterior'
+      class={`slider--prev absolute left-0 top-0 w-[36px] h-[64px] 
+  cursor-pointer
+  hidden items-center justify-start bg-gradient-to-l from-transparent to-[oklch(var(--background))]`}>
+      <span>
+        <Icon
+          name='tabler:chevron-left'
+          class='text-primary'
+        />
+      </span>
+    </button>
+    <button
+      aria-label='imagen siguiente'
+      class={`slider--next absolute right-0 top-0 w-[36px] h-[64px] 
+cursor-pointer
+items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--background))] hidden`}>
+      <span>
+        <Icon
+          name='tabler:chevron-right'
+          class='text-primary'
+        />
+      </span>
+    </button>
   </div>
 </article>
 <script>
   document.addEventListener('astro:page-load', () => {
-    const $thumbsList = document.querySelectorAll('.thumb-item')!
-    const $mainImage = document.querySelector('#main-image img')!
+    const $thumbsList = document.querySelectorAll('.slider--img') as NodeListOf<Element>
+    const slider = document.querySelector('.slider--slider') as HTMLDivElement
+    const $mainImage = document.querySelector('#main-image img') as HTMLDivElement
+    const nextSlide = document.querySelector('.slider--next') as HTMLButtonElement
+    const prevSlide = document.querySelector('.slider--prev') as HTMLButtonElement
+
+    //check prev and next button visibility
+    function updateButtonsVisibility() {
+      const maxScrollLeft = slider.scrollWidth - slider.clientWidth
+      nextSlide.classList.toggle('hidden', slider.scrollLeft >= maxScrollLeft)
+      prevSlide.classList.toggle('hidden', slider.scrollLeft <= 0)
+    }
+
+    updateButtonsVisibility()
+
     $thumbsList.forEach((item) => {
       item.addEventListener('click', () => {
         //Remove active  all items
@@ -83,6 +118,25 @@ const { images, id, title, video } = Astro.props
         //update image
         $mainImage.setAttribute('src', src)
       })
+    })
+
+    //handle scroll
+    slider.addEventListener('scroll', () => {
+      updateButtonsVisibility()
+    })
+
+    //handle next Slide
+    nextSlide.addEventListener('click', () => {
+      slider.scrollBy(64, 0)
+    })
+
+    // handle prev Slide
+    prevSlide.addEventListener('click', () => {
+      slider.scrollBy(-64, 0)
+    })
+
+    window.addEventListener('resize', () => {
+      updateButtonsVisibility()
     })
   })
 </script>
