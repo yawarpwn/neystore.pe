@@ -10,44 +10,72 @@ export interface Props {
 
 const { video } = Astro.props
 
+// class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white
+//   flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0
+//   data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
+
 // class="fixed z-50 inset-0 w-full h-full bg-black backdrop:bg-white backdrop:backdrop-blur"
 ---
 
-<li class=''>
-  <button
-    id='show-dialog-btn'
-    class='size-[55px] flex items-center justify-center focus-visible:outline-none'>
+<li
+  id='show-dialog-btn'
+  class='size-[64px] border-2 border-transparent ml-4 rounded-md overflow-hidden relative flex-shrink-0 flex items-center justify-center cursor-pointer'>
+  <img
+    class='absolute inset-0 w-full h-full object-cover'
+    src={video.cover}
+  />
+  <span class='bg-primary absolute rounded-full p-2 z-10'>
     <Icon
-      name='tabler:play'
-      size={30}
+      name='tabler:player-play-filled'
+      class='text-white'
+      size={24}
     />
-  </button>
-  <dialog>
-    <div class='max-w-sm md:max-w-3xl relative'>
-      <video
-        class='w-full h-full'
-        id='player'
-        playsinline
-        controls
-        poster={video.cover}
-        data-poster={video.cover}>
-        <source
-          src={video.url}
-          type='video/mp4'
-        />
-      </video>
-      <source
-        src='/path/to/video.webm'
-        type='video/webm'
-      />
-      <button
-        id='close-dialog-btn'
-        class='absolute top-1 right-1 size-7 bg-background flex items-center justify-center rounded-full'>
-        <Icon name='tabler:x' />
-      </button>
-    </div>
-  </dialog>
+  </span>
 </li>
+<dialog>
+  <div class='md:max-w-3xl relative rounded-md overflow-hidden'>
+    <video
+      class='w-full h-full'
+      id='player'
+      playsinline
+      controls
+      poster={video.cover}
+      data-poster={video.cover}>
+      <source
+        src={video.url}
+        type='video/mp4'
+      />
+    </video>
+    <source
+      src='/path/to/video.webm'
+      type='video/webm'
+    />
+    <button
+      id='close-dialog-btn'
+      class='absolute top-1 right-1 size-7 bg-background flex items-center justify-center rounded-full'>
+      <Icon name='tabler:x' />
+    </button>
+  </div>
+</dialog>
+<style>
+  dialog {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+  }
+
+  dialog[open] {
+  }
+
+  dialog[open]::backdrop {
+    background: oklch(0% 0 0 / 0.9);
+  }
+
+  dialog::backdrop {
+    background: #000;
+  }
+</style>
+<!--
 <style>
   /*   Open state of the dialog  */
   dialog[open] {
@@ -92,7 +120,7 @@ const { video } = Astro.props
   }
 
   dialog[open]::backdrop {
-    background-color: rgb(0 0 0 / 85%);
+    background-color: rgb(0 0 0 / 90%);
   }
 
   /* This starting-style rule cannot be nested inside the above selector
@@ -103,7 +131,15 @@ because the nesting selector cannot represent pseudo-elements. */
       background-color: rgb(0 0 0 / 0%);
     }
   }
+
+  form[method='dialog'] {
+    border: 1px solid orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 </style>
+-->
 
 <link
   rel='stylesheet'
@@ -115,22 +151,39 @@ because the nesting selector cannot represent pseudo-elements. */
   }
 </style>
 <script>
-  import Plyr from 'plyr'
-  document.addEventListener('astro:page-load', () => {
-    const player = new Plyr('#player')
-    const $showDialogBtn = document.querySelector('#show-dialog-btn') as HTMLButtonElement
-    const $closeDialogBtn = document.querySelector('#close-dialog-btn')!
-    const $dialogEl = document.querySelector('dialog')!
+  document.addEventListener('astro:page-load', async () => {
+    const videoItemEl = document.querySelector('#show-dialog-btn')
+    const dialogEl = document.querySelector('dialog')
 
-    if (!$showDialogBtn) return
+    if (dialogEl instanceof HTMLDialogElement && videoItemEl instanceof HTMLLIElement) {
+      const { default: Plyr } = await import('plyr')
+      const closeDialogBtn = dialogEl.querySelector('#close-dialog-btn')
 
-    $showDialogBtn.addEventListener('click', () => {
-      $dialogEl.showModal()
-    })
+      const player = new Plyr('#player')
 
-    $closeDialogBtn.addEventListener('click', () => {
-      $dialogEl.close()
-      player.pause()
-    })
+      const closeModal = () => {
+        dialogEl.close()
+        player.pause()
+      }
+
+      const showModal = () => {
+        dialogEl.showModal()
+      }
+
+      dialogEl.addEventListener('click', (event) => {
+        if (event.target !== dialogEl) return
+        closeModal()
+      })
+
+      videoItemEl.addEventListener('click', () => {
+        showModal()
+      })
+
+      closeDialogBtn.addEventListener('click', () => {
+        closeModal()
+      })
+    } else {
+      console.log('Dialog not found')
+    }
   })
 </script>

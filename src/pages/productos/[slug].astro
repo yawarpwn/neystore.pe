@@ -6,7 +6,6 @@ import Layout from '@/layouts/Layout.astro'
 import { Icon } from 'astro-icon/components'
 import { cn } from '@/lib/utils'
 import { type Product } from '@/types'
-import { slugify } from '@/lib/utils/string'
 import Button, { buttonVariants } from '@/components/ui/Button.astro'
 import site from '@/constants/site'
 // import products from '@/muckup/products.json'
@@ -56,11 +55,11 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
           />
         </div>
       </div>
-      <article class='flex flex-col gap-4 md:mt-4'>
+      <article class='flex flex-col gap-6 md:mt-4'>
         <!-- Title -->
-        <div>
+        <div class='my-4'>
           <h1
-            class='text-xl md:text-3xl font-semibold'
+            class='text-2xl lg:text-3xl font-semibold'
             transition:name={`product-title-${id}`}>
             {product.title}
           </h1>

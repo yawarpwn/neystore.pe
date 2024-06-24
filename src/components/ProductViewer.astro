@@ -1,7 +1,8 @@
 ---
 import { Icon } from 'astro-icon/components'
-import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
 import ProductShareButton from '@/components/ProductShareButton.astro'
+
+import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
 interface Props {
   images: { url: string; thumb: string }[]
   id: string
@@ -21,7 +22,7 @@ const { images, id, title, video } = Astro.props
   <div
     id='main-image'
     class='image-view--previewWrap relative rounded-md overflow-hidden'>
-    <div class='absolute top-2 right-2 z-10'>
+    <div class='absolute top-1 right-1 z-10'>
       <ProductShareButton />
     </div>
     <div class='image-view--previewBox absolute left-0 top-0 w-full h-full'>
@@ -44,12 +45,16 @@ const { images, id, title, video } = Astro.props
       <ul class='slider--box flex'>
         {
           images.map((img, index) => {
+            if (index === 3 && video?.url) {
+              return <ProductVideoDialog video={video} />
+            }
+
             return (
               <li
                 data-thumb-active={index === 0}
                 data-large-url={img.url}
                 class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white 
-                  flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0
+                  flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0 cursor-pointer
                   data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
                 <img
                   class='max-w-full max-h-full'
@@ -59,7 +64,6 @@ const { images, id, title, video } = Astro.props
             )
           })
         }
-        {video?.url && <ProductVideoDialog video={video} />}
       </ul>
     </div>
     <button
@@ -90,25 +94,25 @@ items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--backg
 </article>
 <script>
   document.addEventListener('astro:page-load', () => {
-    const $thumbsList = document.querySelectorAll('.slider--img') as NodeListOf<Element>
+    const thumbsList = document.querySelectorAll('.slider--img') as NodeListOf<Element>
     const slider = document.querySelector('.slider--slider') as HTMLDivElement
-    const $mainImage = document.querySelector('#main-image img') as HTMLDivElement
+    const mainImage = document.querySelector('#main-image img') as HTMLDivElement
     const nextSlide = document.querySelector('.slider--next') as HTMLButtonElement
     const prevSlide = document.querySelector('.slider--prev') as HTMLButtonElement
 
     //check prev and next button visibility
     function updateButtonsVisibility() {
       const maxScrollLeft = slider.scrollWidth - slider.clientWidth
-      nextSlide.classList.toggle('hidden', slider.scrollLeft >= maxScrollLeft)
-      prevSlide.classList.toggle('hidden', slider.scrollLeft <= 0)
+      nextSlide.style.display = slider.scrollLeft >= maxScrollLeft ? 'none' : 'flex'
+      prevSlide.style.display = slider.scrollLeft <= 0 ? 'none' : 'flex'
     }
 
     updateButtonsVisibility()
 
-    $thumbsList.forEach((item) => {
+    thumbsList.forEach((item) => {
       item.addEventListener('click', () => {
         //Remove active  all items
-        $thumbsList.forEach((item) => item.removeAttribute('data-thumb-active'))
+        thumbsList.forEach((item) => item.removeAttribute('data-thumb-active'))
         //Add active to current item
         item.toggleAttribute('data-thumb-active')
 
@@ -116,13 +120,56 @@ items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--backg
         const src = item.getAttribute('data-large-url')!
 
         //update image
-        $mainImage.setAttribute('src', src)
+        mainImage.setAttribute('src', src)
       })
     })
 
     //handle scroll
     slider.addEventListener('scroll', () => {
       updateButtonsVisibility()
+    })
+
+    //TODO:
+    //handle mobile slide
+    let isTouchMove = false
+    let startX = 0
+
+    slider.addEventListener('touchstart', (event) => {
+      console.log('touchstart')
+      isTouchMove = false
+      startX = event.touches[0].clientX
+    })
+
+    slider.addEventListener('touchmove', (event) => {
+      console.log('touchmove')
+      isTouchMove = true
+      const deltaX = event.touches[0].clientX - startX
+
+      // Prevent horizontal scrolling on the entire page on mobile
+      event.preventDefault()
+
+      // Update slider scroll position based on touch movement direction
+      slider.scrollLeft += deltaX
+    })
+
+    slider.addEventListener('touchend', (event) => {
+      console.log('touchend')
+      if (!isTouchMove) return // Ignore tap events
+
+      const threshold = slider.clientWidth / 3 // Adjust threshold for swipe sensitivity
+
+      if (Math.abs(startX - event.changedTouches[0].clientX) > threshold) {
+        // Perform swipe logic:
+        if (startX - event.changedTouches[0].clientX > threshold) {
+          // Swipe left: Move to next slide
+          slider.scrollBy(64, 0)
+        } else {
+          // Swipe right: Move to previous slide
+          slider.scrollBy(-64, 0)
+        }
+      }
+
+      isTouchMove = false
     })
 
     //handle next Slide
