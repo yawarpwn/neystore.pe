@@ -107,8 +107,6 @@ items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--backg
       prevSlide.style.display = slider.scrollLeft <= 0 ? 'none' : 'flex'
     }
 
-    updateButtonsVisibility()
-
     thumbsList.forEach((item) => {
       item.addEventListener('click', () => {
         //Remove active  all items
@@ -129,48 +127,12 @@ items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--backg
       updateButtonsVisibility()
     })
 
-    //TODO:
-    //handle mobile slide
-    let isTouchMove = false
-    let startX = 0
+    //TODO: handle touch in mobile
+    slider.addEventListener('touchstart', (event) => {})
 
-    slider.addEventListener('touchstart', (event) => {
-      console.log('touchstart')
-      isTouchMove = false
-      startX = event.touches[0].clientX
-    })
+    slider.addEventListener('touchmove', (event) => {})
 
-    slider.addEventListener('touchmove', (event) => {
-      console.log('touchmove')
-      isTouchMove = true
-      const deltaX = event.touches[0].clientX - startX
-
-      // Prevent horizontal scrolling on the entire page on mobile
-      event.preventDefault()
-
-      // Update slider scroll position based on touch movement direction
-      slider.scrollLeft += deltaX
-    })
-
-    slider.addEventListener('touchend', (event) => {
-      console.log('touchend')
-      if (!isTouchMove) return // Ignore tap events
-
-      const threshold = slider.clientWidth / 3 // Adjust threshold for swipe sensitivity
-
-      if (Math.abs(startX - event.changedTouches[0].clientX) > threshold) {
-        // Perform swipe logic:
-        if (startX - event.changedTouches[0].clientX > threshold) {
-          // Swipe left: Move to next slide
-          slider.scrollBy(64, 0)
-        } else {
-          // Swipe right: Move to previous slide
-          slider.scrollBy(-64, 0)
-        }
-      }
-
-      isTouchMove = false
-    })
+    slider.addEventListener('touchend', (event) => {})
 
     //handle next Slide
     nextSlide.addEventListener('click', () => {
@@ -182,6 +144,10 @@ items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--backg
       slider.scrollBy(-64, 0)
     })
 
+    // Initial check to hide buttons if necessary
+    updateButtonsVisibility()
+
+    // Handle window resize to update button visibility
     window.addEventListener('resize', () => {
       updateButtonsVisibility()
     })
