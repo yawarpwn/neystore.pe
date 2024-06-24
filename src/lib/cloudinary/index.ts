@@ -17,7 +17,7 @@ cloudinary.config({
 
 export async function uploadAsset(
   file: string,
-  type?: 'image' | 'video',
+  type: 'image' | 'video',
 ): Promise<[undefined, UploadApiResponse] | [Error, undefined]> {
   try {
     const data = await cloudinary.uploader.upload(file, {

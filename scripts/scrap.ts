@@ -2,6 +2,7 @@ import { scrapAmazonProduct } from '../src/lib/scrap/amazon'
 import { scrapProductFromAliExpress } from '../src/lib/scrap/aliexpress'
 import { slugify } from '../src/lib/utils/string'
 import fs from 'node:fs/promises'
+import type { ProductRaw } from '../src/types/index.d.ts'
 import products from '../src/muckup/products.json'
 import { uploadAsset, transformAsset } from '../src/lib/cloudinary/index'
 import {
@@ -19,14 +20,22 @@ async function main() {
     const provider = await getProvider()
     const url = await getUrl(provider)
 
-    let productScrapped
+    let productScrapped: ProductRaw
     if (provider === 'amazon') {
       productScrapped = await scrapAmazonProduct(url)
     } else {
       productScrapped = await scrapProductFromAliExpress(url)
     }
 
-    console.log(productScrapped)
+    console.log({
+      productFound: true,
+      title: productScrapped.title,
+      totalImages: productScrapped.images.length,
+      hasVideo: productScrapped.video ? true : false,
+      hasDetails: productScrapped.details ? true : false,
+      hasFeatures: productScrapped.features ? true : false,
+    })
+
     const canUpload = await getCanUpload()
 
     if (!canUpload) return
@@ -39,13 +48,14 @@ async function main() {
 
     const id = crypto.randomUUID()
 
-    //format video
     if (productScrapped.video) {
       const [error, data] = await uploadAsset(
         productScrapped.video.url,
         'video',
       )
+
       if (error) console.log('ERROR UPLOADIN VIDEO', error)
+
       if (data) {
         video = {
           id: crypto.randomUUID(),
@@ -69,7 +79,7 @@ async function main() {
     //Guardar imagenes  en cloudinary
     const images = await Promise.all(
       productScrapped.images.map(async (url) => {
-        const [error, data] = await uploadAsset(url)
+        const [error, data] = await uploadAsset(url, 'image')
         if (error) console.log('ERROR UPLOADING IMAGE')
         if (data) {
           return {
@@ -116,7 +126,7 @@ async function main() {
       './src/muckup/products.json',
       JSON.stringify(productsToUpdate, null, 2),
     )
-      .then((data) => console.log('saved product', data))
+      .then((data) => console.log('saved product'))
       .catch((error) => console.log(error))
   } catch (error) {
     console.log('error, ', error)

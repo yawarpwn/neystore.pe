@@ -2246,6 +2246,7 @@
     "category": "Juguetes",
     "ranking": 3,
     "slug": "lenovoauriculares-inalambricos-lp40-pro-tws-cascos",
+    "video": null,
     "images": [
       {
         "id": "f84d6cce-b5fb-4a35-beb5-9887a4fd4f19",
@@ -3855,153 +3856,6 @@
     ]
   },
   {
-    "id": "5408fff6-c289-459b-8466-9da943ebe947",
-    "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-    "features": null,
-    "details": {
-      "Certificación": "Weee,RoHS,CE",
-      "Material de la carcasa": "Plástico",
-      "Compatible con tecnología de carga rápida": "No"
-    },
-    "price": 140,
-    "cost": 75,
-    "category": "Tecnologia",
-    "ranking": 3,
-    "slug": "qoovibateria-externa-20000mah-cargador-portatil-ultrafino",
-    "images": [
-      {
-        "id": "a9e26059-b3be-47e1-a243-2dccbf3ed28c",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113678/neystore/e0bboyifmhezvzzuclas.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/e0bboyifmhezvzzuclas?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/e0bboyifmhezvzzuclas",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/e0bboyifmhezvzzuclas?_a=BAMADKDe0"
-      },
-      {
-        "id": "716f44ee-d724-4c1b-9143-24593961d1b3",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113679/neystore/ng6sp2twi2psjf1xyeon.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ng6sp2twi2psjf1xyeon?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/ng6sp2twi2psjf1xyeon",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ng6sp2twi2psjf1xyeon?_a=BAMADKDe0"
-      },
-      {
-        "id": "4f56a130-27f6-4b65-9719-2d3ca63e5f70",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113678/neystore/l942cqoydafltpqdkz5j.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/l942cqoydafltpqdkz5j?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/l942cqoydafltpqdkz5j",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/l942cqoydafltpqdkz5j?_a=BAMADKDe0"
-      },
-      {
-        "id": "65c0cdbc-0d06-4395-97dd-a3e708b48fab",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113679/neystore/n8cedgujxvvgblhgqcim.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/n8cedgujxvvgblhgqcim?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/n8cedgujxvvgblhgqcim",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/n8cedgujxvvgblhgqcim?_a=BAMADKDe0"
-      },
-      {
-        "id": "27a63342-ad9d-4620-a111-77c2fe285e60",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113678/neystore/aigvofzykzv8fesp9obm.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/aigvofzykzv8fesp9obm?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/aigvofzykzv8fesp9obm",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/aigvofzykzv8fesp9obm?_a=BAMADKDe0"
-      },
-      {
-        "id": "9a5b50db-25e7-4641-a73e-2cd6572501b9",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113679/neystore/vw2icuuuoazmpskaf5ks.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/vw2icuuuoazmpskaf5ks?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/vw2icuuuoazmpskaf5ks",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vw2icuuuoazmpskaf5ks?_a=BAMADKDe0"
-      },
-      {
-        "id": "f5d934a8-11d9-4827-80ff-e0e220883356",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113679/neystore/wmrp82j3q7qnljzcjokp.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/wmrp82j3q7qnljzcjokp?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/wmrp82j3q7qnljzcjokp",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/wmrp82j3q7qnljzcjokp?_a=BAMADKDe0"
-      },
-      {
-        "id": "4f17164b-117a-42da-a4cd-cbcf6c74cd73",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113679/neystore/g4pvocgotxj45uqxku2y.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/g4pvocgotxj45uqxku2y?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/g4pvocgotxj45uqxku2y",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/g4pvocgotxj45uqxku2y?_a=BAMADKDe0"
-      },
-      {
-        "id": "ad3b116b-e6b2-4c61-beca-acdf6151a292",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113678/neystore/wazgkgfsshta0radhrdi.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/wazgkgfsshta0radhrdi?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/wazgkgfsshta0radhrdi",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/wazgkgfsshta0radhrdi?_a=BAMADKDe0"
-      },
-      {
-        "id": "315efcec-9a53-401b-b097-fc9d7aaec1a8",
-        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719113679/neystore/weuhks9fdjpjprh0wxra.webp",
-        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/weuhks9fdjpjprh0wxra?_a=BAMADKDe0",
-        "format": "webp",
-        "width": 800,
-        "height": 800,
-        "product_id": "5408fff6-c289-459b-8466-9da943ebe947",
-        "publid_id": "neystore/weuhks9fdjpjprh0wxra",
-        "type": "image",
-        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/weuhks9fdjpjprh0wxra?_a=BAMADKDe0"
-      }
-    ]
-  },
-  {
     "id": "bf5e48ae-b92d-4f65-bb44-52cdc37f48d4",
     "title": "Xiaomimemoria USB portátil U Disk 128GB, unidad Flash de transferencia de alta velocidad, 16TB, interfaz tipo C 3,2 ",
     "features": null,
@@ -4216,6 +4070,18 @@
     "category": "Tecnologia",
     "ranking": 4,
     "slug": "lenovoauriculares-tws-air-pro6-inalambricos-por-bluetooth",
+    "video": {
+      "id": "68db0z18-4108-41c4-ad96-72ba887d7449",
+      "url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1719195202/neystore/ugo4z3lnozo5svn4ne1l.mp4",
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "product_id": "312711f9-05c6-4ad2-82b7-cba2816155d7",
+      "public_id": "neystore/ugo4z3lnozo5svn4ne1l",
+      "type": "video",
+      "cover": "https://ae01.alicdn.com/kf/S79b720c9911e4e6d8ba5b1d660f65646U/Lenovo-auriculares-TWS-Air-Pro6-inal-mbricos-por-Bluetooth-con-micr-fono-9D-est-reo-Pro.jpg_.webp",
+      "title": "Lenovoauriculares inalámbricos LP40 Pro TWS, cascos deportivos con Bluetooth 5,1, reducción de ruido, Control táctil, 250mAH, originales"
+    },
     "images": [
       {
         "id": "4bba48b1-3032-4eb0-b11c-e99e0e3a3dba",
@@ -4361,5 +4227,165 @@
         "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qmqcrta5dn4uiimjbfib?_a=BAMADKDe0"
       }
     ]
+  },
+  {
+    "id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+    "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+    "features": null,
+    "details": {
+      "Certificación": "Weee,RoHS,CE",
+      "Material de la carcasa": "Plástico",
+      "Compatible con tecnología de carga rápida": "No"
+    },
+    "price": 140,
+    "cost": 75,
+    "category": "Tecnologia",
+    "ranking": 4,
+    "slug": "qoovibateria-externa-20000mah-cargador-portatil-ultrafino",
+    "images": [
+      {
+        "id": "56643414-910c-47d2-b393-323e5340f4ef",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/vvs6s5bwdmpabh4uiaf1.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/vvs6s5bwdmpabh4uiaf1?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/vvs6s5bwdmpabh4uiaf1",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vvs6s5bwdmpabh4uiaf1?_a=BAMADKDe0"
+      },
+      {
+        "id": "ea8471b8-7262-4343-b18f-3afb96807e8a",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/qa4afbgkotlvt63btngi.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/qa4afbgkotlvt63btngi?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/qa4afbgkotlvt63btngi",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qa4afbgkotlvt63btngi?_a=BAMADKDe0"
+      },
+      {
+        "id": "e5155502-e4ce-446e-b724-8c07fd171b8c",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/qbaoexatc0dsijhzr7pu.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/qbaoexatc0dsijhzr7pu?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/qbaoexatc0dsijhzr7pu",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qbaoexatc0dsijhzr7pu?_a=BAMADKDe0"
+      },
+      {
+        "id": "f4a9496c-ba49-412c-a65c-3271691d8ce6",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/ht6vwvpbbessyvzuxlmd.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ht6vwvpbbessyvzuxlmd?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/ht6vwvpbbessyvzuxlmd",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ht6vwvpbbessyvzuxlmd?_a=BAMADKDe0"
+      },
+      {
+        "id": "87fb39c5-49c2-4017-aaa5-b3379a776acf",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/bay8u5gqmwkjaezrv4cq.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/bay8u5gqmwkjaezrv4cq?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/bay8u5gqmwkjaezrv4cq",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bay8u5gqmwkjaezrv4cq?_a=BAMADKDe0"
+      },
+      {
+        "id": "93e9f3bc-deb2-45fd-84f2-2fc9026937d4",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/kdcivh29tdi9tnkchoup.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/kdcivh29tdi9tnkchoup?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/kdcivh29tdi9tnkchoup",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/kdcivh29tdi9tnkchoup?_a=BAMADKDe0"
+      },
+      {
+        "id": "e75fa874-9b75-4ab0-b997-ae16d1fa86d6",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/rmjhax8ktpi9l46rafa9.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/rmjhax8ktpi9l46rafa9?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/rmjhax8ktpi9l46rafa9",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/rmjhax8ktpi9l46rafa9?_a=BAMADKDe0"
+      },
+      {
+        "id": "f9af861e-910d-455d-b650-a20672042280",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/l76jxm49b5em2chvapj0.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/l76jxm49b5em2chvapj0?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/l76jxm49b5em2chvapj0",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/l76jxm49b5em2chvapj0?_a=BAMADKDe0"
+      },
+      {
+        "id": "c7db35c3-a600-44b2-b913-9d463561b414",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197474/neystore/aturi2ajzsevpnygfpkj.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/aturi2ajzsevpnygfpkj?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/aturi2ajzsevpnygfpkj",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/aturi2ajzsevpnygfpkj?_a=BAMADKDe0"
+      },
+      {
+        "id": "443d3c8a-ece5-4ca7-9f5a-89b60ca564e4",
+        "large": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/hdojcpsmssatwdztsiks.webp",
+        "url": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/hdojcpsmssatwdztsiks?_a=BAMADKDe0",
+        "format": "webp",
+        "width": 800,
+        "height": 800,
+        "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+        "publid_id": "neystore/hdojcpsmssatwdztsiks",
+        "type": "image",
+        "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+        "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/hdojcpsmssatwdztsiks?_a=BAMADKDe0"
+      }
+    ],
+    "video": {
+      "id": "8443b33e-e27b-49ef-9a38-063c70298182",
+      "url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1719197471/neystore/fzaea0tg6rdlhljhubqv.mp4",
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "product_id": "435ff7b6-30f4-4904-bc10-272c43be1993",
+      "publid_id": "neystore/fzaea0tg6rdlhljhubqv",
+      "type": "video",
+      "cover": "https://ae01.alicdn.com/kf/Sfa4d7d1df1fd46dab4aee9c5eeefe0afF/QOOVI-Bater-a-Externa-de-20000mAh-cargador-port-til-ultrafino-para-iPhone-15-Xiaomi-Samsung-y.jpg_.webp",
+      "title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei"
+    }
   }
 ]
+

@@ -42,3 +42,15 @@ export type Product = {
   category: ProductCategory
   slug: string
 }
+
+type ProductRaw = {
+  title: string
+  details: Record<string, string> | null
+  features: string[]
+  video: {
+    url: string
+    cover: string
+    title: string
+  } | null
+  images: string[]
+}

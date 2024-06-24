@@ -1,5 +1,6 @@
 import { type Page } from 'playwright'
 import { chromium } from 'playwright'
+import { type ProductRaw } from '@/types'
 
 function cleanData(data: string) {
   let cleanedData = data.split(/\s+/).join(' ').trim()
@@ -121,18 +122,6 @@ export async function extractDetailsFromAmazon(
   } catch (error) {
     return null
   }
-}
-
-type ProductRaw = {
-  title: string
-  details: Record<string, string> | null
-  features: string[]
-  video: {
-    url: string
-    cover: string
-    title: string
-  } | null
-  images: string[]
 }
 
 export async function scrapAmazonProduct(url: string): Promise<ProductRaw> {

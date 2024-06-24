@@ -1,5 +1,6 @@
 import { type Page } from 'playwright'
 import { chromium } from 'playwright'
+import { type ProductRaw } from '@/types'
 
 function cleanData(data: string) {
   let cleanedData = data.split(/\s+/).join(' ').trim()
@@ -62,16 +63,27 @@ export async function extractDetailsFromAliExpress(
   return !details ? null : details
 }
 
-type ProductRaw = {
-  title: string
-  details: Record<string, string> | null
-  features: string[] | null
-  video: {
-    url: string
-    cover: string
-    title: string
-  } | null
-  images: string[]
+export async function extractVideoFromAliExpress(page: Page, title: string) {
+  try {
+    const videoEl = page.locator('video')
+
+    const poster = await videoEl.getAttribute('poster')
+    if (!poster) return null
+
+    const sourceEl = videoEl.locator('source')
+    const src = await sourceEl.getAttribute('src')
+
+    if (!src) return null
+
+    return {
+      cover: poster,
+      url: src,
+      title,
+    }
+  } catch (error) {
+    console.log('video not found')
+    return null
+  }
 }
 
 export async function scrapProductFromAliExpress(
@@ -89,14 +101,14 @@ export async function scrapProductFromAliExpress(
   // const features = await extractFeaturesFromAmazon(page)
   const images = await extractImagesFromAliExpress(page)
   // TODO: scrap video
-  // const video = await extractVideoFromAmazon(page)
+  const video = await extractVideoFromAliExpress(page, title)
   const details = await extractDetailsFromAliExpress(page)
 
   const product = {
     title,
     details,
     features: null,
-    video: null,
+    video,
     images,
   }
 
