@@ -103,8 +103,18 @@ items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--backg
     //check prev and next button visibility
     function updateButtonsVisibility() {
       const maxScrollLeft = slider.scrollWidth - slider.clientWidth
-      nextSlide.style.display = slider.scrollLeft >= maxScrollLeft ? 'none' : 'flex'
-      prevSlide.style.display = slider.scrollLeft <= 0 ? 'none' : 'flex'
+      const showPrevSlide = slider.scrollLeft > 0
+      const showNextSlide = slider.scrollLeft < maxScrollLeft
+
+      console.log({
+        maxScrollLeft,
+        scrollWidth: slider.scrollWidth,
+        clientWidth: slider.clientWidth,
+        scrollLeft: slider.scrollLeft,
+      })
+
+      prevSlide.style.display = showPrevSlide ? 'flex' : 'none'
+      nextSlide.style.display = showNextSlide ? 'flex' : 'none'
     }
 
     thumbsList.forEach((item) => {
