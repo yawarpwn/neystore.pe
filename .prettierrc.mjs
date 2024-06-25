@@ -6,7 +6,7 @@ export default {
   semi: false,
   jsxSingleQuote: true,
   htmlWhitespaceSensitivity: 'strict',
-  singleAttributePerLine: false,
+  singleAttributePerLine: true,
   overrides: [
     {
       files: '*.astro',

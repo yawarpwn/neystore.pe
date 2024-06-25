@@ -45,5 +45,41 @@ const { title = site.title, description = site.description, url = site.url, imag
     </div>
     <WhatsappPopup />
     <Footer />
+    <style>
+      body::before {
+        content: '';
+        height: svh;
+        width: calc(100%);
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        right: -50px;
+        bottom: 0;
+        z-index: -2;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        filter: blur(50px);
+        background-image: radial-gradient(37.88% 68.62% at 50% 0, rgba(233, 10, 138, 0.3) 0, rgba(124, 0, 71, 0) 80%),
+          radial-gradient(10% 10% at 50% 0, rgba(233, 10, 138, 0.5) 0, rgba(124, 0, 71, 0.4) 90%, rgba(124, 0, 71, 0) 0),
+          radial-gradient(
+            100% 28.09% at 100% 10%,
+            rgba(233, 10, 138, 0.2) 0,
+            rgba(124, 0, 71, 0.1) 80%,
+            rgba(124, 0, 71, 0) 100%
+          ),
+          linear-gradient(180deg, rgba(124, 0, 71, 0.075) 35.79%, rgba(124, 0, 71, 0.05) 80%, #13161c),
+          radial-gradient(74.84% 135.56% at 100% 10%, rgba(124, 0, 71, 0.5) 0, #13161c 80%);
+        /*   background-image: radial-gradient(37.88% 68.62% at 50% 0, rgba(10, 233, 138, 0.3) 0, rgba(0, 124, 71, 0) 80%), */
+        /*     radial-gradient(10% 10% at 50% 0, rgba(10, 233, 138, 0.5) 0, rgba(0, 124, 71, 0.4) 90%, rgba(0, 124, 71, 0) 0), */
+        /*     radial-gradient( */
+        /*       100% 28.09% at 100% 10%, */
+        /*       rgba(10, 233, 138, 0.2) 0, */
+        /*       rgba(0, 124, 71, 0.1) 80%, */
+        /*       rgba(0, 124, 71, 0) 100% */
+        /*     ), */
+        /*     linear-gradient(180deg, rgba(0, 124, 71, 0.075) 35.79%, rgba(0, 124, 71, 0.05) 80%, #13161c), */
+        /*     radial-gradient(74.84% 135.56% at 100% 10%, rgba(0, 124, 71, 0.5) 0, #13161c 80%); */
+      }
+    </style>
   </body></html
 >
