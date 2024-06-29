@@ -2,17 +2,19 @@
 import Layout from '@/layouts/Layout.astro'
 import CustomersOpinion from '@/components/CustomersOpinion.astro'
 import Subscribe from '@/components/Subscribe.astro'
-import Categories from '@/components/Categories.astro'
 import WhyChooseUs from '@/components/WhyChooseUs.astro'
 import OursSection from '@/components/OursSection.astro'
 import HeroSection from '@/components/HeroSection.astro'
+import CategoryListSection from '@/components/CategoryListSection.astro'
 ---
 
 <Layout>
   <HeroSection />
 
   <div class="flex flex-col gap-16">
-    <Categories />
+    <div class="lg:hidden">
+      <CategoryListSection />
+    </div>
     <WhyChooseUs />
     <CustomersOpinion />
     <Subscribe />

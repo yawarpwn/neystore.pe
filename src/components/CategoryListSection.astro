@@ -1,0 +1,136 @@
+---
+import { Icon } from 'astro-icon/components'
+const categories = [
+  {
+    href: '/productos',
+    category: 'Tecnologia',
+    title: 'Teclados',
+    icon: 'tabler:keyboard',
+    color1: '#c01e81',
+    color2: '#980b71',
+  },
+
+  {
+    href: '/productos',
+    category: 'Tecnologia',
+    title: 'Mouses',
+    icon: 'tabler:mouse',
+    color1: '#f832ad',
+    color2: '#ff0099',
+  },
+
+  {
+    href: '/productos',
+    category: 'Juguetes',
+    title: 'Didácticos',
+    icon: 'tabler:horse-toy',
+    color1: '#8e00ff',
+    color2: '#f500ff',
+  },
+
+  {
+    href: '/productos',
+    category: 'Juguetes',
+    title: 'En construcción',
+    icon: 'tabler:settings',
+    color1: '#0078ff',
+    color2: '#6600ff',
+  },
+
+  {
+    href: '/productos',
+    category: 'Tecnología',
+    title: 'En construcción',
+    icon: 'tabler:settings',
+    color1: '#c600ff',
+    color2: '#6f00ff',
+  },
+]
+---
+
+<section>
+  <div class="container">
+    <ul class="flex gap-4 flex-wrap">
+      {
+        categories.map((category) => (
+          <li
+            class="category-card lg:max-w-[280px]"
+            style={`--color1:${category.color1};--color2:${category.color2}`}>
+            <a
+              href={category.href}
+              class="flex items-center justify-between gap-4 px-6 py-3 w-full h-full">
+              <div class="icon-container">
+                <Icon
+                  name={category.icon}
+                  size={36}
+                />
+              </div>
+              <p class="flex flex-col gap-1 w-full  ">
+                <span class="uppercase text-[#87909d] font-bold text-sm">{category.category}</span>
+                <span>{category.title} </span>
+              </p>
+              <Icon name="tabler:chevron-right" />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
+<style>
+  .icon-container {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 4rem;
+      z-index: -1;
+      background-color: var(--color1);
+      filter: blur(20px);
+      opacity: 0.8;
+    }
+  }
+  .category-card {
+    --card-bg: #1a033e;
+    position: relative;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+
+    &::before {
+      background-color: #1e2229;
+    }
+
+    &::after {
+      background-image: radial-gradient(var(--color2) 60%, var(--card-bg) 50%);
+      background-size: 150%;
+      /* background-position-y: 6px; */
+      background-position-x: 40px;
+      background-repeat: no-repeat;
+      opacity: 0.75;
+      filter: blur(40px);
+    }
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  }
+</style>

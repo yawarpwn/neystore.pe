@@ -1,5 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components'
+import CategoryListSection from './CategoryListSection.astro'
 const features = [
   {
     icon: 'tabler:sparkles',
@@ -22,13 +23,14 @@ const features = [
 ]
 ---
 
-<section class="lg:h-[calc(100svh-4rem)] lg:flex lg:items-center">
+<section class="lg:py-28 lg:flex lg:flex-col lg:justify-center lg:items-center">
   <!-- Left Side -->
   <div class="grid grid-cols-1 gap-8 lg:grid-cols-[517px_580px] items-center justify-between container">
     <div class="mt-10 lg:mt-0">
-      <h1 class="text-3xl text-center lg:text-left lg:text-4xl text-balance font-bold">
+      <h1 class="text-3xl text-center lg:text-left lg:text-5xl/snug text-balance font-bold">
         Somos E-Commerce de productos
-        <span class="text-primary"> Tecnológicos y Juguetes </span>
+        <span class="text-primary">Tecnológicos </span> y
+        <span class="text-primary">Juguetes</span>
         didácticos
         <!-- <span class="text-primary">la Tecnologia</span> -->
       </h1>
@@ -48,6 +50,22 @@ const features = [
         }
       </ul>
     </div>
+    <div>
+      <figure class="w-full h-[350px] lg:h-[500px] relative">
+        <div class="image-mask"> </div>
+        <img
+          src="/assets/images/mockup.avif"
+          alt="maqueta de la aplicación"
+          class="object-contain h-full w-full"
+          width="2657"
+          height="2340"
+          loading="lazy"
+          decoding="async"
+          class="absolute inset-0 w-full h-full object-contain"
+        />
+      </figure>
+    </div>
+    <!--
     <div class="grid grid-cols-2 gap-4">
       <div class="rounded-l col-span-1 col-start-1 row-start-2">
         <div class="h-full rounded-lg">
@@ -71,7 +89,7 @@ const features = [
                 <p class="text-gradient whitespace-nowrap text-xs font-semibold first-letter:uppercase">
                   Ventas Totales
                 </p>
-                <p class="text-2xl text-white"><!-- -->2840</p>
+                <p class="text-2xl text-white">2840</p>
               </div>
               <Icon
                 name="tabler:shopping-bag"
@@ -93,9 +111,11 @@ const features = [
         class="h-full rounded-lg object-cover shadow-md shadow-black col-start-2 aspect-video row-span-2 w-full col-span-1"
       />
     </div>
+    -->
   </div>
-
-  <!-- Right Side -->
+  <div class="hidden w-full lg:block mt-16">
+    <CategoryListSection />
+  </div>
 </section>
 <style>
   ul::before {
@@ -105,6 +125,14 @@ const features = [
     left: 0;
     width: 1px;
     height: 100%;
+    z-index: 20;
     background: linear-gradient(#fc28a8, rgba(15, 106, 72, 0));
+  }
+
+  .image-mask {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    background-image: linear-gradient(to bottom, #ffffff00 80%, #0e031a 95%);
   }
 </style>
