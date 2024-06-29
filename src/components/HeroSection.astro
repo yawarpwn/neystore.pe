@@ -1,0 +1,110 @@
+---
+import { Icon } from 'astro-icon/components'
+const features = [
+  {
+    icon: 'tabler:sparkles',
+    description: 'Dedicacion en ofrecerte productos de calidad',
+  },
+
+  {
+    icon: 'tabler:timeline',
+    description: 'Nuestra experiencia a su servicio',
+  },
+
+  {
+    icon: 'tabler:truck',
+    description: 'Somos importadores y distribuidores',
+  },
+  {
+    icon: 'tabler:check',
+    description: 'Calidad y seguridad para distinguirnos',
+  },
+]
+---
+
+<section class="lg:h-[calc(100svh-4rem)] lg:flex lg:items-center">
+  <!-- Left Side -->
+  <div class="grid grid-cols-1 gap-8 lg:grid-cols-[517px_580px] items-center justify-between container">
+    <div class="mt-10 lg:mt-0">
+      <h1 class="text-3xl text-center lg:text-left lg:text-4xl text-balance font-bold">
+        Somos E-Commerce de productos
+        <span class="text-primary"> Tecnológicos y Juguetes </span>
+        didácticos
+        <!-- <span class="text-primary">la Tecnologia</span> -->
+      </h1>
+      <ul class="relative pl-6 lg:pl-10 mt-16">
+        {
+          features.map((feature) => (
+            <li>
+              <div class="flex items-center gap-4 mb-6">
+                <Icon
+                  name={feature.icon}
+                  class="text-primary size-8"
+                />
+                <p>{feature.description}</p>
+              </div>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="rounded-l col-span-1 col-start-1 row-start-2">
+        <div class="h-full rounded-lg">
+          <div class="flex h-full flex-col justify-evenly gap-y-2 rounded-lg bg-black/45 py-2">
+            <div class="space-y-1.5 px-6">
+              <div>
+                <p class="text-gradient text-sm font-medium first-letter:uppercase"> Experiencia </p>
+                <p class="text-2xl font-medium">4 años sin parar</p>
+              </div>
+              <div class="flex gap-x-2 items-center">
+                <Icon
+                  name="tabler:graph"
+                  size={24}
+                />
+                <p class="flex gap-2 text-xs font-medium"> Desde el 2020 </p>
+              </div>
+            </div>
+            <div class="bg-neutral-800 h-px w-full"> </div>
+            <div class="flex items-center justify-between px-6 max-sm:py-2">
+              <div class="space-y-0.5">
+                <p class="text-gradient whitespace-nowrap text-xs font-semibold first-letter:uppercase">
+                  Ventas Totales
+                </p>
+                <p class="text-2xl text-white"><!-- -->2840</p>
+              </div>
+              <Icon
+                name="tabler:shopping-bag"
+                class="opacity-10"
+                size={30}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/images/shop-cart.avif"
+        alt="finance"
+        class="h-52 w-full rounded-lg object-cover max-sm:aspect-video sm:col-span-1 sm:col-start-1 sm:row-start-1"
+      />
+      <img
+        src="/assets/images/web-shop.avif"
+        alt="finance"
+        class="h-full rounded-lg object-cover shadow-md shadow-black col-start-2 aspect-video row-span-2 w-full col-span-1"
+      />
+    </div>
+  </div>
+
+  <!-- Right Side -->
+</section>
+<style>
+  ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(#fc28a8, rgba(15, 106, 72, 0));
+  }
+</style>

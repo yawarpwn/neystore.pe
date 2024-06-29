@@ -1,7 +1,22 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '0.75rem',
+      },
+      'max-width': {
+        DEFAULT: '100%',
+        sm: '640px',
+        md: '500px',
+        lg: '800px',
+        xl: '800px',
+      },
+    },
     extend: {
       colors: {
         background: 'oklch(var(--background) / <alpha-value>)',
@@ -26,6 +41,10 @@ export default {
       },
       backgroundImage: {
         pepe: 'linear-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+
+      fontFamily: {
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
     },
   },

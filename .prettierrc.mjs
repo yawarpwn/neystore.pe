@@ -4,7 +4,7 @@ export default {
   plugins: ['prettier-plugin-astro'],
   singleQuote: true,
   semi: false,
-  jsxSingleQuote: true,
+  jsxSingleQuote: false,
   htmlWhitespaceSensitivity: 'strict',
   singleAttributePerLine: true,
   overrides: [

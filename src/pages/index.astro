@@ -5,14 +5,16 @@ import Subscribe from '@/components/Subscribe.astro'
 import Categories from '@/components/Categories.astro'
 import WhyChooseUs from '@/components/WhyChooseUs.astro'
 import OursSection from '@/components/OursSection.astro'
+import HeroSection from '@/components/HeroSection.astro'
 ---
 
 <Layout>
-  <main class='mx-auto flex flex-col gap-12'>
-    <OursSection />
+  <HeroSection />
+
+  <div class="flex flex-col gap-16">
     <Categories />
     <WhyChooseUs />
     <CustomersOpinion />
     <Subscribe />
-  </main>
+  </div>
 </Layout>

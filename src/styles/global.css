@@ -5,18 +5,18 @@
 @layer base {
   :root {
     color-scheme: dark;
-    --primary: 66.47% 0.258 350.49; /*#fc28a8 */
-    --secondary: 91.66% 0.172 105.01; /* #f5e949 */
-    --foreground: 90% 0 0; /* #0c0a20 */
-    --background: 19.98% 0.013 264.22; /* #7984d1 */
-    --black: 30.32% 0.013 229.4; /* #283034 */
-    --red: 64.56% 0.26 2.15; /* #ff0081 */
-    --green: 82.28% 0.201 125.2; /* #a7da1e */
-    --yellow: 82.07% 0.15 79.92; /* #f7b83d */
-    --blue: 70.33% 0.163 243.23; /* #1ea8fc */
-    --magenta: 67.65% 0.198 297.96; /* #A875FF */
-    --cyan: 87.22% 0.146 200.8; /* #16f1fc */
-    --white: 98.58% 0.006709567408869343 277.165672533334; /* #f9faff */
+    --primary: 66.47% 0.258 350.49;
+    --secondary: 91.66% 0.172 105.01;
+    --foreground: 90% 0 0;
+    --background: 14% 0.013 301; /*#100122*/
+    --black: 30.32% 0.013 229.4;
+    --red: 64.56% 0.26 2.15;
+    --green: 82.28% 0.201 125.2;
+    --yellow: 82.07% 0.15 79.92;
+    --blue: 70.33% 0.163 243.23;
+    --magenta: 67.65% 0.198 297.96;
+    --cyan: 87.22% 0.146 200.8;
+    --white: 98.58% 0.006709567408869343 277.165672533334;
 
     --primary-foreground: 100% 0 0;
     --secondary-foreground: 100% 0 0;
@@ -29,7 +29,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground h-screen;
+    @apply bg-background text-foreground min-w-[100svw] min-h-[100svh] leading-7;
   }
 }
 

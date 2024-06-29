@@ -29,21 +29,25 @@ const pages = [
     active: pathname === '/contacto',
   },
 ]
+
+// <!--
+// class='sticky z-50 top-0 left-0 h-[64px] bg-background/50 backdrop-blur-md saturate-150'
+// -->
 ---
 
 <header
-  id='main-header'
-  class='sticky z-50 top-0 left-0 h-[64px] bg-background/50 backdrop-blur-md saturate-150'
-  data-state='closed'>
-  <div class='main-navigation container flex items-center mx-auto justify-between px-4 h-full'>
+  id="main-header"
+  data-state="closed"
+  class="h-16 flex items-center">
+  <div class="flex items-center justify-between container">
     <a
-      href='/'
+      href="/"
       data-astro-reload>
       <Logo />
     </a>
 
     <!-- Desktop Nav -->
-    <nav class='hidden md:flex gap-4 items-center'>
+    <nav class="hidden lg:flex gap-4 items-center">
       {
         pages.map((page) => (
           <a
@@ -53,19 +57,19 @@ const pages = [
               'flex justify-center items-center  hover:text-primary ',
               page.active && 'text-primary font-bold',
             )}>
-            <span class=''>{page.title}</span>
+            <span class="">{page.title}</span>
           </a>
         ))
       }
     </nav>
-    <div class='hidden md:flex justify-center items-center'>
+    <div class="hidden lg:flex justify-center items-center">
       {
         socialLinks.map(([name, link]) => (
           <a
-            class='hover:text-primary'
+            class="hover:text-primary"
             href={link}
-            rel='noopener noreferrer'
-            target='_blank'>
+            rel="noopener noreferrer"
+            target="_blank">
             <Icon
               name={`tabler:brand-${name}`}
               size={30}
@@ -75,14 +79,14 @@ const pages = [
       }
     </div>
     <aside
-      id='mobile-menu'
+      id="mobile-menu"
       class={`fixed z-50 left-0 top-[calc(4rem+1px)] bg-background 
-w-screen h-[calc(100svh-4rem)] justify-center flex
-          transition duration-300 -translate-x-full invisible
-md:hidden
-        `}>
+        w-screen h-[calc(100svh-4rem)] justify-center flex
+        transition duration-300 -translate-x-full invisible
+        lg:hidden
+      `}>
       <!-- Mobile Nav -->
-      <nav class='flex flex-col w-full px-10 pt-4'>
+      <nav class="flex flex-col w-full px-10 pt-4">
         {
           pages.map((item) => (
             <a
@@ -92,31 +96,31 @@ md:hidden
                 'flex justify-center flex-col items-center h-16 w-full hover:text-primary border-b border-b-foreground/20',
                 item.active && 'text-primary font-bold',
               )}>
-              <span class=''>{item.title}</span>
+              <span class="">{item.title}</span>
             </a>
           ))
         }
 
-        <div class='border-b h-16 flex items-center justify-center border-b-foreground/20'>
+        <div class="border-b h-16 flex items-center justify-center border-b-foreground/20">
           <a
             href={`tel:+51${site.phone}`}
-            class='flex items-center'>
+            class="flex items-center">
             <Icon
-              class='mr-2'
-              name='tabler:phone'
+              class="mr-2"
+              name="tabler:phone"
             />
             {site.phone}
           </a>
         </div>
-        <div class='flex justify-center'>
-          <div class='flex items-center mt-4'>
+        <div class="flex justify-center">
+          <div class="flex items-center mt-4">
             {
               socialLinks.map(([name, link]) => (
                 <a
-                  class='hover:text-primary'
+                  class="hover:text-primary"
                   href={link}
-                  rel='noopener noreferrer'
-                  target='_blank'>
+                  rel="noopener noreferrer"
+                  target="_blank">
                   <Icon
                     name={`tabler:brand-${name}`}
                     size={35}
@@ -128,23 +132,22 @@ md:hidden
         </div>
       </nav>
     </aside>
-    <div class='md:hidden'>
+    <div class="lg:hidden">
       <button
-        id='burger-button'
-        class='transition'
-        aria-label='menu mobile'>
+        id="burger-button"
+        class="transition"
+        aria-label="menu mobile">
         <Icon
-          name='tabler:menu'
+          name="tabler:menu"
           size={30}
         />
         <Icon
-          name='tabler:x'
+          name="tabler:x"
           size={35}
         />
       </button>
     </div>
   </div>
-  <Separator class='h-[1px]' />
 </header>
 
 <script>
