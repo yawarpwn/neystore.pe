@@ -2,78 +2,112 @@
 import { Icon } from 'astro-icon/components'
 ---
 
-<section class='container mx-auto px-4'>
+<section class="container mx-auto px-4">
   <div
-    class='relative bg-gradient-to-b md:bg-gradient-to-r from-magenta to-primary rounded-md text-white flex flex-col items-center gap-y-20 sm:gap-y-24 md:gap-y-28 xl:flex-row xl:items-start xl:gap-x-36 xl:gap-y-0 max-sm:pb-[22rem] max-md:pb-[26rem] max-lg:pb-[27rem] max-xl:pb-[29rem] md:pt-8'>
-    <div class='mt-14 sm:mt-16 md:mt-20 xl:mt-16 xl:pl-16'>
-      <div class='flex flex-col items-center gap-y-8 px-4 text-center sm:px-0 xl:items-start xl:text-start'>
+    class="relative bg-gradient-to-b md:bg-gradient-to-r from-magenta to-primary rounded-md text-white flex flex-col items-center gap-y-20 sm:gap-y-24 md:gap-y-28 xl:flex-row xl:items-start xl:gap-x-36 xl:gap-y-0 max-sm:pb-[22rem] max-md:pb-[26rem] max-lg:pb-[27rem] max-xl:pb-[29rem] md:pt-8">
+    <div class="mt-14 sm:mt-16 md:mt-20 xl:mt-16 xl:pl-16">
+      <div class="flex flex-col items-center gap-y-8 px-4 text-center sm:px-0 xl:items-start xl:text-start">
         <p
-          class='text-2xl font-extrabold sm:max-w-md sm:text-3xl sm:font-normal md:max-w-lg md:text-4xl/tight xl:max-w-md'>
+          class="text-2xl font-extrabold sm:max-w-md sm:text-3xl sm:font-normal md:max-w-lg md:text-4xl/tight xl:max-w-md">
           ¿Por qué confiar en Nosotros?
         </p>
-        <p class='text-sm sm:max-w-sm sm:text-base md:max-w-lg'>
+        <p class="mb-4">
           Contamos con una sólida reputación respaldada por años de experiencia, siempre buscando superar tus
           expectativas y enriquecer tu experiencia con nuestra marca.
         </p>
       </div>
-      <div
-        class='absolute bottom-0 left-1/2 h-[20rem] w-full -translate-x-1/2 sm:h-[19rem] md:h-[20rem] lg:h-[23rem] xl:left-auto xl:h-[24rem] xl:w-[32rem] xl:translate-x-0'>
+
+      <div class="grid grid-cols-2 gap-4">
+        <div class="rounded-l col-span-1 col-start-1 row-start-2">
+          <div class="h-full rounded-lg">
+            <div class="flex h-full flex-col justify-evenly gap-y-2 rounded-lg bg-black/45 py-2">
+              <div class="space-y-1.5 px-6">
+                <div>
+                  <p class="text-gradient text-sm font-medium first-letter:uppercase"> Experiencia </p>
+                  <p class="text-2xl font-medium">4 años sin parar</p>
+                </div>
+                <div class="flex gap-x-2 items-center">
+                  <Icon
+                    name="tabler:graph"
+                    size={24}
+                  />
+                  <p class="flex gap-2 text-xs font-medium"> Desde el 2020 </p>
+                </div>
+              </div>
+              <div class="bg-neutral-800 h-px w-full"> </div>
+              <div class="flex items-center justify-between px-6 max-sm:py-2">
+                <div class="space-y-0.5">
+                  <p class="text-gradient whitespace-nowrap text-xs font-semibold first-letter:uppercase">
+                    Ventas Totales
+                  </p>
+                  <p class="text-2xl text-white">2840</p>
+                </div>
+                <Icon
+                  name="tabler:shopping-bag"
+                  class="opacity-10"
+                  size={30}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
         <img
-          src='/assets/images/mockup.avif'
-          alt='maqueta de la aplicación'
-          class='object-contain h-full w-full'
-          width='2657'
-          height='2340'
-          loading='lazy'
-          decoding='async'
+          src="/assets/images/shop-cart.avif"
+          alt="finance"
+          class="h-52 w-full rounded-lg object-cover max-sm:aspect-video sm:col-span-1 sm:col-start-1 sm:row-start-1"
+        />
+        <img
+          src="/assets/images/web-shop.avif"
+          alt="finance"
+          class="h-full rounded-lg object-cover shadow-md shadow-black col-start-2 aspect-video row-span-2 w-full col-span-1"
         />
       </div>
     </div>
-    <div class='grid grid-cols-1 gap-10 sm:grid-cols-2 lg:gap-12 xl:gap-8 xl:pb-16 xl:pr-10'>
+    <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:gap-12 xl:gap-8 xl:pb-16 xl:pr-10">
       <div
-        class='flex h-72 w-64 flex-col items-center gap-y-8 overflow-hidden rounded-lg border border-white border-opacity-80 px-3 py-10'>
-        <div class='flex flex-col items-center gap-y-3'>
+        class="flex flex-col items-center gap-y-8 overflow-hidden rounded-lg border border-white border-opacity-80 px-3 py-10">
+        <div class="flex flex-col items-center gap-y-3">
           <Icon
-            name='tabler:brand-whatsapp'
+            name="tabler:brand-whatsapp"
             size={30}
           />
-          <p class='text-gradient font-medium uppercase md:text-lg'>Atención</p>
+          <p class="text-gradient font-medium uppercase md:text-lg">Atención</p>
         </div>
-        <p class='text-center text-sm'> Te ofrecemos atención personalizada las 24/7 </p>
+        <p class="text-center text-sm"> Te ofrecemos atención personalizada las 24/7 </p>
       </div>
       <div
-        class='flex h-72 w-64 flex-col items-center gap-y-8 overflow-hidden rounded-lg border border-white border-opacity-80 px-3 py-10 sm:mt-14'>
-        <div class='flex flex-col items-center gap-y-3'>
+        class="flex flex-col items-center gap-y-8 overflow-hidden rounded-lg border border-white border-opacity-80 px-3 py-10 sm:mt-14">
+        <div class="flex flex-col items-center gap-y-3">
           <Icon
-            name='tabler:motorbike'
+            name="tabler:motorbike"
             size={30}
           />
-          <p class='text-gradient font-medium uppercase md:text-lg'>Delivery</p>
+          <p class="text-gradient font-medium uppercase md:text-lg">Delivery</p>
         </div>
-        <p class='text-center text-sm'> Enviamos tus compras a la puerta de tu casa. </p>
+        <p class="text-center text-sm"> Enviamos tus compras a la puerta de tu casa. </p>
       </div>
       <div
-        class='flex h-72 w-64 flex-col items-center gap-y-8 overflow-hidden rounded-lg border border-white border-opacity-80 px-3 py-10 sm:-mt-14'>
-        <div class='flex flex-col items-center gap-y-3'>
+        class="flex flex-col items-center gap-y-8 overflow-hidden rounded-lg border border-white border-opacity-80 px-3 py-10 sm:-mt-14">
+        <div class="flex flex-col items-center gap-y-3">
           <Icon
-            name='tabler:clock'
+            name="tabler:clock"
             size={30}
           />
-          <p class='text-gradient font-medium uppercase md:text-lg'> Compra Online </p>
+          <p class="text-gradient font-medium uppercase md:text-lg"> Compra Online </p>
         </div>
-        <p class='text-center text-sm'> Ahorra tiempo y dinero comprando en línea. </p>
+        <p class="text-center text-sm"> Ahorra tiempo y dinero comprando en línea. </p>
       </div>
       <div
-        class='flex h-72 w-64 flex-col items-center gap-y-8 overflow-hidden rounded-lg border border-white border-opacity-80 px-3 py-10'>
-        <div class='flex flex-col items-center gap-y-3'>
+        class="flex flex-col items-center gap-y-8 overflow-hidden rounded-lg border border-white border-opacity-80 px-3 py-10">
+        <div class="flex flex-col items-center gap-y-3">
           <Icon
-            name='tabler:wallet'
+            name="tabler:wallet"
             size={30}
-            class=''
+            class=""
           />
-          <p class='text-gradient font-medium uppercase md:text-lg'> Pago Fácil </p>
+          <p class="text-gradient font-medium uppercase md:text-lg"> Pago Fácil </p>
         </div>
-        <p class='text-center text-sm'> Aceptamos pagos con Yape, Plin, transferencia, efectivo, etc. </p>
+        <p class="text-center text-sm"> Aceptamos pagos con Yape, Plin, transferencia, efectivo, etc. </p>
       </div>
     </div>
   </div>
