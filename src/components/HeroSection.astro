@@ -23,10 +23,10 @@ const features = [
 ]
 ---
 
-<section class="lg:py-28 lg:flex lg:flex-col lg:justify-center lg:items-center">
+<section>
   <!-- Left Side -->
-  <div class="grid grid-cols-1 gap-8 lg:grid-cols-[517px_580px] items-center justify-between container">
-    <div class="mt-10 lg:mt-0">
+  <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 items-center justify-between">
+    <div class="">
       <h1 class="text-3xl text-center lg:text-left lg:text-4xl/snug xl:text-5xl/snug text-balance font-bold">
         Somos E-Commerce de productos
         <span class="text-primary">Tecnológicos </span> y
@@ -52,7 +52,6 @@ const features = [
     </div>
     <div>
       <figure class="w-full h-[350px] lg:h-[500px] relative">
-        <div class="image-mask"> </div>
         <img
           src="/assets/images/mockup.avif"
           alt="maqueta de la aplicación"
@@ -126,13 +125,13 @@ const features = [
     width: 1px;
     height: 100%;
     z-index: 20;
-    background: linear-gradient(#fc28a8, rgba(15, 106, 72, 0));
+    background: linear-gradient(#fc28a8, rgba(255, 255, 255, 0));
   }
 
   .image-mask {
-    position: absolute;
-    inset: 0;
-    z-index: 10;
-    background-image: linear-gradient(to bottom, #ffffff00 80%, #0e031a 95%);
+    /* position: absolute; */
+    /* inset: 0; */
+    /* z-index: 10; */
+    /* background-image: linear-gradient(to bottom, #ffffff00 80%, oklch(100% 0% 0) 95%); */
   }
 </style>

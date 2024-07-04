@@ -58,15 +58,15 @@ const categories = [
             style={`--color1:${category.color1};--color2:${category.color2}`}>
             <a
               href={category.href}
-              class="flex items-center justify-between gap-4 px-6 py-3 w-full h-full">
+              class="flex items-center justify-between gap-4 px-6 py-3 w-full h-full text-background">
               <div class="icon-container">
                 <Icon
                   name={category.icon}
                   size={36}
                 />
               </div>
-              <p class="flex flex-col gap-1 w-full  ">
-                <span class="uppercase text-[#87909d] font-bold text-sm">{category.category}</span>
+              <p class="flex flex-col gap-1 w-full ">
+                <span class="uppercase text-background/60  font-bold text-sm">{category.category}</span>
                 <span>{category.title} </span>
               </p>
               <Icon name="tabler:chevron-right" />
@@ -107,7 +107,7 @@ const categories = [
     }
 
     &::before {
-      background-color: #1e2229;
+      background-color: #960b86;
     }
 
     &::after {

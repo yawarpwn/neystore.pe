@@ -35,18 +35,18 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
   description={title}
   image={images[0].url}
   url={productUrl}>
-  <div class="container">
-    <div class="lg:hidden">
-      <a
-        href="/productos"
-        class="inline-flex items-center gap-3 hover:cursor-pointer mt-4">
-        <Icon name="tabler:arrow-narrow-left" />
-        <span class="text-sm"> Volver </span>
-      </a>
-    </div>
-    <section class="grid md:grid-cols-2 gap-4 md:gap-8">
-      <div class="relative">
-        <div class="sticky top-[calc(4rem+1px)] md:h-[calc(100svh-4.6rem)]">
+  <div class="md:hidden">
+    <a
+      href="/productos"
+      class="inline-flex items-center gap-3 hover:cursor-pointer mt-4">
+      <Icon name="tabler:arrow-narrow-left" />
+      <span class="text-sm"> Volver </span>
+    </a>
+  </div>
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+    <article class="relative">
+      <div class="md:sticky md:h-[calc(100svh)] top-16 left-0">
+        <div class="flex items-center justify-center">
           <ProductViewer
             {video}
             {id}
@@ -55,71 +55,88 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
           />
         </div>
       </div>
-      <article class="flex flex-col gap-6 md:mt-4">
-        <!-- Title -->
-        <div class="my-4">
-          <h1
-            class="text-2xl lg:text-3xl font-semibold"
-            transition:name={`product-title-${id}`}>
-            {product.title}
-          </h1>
-        </div>
+    </article>
+    <section class="flex flex-col gap-6 overflow-x-hidden">
+      <!-- Title -->
+      <div class="my-4">
+        <h1
+          class="text-2xl/snug md:text-3xl/snug font-semibold"
+          transition:name={`product-title-${id}`}>
+          {product.title}
+        </h1>
+      </div>
 
-        <!-- Price & Ranking -->
-        <div>
-          <ProductRanking
-            {id}
-            size="lg"
-            ranking={product.ranking}
+      <!-- Price & Ranking -->
+      <div>
+        <ProductRanking
+          {id}
+          size="lg"
+          ranking={product.ranking}
+        />
+        <ProductPrice
+          {id}
+          size="lg"
+          price={product.price}
+        />
+      </div>
+
+      <!-- Whatsapp Button -->
+      <div>
+        <a
+          href={`https://wa.me/51${site.phone}?text=Hola,%20estoy%20interesado%20en%20el%20producto%20${title}, este es su enlace ${productUrl}`}
+          rel="noopener noreferrer"
+          target="_blank"
+          class={cn(buttonVariants({ variant: 'outline', size: 'lg' }), `w-full md:max-w-md`)}>
+          <span>Comprar</span>
+          <Icon
+            class="ml-2"
+            name="tabler:brand-whatsapp"
+            size={24}
           />
-          <ProductPrice
-            {id}
-            size="lg"
-            price={product.price}
-          />
-        </div>
+        </a>
+      </div>
 
-        <!-- Whatsapp Button -->
-        <div>
-          <a
-            href={`https://wa.me/51${site.phone}?text=Hola,%20estoy%20interesado%20en%20el%20producto%20${title}, este es su enlace ${productUrl}`}
-            rel="noopener noreferrer"
-            target="_blank"
-            class={cn(buttonVariants({ variant: 'outline', size: 'lg' }), `w-full md:max-w-md`)}>
-            <span>Comprar</span>
-            <Icon
-              class="ml-2"
-              name="tabler:brand-whatsapp"
-              size={24}
-            />
-          </a>
-        </div>
+      <!-- Details -->
+      <div>
+        <h2 class="text-2xl font-bold text-yellow mb-4">Detalles</h2>
+        <table class="w-full">
+          <tbody>
+            {
+              details &&
+                Object.entries(details).map(([key, value]) => (
+                  <tr class="border-b">
+                    <td class="p-2.5">{key}</td>
+                    <td class="p-2.5">{value}</td>
+                  </tr>
+                ))
+            }
+          </tbody>
+        </table>
+      </div>
 
-        <!-- Details -->
-        <div>
-          <table class="w-full">
-            <tbody>
-              {
-                details &&
-                  Object.entries(details).map(([key, value]) => (
-                    <tr class="border-b">
-                      <td class="p-2.5">{key}</td>
-                      <td class="p-2.5">{value}</td>
-                    </tr>
-                  ))
-              }
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Features -->
-        <div>
-          <h2 class="text-2xl text-yellow font-medium my-4"> Sobre el Producto </h2>
-          <ul class="flex flex-col gap-4">
-            {features && features.length > 0 && features.map((feature) => <li class="list-disc ml-4">{feature}</li>)}
-          </ul>
-        </div>
+      <!-- Features -->
+      {
+        features && (
+          <div>
+            <h2 class="text-2xl text-yellow font-bold mb-4"> Sobre el Producto </h2>
+            <ul class="flex flex-col gap-4">
+              {features.length > 0 && features.map((feature) => <li class="list-disc ml-4">{feature}</li>)}
+            </ul>
+          </div>
+        )
+      }
+      <article>
+        <h3 class="text-2xl font-bold mb-4">Tiempo de entrega</h3>
+        <p>Delivery en Lima y envíos por agencia sugeridad a nivel nacional</p>
+        <ul class="list-disc ml-4">
+          <li> 1 día hábil</li>
+          <li>Si deseas Delivery en el mismo día consultar</li>
+        </ul>
+      </article>
+      <article>
+        <h3 class="text-2xl font-bold mb-4">Horario de Atencion</h3>
+        <p>De Lunes a Sábado de 10:00AM - 07:00PM</p>
       </article>
     </section>
-  </div>
+  </section>
 </Layout>
