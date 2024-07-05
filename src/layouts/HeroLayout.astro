@@ -14,7 +14,9 @@ import Container from '@/components/Container.astro'
     <div class="page">
       <Header />
       <Container>
-        <slot />
+        <div class="flex flex-col gap-16">
+          <slot />
+        </div>
       </Container>
       <WhatsappPopup />
       <Footer />

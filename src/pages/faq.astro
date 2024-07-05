@@ -1,0 +1,140 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import Container from '@/components/Container.astro'
+import site from '@/constants/site'
+---
+
+<Layout>
+  <Container>
+    <div>
+      <h1 class="text-center">Preguntas Frecuentes</h1>
+      <p class="text-center text-lg"> Principales preguntas que hacen nuestros usuarios </p>
+      <div>
+        <h2>Información Sobre Envíos</h2>
+      </div>
+      <h3> ¿Qué métodos de envío están disponibles? </h3>
+      <p>
+        Los productos adquiridos a través de la página web se sujetarán a las condiciones de despacho y entrega elegidas
+        por el cliente y disponibles en el Sitio. La información del lugar de envío es de exclusiva responsabilidad del
+        cliente.
+      </p>
+
+      <h3> Información Sobre Envíos </h3>
+      <p>
+        Los plazos elegidos para el despacho y entrega se cuentan desde que se valida el pedido de compra y el medio de
+        pago utilizado, considerándose única y exclusivamente los días hábiles para el cumplimiento de dicho plazo.
+      </p>
+
+      <h3> ¿Qué métodos de envío están disponibles? </h3>
+
+      <p>
+        Realizamos Envíos a través de una Agencia de Transporte a nivel del Perú Los tiempos de envío pueden durar entre
+        48 horas a 36 horas dependiendo del lugar seleccionado.
+      </p>
+      <p
+        >Para Envíos "Delivery" a Lima metropolitana, sería en el mismo día, previa coordinación con nuestros Asesores
+        Comerciales</p
+      >
+      <h3>¿Ofrecen envíos Internacionales?</h3>
+      <p> Por el momento, no estamos realizando envíos a nivel internacional. </p>
+
+      <h3> ¿Qué pasa si tengo un Problema con el Envío? </h3>
+      <p>
+        Si tienes algún problema con tu pedido, como productos dañados, envío incorrecto o retrasos en la entrega,
+        contáctanos de inmediato. Nuestro equipo de atención al cliente estará encantado de ayudarte a resolver
+        cualquier problema.
+      </p>
+
+      <h2> Métodos de Pago </h2>
+      <h3> ¿Qué Método de Pago Aceptan? </h3>
+      <p>
+        Aceptamos varios métodos de pago, incluyendo tarjetas de crédito/débito, transferencias bancarias, Yape, Plin y
+        otros métodos de pago en línea seguros.
+      </p>
+      <p> Puedes elegir la opción que más te convenga al realizar tu compra. </p>
+
+      <h3> ¿Es Seguro Comprar en Línea? </h3>
+      <p>
+        Hacer tus compras en www.neystore.pe es 100% Seguro, contamos con la Certificación SSL con una encriptación de
+        256Bits. Lo que nos califica como un sitio Web Seguro, además estamos afiliados a Norton Security, lo que nos
+        otorga como una web Segura, esto quiere decir que sus datos están totalmente asegurados y protegidos
+      </p>
+
+      <h2> Órdenes & Retornos </h2>
+      <h3> ¿Cómo hago un Pedido? </h3>
+      <p>
+        Hacer un pedido en nuestro sitio es fácil. Simplemente navega por nuestra tienda en línea, selecciona los
+        productos que deseas comprar y agrégalos al carrito de compras. Luego, sigue las instrucciones para completar el
+        proceso de pago.
+      </p>
+      <h3> ¿Cómo puedo cambiar mi Pedido? </h3>
+      <p>
+        En caso de Error en el Pedido, puede tener la opción a cambio, previa autorización con nuestros Asesores
+        Comerciales y su persona, para Generar una nota de Crédito acorde a ley, y hacerle el cambio de pedido
+        respectivo.
+      </p>
+      <h3> ¿Cómo puedo devolver un Producto? </h3>
+      <p>
+        En caso de Error en la Compra, se aplica nuestra política de Devolución, siempre y cuando el empaque enviado no
+        esté abierto o dañado, y el plazo de cambio es dentro de los 7 primeros días calendario acorde a ley.
+      </p>
+
+      <h2>¿Dónde puedo obtener ayuda adicional?</h2>
+
+      <p>
+        Si tienes preguntas adicionales o necesitas asistencia, no dudes en ponerte en contacto con nuestro equipo de
+        soporte al cliente. Estamos aquí para ayudarte con cualquier inquietud que puedas tener.
+      </p>
+      <p>
+        Esperamos que estas respuestas hayan resuelto tus preguntas sobre nuestro sitio de comercio electrónico. Si
+        tienes alguna pregunta adicional, no dudes en contactarnos. ¡Estamos aquí para servirte!
+      </p>
+      <p>
+        <a
+          href={`https://wa.me/51${site.phone}?text=Hola, tengo una pregunta sobre Neystore :`}
+          class="text-blue">
+          Puedes Comunicarte con Nuestros Asesores Comerciales Aquí
+        </a>
+      </p>
+    </div>
+  </Container>
+</Layout>
+<style>
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 + :not(h1, h2, h3, h4, h5, h6) {
+    margin-top: 1.5rem;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+</style>
