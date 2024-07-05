@@ -1,11 +1,12 @@
 ---
 const currentYear = new Date().getFullYear()
+import Container from './Container.astro'
 import site from '@/constants/site'
 ---
 
-<footer class="md:max-w-[1500px] w-full mx-auto mg:min-w-[1000px] my-10">
-  <div class="md:min-w-[996px] px-[18px] flex flex-col gap-8">
-    <article class="grid grid-cols-1 gap-4 md:grid-cols-3">
+<footer>
+  <Container>
+    <article class="grid grid-cols-1 gap-4 md:grid-cols-3 py-8">
       <div>
         <h3 class="text-lg font-bold mb-2">Entrega</h3>
         <p>Delivery en Lima y envíos por agencia sugeridad a nivel nacional</p>
@@ -24,10 +25,10 @@ import site from '@/constants/site'
         <p class="text-center mt-4 text-sm">
           ©{currentYear}&nbsp;{site.name}.
         </p>
-        <p class="text-sm">
-          Todos los derechos reservados. Hecho con mucho <span class="text-red">❤️</span>
+        <p class="text-sm text-center">
+          Todos los derechos reservados. <br class="sm:hidden" /> Hecho con mucho <span class="text-red">❤️</span>
         </p>
       </div>
     </aricle>
-  </div>
+  </Container>
 </footer>

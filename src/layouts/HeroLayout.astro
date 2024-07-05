@@ -4,6 +4,7 @@ import Head from '@/components/Head.astro'
 import Footer from '@/components/Footer.astro'
 import Header from '@/components/Header.astro'
 import WhatsappPopup from '@/components/WhatsappPopup.astro'
+import Container from '@/components/Container.astro'
 ---
 
 <!doctype html>
@@ -12,9 +13,9 @@ import WhatsappPopup from '@/components/WhatsappPopup.astro'
   <body>
     <div class="page">
       <Header />
-      <main class="md:min-w-[1000px] md:max-w-[1500px] mx-auto flex flex-col gap-16">
+      <Container>
         <slot />
-      </main>
+      </Container>
       <WhatsappPopup />
       <Footer />
     </div>
