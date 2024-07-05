@@ -45,8 +45,8 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
   </div>
   <section class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
     <article class="relative">
-      <div class="md:sticky md:h-[calc(100svh)] top-16 left-0">
-        <div class="flex items-center justify-center">
+      <div class="md:sticky md:h-svh top-16 left-0">
+        <div class="flex items-center md:h-[calc(100%-4rem)]">
           <ProductViewer
             {video}
             {id}
@@ -67,7 +67,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
       </div>
 
       <!-- Price & Ranking -->
-      <div>
+      <div class="flex flex-col gap-4">
         <ProductRanking
           {id}
           size="lg"
@@ -86,8 +86,8 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
           href={`https://wa.me/51${site.phone}?text=Hola,%20estoy%20interesado%20en%20el%20producto%20${title}, este es su enlace ${productUrl}`}
           rel="noopener noreferrer"
           target="_blank"
-          class={cn(buttonVariants({ variant: 'outline', size: 'lg' }), `w-full md:max-w-md`)}>
-          <span>Comprar</span>
+          class={cn(buttonVariants({ size: 'lg' }), `w-full `)}>
+          <span>Pedidos y Cotizaciones</span>
           <Icon
             class="ml-2"
             name="tabler:brand-whatsapp"
@@ -98,13 +98,13 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 
       <!-- Details -->
       <div>
-        <h2 class="text-2xl font-bold text-yellow mb-4">Detalles</h2>
+        <h2 class="text-2xl font-bold mb-4">Detalles</h2>
         <table class="w-full">
           <tbody>
             {
               details &&
                 Object.entries(details).map(([key, value]) => (
-                  <tr class="border-b">
+                  <tr class="border-b last:border-none">
                     <td class="p-2.5">{key}</td>
                     <td class="p-2.5">{value}</td>
                   </tr>
@@ -118,25 +118,13 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
       {
         features && (
           <div>
-            <h2 class="text-2xl text-yellow font-bold mb-4"> Sobre el Producto </h2>
+            <h2 class="text-2xl font-bold mb-4"> Sobre el Producto </h2>
             <ul class="flex flex-col gap-4">
               {features.length > 0 && features.map((feature) => <li class="list-disc ml-4">{feature}</li>)}
             </ul>
           </div>
         )
       }
-      <article>
-        <h3 class="text-2xl font-bold mb-4">Tiempo de entrega</h3>
-        <p>Delivery en Lima y envíos por agencia sugeridad a nivel nacional</p>
-        <ul class="list-disc ml-4">
-          <li> 1 día hábil</li>
-          <li>Si deseas Delivery en el mismo día consultar</li>
-        </ul>
-      </article>
-      <article>
-        <h3 class="text-2xl font-bold mb-4">Horario de Atencion</h3>
-        <p>De Lunes a Sábado de 10:00AM - 07:00PM</p>
-      </article>
     </section>
   </section>
 </Layout>

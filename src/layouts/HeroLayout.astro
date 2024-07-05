@@ -1,0 +1,22 @@
+---
+import '@/styles/global.css'
+import Head from '@/components/Head.astro'
+import Footer from '@/components/Footer.astro'
+import Header from '@/components/Header.astro'
+import WhatsappPopup from '@/components/WhatsappPopup.astro'
+---
+
+<!doctype html>
+<html lang="es">
+  <Head />
+  <body>
+    <div class="page">
+      <Header />
+      <main class="md:min-w-[1000px] md:max-w-[1500px] mx-auto flex flex-col gap-16">
+        <slot />
+      </main>
+      <WhatsappPopup />
+      <Footer />
+    </div>
+  </body></html
+>

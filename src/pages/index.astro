@@ -5,16 +5,15 @@ import Subscribe from '@/components/Subscribe.astro'
 import WhyChooseUs from '@/components/WhyChooseUs.astro'
 import HeroSection from '@/components/HeroSection.astro'
 import CategoryListSection from '@/components/CategoryListSection.astro'
+import HeroLayout from '@/layouts/HeroLayout.astro'
 ---
 
-<Layout>
-  <main class="flex flex-col gap-16">
-    <HeroSection />
-    <div class="lg:hidden">
-      <CategoryListSection />
-    </div>
-    <WhyChooseUs />
-    <CustomersOpinion />
-    <Subscribe />
-  </main>
-</Layout>
+<HeroLayout>
+  <HeroSection />
+  <div class="lg:hidden">
+    <CategoryListSection />
+  </div>
+  <WhyChooseUs />
+  <CustomersOpinion />
+  <Subscribe />
+</HeroLayout>
