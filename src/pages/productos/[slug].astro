@@ -104,7 +104,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
             {
               details &&
                 Object.entries(details).map(([key, value]) => (
-                  <tr class="border-b last:border-none">
+                  <tr class="border-b border-foreground/20 last:border-none">
                     <td class="p-2.5">{key}</td>
                     <td class="p-2.5">{value}</td>
                   </tr>
@@ -125,6 +125,28 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
           </div>
         )
       }
+
+      <article class="grid grid-cols-2 gap-4">
+        <a
+          href="/politicas-de-devolucion "
+          class="flex gap-2 items-center bg-foreground/5 p-4 rounded-md cursor-pointer hover:[&_span]:text-indigo-500">
+          <Icon
+            size={30}
+            name="tabler:shield-check-filled"
+          />
+          <span class="underline">Políticas de Devolución</span>
+        </a>
+
+        <a
+          href="/preguntas-frecuentes"
+          class="flex gap-2 items-center bg-foreground/5 p-4 rounded-md hover:[&_span]:text-indigo-500 cursor-pointer">
+          <Icon
+            size={30}
+            name="tabler:shield-check-filled"
+          />
+          <span class="underline">Preguntas Frecuentes</span>
+        </a>
+      </article>
     </section>
   </section>
 </Layout>

@@ -1139,6 +1139,17 @@
     "cost": 285,
     "category": "Tecnologia",
     "ranking": 0,
+    "video": {
+      "publid_id": "neystore/hkcd4rgwdffn1yvhpomp",
+      "id": "ba8fbc2b-e88b-4f48-9fba-7dc54ec7d39d",
+      "type": "video",
+      "url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1720227626/neystore/hkcd4rgwdffn1yvhpomp.mp4",
+      "cover": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/gnw11vqzjyvk7mf1bfmf?_a=BAMADKJt0",
+      "title": "Keychron V1 QMK/VIA - Teclado mecánico con cable personalizado, marco programable con diseño del 75% con interruptor marrón K Pro intercambiable en caliente, teclas PBT, teclado retroiluminado RGB para Mac Windows Linux, translúcido",
+      "product_id": "ba8fbc2b-e96b-4f48-9fba-7dc54ec7d39d",
+      "width": 360,
+      "height": 640
+    },
     "images": [
       {
         "id": "24f0efdc-b4a5-4cf2-b08e-974b35457899",
@@ -1245,7 +1256,6 @@
         "thumb": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/cpoi11ozwahmsjilpo7b?_a=BAMADKJt0"
       }
     ],
-    "video": null,
     "features": [
       "Con QMK/VIA del V1, puedes reasignar intuitivamente tus claves favoritas y crear macros con cualquier tecla en cualquier sistema operativo (macOS, Windows o Linux) para un flujo de trabajo fluido. El firmware de código abierto significa infinitas posibilidades para diseños de teclado, accesos directos, efectos de retroiluminación y más.",
       "Con el interruptor mecánico prelubricado proporciona una respuesta táctil inigualable con una vida útil de hasta 50 millones de pulsaciones de tecla. También puede cambiar en caliente el V1 con casi todos los interruptores mecánicos MX de 3 pines y 5 pines en el mercado (incluidos Cherry, Gateron, Kailh, Panda, etc.) sin soldadura requerida.",
@@ -5571,4 +5581,3 @@
     ]
   }
 ]
-
