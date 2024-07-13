@@ -2,11 +2,11 @@
 import { icons } from '@/components/icons'
 
 export interface Props {
-  name: keyof typeof icons
-  label?: string
-  color?: string
-  size?: string
-  class?: string
+	name: keyof typeof icons
+	label?: string
+	color?: string
+	size?: string
+	class?: string
 }
 
 const { name, label, size = '1rem', color } = Astro.props
@@ -14,20 +14,20 @@ const allyAttrs = label ? ({ 'arial-label': label } as const) : ({ 'aria-label':
 ---
 
 <svg
-  {...allyAttrs}
-  class={Astro.props.class}
-  width='16'
-  height='16'
-  viewBox='0 0 24 24'
-  fill='currentColor'
-  set:html={icons[name]}
+	{...allyAttrs}
+	class={Astro.props.class}
+	width="16"
+	height="16"
+	viewBox="0 0 24 24"
+	fill="currentColor"
+	set:html={icons[name]}
 />
 
 <style define:vars={{ 'icon-color': color, 'icon-size': size }}>
-  svg {
-    color: var(--icon-color);
-    font-size: var(--icon-size, 1rem);
-    width: var(--icon-size, 1rem);
-    height: var(--icon-size, 1rem);
-  }
+	svg {
+		color: var(--icon-color);
+		font-size: var(--icon-size, 1rem);
+		width: var(--icon-size, 1rem);
+		height: var(--icon-size, 1rem);
+	}
 </style>

@@ -2,91 +2,91 @@
 import { Icon } from 'astro-icon/components'
 import CategoryListSection from './CategoryListSection.astro'
 const features = [
-  {
-    icon: 'tabler:sparkles',
-    description: 'Dedicacion en ofrecerte productos de calidad',
-  },
+	{
+		icon: 'tabler:sparkles',
+		description: 'Dedicacion en ofrecerte productos de calidad',
+	},
 
-  {
-    icon: 'tabler:timeline',
-    description: 'Nuestra experiencia a su servicio',
-  },
+	{
+		icon: 'tabler:timeline',
+		description: 'Nuestra experiencia a su servicio',
+	},
 
-  {
-    icon: 'tabler:truck',
-    description: 'Somos importadores y distribuidores',
-  },
-  {
-    icon: 'tabler:check',
-    description: 'Calidad y seguridad para distinguirnos',
-  },
+	{
+		icon: 'tabler:truck',
+		description: 'Somos importadores y distribuidores',
+	},
+	{
+		icon: 'tabler:check',
+		description: 'Calidad y seguridad para distinguirnos',
+	},
 ]
 ---
 
 <section class="flex items-center lg:py-28">
-  <div class="flex flex-col gap-8 lg:h-auto h-full">
-    <div class="flex flex-col h-full lg:grid grid-cols-1 gap-8 lg:grid-cols-2 items-center justify-between">
-      <div class="mt-8 lg:mt-0">
-        <h1 class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
-          Somos E-Commerce de productos
-          <span class="text-primary">Tecnológicos </span> y
-          <span class="text-primary">Juguetes</span>
-          didácticos
-          <!-- <span class="text-primary">la Tecnologia</span> -->
-        </h1>
-        <ul class="relative pl-6 lg:pl-10 mt-16">
-          {
-            features.map((feature) => (
-              <li>
-                <div class="flex items-center gap-4 mb-6">
-                  <Icon
-                    name={feature.icon}
-                    class="text-primary size-8"
-                  />
-                  <p>{feature.description}</p>
-                </div>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
-      <div>
-        <figure class="h-[500px] relative">
-          <img
-            src="/assets/images/mockup.avif"
-            alt="maqueta de la aplicación"
-            class="object-contain h-full w-full"
-            width="2657"
-            height="2340"
-            loading="lazy"
-            decoding="async"
-            class="absolute inset-0 w-full h-full object-contain"
-          />
-        </figure>
-      </div>
-    </div>
-    <!-- Left Side -->
-    <div class="hidden w-full lg:block">
-      <CategoryListSection />
-    </div>
-  </div>
+	<div class="flex flex-col gap-8 lg:h-auto h-full">
+		<div class="flex flex-col h-full lg:grid grid-cols-1 gap-8 lg:grid-cols-2 items-center justify-between">
+			<div class="mt-8 lg:mt-0">
+				<h1 class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
+					Somos E-Commerce de productos
+					<span class="text-primary">Tecnológicos </span> y
+					<span class="text-primary">Juguetes</span>
+					didácticos
+					<!-- <span class="text-primary">la Tecnologia</span> -->
+				</h1>
+				<ul class="relative pl-6 lg:pl-10 mt-16">
+					{
+						features.map((feature) => (
+							<li>
+								<div class="flex items-center gap-4 mb-6">
+									<Icon
+										name={feature.icon}
+										class="text-primary size-8"
+									/>
+									<p>{feature.description}</p>
+								</div>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+			<div>
+				<figure class="h-[500px] relative">
+					<img
+						src="/assets/images/mockup.avif"
+						alt="maqueta de la aplicación"
+						class="object-contain h-full w-full"
+						width="2657"
+						height="2340"
+						loading="lazy"
+						decoding="async"
+						class="absolute inset-0 w-full h-full object-contain"
+					/>
+				</figure>
+			</div>
+		</div>
+		<!-- Left Side -->
+		<div class="hidden w-full lg:block">
+			<CategoryListSection />
+		</div>
+	</div>
 </section>
 <style>
-  ul::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1px;
-    height: 100%;
-    z-index: 20;
-    background: linear-gradient(#fc28a8, rgba(255, 255, 255, 0));
-  }
+	ul::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 1px;
+		height: 100%;
+		z-index: 20;
+		background: linear-gradient(#fc28a8, rgba(255, 255, 255, 0));
+	}
 
-  .image-mask {
-    /* position: absolute; */
-    /* inset: 0; */
-    /* z-index: 10; */
-    /* background-image: linear-gradient(to bottom, #ffffff00 80%, oklch(100% 0% 0) 95%); */
-  }
+	.image-mask {
+		/* position: absolute; */
+		/* inset: 0; */
+		/* z-index: 10; */
+		/* background-image: linear-gradient(to bottom, #ffffff00 80%, oklch(100% 0% 0) 95%); */
+	}
 </style>

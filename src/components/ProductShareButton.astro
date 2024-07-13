@@ -6,36 +6,36 @@ const shareUrl = new URL(Astro.url.pathname, Astro.site).toString()
 ---
 
 <Button
-  data-share-url={shareUrl}
-  id='share-product-button'
-  variant='outline'
-  size='icon'
-  class='size-12'>
-  <Icon
-    name='tabler:share'
-    class='size-5'
-  />
+	data-share-url={shareUrl}
+	id="share-product-button"
+	variant="outline"
+	size="icon"
+	class="size-12">
+	<Icon
+		name="tabler:share"
+		class="size-5"
+	/>
 </Button>
 
 <script>
-  function checkShareSupport() {
-    return 'share' in navigator
-  }
+	function checkShareSupport() {
+		return 'share' in navigator
+	}
 
-  const $shareBtn = document.querySelector('#share-product-button')
+	const $shareBtn = document.querySelector('#share-product-button')
 
-  if ($shareBtn instanceof HTMLButtonElement && checkShareSupport()) {
-    $shareBtn.addEventListener('click', async () => {
-      const url = $shareBtn.getAttribute('data-share-url')!
-      try {
-        await navigator.share({
-          title: 'Neystore',
-          text: 'Nuestros productos',
-          url,
-        })
-      } catch (error) {
-        console.log('Error: Unsupported', error)
-      }
-    })
-  }
+	if ($shareBtn instanceof HTMLButtonElement && checkShareSupport()) {
+		$shareBtn.addEventListener('click', async () => {
+			const url = $shareBtn.getAttribute('data-share-url')!
+			try {
+				await navigator.share({
+					title: 'Neystore',
+					text: 'Nuestros productos',
+					url,
+				})
+			} catch (error) {
+				console.log('Error: Unsupported', error)
+			}
+		})
+	}
 </script>

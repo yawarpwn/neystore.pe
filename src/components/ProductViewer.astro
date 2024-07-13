@@ -4,162 +4,162 @@ import ProductShareButton from '@/components/ProductShareButton.astro'
 
 import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
 interface Props {
-  images: { url: string; thumb: string }[]
-  id: string
-  title: string
-  video?: {
-    url: string
-    title: string
-    cover: string
-  } | null
+	images: { url: string; thumb: string }[]
+	id: string
+	title: string
+	video?: {
+		url: string
+		title: string
+		cover: string
+	} | null
 }
 
 const { images, id, title, video } = Astro.props
 ---
 
 <div class="image-view-wrap w-full md:w-full flex flex-col gap-4">
-  {/* Main */}
-  <div
-    id="main-image"
-    class="image-view--previewWrap relative rounded-lg overflow-hidden">
-    <div class="absolute top-1 right-1 z-10">
-      <ProductShareButton />
-    </div>
-    <div class="image-view--previewBox absolute left-0 top-0 w-full h-full">
-      <div class="maginifier--wrap w-full h-full bg-white">
-        <img
-          transition:name={`product-image-${id}`}
-          class="magnifier-image max-w-full max-h-full w-full h-full object-contain"
-          src={images[0].url}
-          alt={title}
-        />
-      </div>
-    </div>
-    <div class="image-view--previewCover pt-[100%]"> </div>
-  </div>
+	{/* Main */}
+	<div
+		id="main-image"
+		class="image-view--previewWrap relative rounded-lg overflow-hidden">
+		<div class="absolute top-1 right-1 z-10">
+			<ProductShareButton />
+		</div>
+		<div class="image-view--previewBox absolute left-0 top-0 w-full h-full">
+			<div class="maginifier--wrap w-full h-full bg-white">
+				<img
+					transition:name={`product-image-${id}`}
+					class="magnifier-image max-w-full max-h-full w-full h-full object-contain"
+					src={images[0].url}
+					alt={title}
+				/>
+			</div>
+		</div>
+		<div class="image-view--previewCover pt-[100%]"> </div>
+	</div>
 
-  {/* Thumbs */}
-  <div class="slider-wrap relative">
-    {/* Container */}
-    <div class="slider--slider overflow-x-auto snap-x snap-mandatory">
-      <ul class="slider--box flex">
-        {
-          images.map((img, index) => {
-            if (index === 3 && video?.url) {
-              return <ProductVideoDialog video={video} />
-            }
+	{/* Thumbs */}
+	<div class="slider-wrap relative">
+		{/* Container */}
+		<div class="slider--slider overflow-x-auto snap-x snap-mandatory">
+			<ul class="slider--box flex">
+				{
+					images.map((img, index) => {
+						if (index === 3 && video?.url) {
+							return <ProductVideoDialog video={video} />
+						}
 
-            return (
-              <li
-                data-thumb-active={index === 0}
-                data-large-url={img.url}
-                class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white 
+						return (
+							<li
+								data-thumb-active={index === 0}
+								data-large-url={img.url}
+								class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white 
                   flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0 cursor-pointer
                   data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
-                <img
-                  class="max-w-full max-h-full"
-                  src={img.thumb}
-                />
-              </li>
-            )
-          })
-        }
-      </ul>
-    </div>
-    <button
-      aria-label="imagen anterior"
-      class={`slider--prev absolute left-0 top-0 w-[36px] h-[64px] 
+								<img
+									class="max-w-full max-h-full"
+									src={img.thumb}
+								/>
+							</li>
+						)
+					})
+				}
+			</ul>
+		</div>
+		<button
+			aria-label="imagen anterior"
+			class={`slider--prev absolute left-0 top-0 w-[36px] h-[64px] 
 cursor-pointer
 hidden items-center justify-start bg-gradient-to-l from-transparent to-[oklch(var(--background))]`}>
-      <span>
-        <Icon
-          name="tabler:chevron-left"
-          class="text-primary"
-        />
-      </span>
-    </button>
-    <button
-      aria-label="imagen siguiente"
-      class={`slider--next absolute right-0 top-0 w-[36px] h-[64px] 
+			<span>
+				<Icon
+					name="tabler:chevron-left"
+					class="text-primary"
+				/>
+			</span>
+		</button>
+		<button
+			aria-label="imagen siguiente"
+			class={`slider--next absolute right-0 top-0 w-[36px] h-[64px] 
 cursor-pointer
 items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--background))] hidden`}>
-      <span>
-        <Icon
-          name="tabler:chevron-right"
-          class="text-primary"
-        />
-      </span>
-    </button>
-  </div>
+			<span>
+				<Icon
+					name="tabler:chevron-right"
+					class="text-primary"
+				/>
+			</span>
+		</button>
+	</div>
 </div>
 <script>
-  document.addEventListener('astro:page-load', () => {
-    const thumbsList = document.querySelectorAll('.slider--img') as NodeListOf<Element>
-    const slider = document.querySelector('.slider--slider') as HTMLDivElement
-    const mainImage = document.querySelector('#main-image img') as HTMLDivElement
-    const nextSlide = document.querySelector('.slider--next') as HTMLButtonElement
-    const prevSlide = document.querySelector('.slider--prev') as HTMLButtonElement
+	document.addEventListener('astro:page-load', () => {
+		const thumbsList = document.querySelectorAll('.slider--img') as NodeListOf<Element>
+		const slider = document.querySelector('.slider--slider') as HTMLDivElement
+		const mainImage = document.querySelector('#main-image img') as HTMLDivElement
+		const nextSlide = document.querySelector('.slider--next') as HTMLButtonElement
+		const prevSlide = document.querySelector('.slider--prev') as HTMLButtonElement
 
-    //check prev and next button visibility
-    function updateButtonsVisibility() {
-      const maxScrollLeft = slider.scrollWidth - slider.clientWidth
-      const showPrevSlide = slider.scrollLeft > 0
-      const showNextSlide = slider.scrollLeft < maxScrollLeft
+		//check prev and next button visibility
+		function updateButtonsVisibility() {
+			const maxScrollLeft = slider.scrollWidth - slider.clientWidth
+			const showPrevSlide = slider.scrollLeft > 0
+			const showNextSlide = slider.scrollLeft < maxScrollLeft
 
-      console.log({
-        maxScrollLeft,
-        scrollWidth: slider.scrollWidth,
-        clientWidth: slider.clientWidth,
-        scrollLeft: slider.scrollLeft,
-      })
+			console.log({
+				maxScrollLeft,
+				scrollWidth: slider.scrollWidth,
+				clientWidth: slider.clientWidth,
+				scrollLeft: slider.scrollLeft,
+			})
 
-      prevSlide.style.display = showPrevSlide ? 'flex' : 'none'
-      nextSlide.style.display = showNextSlide ? 'flex' : 'none'
-    }
+			prevSlide.style.display = showPrevSlide ? 'flex' : 'none'
+			nextSlide.style.display = showNextSlide ? 'flex' : 'none'
+		}
 
-    thumbsList.forEach((item) => {
-      item.addEventListener('click', () => {
-        //Remove active  all items
-        thumbsList.forEach((item) => item.removeAttribute('data-thumb-active'))
-        //Add active to current item
-        item.toggleAttribute('data-thumb-active')
+		thumbsList.forEach((item) => {
+			item.addEventListener('click', () => {
+				//Remove active  all items
+				thumbsList.forEach((item) => item.removeAttribute('data-thumb-active'))
+				//Add active to current item
+				item.toggleAttribute('data-thumb-active')
 
-        //get image Src
-        const src = item.getAttribute('data-large-url')!
+				//get image Src
+				const src = item.getAttribute('data-large-url')!
 
-        //update image
-        mainImage.setAttribute('src', src)
-      })
-    })
+				//update image
+				mainImage.setAttribute('src', src)
+			})
+		})
 
-    //handle scroll
-    slider.addEventListener('scroll', () => {
-      updateButtonsVisibility()
-    })
+		//handle scroll
+		slider.addEventListener('scroll', () => {
+			updateButtonsVisibility()
+		})
 
-    //TODO: handle touch in mobile
-    slider.addEventListener('touchstart', (event) => {})
+		//TODO: handle touch in mobile
+		slider.addEventListener('touchstart', (event) => {})
 
-    slider.addEventListener('touchmove', (event) => {})
+		slider.addEventListener('touchmove', (event) => {})
 
-    slider.addEventListener('touchend', (event) => {})
+		slider.addEventListener('touchend', (event) => {})
 
-    //handle next Slide
-    nextSlide.addEventListener('click', () => {
-      slider.scrollBy(64, 0)
-    })
+		//handle next Slide
+		nextSlide.addEventListener('click', () => {
+			slider.scrollBy(64, 0)
+		})
 
-    // handle prev Slide
-    prevSlide.addEventListener('click', () => {
-      slider.scrollBy(-64, 0)
-    })
+		// handle prev Slide
+		prevSlide.addEventListener('click', () => {
+			slider.scrollBy(-64, 0)
+		})
 
-    // Initial check to hide buttons if necessary
-    updateButtonsVisibility()
+		// Initial check to hide buttons if necessary
+		updateButtonsVisibility()
 
-    // Handle window resize to update button visibility
-    window.addEventListener('resize', () => {
-      updateButtonsVisibility()
-    })
-  })
+		// Handle window resize to update button visibility
+		window.addEventListener('resize', () => {
+			updateButtonsVisibility()
+		})
+	})
 </script>

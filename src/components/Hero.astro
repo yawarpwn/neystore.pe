@@ -35,29 +35,29 @@
 //     </div>
 ---
 
-<section class='embla relative'>
-  <div class='embla__viewport overflow-x-hidden'>
-    <div class='embla__container flex'>
-      <div class='embla__slide flex-[0_0_100%] min-w-0'>
-        <picture>
-          <source
-            srcset='/assets/images/banner-tecnologia-desktop.avif'
-            media='(min-width: 720px)'
-          />
-          <img src='/assets/images/banner-tecnologia-mobile.avif' />
-        </picture>
-      </div>
-      <div class='embla__slide flex-[0_0_100%] min-w-0'>
-        <picture>
-          <source
-            srcset='/assets/images/banner-juguetes-desktop.avif'
-            media='(min-width: 720px)'
-          />
-          <img src='/assets/images/banner-juguetes-mobile.avif' />
-        </picture>
-      </div>
-    </div>
-  </div>
+<section class="embla relative">
+	<div class="embla__viewport overflow-x-hidden">
+		<div class="embla__container flex">
+			<div class="embla__slide flex-[0_0_100%] min-w-0">
+				<picture>
+					<source
+						srcset="/assets/images/banner-tecnologia-desktop.avif"
+						media="(min-width: 720px)"
+					/>
+					<img src="/assets/images/banner-tecnologia-mobile.avif" />
+				</picture>
+			</div>
+			<div class="embla__slide flex-[0_0_100%] min-w-0">
+				<picture>
+					<source
+						srcset="/assets/images/banner-juguetes-desktop.avif"
+						media="(min-width: 720px)"
+					/>
+					<img src="/assets/images/banner-juguetes-mobile.avif" />
+				</picture>
+			</div>
+		</div>
+	</div>
 </section>
 <!--
 <div class="embla__controls">
@@ -85,33 +85,33 @@
   -->
 
 <script>
-  import EmblaCarousel, { type EmblaOptionsType } from 'embla-carousel'
-  import AutoPlay from 'embla-carousel-autoplay'
+	import EmblaCarousel, { type EmblaOptionsType } from 'embla-carousel'
+	import AutoPlay from 'embla-carousel-autoplay'
 
-  const OPTIONS: EmblaOptionsType = {
-    loop: true,
-  }
+	const OPTIONS: EmblaOptionsType = {
+		loop: true,
+	}
 
-  const plugins = [AutoPlay({ delay: 5000 })]
+	const plugins = [AutoPlay({ delay: 5000 })]
 
-  const emblaNode = document.querySelector('.embla')!
-  const viewportNode = emblaNode.querySelector('.embla__viewport') as HTMLElement
-  // const prevBtnNode = emblaNode.querySelector('.embla__button--prev')!
-  // const nextBtnNode = emblaNode.querySelector('.embla__button--next')!
-  // const dotsNode = emblaNode.querySelector('.embla__dots')!
+	const emblaNode = document.querySelector('.embla')!
+	const viewportNode = emblaNode.querySelector('.embla__viewport') as HTMLElement
+	// const prevBtnNode = emblaNode.querySelector('.embla__button--prev')!
+	// const nextBtnNode = emblaNode.querySelector('.embla__button--next')!
+	// const dotsNode = emblaNode.querySelector('.embla__dots')!
 
-  EmblaCarousel(viewportNode, OPTIONS, plugins)
+	EmblaCarousel(viewportNode, OPTIONS, plugins)
 
-  // const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(
-  //   prevBtnNode,
-  //   nextBtnNode,
-  //   emblaApi,
-  // )
-  // const removeDotBtnsAndClickHandlers = addDotBtnsAndClickHandlers(
-  //   emblaApi,
-  //   dotsNode,
-  // )
+	// const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(
+	//   prevBtnNode,
+	//   nextBtnNode,
+	//   emblaApi,
+	// )
+	// const removeDotBtnsAndClickHandlers = addDotBtnsAndClickHandlers(
+	//   emblaApi,
+	//   dotsNode,
+	// )
 
-  // emblaApi.on('destroy', removePrevNextBtnsClickHandlers)
-  // emblaApi.on('destroy', removeDotBtnsAndClickHandlers)
+	// emblaApi.on('destroy', removePrevNextBtnsClickHandlers)
+	// emblaApi.on('destroy', removeDotBtnsAndClickHandlers)
 </script>
