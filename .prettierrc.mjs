@@ -9,7 +9,7 @@ export default {
   useTabs: true,
   trailingComma: 'es5',
   jsxSingleQuote: false,
-  htmlWhitespaceSensitivity: 'strict',
+  htmlWhitespaceSensitivity: 'ignore',
   singleAttributePerLine: true,
   overrides: [
     {
@@ -23,9 +23,9 @@ export default {
       options: {
         parser: 'astro',
         astroAllowShorthand: true,
-        printWidth: 120,
+        printWidth: 100,
         bracketSameLine: true,
-        singleAttributePerLine: true,
+        singleAttributePerLine: false,
       },
     },
   ],

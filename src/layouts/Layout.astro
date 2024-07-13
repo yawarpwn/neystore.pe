@@ -7,30 +7,23 @@ import WhatsappPopup from '@/components/WhatsappPopup.astro'
 import Container from '@/components/Container.astro'
 import site from '@/constants/site'
 
-const { title = site.title, description = site.description, url = site.url, image = site.ogImage } = Astro.props
+const {
+	title = site.title,
+	description = site.description,
+	url = site.url,
+	image = site.ogImage,
+} = Astro.props
 ---
 
 <!doctype html>
 <html lang="es">
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width"
-		/>
+		<meta name="viewport" content="width=device-width" />
 		<!-- Favicon -->
 		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
-		<link
-			rel="icon"
-			type="image/ico"
-			href="/favicon.ico"
-		/>
-		<HeadSeo
-			{title}
-			{description}
-			{image}
-			{url}
-		/>
+		<link rel="icon" type="image/ico" href="/favicon.ico" />
+		<HeadSeo {title} {description} {image} {url} />
 	</head>
 	<body>
 		<div class="page">
@@ -49,45 +42,6 @@ const { title = site.title, description = site.description, url = site.url, imag
 				min-width: 100svw;
 				z-index: 1;
 			}
-
-			/* .page::after { */
-			/*   content: ''; */
-			/*   background-color: oklch(var(---background)); */
-			/*   position: absolute; */
-			/*   width: 100%; */
-			/*   height: 100%; */
-			/*   top: 0; */
-			/*   left: 0; */
-			/*   bottom: 0; */
-			/*   right: 0; */
-			/*   z-index: -3; */
-			/* } */
-			/**/
-			/* .page::before { */
-			/*   content: ''; */
-			/*   position: absolute; */
-			/*   width: calc(100% + 100px); */
-			/*   height: 100svh; */
-			/*   top: -50px; */
-			/*   left: -50px; */
-			/*   right: -50px; */
-			/*   z-index: -2; */
-			/*   background-color: oklch(var(--background)); */
-			/*   background-size: 100%; */
-			/*   filter: blur(50px); */
-			/*   overflow-x: hidden; */
-			/*   background-repeat: no-repeat; */
-			/*   background-image: radial-gradient(37.88% 68.62% at 50% 0, rgba(10, 24, 233, 0.22) 0, rgba(13, 1, 38, 0.2) 80%), */
-			/*     radial-gradient(10% 10% at 50% 0, rgba(10, 1, 21, 0.49) 0, rgba(124, 0, 71, 0.81) 90%, rgba(124, 0, 71, 0) 0), */
-			/*     radial-gradient( */
-			/*       100% 28.09% at 100% 10%, */
-			/*       rgba(36, 4, 53, 0.24) 0, */
-			/*       rgba(68, 0, 124, 0.48) 80%, */
-			/*       rgba(124, 0, 71, 0) 100% */
-			/*     ), */
-			/*     linear-gradient(180deg, rgba(124, 0, 71, 0.075) 35.79%, rgba(124, 0, 71, 0.05) 80%, #13161c), */
-			/*     radial-gradient(74.84% 135.56% at 100% 10%, rgba(21, 0, 124, 0.23) 0, rgba(0 0 0 /0.9) 80%); */
-			/* } */
 		</style>
-	</body></html
->
+	</body>
+</html>
