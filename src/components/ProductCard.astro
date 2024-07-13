@@ -1,23 +1,24 @@
 ---
-import ProductPrice from './ProductPrice.astro'
-import ProductRanking from './ProductRanking.astro'
-import { slugify } from '@/lib/utils/string'
+import ProductPrice from "./ProductPrice.astro";
+import ProductRanking from "./ProductRanking.astro";
+import { slugify } from "@/lib/utils/string";
 
 interface Props {
-  id: string
-  title: string
-  price: number
-  imgUrl: string
-  ranking: number
-  slug: string
+  id: string;
+  title: string;
+  price: number;
+  imgUrl: string;
+  ranking: number;
+  slug: string;
 }
 
-const { title, price, imgUrl, ranking, id, slug } = Astro.props
+const { title, price, imgUrl, ranking, id, slug } = Astro.props;
 ---
 
 <a
   href={`/productos/${slug}`}
-  class="p-3 hover:scale-105 transition-transform ease-in-out duration-300">
+  class="p-3 hover:scale-105 transition-transform ease-in-out duration-300 overflow-hidden rounded-md shadow-sm"
+>
   <!-- {/* Image Card */ -->
   <div class="h-0 pb-[100%] relative mb-2.5 rounded-md">
     <img
@@ -34,21 +35,13 @@ const { title, price, imgUrl, ranking, id, slug } = Astro.props
   <div class="flex flex-col gap-1">
     <!-- {/* Title */} -->
     <div>
-      <p
-        transition:name={`product-title-${id}`}
-        class="text-truncate">
+      <p transition:name={`product-title-${id}`} class="text-truncate">
         {title}
       </p>
     </div>
 
-    <ProductRanking
-      {id}
-      {ranking}
-    />
+    <ProductRanking {id} {ranking} />
 
-    <ProductPrice
-      {id}
-      {price}
-    />
+    <ProductPrice {id} {price} />
   </div>
 </a>

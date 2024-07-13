@@ -1,14 +1,16 @@
 ---
-import Layout from '@/layouts/Layout.astro'
-import ProductCard from '@/components/ProductCard.astro'
-import { getProducts } from '@/lib/data'
-const products = await getProducts()
+import Layout from "@/layouts/Layout.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import { getProducts } from "@/lib/data";
+const products = await getProducts();
 ---
 
 <Layout title="Nuestros Productos">
   <div class="py-5">
-    <h1 class="text-xl md:text-2xl font-extrabold mb-4"> Nuestra Lista de Productos </h1>
-    <ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-1">
+    <h1 class="text-xl md:text-2xl font-extrabold mb-4">
+      Nuestra Lista de Productos
+    </h1>
+    <ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
       {
         products
           .sort((a, b) => b.category.localeCompare(a.category))

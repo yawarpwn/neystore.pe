@@ -1,17 +1,17 @@
 // .prettierrc.mjs
 /** @type {import("prettier").Config} */
 export default {
-  plugins: ['prettier-plugin-astro'],
+  plugins: ["prettier-plugin-astro"],
   singleQuote: true,
   semi: false,
   jsxSingleQuote: false,
-  htmlWhitespaceSensitivity: 'strict',
+  htmlWhitespaceSensitivity: "strict",
   singleAttributePerLine: true,
   overrides: [
     {
-      files: '*.astro',
+      files: "*.astro",
       options: {
-        parser: 'astro',
+        parser: "astro",
         astroAllowShorthand: true,
         printWidth: 120,
         bracketSameLine: true,
@@ -19,4 +19,4 @@ export default {
       },
     },
   ],
-}
+};

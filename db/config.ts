@@ -1,4 +1,4 @@
-import { defineDb, defineTable, column, NOW } from 'astro:db'
+import { defineDb, defineTable, column, NOW } from "astro:db";
 
 const Products = defineTable({
   columns: {
@@ -13,7 +13,7 @@ const Products = defineTable({
     created_at: column.date({ default: NOW }),
     updated_at: column.date({ default: NOW }),
   },
-})
+});
 
 const Images = defineTable({
   columns: {
@@ -24,7 +24,7 @@ const Images = defineTable({
     created_at: column.date({ default: NOW }),
     updated_at: column.date({ default: NOW }),
   },
-})
+});
 
 const Videos = defineTable({
   columns: {
@@ -36,7 +36,7 @@ const Videos = defineTable({
     created_at: column.date({ default: NOW }),
     updated_at: column.date({ default: NOW }),
   },
-})
+});
 
 export default defineDb({
   tables: {
@@ -44,4 +44,4 @@ export default defineDb({
     Images,
     Videos,
   },
-})
+});

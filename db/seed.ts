@@ -1,14 +1,14 @@
 // import { db, Products, Videos, Images } from 'astro:db'
-import { seedTables } from '@/lib/utils/products'
-import productsJson from '@/muckup/products.json'
-import { uploadAsset } from '@/lib/cloudinary'
+import { seedTables } from "@/lib/utils/products";
+import productsJson from "@/muckup/products.json";
+import { uploadAsset } from "@/lib/cloudinary";
 
 // https://astro.build/db/seed
 export default async function seed() {
   for (const product of productsJson) {
     product.images.map(async (img) => {
       // const [error, data] = uploadAsset(img.url)
-    })
+    });
   }
   // const { products, images, videos } = seedTables()
   // // console.log('-------------------')
