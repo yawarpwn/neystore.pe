@@ -1,6 +1,6 @@
 import { type Page } from 'playwright'
 import { chromium } from 'playwright'
-import { type ProductRaw } from '@/types'
+import { type ProductRaw } from '../../types/index.d.ts'
 
 function cleanData(data: string) {
 	let cleanedData = data.split(/\s+/).join(' ').trim()

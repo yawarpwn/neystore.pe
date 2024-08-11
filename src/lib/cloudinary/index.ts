@@ -6,13 +6,12 @@ import {
 	type ConfigAndUrlOptions,
 } from 'cloudinary'
 
-const api_secret = import.meta.env.CLOUDINARY_API_SECRET
-if (!api_secret) throw new Error('CLOUDINARY_API_SECRET is not defined')
+import { envs } from '../../config/index'
 
 cloudinary.config({
 	cloud_name: 'dyshhk5h6',
 	api_key: '533526923894852',
-	api_secret: api_secret,
+	api_secret: envs.CLOUDINARY_API_SECRET,
 })
 
 export async function uploadAsset(
