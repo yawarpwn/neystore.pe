@@ -1,0 +1,30 @@
+---
+import DashbordLayout from '@/layouts/DashboardLayout.astro'
+import { getProducts } from '@/lib/data'
+
+const products = await getProducts()
+const columns = ['title', 'cost', 'price', 'acciones']
+---
+
+<DashbordLayout>
+	<table>
+		<thead>
+			{columns.map((column) => <th>{column}</th>)}
+		</thead>
+		<tbody>
+			{
+				products.map((product) => (
+					<tr>
+						<td>{product.title}</td>
+						<td>{product.cost}</td>
+						<td>{product.price}</td>
+						<td>
+							<a href={`/dashboard/products/${product.id}`}>ver</a>
+						</td>
+					</tr>
+				))
+			}
+		</tbody>
+	</table>
+</DashbordLayout>
+<script></script>
