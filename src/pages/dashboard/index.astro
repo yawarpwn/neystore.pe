@@ -3,7 +3,11 @@ import DashbordLayout from '@/layouts/DashboardLayout.astro'
 import Input from '@/components/ui/Input.astro'
 import { buttonVariants } from '@/components/ui/Button.astro'
 import { getProducts } from '@/lib/data'
+import { ProductsModel } from '@/models/products'
 
+const { data, error } = await ProductsModel.getAll()
+if (error) console.log(error)
+console.log('data', data)
 const products = await getProducts()
 const columns = ['title', 'cost', 'price', 'acciones']
 ---
