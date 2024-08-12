@@ -1,19 +1,19 @@
 import { defineDb, defineTable, column, NOW } from 'astro:db'
 
-const Products = defineTable({
+const ProductsTable = defineTable({
 	columns: {
 		id: column.text({ primaryKey: true }),
 		title: column.text(),
-		features: column.json({ optional: false }),
-		details: column.json({ optional: true }),
-		price: column.number(),
-		cost: column.number(),
-		created_at: column.date({ default: NOW }),
-		updated_at: column.date(),
+		// features: column.json({ optional: false }),
+		// details: column.json({ optional: true }),
+		// price: column.number(),
+		// cost: column.number(),
+		// created_at: column.date({ default: NOW }),
+		// updated_at: column.date(),
 	},
-	indexes: [{ on: ['title'], unique: true }],
 })
 
+/*
 const Images = defineTable({
 	columns: {
 		id: column.text({ primaryKey: true }),
@@ -67,14 +67,10 @@ const Ranking = defineTable({
 		total: column.text(),
 	},
 })
+*/
 
 export default defineDb({
 	tables: {
-		Products,
-		Images,
-		Videos,
-		Comment,
-		Ranking,
-		Category,
+		ProductsTable,
 	},
 })

@@ -15,24 +15,26 @@ const columns = ['title', 'cost', 'price', 'acciones']
 		</div>
 		<a class={buttonVariants()} href="/dashboard/products/create">+ Crear</a>
 	</header>
-	<table>
-		<thead>
-			{columns.map((column) => <th>{column}</th>)}
-		</thead>
-		<tbody>
-			{
-				products.map((product) => (
-					<tr>
-						<td>{product.title}</td>
-						<td>{product.cost}</td>
-						<td>{product.price}</td>
-						<td>
-							<a href={`/dashboard/products/${product.id}`}>ver</a>
-						</td>
-					</tr>
-				))
-			}
-		</tbody>
-	</table>
+	<div class="overflow-x-auto w-full">
+		<table class={`w-full [&>td]:px-2 []:py-1`}>
+			<thead>
+				{columns.map((column) => <th>{column}</th>)}
+			</thead>
+			<tbody>
+				{
+					products.map((product) => (
+						<tr>
+							<td>{product.title}</td>
+							<td>{product.cost}</td>
+							<td>{product.price}</td>
+							<td>
+								<a href={`/dashboard/products/${product.id}`}>ver</a>
+							</td>
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
 </DashbordLayout>
 <script></script>

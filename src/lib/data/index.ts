@@ -1,5 +1,6 @@
 import productsJson from '@/muckup/products.json'
 import type { Product } from '@/types'
+import { db, ProductsTable } from 'astro:db'
 
 class ProductError extends Error {
 	constructor(message: string) {
@@ -18,6 +19,8 @@ class ProductError extends Error {
 type TODO = any
 
 export async function getProducts() {
+	const products = await db.select().from(ProductsTable)
+	console.log(products)
 	return productsJson
 }
 
