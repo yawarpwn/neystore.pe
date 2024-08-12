@@ -1,5 +1,7 @@
 ---
 import DashbordLayout from '@/layouts/DashboardLayout.astro'
+import Input from '@/components/ui/Input.astro'
+import { buttonVariants } from '@/components/ui/Button.astro'
 import { getProducts } from '@/lib/data'
 
 const products = await getProducts()
@@ -7,6 +9,12 @@ const columns = ['title', 'cost', 'price', 'acciones']
 ---
 
 <DashbordLayout>
+	<header class="flex justify-between">
+		<div>
+			<Input placeholder="buscar..." type="search" />
+		</div>
+		<a class={buttonVariants()} href="/dashboard/products/create">+ Crear</a>
+	</header>
 	<table>
 		<thead>
 			{columns.map((column) => <th>{column}</th>)}

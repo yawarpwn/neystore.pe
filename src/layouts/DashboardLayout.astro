@@ -1,5 +1,6 @@
 ---
-
+import '@/styles/global.css'
+import Container from '@/components/Container.astro'
 ---
 
 <!doctype html>
@@ -13,7 +14,9 @@
 	</head>
 	<body>
 		<div class="page">
-			<slot />
+			<Container>
+				<slot />
+			</Container>
 		</div>
 	</body>
 </html>

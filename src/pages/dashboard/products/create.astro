@@ -1,0 +1,81 @@
+---
+import DashboardLayout from '@/layouts/DashboardLayout.astro'
+import Input from '@/components/ui/Input.astro'
+import Label from '@/components/ui/Label.astro'
+import Button from '@/components/ui/Button.astro'
+import { buttonVariants } from '@/components/ui/Button.astro'
+---
+
+<DashboardLayout>
+	<h1 class="text-2xl">Cear producto</h1>
+	<form>
+		<div class="flex flex-col gap-2">
+			<div class="grid gap-0.5">
+				<Label>titulo</Label>
+				<Input
+					required
+					name="title"
+					placeholder="Nombre del producto"
+					type="text"
+					class="border border-orange-500"
+				/>
+			</div>
+
+			<!-- Prices -->
+			<div class="flex justify-between gap-2">
+				<div class="grid gap-0.5">
+					<Label>Costo</Label>
+					<Input required name="cost" class="w-40" placeholder="10.00" type="number" />
+				</div>
+
+				<div class="grid gap-0.5">
+					<Label>Precio</Label>
+					<Input name="price" required class="w-40" placeholder="20.00" type="number" />
+				</div>
+			</div>
+			<!-- Details -->
+			<!-- Features -->
+			<!-- Images -->
+			<!-- Video -->
+			<footer class="flex items-center gap-4 justify-between">
+				<a href="/dashboard" class:list={[buttonVariants({ variant: 'outline' }), 'w-full']}>
+					Volver
+				</a>
+				<Button class="w-full" id="submit-button" type="submit"> Crear Producto </Button>
+			</footer>
+		</div>
+	</form>
+</DashboardLayout>
+<script>
+	const formEl = document.querySelector('form') as HTMLFormElement
+	const submitButtonEl = formEl.querySelector('button[type=submit]') as HTMLButtonElement
+	formEl.addEventListener('submit', async (event) => {
+		event.preventDefault()
+
+		const formData = new FormData(formEl)
+		const entries = Object.fromEntries(formData)
+
+		// TODO: Add validation
+		try {
+			submitButtonEl.textContent = 'Creando...'
+			const res = await fetch('/api/products/create', {
+				method: 'POST',
+				body: formData,
+			})
+
+			if (!res.ok) throw new Error('Error en conexión al servidor')
+
+			const { success } = await res.json()
+
+			if (!success) throw new Error('Error al crear el producto')
+
+			//Redirect to /dashboard
+			window.location.href = '/dashboard'
+		} catch (error) {
+			//TODO: notification error in client
+			console.log(error)
+		} finally {
+			submitButtonEl.textContent = 'Crear producto'
+		}
+	})
+</script>
