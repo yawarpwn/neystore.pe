@@ -1,6 +1,6 @@
 import { type Page } from 'playwright'
 import { chromium } from 'playwright'
-import { type ProductRaw } from '../../types/index.d.ts'
+import { type ProductRaw } from '../../types/index.d'
 
 function cleanData(data: string) {
 	let cleanedData = data.split(/\s+/).join(' ').trim()
@@ -20,7 +20,7 @@ export async function extractTitleFromAliExpress(page: Page) {
 //main image --> https://ae01.alicdn.com/kf/Sf1ee08e24c1a469caad908568bce42bfC/Lenovo-auriculares-inal-mbricos-LP40-Pro-TWS-cascos-deportivos-con-Bluetooth-5-1-reducci-n-de.jpg_.webp
 //thumb image --> https://ae01.alicdn.com/kf/Sf1ee08e24c1a469caad908568bce42bfC/Lenovo-auriculares-inal-mbricos-LP40-Pro-TWS-cascos-deportivos-con-Bluetooth-5-1-reducci-n-de.jpg_80x80.jpg_.webp
 export async function extractImagesFromAliExpress(page: Page): Promise<string[]> {
-	const imagesEl = await page.locator('.slider--img--D7MJNPZ > img').all()
+	const imagesEl = await page.locator('.slider--img--K0YbWW2 > img').all()
 	let images = []
 	for (const imgEl of imagesEl) {
 		const src = (await imgEl.getAttribute('src')) as string
