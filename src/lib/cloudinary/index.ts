@@ -31,6 +31,32 @@ export async function uploadAsset(
 	}
 }
 
+type Options = {
+	folder: string
+}
+export class Cloudinary {
+	static async uploadFromBuffer(file: File, opts?: Options): Promise<UploadApiResponse> {
+		console.log('FILEEEEEEE', file)
+		return
+		const blob = await file.arrayBuffer()
+		const buffer = new Uint8Array(blob)
+		const options: UploadApiOptions = {
+			folder: 'test',
+			resource_type: 'auto',
+			...opts,
+		}
+
+		return new Promise((resolve, reject) => {
+			cloudinary.uploader
+				.upload_stream(options, (error, result) => {
+					if (error) return reject(error)
+					else resolve(result as UploadApiResponse)
+				})
+				.end(buffer)
+		})
+	}
+}
+
 export function transformAsset(
 	publicId: string,
 	options: TransformationOptions | ConfigAndUrlOptions

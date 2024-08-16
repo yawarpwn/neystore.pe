@@ -1,6 +1,5 @@
+import { ProductsModel } from '@/models/products'
 import productsJson from '@/muckup/products.json'
-import type { Product } from '@/types'
-import { db, ProductsTable } from 'astro:db'
 
 class ProductError extends Error {
 	constructor(message: string) {
@@ -19,34 +18,17 @@ class ProductError extends Error {
 type TODO = any
 
 export async function getProducts() {
-	const products = await db.select().from(ProductsTable)
-	console.log(products)
+	const { data, error } = await ProductsModel.getAll()
+
+	if (error) console.log(error)
+	console.log(data)
 	return productsJson
 }
 
-export async function getProductById(
-	id: string
-): Promise<{ data: Product | null; error: ProductError | null }> {
-	try {
-		const product = productsJson.find((p) => p.id === id)
-
-		if (!product) {
-			return {
-				data: null,
-				error: ProductError.notFound(),
-			}
-		}
-
-		return {
-			data: product,
-			error: null,
-		}
-	} catch (error) {
-		return {
-			data: null,
-			error: ProductError.internalError(),
-		}
-	}
+export async function getProductById(id: string) {
+	const { data, error } = await ProductsModel.getById(id)
+	if (error) console.log(error)
+	return data
 }
 
 export async function updateProduct(id: string, product: TODO) {}
