@@ -1,5 +1,5 @@
 import fs from 'node:fs'
-import products from '../src/muckup/products.json'
+import products from '../src/muckup/new-products.json'
 import type { Product } from '../src/types'
 
 const newProducts: Product[] = products.map((product) => {
@@ -14,35 +14,20 @@ const newProducts: Product[] = products.map((product) => {
 		details: product.details,
 		slug: product.slug,
 		assets: [
-			...product.images.map((img) => ({
-				id: img.id,
-				url: img.url,
-				format: img.format,
-				width: img.width,
-				height: img.height,
-				type: img.type,
-				title: img.title,
-				thumbUrl: img.thumb,
-				largeUrl: img.large,
-				productId: img.product_id,
-				publicId: img.publid_id,
-			})),
+			...product.assets.map((asset) => {
+				return {
+					id: asset.id,
+					url: asset.largeUrl ?? asset.url,
+					format: asset.format,
+					width: asset.width,
+					height: asset.height,
+					type: asset.type,
+					productId: asset.productId,
+					publicId: asset.publicId,
+				}
+			}),
 		],
 	}
-
-	if (product.video)
-		prod.assets.splice(2, 0, {
-			id: product.video.id,
-			url: product.video.url,
-			width: product.video.width,
-			format: product.video.format || 'mp4',
-			height: product.video.height,
-			type: product.video.type,
-			title: product.video.title,
-			cover: product.video.cover,
-			productId: product.video.product_id,
-			publicId: product.video.public_id ?? product.video.publid_id,
-		})
 
 	return prod
 })

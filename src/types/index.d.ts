@@ -8,32 +8,17 @@ export const PRODUCT_CATEGORY = {
 
 type ProductCategory = (typeof PRODUCT_CATEGORY)[keyof typeof PRODUCT_CATEGORY]
 
-export type ProductImage = {
+export type ProductAsset = {
 	id: Id
 	thumbUrl: string
-	largeUrl: string
+	mediumUrl: string
 	url: string
 	width: number
 	height: number
 	publicId: string
 	productId: string
 	format: string
-	type: 'image'
-	title: string
-}
-
-export type ProductVideo = {
-	id: Id
-	cover: string
-	url: string
-	title: string
-	width: number
-	height: number
-	productId: string
-	publicId: string
-	format: string
-	format: string
-	type: 'video'
+	type: 'image' | 'video'
 }
 
 export type Product = {
@@ -46,7 +31,7 @@ export type Product = {
 	ranking: number
 	category: ProductCategory
 	slug: string
-	assets: (ProductVideo | ProductImage)[]
+	assets: ProductAsset[]
 }
 
 type ProductRaw = {

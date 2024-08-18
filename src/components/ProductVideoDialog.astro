@@ -9,12 +9,6 @@ export interface Props {
 }
 
 const { video } = Astro.props
-
-// class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white
-//   flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0
-//   data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
-
-// class="fixed z-50 inset-0 w-full h-full bg-black backdrop:bg-white backdrop:backdrop-blur"
 ---
 
 <li
@@ -27,13 +21,7 @@ const { video } = Astro.props
 </li>
 <dialog>
 	<div class="md:max-w-3xl relative rounded-md overflow-hidden">
-		<video
-			class="w-full h-full"
-			id="player"
-			playsinline
-			controls
-			poster={video.cover}
-			data-poster={video.cover}>
+		<video class="w-full h-full" id="player" playsinline controls>
 			<source src={video.url} type="video/mp4" />
 		</video>
 		<source src="/path/to/video.webm" type="video/webm" />

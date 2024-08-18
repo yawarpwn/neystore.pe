@@ -40,13 +40,21 @@ const { assets, id, title } = Astro.props
 				{
 					assets.map((asset, index) => {
 						if (asset.type === 'video') {
-							return <ProductVideoDialog video={asset} />
+							return (
+								<ProductVideoDialog
+									video={{
+										url: asset.url,
+										title: title,
+										cover: assets[0].mediumUrl,
+									}}
+								/>
+							)
 						}
 
 						return (
 							<li
 								data-thumb-active={index === 0}
-								data-large-url={asset.url}
+								data-large-url={asset.mediumUrl}
 								class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white 
                   flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0 cursor-pointer
                   data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>

@@ -14,6 +14,14 @@ cloudinary.config({
 	api_secret: envs.CLOUDINARY_API_SECRET,
 })
 
+// type Result<T = void, E extends Error = Error> = T | E
+
+type Result<T, E> = [undefined, T] | [E, undefined]
+
+function isError<T>(value: T): value is T & Error {
+	return value instanceof Error
+}
+
 export async function uploadAsset(
 	file: string,
 	type: 'image' | 'video'
@@ -21,13 +29,12 @@ export async function uploadAsset(
 	try {
 		const data = await cloudinary.uploader.upload(file, {
 			folder: 'neystore',
-			resource_type: type ?? 'image',
+			resource_type: type ?? 'auto',
 		})
 
 		return [undefined, data]
 	} catch (error) {
-		console.log(error)
-		return [new Error('Error uploading asset to cloudinary'), undefined]
+		return [new Error('Error uploading file'), undefined]
 	}
 }
 
