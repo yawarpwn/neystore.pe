@@ -1,7 +1,6 @@
 ---
 import ProductPrice from './ProductPrice.astro'
 import ProductRanking from './ProductRanking.astro'
-import { slugify } from '@/lib/utils/string'
 
 interface Props {
 	id: string
@@ -34,21 +33,13 @@ const { title, price, imgUrl, ranking, id, slug } = Astro.props
 	<div class="flex flex-col gap-1">
 		<!-- {/* Title */} -->
 		<div>
-			<p
-				transition:name={`product-title-${id}`}
-				class="text-truncate">
+			<p transition:name={`product-title-${id}`} class="text-truncate">
 				{title}
 			</p>
 		</div>
 
-		<ProductRanking
-			{id}
-			{ranking}
-		/>
+		<ProductRanking {id} {ranking} />
 
-		<ProductPrice
-			{id}
-			{price}
-		/>
+		<ProductPrice {id} {price} />
 	</div>
 </a>

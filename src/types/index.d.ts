@@ -1,4 +1,6 @@
-type Id = `${string}-${string}-${string}-${string}-${string}`
+// type Id = `${string}-${string}-${string}-${string}-${string}`
+type Id = string
+
 export const PRODUCT_CATEGORY = {
 	Toys: 'Juguetes',
 	Tecnology: 'Tecnologia',
@@ -8,11 +10,13 @@ type ProductCategory = (typeof PRODUCT_CATEGORY)[keyof typeof PRODUCT_CATEGORY]
 
 export type ProductImage = {
 	id: Id
-	thumb: string
+	thumbUrl: string
+	largeUrl: string
 	url: string
 	width: number
 	height: number
-	public_id: string
+	publicId: string
+	productId: string
 	format: string
 	type: 'image'
 	title: string
@@ -25,22 +29,24 @@ export type ProductVideo = {
 	title: string
 	width: number
 	height: number
-	public_id: string
+	productId: string
+	publicId: string
 	format: string
-	type: 'image'
+	format: string
+	type: 'video'
 }
+
 export type Product = {
 	id: Id
 	title: string
-	images: ProductImage[]
 	features: string[] | null
 	details: Record<string, string> | null
-	video: ProductVideo | null
 	price: number
 	cost: number
 	ranking: number
 	category: ProductCategory
 	slug: string
+	assets: (ProductVideo | ProductImage)[]
 }
 
 type ProductRaw = {

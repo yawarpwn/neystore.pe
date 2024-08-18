@@ -26,33 +26,22 @@ export interface Props {
 	product: Product
 }
 const { product } = Astro.props
-const { title, images, id, features, details, video } = product
+const { title, assets, id, features, details } = product
 const productUrl = new URL(Astro.url.pathname, Astro.site)
 ---
 
-<Layout
-	{title}
-	description={title}
-	image={images[0].url}
-	url={productUrl}>
+<Layout {title} description={title} image={assets[0].url} url={productUrl}>
 	<div class="md:hidden">
-		<a
-			href="/productos"
-			class="inline-flex items-center gap-3 hover:cursor-pointer mt-4">
+		<a href="/productos" class="inline-flex items-center gap-3 hover:cursor-pointer mt-4">
 			<Icon name="tabler:arrow-narrow-left" />
-			<span class="text-sm"> Volver </span>
+			<span class="text-sm">Volver</span>
 		</a>
 	</div>
 	<section class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
 		<article class="relative">
 			<div class="md:sticky md:h-svh top-16 left-0">
 				<div class="flex items-center md:h-[calc(100%-4rem)]">
-					<ProductViewer
-						{video}
-						{id}
-						{images}
-						{title}
-					/>
+					<ProductViewer id={product.id} {assets} {title} />
 				</div>
 			</div>
 		</article>
@@ -68,16 +57,8 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 
 			<!-- Price & Ranking -->
 			<div class="flex flex-col gap-4">
-				<ProductRanking
-					{id}
-					size="lg"
-					ranking={product.ranking}
-				/>
-				<ProductPrice
-					{id}
-					size="lg"
-					price={product.price}
-				/>
+				<ProductRanking {id} size="lg" ranking={product.ranking} />
+				<ProductPrice {id} size="lg" price={product.price} />
 			</div>
 
 			<!-- Whatsapp Button -->
@@ -88,11 +69,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 					target="_blank"
 					class={cn(buttonVariants({ size: 'lg' }), `w-full `)}>
 					<span>Pedidos y Cotizaciones</span>
-					<Icon
-						class="ml-2"
-						name="tabler:brand-whatsapp"
-						size={24}
-					/>
+					<Icon class="ml-2" name="tabler:brand-whatsapp" size={24} />
 				</a>
 			</div>
 
@@ -120,7 +97,8 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 					<div>
 						<h2 class="text-2xl font-bold mb-4"> Sobre el Producto </h2>
 						<ul class="flex flex-col gap-4">
-							{features.length > 0 && features.map((feature) => <li class="list-disc ml-4">{feature}</li>)}
+							{features.length > 0 &&
+								features.map((feature) => <li class="list-disc ml-4">{feature}</li>)}
 						</ul>
 					</div>
 				)
@@ -130,20 +108,14 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 				<a
 					href="/politicas-de-devolucion "
 					class="flex gap-2 items-center bg-foreground/5 p-4 rounded-md cursor-pointer hover:[&_span]:text-indigo-500">
-					<Icon
-						size={30}
-						name="tabler:shield-check-filled"
-					/>
+					<Icon size={30} name="tabler:shield-check-filled" />
 					<span class="underline">Políticas de Devolución</span>
 				</a>
 
 				<a
 					href="/preguntas-frecuentes"
 					class="flex gap-2 items-center bg-foreground/5 p-4 rounded-md hover:[&_span]:text-indigo-500 cursor-pointer">
-					<Icon
-						size={30}
-						name="tabler:help-hexagon-filled"
-					/>
+					<Icon size={30} name="tabler:help-hexagon-filled" />
 					<span class="underline">Preguntas Frecuentes</span>
 				</a>
 			</article>

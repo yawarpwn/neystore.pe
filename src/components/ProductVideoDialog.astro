@@ -20,16 +20,9 @@ const { video } = Astro.props
 <li
 	id="show-dialog-btn"
 	class="size-[64px] border-2 border-transparent ml-4 rounded-md overflow-hidden relative flex-shrink-0 flex items-center justify-center cursor-pointer">
-	<img
-		class="absolute inset-0 w-full h-full object-cover"
-		src={video.cover}
-	/>
-	<span class="bg-primary absolute rounded-full p-2 z-10">
-		<Icon
-			name="tabler:player-play-filled"
-			class="text-white"
-			size={24}
-		/>
+	<img class="absolute inset-0 w-full h-full object-cover" src={video.cover} />
+	<span class="bg-black absolute rounded-full p-2 z-10">
+		<Icon name="tabler:player-play-filled" class="text-white" size={24} />
 	</span>
 </li>
 <dialog>
@@ -41,15 +34,9 @@ const { video } = Astro.props
 			controls
 			poster={video.cover}
 			data-poster={video.cover}>
-			<source
-				src={video.url}
-				type="video/mp4"
-			/>
+			<source src={video.url} type="video/mp4" />
 		</video>
-		<source
-			src="/path/to/video.webm"
-			type="video/webm"
-		/>
+		<source src="/path/to/video.webm" type="video/webm" />
 		<button
 			id="close-dialog-btn"
 			class="absolute top-1 right-1 size-7 bg-foreground flex items-center justify-center rounded-full">
@@ -75,79 +62,11 @@ const { video } = Astro.props
 		background: #000;
 	}
 </style>
-<!--
-<style>
-  /*   Open state of the dialog  */
-  dialog[open] {
-    opacity: 1;
-    transform: scaleY(1);
-  }
 
-  /*   Closed state of the dialog   */
-  dialog {
-    opacity: 0;
-    inset: 0;
-    margin: auto;
-    transform: scaleY(0);
-    transition:
-      opacity 0.7s ease-out,
-      transform 0.7s ease-out,
-      overlay 0.7s ease-out allow-discrete,
-      display 0.7s ease-out allow-discrete;
-    /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-  }
-
-  /*   Before-open state  */
-  /* Needs to be after the previous dialog[open] rule to take effect,
-    as the specificity is the same */
-  @starting-style {
-    dialog[open] {
-      opacity: 0;
-      transform: scaleY(0);
-    }
-  }
-
-  /* Transition the :backdrop when the dialog modal is promoted to the top layer */
-  dialog::backdrop {
-    background-color: rgb(0 0 0 / 0%);
-    transition:
-      display 0.7s allow-discrete,
-      overlay 0.7s allow-discrete,
-      background-color 0.7s;
-    /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-  }
-
-  dialog[open]::backdrop {
-    background-color: rgb(0 0 0 / 90%);
-  }
-
-  /* This starting-style rule cannot be nested inside the above selector
-because the nesting selector cannot represent pseudo-elements. */
-
-  @starting-style {
-    dialog[open]::backdrop {
-      background-color: rgb(0 0 0 / 0%);
-    }
-  }
-
-  form[method='dialog'] {
-    border: 1px solid orange;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-</style>
--->
-
-<link
-	rel="stylesheet"
-	href="https://cdn.plyr.io/3.7.8/plyr.css"
-/>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 <style is:global>
 	:root {
-		--plyr-color-main: oklch(var(--primary));
+		--plyr-color-main: oklch(var(--black));
 	}
 </style>
 <script>
@@ -157,7 +76,7 @@ because the nesting selector cannot represent pseudo-elements. */
 
 		if (dialogEl instanceof HTMLDialogElement && videoItemEl instanceof HTMLLIElement) {
 			const { default: Plyr } = await import('plyr')
-			const closeDialogBtn = dialogEl.querySelector('#close-dialog-btn')
+			const closeDialogBtn = dialogEl.querySelector('#close-dialog-btn') as HTMLButtonElement
 
 			const player = new Plyr('#player')
 

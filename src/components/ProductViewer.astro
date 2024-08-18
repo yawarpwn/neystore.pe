@@ -1,27 +1,21 @@
 ---
 import { Icon } from 'astro-icon/components'
 import ProductShareButton from '@/components/ProductShareButton.astro'
+import type { Product } from '@/types'
 
 import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
 interface Props {
-	images: { url: string; thumb: string }[]
+	assets: Product['assets']
 	id: string
 	title: string
-	video?: {
-		url: string
-		title: string
-		cover: string
-	} | null
 }
 
-const { images, id, title, video } = Astro.props
+const { assets, id, title } = Astro.props
 ---
 
 <div class="image-view-wrap w-full md:w-full flex flex-col gap-4">
 	{/* Main */}
-	<div
-		id="main-image"
-		class="image-view--previewWrap relative rounded-lg overflow-hidden">
+	<div id="main-image" class="image-view--previewWrap relative rounded-lg overflow-hidden">
 		<div class="absolute top-1 right-1 z-10">
 			<ProductShareButton />
 		</div>
@@ -30,12 +24,12 @@ const { images, id, title, video } = Astro.props
 				<img
 					transition:name={`product-image-${id}`}
 					class="magnifier-image max-w-full max-h-full w-full h-full object-contain"
-					src={images[0].url}
+					src={assets[0].url}
 					alt={title}
 				/>
 			</div>
 		</div>
-		<div class="image-view--previewCover pt-[100%]"> </div>
+		<div class="image-view--previewCover pt-[100%]"></div>
 	</div>
 
 	{/* Thumbs */}
@@ -44,22 +38,19 @@ const { images, id, title, video } = Astro.props
 		<div class="slider--slider overflow-x-auto snap-x snap-mandatory">
 			<ul class="slider--box flex">
 				{
-					images.map((img, index) => {
-						if (index === 3 && video?.url) {
-							return <ProductVideoDialog video={video} />
+					assets.map((asset, index) => {
+						if (asset.type === 'video') {
+							return <ProductVideoDialog video={asset} />
 						}
 
 						return (
 							<li
 								data-thumb-active={index === 0}
-								data-large-url={img.url}
+								data-large-url={asset.url}
 								class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white 
                   flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0 cursor-pointer
                   data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
-								<img
-									class="max-w-full max-h-full"
-									src={img.thumb}
-								/>
+								<img class="max-w-full max-h-full" src={asset.thumbUrl} />
 							</li>
 						)
 					})
@@ -71,11 +62,8 @@ const { images, id, title, video } = Astro.props
 			class={`slider--prev absolute left-0 top-0 w-[36px] h-[64px] 
 cursor-pointer
 hidden items-center justify-start bg-gradient-to-l from-transparent to-[oklch(var(--background))]`}>
-			<span>
-				<Icon
-					name="tabler:chevron-left"
-					class="text-primary"
-				/>
+			<span class="bg-black rounded-full p-1">
+				<Icon name="tabler:chevron-left" class="text-white" />
 			</span>
 		</button>
 		<button
@@ -83,11 +71,8 @@ hidden items-center justify-start bg-gradient-to-l from-transparent to-[oklch(va
 			class={`slider--next absolute right-0 top-0 w-[36px] h-[64px] 
 cursor-pointer
 items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--background))] hidden`}>
-			<span>
-				<Icon
-					name="tabler:chevron-right"
-					class="text-primary"
-				/>
+			<span class="bg-black rounded-full p-1">
+				<Icon name="tabler:chevron-right" class="text-white" />
 			</span>
 		</button>
 	</div>

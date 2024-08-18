@@ -7,7 +7,7 @@ const products = await getProducts()
 
 <Layout title="Nuestros Productos">
 	<div class="py-5">
-		<h1 class="text-xl md:text-2xl font-extrabold mb-4"> Nuestra Lista de Productos </h1>
+		<h1 class="text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>
 		<ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
 			{
 				products
@@ -17,7 +17,7 @@ const products = await getProducts()
 							id={product.id}
 							title={product.title}
 							price={product.price}
-							imgUrl={product.images[0].url}
+							imgUrl={product.assets[0].url}
 							ranking={product.ranking}
 							slug={product.slug}
 						/>
