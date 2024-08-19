@@ -28,14 +28,14 @@
 		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
 		"assets": [
 			{
-				"id": "afb255de-7a76-443b-834b-10516c880d93",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716164049/neystore/jbavapurgnergrhav5gv.jpg",
-				"format": "jpg",
-				"width": 1714,
-				"height": 819,
-				"type": "image",
+				"id": "7cf4cb5e-bded-4d23-9509-9ba4c9dbef14",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724101712/neystore/lnwxybijkee73dqjslku.jpg",
+				"publicId": "neystore/lnwxybijkee73dqjslku",
 				"productId": "5d652261-2ad5-4ba1-8091-8e43a23bed35",
-				"publicId": "neystore/jbavapurgnergrhav5gv"
+				"width": 1500,
+				"height": 772,
+				"format": "jpg",
+				"type": "image"
 			},
 			{
 				"id": "51518fde-a4cc-4d3d-8c44-704f096cbc8d",
@@ -4072,4 +4072,3 @@
 		]
 	}
 ]
-

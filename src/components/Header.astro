@@ -4,12 +4,13 @@ import Container from './Container.astro'
 import Separator from '@/components/ui/Separator.astro'
 import { Icon } from 'astro-icon/components'
 import { cn } from '@/lib/utils'
-import site from '@/constants/site'
+import { site } from '@/config'
 const socialLinks = Object.entries(site.socialLinks)
 
 const pathname = Astro.url.pathname
 
-const normalizedPathName = pathname.length > 1 && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname
+const normalizedPathName =
+	pathname.length > 1 && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname
 
 const pages = [
 	{
@@ -41,9 +42,7 @@ const pages = [
 	class="sticky z-50 top-0 left-0 backdrop-blur-xl backdrop-saturate-200 data-[scroll]:shadow-sm">
 	<Container>
 		<div class="flex h-full items-center justify-between">
-			<a
-				href="/"
-				data-astro-reload>
+			<a href="/" data-astro-reload>
 				<Logo />
 			</a>
 
@@ -66,15 +65,8 @@ const pages = [
 			<div class="hidden lg:flex justify-center items-center">
 				{
 					socialLinks.map(([name, link]) => (
-						<a
-							class="hover:text-primary"
-							href={link}
-							rel="noopener noreferrer"
-							target="_blank">
-							<Icon
-								name={`tabler:brand-${name}`}
-								size={25}
-							/>
+						<a class="hover:text-primary" href={link} rel="noopener noreferrer" target="_blank">
+							<Icon name={`tabler:brand-${name}`} size={25} />
 						</a>
 					))
 				}
@@ -103,13 +95,8 @@ lg:hidden
 					}
 
 					<div class="border-b h-16 flex items-center justify-center border-b-foreground/20">
-						<a
-							href={`tel:+51${site.phone}`}
-							class="flex items-center">
-							<Icon
-								class="mr-2"
-								name="tabler:phone"
-							/>
+						<a href={`tel:+51${site.phone}`} class="flex items-center">
+							<Icon class="mr-2" name="tabler:phone" />
 							{site.phone}
 						</a>
 					</div>
@@ -122,10 +109,7 @@ lg:hidden
 										href={link}
 										rel="noopener noreferrer"
 										target="_blank">
-										<Icon
-											name={`tabler:brand-${name}`}
-											size={25}
-										/>
+										<Icon name={`tabler:brand-${name}`} size={25} />
 									</a>
 								))
 							}
@@ -134,18 +118,9 @@ lg:hidden
 				</nav>
 			</aside>
 			<div class="lg:hidden">
-				<button
-					id="burger-button"
-					class="transition flex items-center"
-					aria-label="menu mobile">
-					<Icon
-						name="tabler:menu"
-						size={25}
-					/>
-					<Icon
-						name="tabler:x"
-						size={25}
-					/>
+				<button id="burger-button" class="transition flex items-center" aria-label="menu mobile">
+					<Icon name="tabler:menu" size={25} />
+					<Icon name="tabler:x" size={25} />
 				</button>
 			</div>
 		</div>

@@ -26,7 +26,7 @@
 	}
 
 	* {
-		@apply border-border;
+		@apply border-border min-w-[0];
 	}
 	body {
 		@apply bg-background text-foreground  min-h-[100svh] text-[14px] leading-7;
