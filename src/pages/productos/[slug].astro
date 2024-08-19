@@ -74,22 +74,24 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 			</div>
 
 			<!-- Details -->
-			<div>
-				<h2 class="text-2xl font-bold mb-4">Detalles</h2>
-				<table class="w-full">
-					<tbody>
-						{
-							details &&
-								Object.entries(details).map(([key, value]) => (
+
+			{
+				details && (
+					<div>
+						<h2 class="text-2xl font-bold mb-4">Detalles</h2>
+						<table class="w-full">
+							<tbody>
+								{Object.entries(details).map(([key, value]) => (
 									<tr class="border-b border-foreground/20 last:border-none">
 										<td class="p-2.5">{key}</td>
 										<td class="p-2.5">{value}</td>
 									</tr>
-								))
-						}
-					</tbody>
-				</table>
-			</div>
+								))}
+							</tbody>
+						</table>
+					</div>
+				)
+			}
 
 			<!-- Features -->
 			{

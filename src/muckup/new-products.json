@@ -1373,9 +1373,9 @@
 	},
 	{
 		"id": "1cdb01d2-114d-4690-aec1-630a5778d5be",
-		"price": 70,
+		"price": 135,
 		"title": "Ametralladora de burbujas para niños, soplador de burbujas con música y luz para niños pequeños, fabricante de burbujas automático portátil con solución de burbujas para niños de 2, 3, 4, 5, 6 años,",
-		"cost": 130,
+		"cost": 70,
 		"ranking": 4,
 		"category": "Juguetes",
 		"features": [
@@ -1921,8 +1921,19 @@
 		"cost": 25,
 		"ranking": 4,
 		"category": "Juguetes",
-		"features": null,
-		"details": { "edad recomendada": "3-6Y,6-12y,+ 14 y" },
+		"features": [
+			"Juego de motora fina para desarrollar habilidades motoras finas en niños.",
+			"Incluye piezas en forma de clavija que se ajustan a la parte posterior del erizo.",
+			"Las coloridas clavijas ayudan a los niños a reconocer colores.",
+			"Fomenta la clasificación y el conteo de objetos.",
+			"Las piezas son del tamaño adecuado para las manos pequeñas de los niños.",
+			"El juego incluye 2 erizos, 12 clavijas y una guía de actividades.",
+			"Los erizos miden aproximadamente 6 pulgadas de diámetro.",
+			"Las clavijas caben fácilmente en los agujeros del erizo para facilitar el almacenamiento.",
+			"Es un juguete educativo recomendado para niños mayores de 18 meses.",
+			"Fomenta el juego imaginativo y la coordinación ojo-mano."
+		],
+		"details": null,
 		"slug": "juguetes-biomimeticos-erizo-montessori-bebe-rompecabezas",
 		"assets": [
 			{
@@ -2004,8 +2015,22 @@
 		"cost": 24,
 		"ranking": 4,
 		"category": "Juguetes",
-		"features": null,
-		"details": { "Número de modelo": "LZM108", "Recomendar edad": "0-3y" },
+		"features": [
+			"Juguete Montessori de erizo con forma y colorido.",
+			"Ideal para niños pequeños de 1 a 3 años.",
+			"Ayuda a desarrollar habilidades motoras finas en los niños.",
+			"Fomenta la destreza de los dedos en los más pequeños.",
+			"Permite el reconocimiento de colores y números.",
+			"Estimula el sentido del tacto y la percepción sensorial.",
+			"Los niños quitan y colocan las plumas libremente.",
+			"Incluye piezas de diferentes colores y formas.",
+			"Facilita el almacenamiento de las piezas en el cuerpo del erizo.",
+			"Es un juguete portátil y fácil de transportar.",
+			"Perfecto como regalo para niños de 1, 2 y 3 años.",
+			"Ideal para celebraciones como Halloween, Navidad, Pascua y cumpleaños.",
+			"Es un excelente recurso para la educación en el hogar."
+		],
+		"details": null,
 		"slug": "juguete-educativo-montessori-ninos-pequenos-juguetes-motor",
 		"assets": [
 			{
@@ -2037,6 +2062,17 @@
 				"type": "image",
 				"productId": "46e009ea-bc13-43c5-87af-56868b361072",
 				"publicId": "neystore/yxtae0mbrx5m23i0jx6b"
+			},
+
+			{
+				"id": "031c2e0a-2390-4f23-b445-2f48f0542d31",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724024743/neystore/iatwm1vlsykqp4z5arew.jpg",
+				"publicId": "neystore/iatwm1vlsykqp4z5arew",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image",
+				"productId": "46e009ea-bc13-43c5-87af-56868b361072"
 			},
 			{
 				"id": "bb2215af-dd8a-45e8-a62f-f769b7a45996",
@@ -2087,12 +2123,23 @@
 		"cost": 50,
 		"ranking": 3,
 		"category": "Juguetes",
-		"features": null,
-		"details": {
-			"Tema": "Animales y naturaleza,Transporte,Ocupaciones,Deportes",
-			"Certificación": "Certificación china (3C),Certificación Europea (CE)",
-			"Nombre de la marca": "QWZ"
-		},
+		"features": [
+			"Juguete de Pascua con 12 huevos blancos.",
+			"Cada huevo se abre revelando un interior colorido.",
+			"Las yemas de los huevos tienen diferentes formas en relieve.",
+			"Los niños deben emparejar los huevos por la forma de la yema.",
+			"Las piezas se pueden conectar entre sí.",
+			"Ideal para enseñar colores y formas de manera divertida.",
+			"Viene en un recipiente para facilitar el almacenamiento y la organización.",
+			"Hecho de plástico ABS de alta calidad y seguro para niños.",
+			"Es un juguete educativo perfecto para niños pequeños.",
+			"Fomenta el desarrollo de habilidades como el reconocimiento de formas y colores.",
+			"Mejora la coordinación ojo-mano y la motricidad fina.",
+			"Estimula la imaginación y el juego creativo.",
+			"Ideal como regalo de Pascua o para cualquier ocasión.",
+			"Perfecto para guarderías en casa o actividades en grupo."
+		],
+		"details": null,
 		"slug": "huevos-pascua-sensoriales-bebe-ninos-juguete-montessori",
 		"assets": [
 			{
@@ -2114,6 +2161,17 @@
 				"type": "image",
 				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
 				"publicId": "neystore/uti5rxkcrxt99pcyyrcw"
+			},
+
+			{
+				"id": "58907c8b-aaed-44fc-b310-809145eec99a",
+				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1724023767/neystore/kes7qhlvtbhiazfeysti.mp4",
+				"publicId": "neystore/kes7qhlvtbhiazfeysti",
+				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
+				"width": 854,
+				"height": 480,
+				"format": "mp4",
+				"type": "video"
 			},
 			{
 				"id": "05e77902-eb74-460a-90e2-14d200709c9a",
@@ -2174,76 +2232,6 @@
 				"type": "image",
 				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
 				"publicId": "neystore/r3xbbg8scqfh7bjc2hvm"
-			},
-			{
-				"id": "5a59fa72-a047-464c-8347-12187658ffe4",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112288/neystore/unr43uvcvuz6boipvwu1.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
-				"publicId": "neystore/unr43uvcvuz6boipvwu1"
-			},
-			{
-				"id": "adf67de9-42e3-4e32-8f7a-bef7d133b6d9",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112288/neystore/l7tgshanylw53v23np0b.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
-				"publicId": "neystore/l7tgshanylw53v23np0b"
-			},
-			{
-				"id": "0ddb7ac2-9587-43b3-9e7e-321a29abd246",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112288/neystore/axgkilxkmq19d24ddd3p.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
-				"publicId": "neystore/axgkilxkmq19d24ddd3p"
-			},
-			{
-				"id": "9c072e6d-a91a-46de-924f-9a257c491d1b",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112288/neystore/uibexznqcxzxsycuvwpw.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
-				"publicId": "neystore/uibexznqcxzxsycuvwpw"
-			},
-			{
-				"id": "9ae39098-e1f6-4285-b060-230de867c803",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112288/neystore/sncfpqvwqdsaymm3xgqv.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
-				"publicId": "neystore/sncfpqvwqdsaymm3xgqv"
-			},
-			{
-				"id": "d7578323-0e70-4710-a34f-4c2eb3c0278e",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112288/neystore/z68spcwjcjgncli4lonh.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
-				"publicId": "neystore/z68spcwjcjgncli4lonh"
-			},
-			{
-				"id": "6f1e7a8f-5143-4756-ab7f-141734604d5b",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112288/neystore/wrzostboeqn2svchup3w.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
-				"publicId": "neystore/wrzostboeqn2svchup3w"
 			}
 		]
 	},
@@ -2278,6 +2266,7 @@
 				"productId": "44f48629-0c69-41bd-936d-b6fe0527fa4a",
 				"publicId": "neystore/ahppqncm1rqpza3eibw6"
 			},
+
 			{
 				"id": "dc06265d-d296-48ac-815f-4ecccbe92ab4",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112394/neystore/ieekwiqcfdxtfqjpbury.webp",
@@ -3584,23 +3573,59 @@
 		"cost": 277,
 		"ranking": 5,
 		"category": "Tecnologia",
-		"features": null,
+		"features": [
+			"Pantalla AMOLED de 1.97 pulgadas con alta frecuencia de actualización de 60 Hz.",
+			"Diseño elegante con marco de aleación de aluminio.",
+			"Batería de larga duración, hasta 20 días en uso típico.",
+			"Carga magnética para una recarga rápida y fácil.",
+			"Monitoreo continuo de la frecuencia cardíaca.",
+			"Medición del nivel de oxígeno en sangre (SpO2).",
+			"Seguimiento detallado del sueño en diferentes etapas.",
+			"Más de 150 modos deportivos, incluyendo correr, nadar y ciclismo.",
+			"GPS integrado para un seguimiento preciso de rutas.",
+			"Guía de calentamiento para cada modo deportivo.",
+			"Realiza y recibe llamadas directamente desde el reloj.",
+			"Notificaciones de llamadas, mensajes y aplicaciones.",
+			"Control de música desde la muñeca.",
+			"Resistencia al agua para actividades acuáticas.",
+			"Variedad de esferas personalizables.",
+			"Chipset eficiente para optimizar el consumo de energía.",
+			"Reducción del estrés con ejercicios de respiración guiados."
+		],
 		"details": {
-			"Asistente de voz incorporado": "no",
-			"Métricas medidas": "Monitor de ritmo cardíaco,Monitor de oxígeno en sangre,Monitor de sueño",
-			"Categoría": "Relojes inteligentes"
+			"Marca": "Xiaomi",
+			"Modelo": "Reloj Redmi 4",
+			"Forma": "Cuadrada",
+			"Tamaño de pantalla": "1,97 Pulgadas",
+			"Tecnología de conectividad": "Bluetooth",
+			"Estándar de comunicación inalámbrica": "Bluetooth",
+			"GPS": "Sin GPS",
+			"Duración de la batería": "20 Días",
+			"Capacidad de almacenamiento": "1 GB",
+			"Características especiales": "GNSS multisistema, llamadas Bluetooth"
 		},
 		"slug": "redmireloj-inteligente-4-version-global-dispositivo",
 		"assets": [
 			{
-				"id": "2f22e978-9145-4f65-9201-76ddfda8237f",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856992/neystore/pollabaeqqcjifcyohkc.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
+				"id": "f1918e94-0810-4086-8839-ea30c2c071ec",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724025317/neystore/ivfqabgiz6q3zcetxybp.jpg",
+				"publicId": "neystore/ivfqabgiz6q3zcetxybp",
 				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/pollabaeqqcjifcyohkc"
+				"width": 698,
+				"height": 1088,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "9102e5f8-f0fb-4c31-97bb-23be41764b97",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724025455/neystore/ludofbzu1eijtl0z0vvh.jpg",
+				"publicId": "neystore/ludofbzu1eijtl0z0vvh",
+				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
+				"width": 947,
+				"height": 1077,
+				"format": "jpg",
+				"type": "image"
 			},
 			{
 				"id": "c0462837-60e7-420e-9e25-791f56b7a5ba",
@@ -3661,166 +3686,6 @@
 				"type": "image",
 				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
 				"publicId": "neystore/p04wdn5a2a0o6t9ect0v"
-			},
-			{
-				"id": "c69d18b5-a6e9-479e-b51c-f92d382eeab2",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/iegswq65ct6jtcmz8yy2.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/iegswq65ct6jtcmz8yy2"
-			},
-			{
-				"id": "fb510a2d-7cf8-4fa0-ac09-5e5f21624f6a",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/ynwveejgeburvnzjw6zs.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/ynwveejgeburvnzjw6zs"
-			},
-			{
-				"id": "8d337093-5b76-4b3f-968b-21954824c2a1",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/dnepii1pt7kbjmbrdgp3.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/dnepii1pt7kbjmbrdgp3"
-			},
-			{
-				"id": "60f1c119-664f-4e13-8f3b-7cb4e34144d2",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/etxcrleegcxsqr39exkq.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/etxcrleegcxsqr39exkq"
-			},
-			{
-				"id": "ab3e27ea-710c-4b65-a5c4-b3d01280fe6e",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/c6cpriqvhekqycqcwewu.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/c6cpriqvhekqycqcwewu"
-			},
-			{
-				"id": "dcf6ad7e-0a47-4766-b7e2-958a28dcbce8",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/gycgeah6ebhmxhh0ztko.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/gycgeah6ebhmxhh0ztko"
-			},
-			{
-				"id": "72682044-15e0-4805-a056-77924f109ab4",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/goqw58hnc3rjdai9i9cv.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/goqw58hnc3rjdai9i9cv"
-			},
-			{
-				"id": "7101b0b3-cf31-482e-9842-a5811edb43f2",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/gphkptduud1pxrs0poe2.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/gphkptduud1pxrs0poe2"
-			},
-			{
-				"id": "eb2ef201-c539-4532-8b1f-a2de6c241160",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/qqkbmj7nvdmznxsgqjzs.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/qqkbmj7nvdmznxsgqjzs"
-			},
-			{
-				"id": "eaf4db81-f591-4cc7-a463-5e39e97670c0",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/mpe02rnovlvzyffo8rkb.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/mpe02rnovlvzyffo8rkb"
-			},
-			{
-				"id": "0a2ada94-1156-4459-8978-41fa54804906",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/bue0f53duzm5kabaca4z.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/bue0f53duzm5kabaca4z"
-			},
-			{
-				"id": "ec40cdf8-2983-4281-93db-9c959639556b",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/foqest6qtscluqym9kxu.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/foqest6qtscluqym9kxu"
-			},
-			{
-				"id": "11a395ee-65a6-42e8-8b4b-260ed38fd612",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/qxklqhrabwi4nnn1cnzq.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/qxklqhrabwi4nnn1cnzq"
-			},
-			{
-				"id": "0e0404b0-69b7-49a4-a9d8-522bd47e935f",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856992/neystore/indovkiuhiahjn1pyrwq.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/indovkiuhiahjn1pyrwq"
-			},
-			{
-				"id": "13cfe269-1fd9-401b-89ab-705ef19d0ab8",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856992/neystore/wydahh4kizv53aqgfgy7.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/wydahh4kizv53aqgfgy7"
-			},
-			{
-				"id": "6d3f2fac-e811-40c8-9a75-816fd94f6204",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/toqw1eg5zym5fniipzto.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"productId": "890914f3-9c4f-4103-854f-d5464447de3f",
-				"publicId": "neystore/toqw1eg5zym5fniipzto"
 			}
 		]
 	},
@@ -4012,8 +3877,23 @@
 		"cost": 30,
 		"ranking": 4,
 		"category": "Juguetes",
-		"features": null,
-		"details": {},
+		"features": [
+			"Proyecta nebulosas y estrellas de alta definición en múltiples colores.",
+			"Diseño innovador en forma de astronauta con cabeza magnética para ajustar el ángulo.",
+			"Amplia gama de combinaciones de colores y modos de iluminación.",
+			"Control remoto para personalizar la experiencia de proyección.",
+			"Crea un ambiente relajante y soñador ideal para dormitorios y espacios de relajación.",
+			"Perfecto para estimular la imaginación y la creatividad, especialmente en niños.",
+			"Versátil: se puede utilizar como luz nocturna, decoración o luz de ambiente.",
+			"Ideal como regalo para cualquier ocasión."
+		],
+		"details": {
+			"Tipo de acabado": "Proyector",
+			"Dimensiones del producto": " 5,2\"prof. x 4,06\"an. x 3,31\"al. pulgadas",
+			"Tipo de lámpara": "Aceite",
+			"Color de sombra": "Multicolor",
+			"Tipo de interruptor": "Remoto"
+		},
 		"slug": "proyector-astronauta-estrella-galaxia-luz-led-noche-lampara",
 		"assets": [
 			{
@@ -4085,16 +3965,6 @@
 				"type": "image",
 				"productId": "6a02ab2d-5cb9-4de1-9258-4df483610235",
 				"publicId": "neystore/fptrcbxohowy5zjeob7d"
-			},
-			{
-				"id": "ea623b5f-e465-468c-9198-669acd4aa1f9",
-				"url": "https://ae-pic-a1.aliexpress-media.com/kf/S1e424462770044b6996bb12f2bca1b35N.jpg_500x500.jpg_.webp",
-				"format": "webp",
-				"width": 120,
-				"height": 120,
-				"type": "image",
-				"productId": "6a02ab2d-5cb9-4de1-9258-4df483610235",
-				"publicId": "neystore/ak1hqm00nn0pyowsuf95"
 			}
 		]
 	},

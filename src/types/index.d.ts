@@ -12,6 +12,7 @@ export type ProductAsset = {
 	id: Id
 	thumbUrl: string
 	mediumUrl: string
+	smallUrl: string
 	url: string
 	width: number
 	height: number

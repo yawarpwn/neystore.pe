@@ -3,21 +3,21 @@
 import { Icon } from 'astro-icon/components'
 const team = [
 	{
-		name: 'Raquel Maldonado. ',
+		name: 'Raquel Maldonado',
 		job: 'Gerente Ventas',
 		image: '/assets/team/raquel-maldonado.webp',
 		phone: '900224005',
 	},
 
 	{
-		name: 'Jesus Saavedra M.',
+		name: 'Jesus Saavedra',
 		job: 'Asistente Ventas',
 		image: 'https://img.freepik.com/premium-vector/cute-boy-avatar-illustration_637684-31.jpg',
 		phone: '900224005',
 	},
 
 	{
-		name: 'Milagro Saavedra M.',
+		name: 'Milagro Saavedra',
 		job: 'Asistente Ventas',
 		image:
 			'https://img.freepik.com/vector-premium/cara-linda-chica-avatar-nina-retrato-ilustracion-plana-vectorial_192760-82.jpg?w=2000',
@@ -41,7 +41,7 @@ transition-transform translate-x-full invisible`}>
 			<div class="flex flex-col gap-2">
 				{
 					team.map((member) => {
-						const whatsappLink = `https://wa.me/51${member.phone}?text=Hola ${member.name}, vengo de la pagina. Estoy interesando en:`
+						const whatsappLink = `https://wa.me/51${member.phone}?text=Hola ${member.name.split(' ')[0]}, vengo de la pagina. Estoy interesando en:`
 
 						return (
 							<a
