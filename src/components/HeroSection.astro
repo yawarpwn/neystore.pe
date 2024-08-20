@@ -30,7 +30,7 @@ const features = [
 				class="flex flex-col h-full lg:grid grid-cols-1 gap-8 lg:grid-cols-2 items-center justify-between">
 				<div class="mt-8 lg:mt-0">
 					<h1
-						class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
+						class="text-4xl text-center lg:text-left sm:text-5xl/snug md:text-6xl/snug text-balance font-bold">
 						Somos E-Commerce de productos
 						<span class="text-primary">Tecnológicos</span> y
 						<span class="text-primary">Juguetes</span>
@@ -43,7 +43,7 @@ const features = [
 								<li>
 									<div class="flex items-center gap-4 mb-6">
 										<Icon name={feature.icon} class="text-primary size-8" />
-										<p>{feature.description}</p>
+										<p class="text-xl">{feature.description}</p>
 									</div>
 								</li>
 							))
@@ -51,7 +51,7 @@ const features = [
 					</ul>
 				</div>
 				<div>
-					<figure class="h-[500px] relative">
+					<figure class="relative">
 						<img
 							src="/assets/images/mockup.avif"
 							alt="maqueta de la aplicación"

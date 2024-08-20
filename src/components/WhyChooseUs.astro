@@ -7,10 +7,10 @@ import Container from '@/components/Container.astro'
 	<Container>
 		<div>
 			<div class="mb-10 flex flex-col items-center">
-				<h2 class="text-2xl mb-4 font-bold text-center sm:text-3xl md:text-4xl">
+				<h2 class="text-3xl mb-4 font-bold text-center sm:text-3xl md:text-4xl">
 					¿Por qué confiar en Nosotros?
 				</h2>
-				<p class="mb-4 text-md text-center max-w-4xl">
+				<p class="text-md text-center max-w-4xl">
 					Contamos con una sólida reputación respaldada por años de experiencia, siempre buscando
 					superar tus expectativas y enriquecer tu experiencia con nuestra marca.
 				</p>
@@ -18,42 +18,44 @@ import Container from '@/components/Container.astro'
 			<!-- Container -->
 			<div class="grid md:grid-cols-2 grid-flow-row-dense gap-4">
 				<!-- Atencion -->
-				<div
-					class="our-card bg-no-repeat bg-center bg-[url(https://www.kustomer.com/wp-content/uploads/2022/04/close-up-on-man-hand-using-tab-pad-on-laptop-to-working-about-of-picture-id1169192820-3-1.jpg)]">
-					<div class="flex flex-col items-center gap-y-3 relative z-20 bg-orange">
-						<Icon name="tabler:brand-whatsapp" size={30} />
-						<p class="text-gradient font-medium uppercase md:text-lg">Atención</p>
+				<div class="our-card bg-[url(/assets/images/attention.webp)]">
+					<div class="relative z-20">
+						<div class="flex flex-col items-center gap-y-3">
+							<Icon name="tabler:brand-whatsapp" size={36} />
+							<p class="font-bold uppercase md:text-2xl">Atención</p>
+						</div>
+						<p class="text-center text-sm mt-2">Te ofrecemos atención personalizada las 24/7</p>
 					</div>
-					<p class="text-center text-sm">Te ofrecemos atención personalizada las 24/7</p>
 				</div>
 				<!-- Delivery -->
-				<div
-					class="our-card bg-[url(https://www.kustomer.com/wp-content/uploads/2022/04/close-up-on-man-hand-using-tab-pad-on-laptop-to-working-about-of-picture-id1169192820-3-1.jpg)]">
-					<div class="flex flex-col items-center gap-y-3 relative z-20">
-						<Icon name="tabler:motorbike" size={30} />
-						<p class="text-gradient font-medium uppercase md:text-lg">Delivery</p>
+				<div class="our-card bg-[url(/assets/images/delivery.webp)]">
+					<div class="relative z-20">
+						<div class="flex flex-col items-center gap-y-3">
+							<Icon name="tabler:motorbike" size={36} />
+							<p class="text-gradient font-bold uppercase md:text-2xl">Delivery</p>
+						</div>
+						<p class="text-center text-sm mt-2">Enviamos tus compras a la puerta de tu casa.</p>
 					</div>
-					<p class="text-center text-sm">Enviamos tus compras a la puerta de tu casa.</p>
 				</div>
 
 				<!-- Compra online -->
-				<div
-					class="our-card bg-no-repeat bg-center bg-[url(https://blog.storecheck.com.mx/wp-content/uploads/2022/08/5-Tendencias-de-eCommerce-para-el-futuro-de-las-compras-en-Retail.png)]">
-					<div class="flex flex-col items-center gap-y-3 relative z-20">
-						<Icon name="tabler:clock" size={30} />
-						<p class="text-gradient font-medium uppercase md:text-lg">Compra Online</p>
+				<div class="our-card bg-[url(/assets/images/buy-online.webp)]">
+					<div class="relative z-20">
+						<div class="flex flex-col items-center gap-y-3">
+							<Icon name="tabler:clock" size={36} />
+							<h3 class="uppercase font-bold md:text-2xl">Compra Online</h3>
+						</div>
+						<p class="text-center text-sm mt-2">Ahorra tiempo y dinero comprando en línea.</p>
 					</div>
-					<p class="text-center text-sm">Ahorra tiempo y dinero comprando en línea.</p>
 				</div>
 				<!-- Pago Facil -->
-				<div
-					class="our-card bg-no-repeat bg-center bg-[url(https://www.kustomer.com/wp-content/uploads/2022/04/close-up-on-man-hand-using-tab-pad-on-laptop-to-working-about-of-picture-id1169192820-3-1.jpg)]">
+				<div class="our-card bg-[url(/assets/images/easy-pay.webp)]">
 					<div class="relative z-20">
 						<div class="flex flex-col items-center gap-y-4">
-							<Icon name="tabler:wallet" size={30} class="" />
-							<h3 class="text-gradient font-xl uppercase md:text-2xl font-bold">Pago Fácil</h3>
+							<Icon name="tabler:wallet" size={36} class="" />
+							<h3 class="font-xl uppercase md:text-2xl font-bold">Pago Fácil</h3>
 						</div>
-						<p class="text-center text-sm mt-4">
+						<p class="text-center text-sm mt-2">
 							Aceptamos pagos con Yape, Plin, transferencia, efectivo, etc.
 						</p>
 					</div>
@@ -64,7 +66,7 @@ import Container from '@/components/Container.astro'
 </section>
 <style>
 	.our-card {
-		@apply rounded-lg px-4 py-24 overflow-hidden relative text-white;
+		@apply rounded-lg px-4 py-16 md:py-24 overflow-hidden relative text-white bg-cover;
 	}
 
 	.our-card::after {
@@ -72,7 +74,7 @@ import Container from '@/components/Container.astro'
 		position: absolute;
 		inset: 0;
 		z-index: 10;
-		background: hsla(0 0 0% /0.6);
+		background: hsla(0 0 0% /0.7);
 		mix-blend-mode: multiply;
 	}
 </style>
