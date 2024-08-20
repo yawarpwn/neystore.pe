@@ -1,54 +1,116 @@
 ---
 import ProductRanking from '@/components/ProductRanking.astro'
 import Container from '@/components/Container.astro'
+import { Icon } from 'astro-icon/components'
 const reviews = [
 	{
-		avatar:
-			'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80',
-		name: 'Jesus',
+		avatar: '/assets/images/milagros-avatar.png',
+		name: 'Milagros Ramirez',
+		date: 'Dec 01, 2023',
+		rating: 5,
+		comment:
+			'Siempre he tenido grata experiencia, mi hijo ha aprendido muchísimo con sus materiales didácticos. Y seguiremos siendo sus fieles clientes.',
+	},
+	{
+		avatar: '/assets/images/daniel-avatar.png',
+		name: 'Daniel Salvatierra',
+		date: 'Aug 18, 2023',
+		rating: 4,
+		comment:
+			'Cuando me comuniqué para solicitar orientación en la selección de los juguetes, para mi bebé de dos años, recibí una orientación muy profesional. Estoy muy agradecida.',
+	},
+
+	{
+		avatar: '/assets/images/maria-avatar.png',
+		name: 'Maria Navarrete C.',
 		date: 'Mar 23, 2023',
 		rating: 3,
 		comment:
-			'Me gusto su atencion, constestan rapido y aclaran dudas del producto.  Muchas gracias',
-		productID: '01',
-	},
-	{
-		avatar:
-			'https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80',
-		name: 'Daniel',
-		date: 'Aug 18, 2023',
-		rating: 4,
-		comment: 'El producto es muy bueno, me encanto su atencion.  Muchas gracias',
-		productID: '01',
-	},
-	{
-		avatar:
-			'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80',
-		name: 'Milagros',
-		date: 'Dec 01, 2023',
-		rating: 5,
-		comment: 'Su tiempo de entrega fue rapido, los recomiendo',
-		productID: '01',
+			'Cada vez que necesito un juguetito o algo para educar a mi Hija compro a través de la página web, muy fácil y rápido.',
 	},
 ]
 ---
 
 <section>
 	<Container>
-		<h3 class="text-xl md:text-2xl font-bold mb-4">Opinion de nuestros clientes</h3>
-		<p class="mb-4">Con esfuerzo y dedicación, brindamos la mejor experiencia de compra.</p>
-		<ul class="flex flex-col md:flex-row gap-4">
-			{
-				reviews.map((review) => (
-					<div class="p-4 flex flex-col bg-secondary rounded-md border-gradient">
-						<ProductRanking ranking={review.rating} />
-						<p class="mb-4">{review.comment}</p>
-						<div class="flex justify-end">
-							<small>{review.name}</small>
-						</div>
+		<div class="mb-8">
+			<p class="text-md uppercase text-center">Opinión de nuestros clientes</p>
+			<h2 class="text-3xl md:text-4xl font-extrabold mb-4 text-center">¿Que dicen de Nosotros?</h2>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2">
+			<div class="flex items-center justify-center p-4">
+				<div class="overflow-x-scroll" style="scrollbar-width: none">
+					<ul id="testimonial-list" class="flex flex-row transition-transform snap-mandatory">
+						{
+							reviews.map((review) => (
+								<li class="p-4 min-w-full">
+									<div class="flex flex-col items-center">
+										{/*Comment */}
+										<div class="flex flex-col items-center">
+											<Icon name="tabler:quote" size={50} />
+											<p class="mb-4 text-center italic">{review.comment}</p>
+										</div>
+
+										{/*Avatar */}
+										<div class="rounded-full size-16 overflow-hidden">
+											<img src={review.avatar} />
+										</div>
+
+										<div class="">
+											<small>{review.name}</small>
+										</div>
+									</div>
+								</li>
+							))
+						}
+					</ul>
+					<!-- Buttons -->
+					<div class="flex justify-center gap-4">
+						{
+							reviews.map((review, index) => (
+								<button
+									data-state={index == 0 ? 'active' : 'inactive'}
+									class="testimonial-button size-3  border-2 rounded-full hover:bg-foreground data-[state=active]:bg-foreground"
+								/>
+							))
+						}
 					</div>
-				))
-			}
-		</ul>
+				</div>
+			</div>
+			<div class="hidden md:block h-full rounded-tr-lg rounded-br-lg overflow-hidden">
+				<img class="w-full h-full object-cover" src="/assets/images/toys-child.jpg" />
+			</div>
+		</div>
 	</Container>
 </section>
+<script>
+	// Obtener los elementos del DOM
+	const testimonialList = document.getElementById('testimonial-list') as HTMLUListElement
+	const buttons = document.querySelectorAll('.testimonial-button') as NodeListOf<HTMLButtonElement>
+
+	// Variables de estado
+	let currentIndex = 0
+
+	// Función para actualizar la posición del slider
+	function updateSlider(index: number) {
+		const testimonialWidth = testimonialList.firstElementChild.offsetWidth
+		testimonialList.style.transform = `translateX(-${testimonialWidth * index}px)`
+	}
+
+	const setInactiveStateToAllButtons = () => {
+		buttons.forEach((btn) => btn.setAttribute('data-state', 'inactive'))
+	}
+
+	// Event Listeners para los botones
+	buttons.forEach((button, index) => {
+		button.addEventListener('click', () => {
+			setInactiveStateToAllButtons()
+			currentIndex = index
+			button.setAttribute('data-state', 'active')
+			updateSlider(currentIndex)
+		})
+	})
+
+	// Iniciar el slider en la primera posición
+	updateSlider(currentIndex)
+</script>
