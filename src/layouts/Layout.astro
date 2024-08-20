@@ -13,6 +13,8 @@ const {
 	url = site.url,
 	image = site.ogImage,
 } = Astro.props
+
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
 ---
 
 <!doctype html>
@@ -23,6 +25,7 @@ const {
 		<!-- Favicon -->
 		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
 		<link rel="icon" type="image/ico" href="/favicon.ico" />
+		<link rel="canonical" href={canonicalUrl} />
 		<HeadSeo {title} {description} {image} {url} />
 	</head>
 	<body>

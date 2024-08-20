@@ -1,21 +1,33 @@
 ---
 import '@/styles/global.css'
-import Head from '@/components/Head.astro'
 import Footer from '@/components/Footer.astro'
 import Header from '@/components/Header.astro'
 import WhatsappPopup from '@/components/WhatsappPopup.astro'
-import Container from '@/components/Container.astro'
+import HeadSeo from '@/components/HeadSeo.astro'
+import { site } from '@/config'
 ---
 
 <!doctype html>
 <html lang="es">
-	<Head />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<!-- Favicon -->
+		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+		<link rel="canonical" href={site.url} />
+		<HeadSeo
+			title={site.title}
+			description={site.description}
+			image={new URL(site.ogImage)}
+			url={new URL(site.url)}
+		/>
+	</head>
 	<body>
 		<Header />
-		<div class="page min-h-[100svh] flex flex-col gap-12">
+		<main class="page min-h-[100svh] flex flex-col gap-12">
 			<slot />
 			<WhatsappPopup />
-		</div>
+		</main>
 		<Footer />
 	</body>
 </html>
