@@ -20,14 +20,14 @@ const { video } = Astro.props
 	</span>
 </li>
 <dialog>
-	<div class="md:max-w-3xl relative rounded-md overflow-hidden">
-		<video class="w-full h-full" id="player" playsinline controls>
+	<div class="relative rounded-md overflow-hidden">
+		<video class="" id="player" playsinline controls>
 			<source src={video.url} type="video/mp4" />
 		</video>
 		<source src="/path/to/video.webm" type="video/webm" />
 		<button
 			id="close-dialog-btn"
-			class="absolute top-1 right-1 size-7 bg-foreground flex items-center justify-center rounded-full">
+			class="absolute top-3 right-1 size-7 bg-foreground flex items-center justify-center rounded-full">
 			<Icon name="tabler:x" />
 		</button>
 	</div>
@@ -55,6 +55,10 @@ const { video } = Astro.props
 <style is:global>
 	:root {
 		--plyr-color-main: oklch(var(--black));
+	}
+
+	#player {
+		height: 100%;
 	}
 </style>
 <script>
