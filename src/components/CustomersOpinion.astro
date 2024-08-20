@@ -37,13 +37,13 @@ const reviews = [
 			<p class="text-md uppercase text-center">Opinión de nuestros clientes</p>
 			<h2 class="text-3xl md:text-4xl font-extrabold mb-4 text-center">¿Que dicen de Nosotros?</h2>
 		</div>
-		<div class="grid grid-cols-1 md:grid-cols-2">
-			<div class="flex items-center justify-center p-4">
+		<div class="grid grid-cols-1 md:grid-cols-2 items-center justify-center">
+			<div class="flex flex-col justify-center h-full">
 				<div class="overflow-x-scroll" style="scrollbar-width: none">
 					<ul id="testimonial-list" class="flex flex-row transition-transform snap-mandatory">
 						{
 							reviews.map((review) => (
-								<li class="p-4 min-w-full">
+								<li class="p-6 min-w-full">
 									<div class="flex flex-col items-center">
 										{/*Comment */}
 										<div class="flex flex-col items-center">
@@ -64,17 +64,17 @@ const reviews = [
 							))
 						}
 					</ul>
-					<!-- Buttons -->
-					<div class="flex justify-center gap-4">
-						{
-							reviews.map((review, index) => (
-								<button
-									data-state={index == 0 ? 'active' : 'inactive'}
-									class="testimonial-button size-3  border-2 rounded-full hover:bg-foreground data-[state=active]:bg-foreground"
-								/>
-							))
-						}
-					</div>
+				</div>
+				<!-- Buttons -->
+				<div class="flex justify-center gap-4">
+					{
+						reviews.map((review, index) => (
+							<button
+								data-state={index == 0 ? 'active' : 'inactive'}
+								class="testimonial-button size-3  border-2 rounded-full hover:bg-foreground data-[state=active]:bg-foreground"
+							/>
+						))
+					}
 				</div>
 			</div>
 			<div class="hidden md:block h-full rounded-tr-lg rounded-br-lg overflow-hidden">
