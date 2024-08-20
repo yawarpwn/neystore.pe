@@ -7,35 +7,35 @@ import { Icon } from 'astro-icon/components'
 
 <footer>
 	<Container>
-		<article class="grid grid-cols-1 gap-4 md:grid-cols-3 py-8">
+		<article class="grid grid-cols-1 gap-8 md:grid-cols-3 py-8">
 			<div class="flex flex-col gap-4">
 				<div>
-					<h3 class="text-base font-bold mb-2">Entrega</h3>
+					<h4 class="text-base font-bold mb-2">Entrega</h4>
 					<p>Delivery en Lima y envíos por agencia sugeridad a nivel nacional</p>
 				</div>
 				<div>
-					<h3 class="text-base font-bold mb-2">Dirección</h3>
+					<h4 class="text-base font-bold mb-2">Dirección</h4>
 					<p>{site.address}</p>
 				</div>
 			</div>
 			<div class="flex flex-col gap-4">
 				<div>
-					<h3 class="text-base font-bold mb-2">Contatenos</h3>
+					<h4 class="text-base font-bold mb-2">Contatenos</h4>
 					<p class="mb-2">{site.email}</p>
 					<p>+51 {site.phone}</p>
 				</div>
 				<div>
-					<h3 class="text-base font-bold mb-2">Horario de Atencion</h3>
+					<h4 class="text-base font-bold mb-2">Horario de Atencion</h4>
 					<p>Lunes a Sábado de 10:00AM - 07:00PM</p>
 				</div>
 			</div>
 			<div class="flex flex-col gap-4">
 				<div>
-					<h3 class="text-base font-bold mb-2">Aceptamos</h3>
+					<h4 class="text-base font-bold mb-2">Aceptamos</h4>
 					<img src="/assets/images/pay-methods.webp" />
 				</div>
 				<div>
-					<h3 class="text-base font-bold mb-2">Redes Sociales</h3>
+					<h4 class="text-base font-bold mb-2">Redes Sociales</h4>
 					<div class="flex items-center gap-4">
 						{
 							Object.entries(site.socialLinks).map(([key, value]) => {

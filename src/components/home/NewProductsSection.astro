@@ -1,0 +1,42 @@
+---
+import Container from '@/components/Container.astro'
+import { getProducts } from '@/lib/data'
+const products = await getProducts()
+
+//TODO: implment recents products
+const lastedProducts = products
+	.filter((p) => p.category === 'Juguetes')
+	.toSorted((a, b) => a.title > b.title)
+	.slice(0, 8)
+
+import ProductCard from '../ProductCard.astro'
+---
+
+<section>
+	<Container>
+		<div>
+			<p class="text-md md:text-lg text-center uppercase">
+				Conoce las novedades en juguetería didáctica
+			</p>
+			<h2 class="text-2xl md:text-4xl font-bold text-center mb-8">Nuevos Jueguetes en Neystore</h2>
+		</div>
+		<div class="overflow-x-auto overflow-y-hidden">
+			<ul class="flex gap-4 flex-row">
+				{
+					lastedProducts.map((product) => (
+						<li class="min-w-[160px] w-[160px]">
+							<ProductCard
+								id={product.id}
+								title={product.title}
+								price={product.price}
+								imgUrl={product.assets[0].smallUrl}
+								ranking={product.ranking}
+								slug={product.slug}
+							/>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</Container>
+</section>

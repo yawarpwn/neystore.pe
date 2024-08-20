@@ -1,33 +1,38 @@
 ---
 import Button from '@/components/ui/Button.astro'
+import Container from '@/components/Container.astro'
 ---
 
 <section>
-	<div class="bg-transparent py-12 lg:py-36 relative z-10">
-		<div class="w-full container px-4 mx-auto py-12 max-xl:text-center">
-			<p class="text-xl text-white font-semibold first-letter:uppercase">Suscribete para ofertas</p>
-			<div class="w-full space-y-4 max-xl:text-center">
-				<form onclick="event.preventDefault()">
-					<div class="flex items-center gap-x-2 max-md:flex-col max-md:gap-y-4">
-						<input
-							type="text"
-							placeholder="Enter your email"
-							name="email"
-							autocomplete="email"
-							class="flex h-10 w-full rounded bg-white px-3 py-5 pl-4 text-sm font-medium text-neutral-950 transition-colors placeholder:text-neutral-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-600 disabled:cursor-not-allowed disabled:opacity-50"
-						/>
-						<Button variant="outline" size="lg" class="px-3 py-5">Subscribe</Button>
-					</div>
-				</form>
-				<p class="text-xs font-medium text-neutral-50 shadow-lg">
-					Al suscribirte, aceptas nuestros
-					<a href="#" class="hover:text-gradient text-white underline">terminos de servicio</a>
-					<!-- -->y<!-- -->
-					<a href="#" class="hover:text-gradient text-white underline">Politicas de Privacidad</a>
+	<Container>
+		<div class="bg-transparent py-12 lg:py-36 relative z-10">
+			<div class="w-full container px-4 mx-auto py-12 max-xl:text-center">
+				<p class="text-xl text-white font-semibold first-letter:uppercase">
+					Suscribete para ofertas
 				</p>
+				<div class="w-full space-y-4 max-xl:text-center">
+					<form onclick="event.preventDefault()">
+						<div class="flex items-center gap-x-2 max-md:flex-col max-md:gap-y-4">
+							<input
+								type="text"
+								placeholder="Enter your email"
+								name="email"
+								autocomplete="email"
+								class="flex h-10 w-full rounded bg-white px-3 py-5 pl-4 text-sm font-medium text-neutral-950 transition-colors placeholder:text-neutral-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-600 disabled:cursor-not-allowed disabled:opacity-50"
+							/>
+							<Button variant="outline" size="lg" class="px-3 py-5">Subscribe</Button>
+						</div>
+					</form>
+					<p class="text-xs font-medium text-neutral-50 shadow-lg">
+						Al suscribirte, aceptas nuestros
+						<a href="#" class="hover:text-gradient text-white underline">terminos de servicio</a>
+						<!-- -->y<!-- -->
+						<a href="#" class="hover:text-gradient text-white underline">Politicas de Privacidad</a>
+					</p>
+				</div>
 			</div>
 		</div>
-	</div>
+	</Container>
 </section>
 <!-- class="bg-gradient-to-r from-blue via-primary to-secondary bg-no-repeat bg-[url(/assets/images/toys-background.avif)] bg-center p-px" -->
 <style>

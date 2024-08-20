@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components'
-import CategoryListSection from './CategoryListSection.astro'
+import Container from './Container.astro'
 const features = [
 	{
 		icon: 'tabler:sparkles',
@@ -24,52 +24,49 @@ const features = [
 ---
 
 <section class="flex items-center lg:py-28">
-	<div class="flex flex-col gap-8 lg:h-auto h-full">
-		<div class="flex flex-col h-full lg:grid grid-cols-1 gap-8 lg:grid-cols-2 items-center justify-between">
-			<div class="mt-8 lg:mt-0">
-				<h1 class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
-					Somos E-Commerce de productos
-					<span class="text-primary">Tecnológicos </span> y
-					<span class="text-primary">Juguetes</span>
-					didácticos
-					<!-- <span class="text-primary">la Tecnologia</span> -->
-				</h1>
-				<ul class="relative pl-6 lg:pl-10 mt-16">
-					{
-						features.map((feature) => (
-							<li>
-								<div class="flex items-center gap-4 mb-6">
-									<Icon
-										name={feature.icon}
-										class="text-primary size-8"
-									/>
-									<p>{feature.description}</p>
-								</div>
-							</li>
-						))
-					}
-				</ul>
-			</div>
-			<div>
-				<figure class="h-[500px] relative">
-					<img
-						src="/assets/images/mockup.avif"
-						alt="maqueta de la aplicación"
-						class="object-contain h-full w-full"
-						width="2657"
-						height="2340"
-						loading="lazy"
-						decoding="async"
-						class="absolute inset-0 w-full h-full object-contain"
-					/>
-				</figure>
+	<Container>
+		<div class="flex flex-col gap-8 lg:h-auto h-full">
+			<div
+				class="flex flex-col h-full lg:grid grid-cols-1 gap-8 lg:grid-cols-2 items-center justify-between">
+				<div class="mt-8 lg:mt-0">
+					<h1
+						class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
+						Somos E-Commerce de productos
+						<span class="text-primary">Tecnológicos</span> y
+						<span class="text-primary">Juguetes</span>
+						didácticos
+						<!-- <span class="text-primary">la Tecnologia</span> -->
+					</h1>
+					<ul class="relative pl-6 lg:pl-10 mt-16">
+						{
+							features.map((feature) => (
+								<li>
+									<div class="flex items-center gap-4 mb-6">
+										<Icon name={feature.icon} class="text-primary size-8" />
+										<p>{feature.description}</p>
+									</div>
+								</li>
+							))
+						}
+					</ul>
+				</div>
+				<div>
+					<figure class="h-[500px] relative">
+						<img
+							src="/assets/images/mockup.avif"
+							alt="maqueta de la aplicación"
+							class="object-contain h-full w-full"
+							width="2657"
+							height="2340"
+							loading="lazy"
+							decoding="async"
+							class="absolute inset-0 w-full h-full object-contain"
+						/>
+					</figure>
+				</div>
 			</div>
 		</div>
-		<!-- Left Side -->
-		<div class="hidden w-full lg:block">
-			<CategoryListSection />
-		</div>
-	</div>
+	</Container>
 </section>
 <style>
 	ul::before {
