@@ -27,6 +27,7 @@
 
 	* {
 		@apply border-border min-w-[0];
+		scrollbar-width: thin;
 	}
 	body {
 		@apply bg-background text-foreground  min-h-[100svh] text-[14px] leading-7;

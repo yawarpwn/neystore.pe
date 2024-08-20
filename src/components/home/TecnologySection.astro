@@ -4,10 +4,7 @@ import { getProducts } from '@/lib/data'
 const products = await getProducts()
 
 //TODO: implment recents products
-const lastedProducts = products
-	.filter((p) => p.category === 'Juguetes')
-	.sort((a, b) => a.price - b.price)
-	.slice(0, 8)
+const lastedProducts = products.filter((p) => p.category === 'Tecnologia').slice(0, 8)
 
 import ProductCard from '../ProductCard.astro'
 ---
@@ -15,11 +12,9 @@ import ProductCard from '../ProductCard.astro'
 <section>
 	<Container>
 		<div>
-			<p class="text-md md:text-lg text-center uppercase">
-				Conoce las novedades en juguetería didáctica
-			</p>
+			<p class="text-md md:text-lg text-center uppercase">Tambien tenemos producto tecnologicos</p>
 			<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8">
-				Nuevos Jueguetes en Neystore
+				Artículos Tecnológicos
 			</h2>
 		</div>
 		<div class="overflow-x-auto overflow-y-hidden">
