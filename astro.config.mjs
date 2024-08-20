@@ -2,7 +2,7 @@ import { defineConfig, envField } from 'astro/config'
 import tailwind from '@astrojs/tailwind'
 import icon from 'astro-icon'
 import sitemap from '@astrojs/sitemap'
-import { site } from '@/config'
+import { site } from './src/config/site'
 
 // https://astro.build/config
 export default defineConfig({
