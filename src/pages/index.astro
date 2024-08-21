@@ -1,19 +1,21 @@
 ---
 //first comentary
-import CustomersOpinion from '@/components/CustomersOpinion.astro'
-import Subscribe from '@/components/Subscribe.astro'
-import WhyChooseUsSection from '@/components/WhyChooseUs.astro'
-import HeroSection from '@/components/HeroSection.astro'
+import CustomersOpinion from '@/components/home/CustomersOpinion.astro'
+import Subscribe from '@/components/home/Subscribe.astro'
+import WhyChooseUsSection from '@/components/home/WhyChooseUs.astro'
+import HeroSection from '@/components/home/HeroSection.astro'
 import NewProductsSection from '@/components/home/NewProductsSection.astro'
 import TecnologySection from '@/components/home/TecnologySection.astro'
+// import HeroSlider from '@/components/home/HeroSlider.astro'
 import HeroLayout from '@/layouts/HeroLayout.astro'
-import CategoriesHome from '@/components/home/CategoriesHome.astro'
+import CategoriesSection from '@/components/home/CategoriesSection.astro'
 // This is a comentary
 ---
 
 <HeroLayout>
+	<!-- <HeroSlider /> -->
 	<HeroSection />
-	<CategoriesHome />
+	<CategoriesSection />
 	<NewProductsSection />
 	<TecnologySection />
 	<WhyChooseUsSection />

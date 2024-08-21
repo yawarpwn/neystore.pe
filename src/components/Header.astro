@@ -38,10 +38,10 @@ const pages = [
 <header
 	id="main-header"
 	data-state="closed"
-	class="sticky z-50 top-0 left-0 bg-background data-[scroll]:shadow-sm">
+	class="fixed z-50 top-0 bg-background left-0 text-foreground data-[scroll]:shadow-sm data-[scroll]:text-foreground data-[scroll]:bg-background w-full">
 	<Container>
 		<div class="flex items-center justify-between h-16">
-			<a href="/" data-astro-reload>
+			<a href="/" class="!text-inherit" data-astro-reload>
 				<Logo />
 			</a>
 
@@ -152,6 +152,11 @@ lg:hidden
 		transform: translateX(0);
 		visibility: visible;
 	}
+
+	/* :global([data-is-home]) :is(header) { */
+	/* 	color: #fff; */
+	/* 	background: transparent; */
+	/* } */
 	[data-state='closed'] [data-icon='tabler:x'] {
 		display: none;
 	}

@@ -1,0 +1,152 @@
+---
+import { Icon } from 'astro-icon/components'
+import Container from '@/components/Container.astro'
+const features = [
+	{
+		icon: 'tabler:sparkles',
+		description: 'Dedicacion en ofrecerte productos de calidad',
+	},
+
+	{
+		icon: 'tabler:timeline',
+		description: 'Nuestra experiencia a su servicio',
+	},
+
+	{
+		icon: 'tabler:truck',
+		description: 'Somos importadores y distribuidores',
+	},
+	{
+		icon: 'tabler:check',
+		description: 'Calidad y seguridad para distinguirnos',
+	},
+]
+---
+
+<section
+	class={`flex items-center  overflow-clip bg-gradient-to-tr relative  
+from-10% from-[#5901dd]  via-30% to-90% to-[#C850C0]  text-background`}>
+	<div class="pattern"></div>
+	<div class="max-w-screen-xl mx-auto">
+		<div class="grid items-end md:grid-cols-4 md:place-items-center h-[calc(100svh-4rem)] mt-16">
+			<div class="md:col-span-2 max-w-max relative z-20">
+				<h1
+					class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
+					Somos E-Commerce de productos
+					<span class="text-[#FFCC70]">Tecnológicos</span> y
+					<span class="text-[#ffcc70]">Juguetes</span>
+					didácticos
+					<!-- <span class="text-primary">la Tecnologia</span> -->
+				</h1>
+				<ul class="relative pl-6 lg:pl-10 mt-16">
+					{
+						features.map((feature) => (
+							<li>
+								<div class="flex items-center gap-4 mb-6">
+									<Icon name={feature.icon} class="text-[#ffcc70] size-8" />
+									<p class="text-sm md:text-xl text-pretty">{feature.description}</p>
+								</div>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+			<div class="md:col-span-2 z-20 relative">
+				<figure class="main-image max-h-[500px]">
+					<img
+						src="/assets/images/mockup.avif"
+						alt="maqueta de la aplicación"
+						class="object-contain h-full w-full shadow-2xl"
+						width="2657"
+						height="2340"
+						loading="lazy"
+						decoding="async"
+						class="absolute inset-0 w-full h-full object-contain"
+					/>
+				</figure>
+
+				<figure
+					style="mix-blend-mode: overlay;"
+					class="absolute -top-10 -left-10 scale-105 blur-2xl opacity-50 saturate-200 -z-10 max-h-[500px]">
+					<img
+						src="/assets/images/mockup.avif"
+						alt="maqueta de la aplicación"
+						class="object-contain h-full w-full shadow-2xl"
+						width="2657"
+						height="2340"
+						loading="lazy"
+						decoding="async"
+						class="absolute inset-0 w-full h-full object-contain"
+					/>
+				</figure>
+			</div>
+		</div>
+	</div>
+</section>
+<style>
+	.main-image {
+		@media (min-width: 768px) {
+			clip-path: polygon(-0.4% 0.45%, 100% 0%, 99.84% 93.43%, 58.06% 98.95%, -0.27% 94.39%, 0% 50%);
+		}
+
+		img {
+			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+		}
+	}
+	ul::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 1px;
+		height: 100%;
+		z-index: 20;
+		background: linear-gradient(yellow, rgba(255, 255, 255, 0));
+	}
+	.ligth-1 {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 40rem;
+		height: 40rem;
+		border-radius: 50%;
+		background-image: linear-gradient(oklch(51% 0.24 287.36 /0.9), indigo);
+		filter: blur(150px);
+		z-index: 10;
+	}
+
+	.ligth-2 {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 40rem;
+		height: 40rem;
+		border-radius: 50%;
+		background-image: linear-gradient(#dd20dd, indigo);
+		filter: blur(120px);
+		z-index: 10;
+	}
+	.pattern {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		mix-blend-mode: multiply;
+		background-color: #e5e5f7;
+		opacity: 0.6;
+		background-size: 10px 10px;
+		background-image: repeating-linear-gradient(
+			45deg,
+			#5901dd 0,
+			#5901dd 1px,
+			#e5e5f7 0,
+			#e5e5f7 50%
+		);
+	}
+
+	.image-mask {
+		/* position: absolute; */
+		/* inset: 0; */
+		/* z-index: 10; */
+		/* background-image: linear-gradient(to bottom, #ffffff00 80%, oklch(100% 0% 0) 95%); */
+	}
+</style>

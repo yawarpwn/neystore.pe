@@ -31,9 +31,11 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
 	<body>
 		<div class="page">
 			<Header />
-			<Container>
-				<slot />
-			</Container>
+			<main class="">
+				<Container>
+					<slot />
+				</Container>
+			</main>
 			<WhatsappPopup />
 			<Footer />
 		</div>
