@@ -813,7 +813,7 @@
 	{
 		"id": "e76f3cb8-331d-4233-a511-31be5fe9a986",
 		"price": 350,
-		"title": "Keychron Teclado mecánico inalámbrico K12 Pro QMK/VIA, marco de aluminio intercambiable en caliente, teclado programable personalizado con retroiluminación RGB, interruptor marrón K Pro para Mac Windows Linux",
+		"title": "Keychron K12 Pro QMK/VIA Teclado mecánico inalámbrico , marco de aluminio intercambiable en caliente, teclado programable personalizado con retroiluminación RGB, interruptor marrón K Pro para Mac Windows Linux",
 		"cost": 475,
 		"ranking": 0,
 		"category": "Tecnologia",
@@ -3699,7 +3699,7 @@
 			{
 				"id": "d973dzzz-fd5c-42b6-b3ac-518ef3d3ed7c",
 				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1724550428/neystore/output_b0ylcg.mp4",
-				"format": "jpg",
+				"format": "mp4",
 				"width": 854,
 				"height": 420,
 				"publicId": "output_b0ylcg",
@@ -3751,5 +3751,109 @@
 				"type": "image"
 			}
 		]
+	},
+	{
+		"id": "195df8fa-582c-4cd4-9277-f4b4d41fa953",
+		"title": "Keychron K3 Pro - Teclado mecánico inalámbrico ultra delgado QMK/VIA, macro programable 75% diseño RGB retroiluminación con perfil bajo Gateron G Pro Red Switch PBT teclado para Mac Windows Linux",
+		"features": [
+			"Teclado mecánico inalámbrico QMK/VIA mejorado permite a cualquier persona dominar cualquier tecla o comando macro en su diseño compacto al 75% a través de VIA, ha incluido teclas tanto para Windows como para macOS, y los usuarios pueden intercambiar en caliente con cualquier interruptor mecánico MX en una brisa.",
+			"Programa con QMK y VIA: simplemente conecta el K3 Pro a tu dispositivo con un cable, arrastra y suelta tus teclas favoritas o comandos de macro para reasignar cualquier clave que quieras en cualquier sistema (macOS, Windows o Linux).",
+			"Inalámbrico y con cable: puedes conectar el K3 Pro con hasta 3 dispositivos de forma inalámbrica a través de su estable Bluetooth Broadcom 5.1 para multitarea sin problemas en tu laptop, teléfono y tableta. Cambie entre ellos rápidamente y es totalmente compatible con Mac y Windows. También está disponible una conexión con cable USB tipo C confiable cuando la necesite.",
+			"Interruptor Gateron de perfil bajo: el interruptor mecánico Gateron de perfil bajo rediseñado es un 40% más delgado que los interruptores convencionales con una distancia de viaje previa y total de desplazamiento más corta que los interruptores mecánicos convencionales/de perfil normal.",
+			"Teclas PBT con retroiluminación RGB y de doble disparo: diseñadas para una sensación de tipo premium, el K3 Pro viene con nuestras exclusivas teclas PBT de doble disparo que están hechas de material PBT duradero sin retroiluminación con excelente resistencia al aceite para un uso a largo plazo. Encantadora retroiluminación RGB con elegantes leyendas de teclas ayuda a escribir en un entorno de diez centavos, también puede elegir otro modo de retroiluminación de color estático."
+		],
+		"details": {
+			"Marca": "Keychron",
+			"Modelo": "K3 Pro",
+			"Tipo": "Mecánico",
+			"Distribución": "ANSI",
+			"Conectividad": "Bluetooth 5.1, USB-C",
+			"Interruptores": "Gateron Rojo",
+			"Teclas": "PBT de doble disparo",
+			"Retroiluminación": "RGB personalizable",
+			"Software": "QMK/VIA",
+			"Dimensiones": "340 x 100 x 40 mm",
+			"Peso": "800g"
+		},
+		"price": 520,
+		"cost": 415,
+		"category": "Tecnologia",
+		"ranking": 5,
+		"slug": "keychron-k3-pro-ultraslim-qmkvia-wireless-custom-mechanical",
+		"assets": [
+			{
+				"id": "f3b394ea-2581-43a4-b39b-9ee8815a789e",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/zxdvddq4mxm7rjq2d6lb.jpg",
+				"format": "jpg",
+				"width": 456,
+				"height": 339,
+				"publicId": "neystore/zxdvddq4mxm7rjq2d6lb",
+				"type": "image"
+			},
+			{
+				"id": "20c866a3-e334-4e82-a245-e157829ba071",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/qrms4lkk2ug68bothttd.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 469,
+				"publicId": "neystore/qrms4lkk2ug68bothttd",
+				"type": "image"
+			},
+			{
+				"id": "100866a3-e334-4e82-a245-e157829ba071",
+				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1724551812/neystore/k3pro_rkj5ez.webm",
+				"format": "webm",
+				"width": 850,
+				"height": 420,
+				"publicId": "neystore/k3pro_rkj5ez",
+				"type": "video"
+			},
+			{
+				"id": "4beafad2-1642-48ab-a5c2-b013060528e7",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/haaq9ioxsujwdanks5gh.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/haaq9ioxsujwdanks5gh",
+				"type": "image"
+			},
+			{
+				"id": "c7609856-291d-48fa-87f5-f8ec186e3ffa",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/nqsd1hkxt0afv8cylgty.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/nqsd1hkxt0afv8cylgty",
+				"type": "image"
+			},
+			{
+				"id": "c5fad78d-adb6-4add-be4f-944c95f1b0e6",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/gsavrokcsjljnaisdgze.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 449,
+				"publicId": "neystore/gsavrokcsjljnaisdgze",
+				"type": "image"
+			},
+			{
+				"id": "8b84da10-e43d-4bc4-a389-848e4a9a683c",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/h2tdk0xhiqkndo0g6qrg.jpg",
+				"format": "jpg",
+				"width": 494,
+				"height": 410,
+				"publicId": "neystore/h2tdk0xhiqkndo0g6qrg",
+				"type": "image"
+			},
+			{
+				"id": "d91ddf8e-5414-4f44-8a33-60ecc638a214",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/x5o7attvjyf55dociizb.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/x5o7attvjyf55dociizb",
+				"type": "image"
+			}
+		]
 	}
 ]
+
