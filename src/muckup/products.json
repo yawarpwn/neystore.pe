@@ -3854,6 +3854,91 @@
 				"type": "image"
 			}
 		]
+	},
+	{
+		"id": "6c0b1d87-d9fb-49d3-9755-0c66ef81d735",
+		"title": "Gateron Interruptores de llave de perfil bajo para teclados mecánicos de juegos  Montaje en placa rojo Gateron, 90 piezas",
+		"features": [
+			"Rojo Gateron  Lineal  Previaje de 0.059 in  Recorrido total de 0.108 in  Actuación de 50cN",
+			"Para teclados mecánicos para juegos de intercambio en caliente y teclados personalizados de bricolaje compatibles con interruptores de perfil bajo.",
+			"Lineal para juegos rápidos y receptivos utilizado por algunos de los mejores jugadores del mundo",
+			"Interruptores montados en placa diseño de 3 pines de alta compatibilidad",
+			"Los interruptores de perfil bajo tienen una distancia de viaje más corta y un accionamiento más rápido.",
+			"Extractor de interruptorextractor incluido"
+		],
+		"details": {
+			"Marca": "Ranked",
+			"Dispositivos compatibles": "PCB de teclado mecánico de perfil",
+			"Descripción del teclado": "Gaming",
+			"Usos Recomendados Para Producto": "Viajes",
+			"Características especiales": "Intercambiable en caliente",
+			"Color": "Gateron Rojo",
+			"Número de teclas": 90,
+			"Estilo": "Personalizado",
+			"Dimensiones del producto": "0,39\"l. x 0,39\"an. x 0,39\"al. pulgadas",
+			"Componentes incluidos": "Extractor de Teclas"
+		},
+		"price": 160,
+		"cost": 160,
+		"category": "Tecnologia",
+		"ranking": 4,
+		"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
+		"assets": [
+			{
+				"id": "00437907-13c9-41f6-8062-7d91e6615127",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552241/neystore/bdkmesl47i78v0f1szt2.jpg",
+				"format": "jpg",
+				"width": 285,
+				"height": 224,
+				"publicId": "neystore/bdkmesl47i78v0f1szt2",
+				"type": "image"
+			},
+			{
+				"id": "d63b6dc7-bc2c-4fd7-b7ab-6af4e327111e",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552241/neystore/qqrsyftngpvgzbtxtfoc.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/qqrsyftngpvgzbtxtfoc",
+				"type": "image"
+			},
+			{
+				"id": "9bb0a873-8e9a-4c56-a419-fba600f1503c",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552241/neystore/xc8ttlbrium4slfvgskr.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/xc8ttlbrium4slfvgskr",
+				"type": "image"
+			},
+			{
+				"id": "b7a42a65-719a-41ee-91ff-21753b560305",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552241/neystore/y8bdngdpmc4omrhr1ivr.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/y8bdngdpmc4omrhr1ivr",
+				"type": "image"
+			},
+			{
+				"id": "4894d9d9-fdc1-45ca-9972-bcf8df066eb9",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552242/neystore/tzgnafn7ljeac2rqwxzr.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/tzgnafn7ljeac2rqwxzr",
+				"type": "image"
+			},
+			{
+				"id": "956839d8-d64d-4615-9ee1-660307d9d392",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552242/neystore/wsaktlpu9zarp5ga5ekt.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/wsaktlpu9zarp5ga5ekt",
+				"type": "image"
+			}
+		]
 	}
 ]
 
