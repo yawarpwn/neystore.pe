@@ -1,4 +1,5 @@
-import productsJson from '@/muckup/new-products.json'
+import productsJson from '@/muckup/products.json'
+
 import type { Product } from '@/types'
 import { transformAsset } from '../cloudinary'
 
@@ -35,7 +36,6 @@ export async function getProducts(): Promise<Product[]> {
 						width: asset.width,
 						height: asset.height,
 						type: asset.type,
-						productId: asset.productId,
 						publicId: asset.publicId,
 					}
 				}),

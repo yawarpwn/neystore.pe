@@ -3,7 +3,7 @@ import { scrapProductFromAliExpress } from '../src/lib/scrap/aliexpress'
 import { slugify } from '../src/lib/utils/string'
 import fs from 'node:fs/promises'
 import type { ProductRaw } from '../src/types/index.d.ts'
-import products from '../src/muckup/products.json'
+import productsJson from '../src/muckup/products.json'
 import { uploadAsset, transformAsset } from '../src/lib/cloudinary/index'
 import {
 	getCategory,
@@ -51,7 +51,9 @@ async function main() {
 		if (productScrapped.video) {
 			const [error, data] = await uploadAsset(productScrapped.video.url, 'video')
 
-			if (error) console.log('ERROR UPLOADIN VIDEO', error)
+			if (error) {
+				throw error
+			}
 
 			if (data) {
 				video = {
@@ -60,11 +62,8 @@ async function main() {
 					format: data.format,
 					width: data.width,
 					height: data.height,
-					product_id: id,
-					publid_id: data.public_id,
+					publicId: data.public_id,
 					type: data.resource_type,
-					cover: productScrapped.video.cover,
-					title: productScrapped.video.title,
 				}
 			} else {
 				video = null
@@ -81,22 +80,12 @@ async function main() {
 				if (data) {
 					return {
 						id: crypto.randomUUID(),
-						large: data.secure_url,
-						url: transformAsset(data.public_id, {
-							height: 500,
-							crop: 'scale',
-						}),
+						url: data.secure_url,
 						format: data.format,
 						width: data.width,
 						height: data.height,
-						product_id: id,
-						publid_id: data.public_id,
+						publicId: data.public_id,
 						type: data.resource_type,
-						title: productScrapped.title,
-						thumb: transformAsset(data.public_id, {
-							height: 100,
-							crop: 'thumb',
-						}),
 					}
 				}
 			})
@@ -113,11 +102,16 @@ async function main() {
 			category: category,
 			ranking: Number(ranking),
 			slug: slugify(productScrapped.title),
-			images,
-			video: video,
+			assets: [...images],
 		}
 
-		const productsToUpdate = [...products, product]
+		if (video) {
+			product.assets.splice(2, 0, {
+				...video,
+			})
+		}
+
+		const productsToUpdate = [...productsJson, product]
 
 		fs.writeFile('./src/muckup/products.json', JSON.stringify(productsToUpdate, null, 2))
 			.then((data) => console.log('saved product'))
