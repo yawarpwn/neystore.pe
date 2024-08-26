@@ -31,6 +31,7 @@ export type Product = {
 	cost: number
 	ranking: number
 	category: ProductCategory
+	offert?: number
 	slug: string
 	assets: ProductAsset[]
 }

@@ -5,8 +5,9 @@
 @layer base {
 	:root {
 		color-scheme: dark;
-		--primary: 70% 0.2 338.71;
-		--secondary: 94.66% 0.172 64.01;
+		--accent: 72.67% 0.2 43.41;
+		--primary: 64% 0.25 6.17;
+		--secondary: 41.04% 0.228 292.56;
 		--foreground: 10% 0 0;
 		--background: 98% 0.013 301; /*#100122*/
 		--black: 0.32% 0.013 229.4;

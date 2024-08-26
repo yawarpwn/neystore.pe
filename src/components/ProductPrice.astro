@@ -3,11 +3,12 @@ import { cn, formatedToLocal } from '@/lib/utils'
 
 interface Props {
 	price: number
+	offert?: number
 	size?: 'md' | 'lg'
 	id: string
 }
 
-const { price, size = 'md', id } = Astro.props
+const { price, size = 'md', id, offert } = Astro.props
 const formatedPrice = formatedToLocal(price)
 
 const getRandomNumber = (min: number, max: number) => Math.floor(Math.random() * (max - min) + min)
@@ -21,9 +22,13 @@ const inflatedPrice = price + (price * randomDiscount) / 100
 	<span
 		transition:name={`product-price-${id}`}
 		class={cn('algin-top font-bold', size === 'lg' ? 'text-5xl' : 'text-xl')}>
-		{formatedPrice}
+		{offert ? formatedToLocal(offert) : formatedPrice}
 	</span>
-	<span class={cn('line-through text-neutral-500', size == 'lg' ? 'text-2xl' : 'text-sm')}>
-		{formatedToLocal(Math.round(inflatedPrice))}
-	</span>
+	{
+		offert && (
+			<span class={cn('line-through text-neutral-500', size == 'lg' ? 'text-2xl' : 'text-sm')}>
+				{formatedToLocal(price)}
+			</span>
+		)
+	}
 </div>

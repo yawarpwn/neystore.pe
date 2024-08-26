@@ -11,7 +11,7 @@ export const buttonVariants = cva(
 	{
 		variants: {
 			variant: {
-				default: 'gradient-accent text-black',
+				default: 'gradient-accent text-white',
 				secondary: 'bg-secondary text-secondary-foreground',
 				link: 'text-primary underline-offset-8 hover:underline decoration-secondary decoration-wavy',
 				outline: 'border-gradient text-[#ec8274]',
@@ -37,8 +37,6 @@ export interface Props extends HTMLAttributes<'button'>, VariantProps<typeof but
 const { variant, size } = Astro.props
 ---
 
-<button
-	class={cn(buttonVariants({ variant, size }), Astro.props.class)}
-	{...Astro.props}>
+<button class={cn(buttonVariants({ variant, size }), Astro.props.class)} {...Astro.props}>
 	<slot />
 </button>

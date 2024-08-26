@@ -15,6 +15,7 @@ export async function getProducts(): Promise<Product[]> {
 			features: product.features,
 			details: product.details,
 			slug: product.slug,
+			offert: product.offert,
 			assets: [
 				...product.assets.map((asset) => {
 					return {

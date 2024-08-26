@@ -2942,6 +2942,7 @@
 	{
 		"id": "1032f5be-e393-4030-b91f-054667ccf7a2",
 		"price": 300,
+		"offert": 260,
 		"title": "RK Royal Kludge R75 Teclado mecánico con cable, 80 teclas, RGB, retroiluminado, intercambiable en caliente, español, MDA, PBT",
 		"cost": 205,
 		"ranking": 5,
@@ -3185,7 +3186,8 @@
 	},
 	{
 		"id": "890914f3-9c4f-4103-854f-d5464447de3f",
-		"price": 380,
+		"price": 420,
+		"offert": 370,
 		"title": "Redmi reloj inteligente 4 versión Global, dispositivo con Pantalla AMOLED de 1,97 pulgadas, GPS, GNSS, Bluetooth, llamadas telefónicas, monitoreo del sueño",
 		"cost": 277,
 		"ranking": 5,
@@ -3672,7 +3674,8 @@
 			"Color de retroiluminación del teclado": "RGB",
 			"Estilo": "Moderno"
 		},
-		"price": 400,
+		"price": 500,
+		"offert": 380,
 		"cost": 190,
 		"category": "Tecnologia",
 		"ranking": 5,
