@@ -620,10 +620,10 @@
 	},
 	{
 		"id": "ba8fbc2b-e96b-4f48-9fba-7dc54ec7d39d",
-		"price": 360,
+		"price": 380,
 		"title": "Keychron V1 QMK/VIA - Teclado mecánico con cable, diseño del 75% con interruptor marrón K Pro intercambiable en caliente, teclas PBT, teclado retroiluminado RGB para Mac Windows Linux, translúcido",
 		"cost": 285,
-		"ranking": 0,
+		"ranking": 4,
 		"category": "Tecnologia",
 		"features": [
 			"Con QMK/VIA del V1, puedes reasignar intuitivamente tus claves favoritas y crear macros con cualquier tecla en cualquier sistema operativo (macOS, Windows o Linux) para un flujo de trabajo fluido. El firmware de código abierto significa infinitas posibilidades para diseños de teclado, accesos directos, efectos de retroiluminación y más.",
@@ -3981,4 +3981,3 @@
 		]
 	}
 ]
-
