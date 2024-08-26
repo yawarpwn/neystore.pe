@@ -50,7 +50,7 @@
 			background:
 				linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary))) no-repeat padding-box,
 				linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary))) border-box;
-			color: oklch(var(--black));
+			color: oklch(var(--white));
 		}
 	}
 

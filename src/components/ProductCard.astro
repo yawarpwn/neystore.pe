@@ -10,9 +10,10 @@ interface Props {
 	ranking: number
 	slug: string
 	offert?: number
+	stock: number
 }
 
-const { title, price, imgUrl, ranking, id, slug, offert } = Astro.props
+const { title, price, imgUrl, ranking, id, slug, offert, stock } = Astro.props
 ---
 
 <a
@@ -21,9 +22,16 @@ const { title, price, imgUrl, ranking, id, slug, offert } = Astro.props
 	<!-- {/* Image Card */ -->
 	<div class="h-0 pb-[100%] relative mb-2.5 rounded-md">
 		{
-			offert && (
-				<span class="bg-primary w-[150px] text-center text-white px-1 py-0.5 absolute top-0 -left-16 z-20 -rotate-45 font-bold uppercase">
+			offert && stock && (
+				<span class="bg-primary text-sm w-[150px] text-center text-white px-1 py-0.5 absolute top-0 -left-16 z-20 -rotate-45 font-bold uppercase">
 					Oferta
+				</span>
+			)
+		}
+		{
+			stock === 0 && (
+				<span class="bg-black w-[150px] text-center text-white px-1 py-0.5 absolute top-[6px] -left-[60px] z-20 -rotate-45 text-sm font-bold uppercase">
+					Agotado
 				</span>
 			)
 		}
@@ -47,7 +55,6 @@ const { title, price, imgUrl, ranking, id, slug, offert } = Astro.props
 		</div>
 
 		<ProductRanking {id} {ranking} />
-
 		<ProductPrice {offert} {id} {price} />
 	</div>
 </a>

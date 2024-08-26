@@ -32,6 +32,7 @@ export type Product = {
 	ranking: number
 	category: ProductCategory
 	offert?: number
+	stock: number
 	slug: string
 	assets: ProductAsset[]
 }

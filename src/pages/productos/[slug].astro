@@ -58,7 +58,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 			<!-- Price & Ranking -->
 			<div class="flex flex-col gap-4">
 				<ProductRanking {id} size="lg" ranking={product.ranking} />
-				<ProductPrice {id} size="lg" price={product.price} />
+				<ProductPrice offert={product.offert} {id} size="lg" price={product.price} />
 			</div>
 
 			<!-- Whatsapp Button -->

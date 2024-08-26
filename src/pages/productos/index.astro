@@ -14,6 +14,7 @@ const products = await getProducts()
 					.sort((a, b) => b.category.localeCompare(a.category))
 					.map((product) => (
 						<ProductCard
+							stock={product.stock}
 							id={product.id}
 							title={product.title}
 							price={product.price}

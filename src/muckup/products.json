@@ -2,7 +2,7 @@
 	{
 		"id": "5d652261-2ad5-4ba1-8091-8e43a23bed35",
 		"price": 400,
-		"title": "Teclado mecánico inalámbrico Keychrone K3 versión 2 Bluetooth , 84 teclas 75%, con interruptor mecánico marrón Gateron de perfil bajo",
+		"title": "Keychrone K3 versión 2 Bluetooth , Teclado mecánico inalámbrico 84 teclas 75%, con interruptor mecánico marrón Gateron de perfil bajo",
 		"cost": 323,
 		"ranking": 4.7,
 		"category": "Tecnologia",
@@ -26,15 +26,16 @@
 			"Color de retroiluminación del teclado": "Un Solo Color"
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "8e16a1a9-77fd-4887-b5cf-f80f42bf4456",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724553706/neystore/tkuv0sfm0b9iwrhycubp.jpg",
-				"publicId": "neystore/tkuv0sfm0b9iwrhycubp",
+				"format": "jpg",
 				"width": 1500,
 				"height": 717,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/tkuv0sfm0b9iwrhycubp"
 			},
 			{
 				"id": "51518fde-a4cc-4d3d-8c44-704f096cbc8d",
@@ -132,6 +133,7 @@
 			"Objetivo Educativo": "Habilidades lingüísticas"
 		},
 		"slug": "juguetes-ninos-pequenos-tarjetas-didacticas-en-espanol-224",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "4918e821-5520-4453-9c71-c137573cad70",
@@ -220,6 +222,7 @@
 			"Material": "Plástico"
 		},
 		"slug": "pistolas-burbujas-ninos-pequenos-maquina-burbujas-12",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "121816e3-522e-41d8-8b22-be361a3309ab",
@@ -308,6 +311,7 @@
 			"Usos Recomendados Para Producto": "Recorte"
 		},
 		"slug": "cortadora-pelo-bebes-cuchilla-ceramica-electrica-ninos",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "c31b4c0c-c313-4c1c-bd0e-d4c67a277ca9",
@@ -372,6 +376,7 @@
 		],
 		"details": null,
 		"slug": "consola-empuje-rapido-retroalimentacion-instantanea-sonido",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "49f9df3a-c21d-4e6f-b2c0-22407442a0d6",
@@ -454,6 +459,7 @@
 		],
 		"details": null,
 		"slug": "vilalatfan-busy-cubecubo-ninos-autismo-tablero-sensorial",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "959bd665-c64e-43c4-afe6-a0eb84d3536d",
@@ -545,6 +551,7 @@
 		],
 		"details": null,
 		"slug": "cevioce-juguetes-ansiedad-ninos-adultos-1-unidad-juguetes",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "08140421-17e3-4cfc-aa73-d2ce627cc38d",
@@ -635,6 +642,7 @@
 			"Características especiales": "Retroiluminado"
 		},
 		"slug": "keychron-v1-qmkviateclado-mecanico-cable-personalizado",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "24f0efdc-b4a5-4cf2-b08e-974b35457899",
@@ -744,6 +752,7 @@
 			"Calificación de Protección Internacional": "IP00"
 		},
 		"slug": "gateron-g-brown-pro-2.0-interruptores-prelubricados-3-pines",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "9de5a857-22d7-49cc-80a2-8e1e6d910c58",
@@ -815,15 +824,15 @@
 		"price": 350,
 		"title": "Keychron K12 Pro QMK/VIA Teclado mecánico inalámbrico , marco de aluminio intercambiable en caliente, teclado programable personalizado con retroiluminación RGB, interruptor marrón K Pro para Mac Windows Linux",
 		"cost": 475,
-		"ranking": 0,
+		"ranking": 4,
 		"category": "Tecnologia",
 		"features": [
-			"✅【Programa con QMK y VIA】: Con QMK/VIA del K12 Pro, puedes reasignar intuitivamente tus claves favoritas y crear macros con cualquier tecla en cualquier sistema operativo (macOS, Windows o Linux) para un flujo de trabajo fluido. El firmware de código abierto significa infinitas posibilidades para diseños de teclado, accesos directos, efectos de retroiluminación y más. El K8 Pro es el primer teclado mecánico inalámbrico QMK/VIA listo para usar del mundo que allana el camino para una nueva era para los teclados mecánicos.",
+			"Con QMK/VIA del K12 Pro, puedes reasignar intuitivamente tus claves favoritas y crear macros con cualquier tecla en cualquier sistema operativo (macOS, Windows o Linux) para un flujo de trabajo fluido. El firmware de código abierto significa infinitas posibilidades para diseños de teclado, accesos directos, efectos de retroiluminación y más. El K8 Pro es el primer teclado mecánico inalámbrico QMK/VIA listo para usar del mundo que allana el camino para una nueva era para los teclados mecánicos.",
 			"Teclas PBT y marco de aluminio: teclado mecánico totalmente personalizable con 60% de diseño de 61 teclas, teclas PBT de doble disparo con perfil OSA. Las teclas PBT tienen un alto grado de restauración y tienen una mayor resistencia al calor, dureza, resistencia a la fatiga, autolubricantes y baja fricción que las teclas ABS. El marco de aluminio es resistente y garantiza una vida útil más larga.",
-			"✅【Interruptor marrón Keychron K Pro intercambiable en caliente】: preinstalado el interruptor mecánico marrón Keychron K Pro preinstalado que proporciona una respuesta táctil con una vida útil de hasta 50 millones de pulsaciones de tecla. Los enchufes intercambiables en caliente están montados en la PCB y son compatibles con casi todos los interruptores mecánicos de 3 pines y 5 pines estilo MX en el mercado (incluidos Gateron, Cherry, Kailh, etc. ), puede instalar o cambiar los interruptores sin soldar.",
-			"✅【Bluetooth 5.1 inalámbrico y cable USB-C】: el teclado Keychron K8 Pro para PC proporciona una variedad de métodos de conexión, incluyendo modo inalámbrico, Bluetooth 5.1 y modo con cable USB-C. Se puede conectar a hasta 3 dispositivos entre tu computadora, laptop, PC, tableta y teléfono sin problemas al mismo tiempo y cambiar entre ellos fácilmente, un gran teclado de escritura de computadora para el hogar, oficina, juegos al aire libre y casuales.",
+			"Interruptor marrón Keychron K Pro intercambiable en caliente: preinstalado el interruptor mecánico marrón Keychron K Pro preinstalado que proporciona una respuesta táctil con una vida útil de hasta 50 millones de pulsaciones de tecla. Los enchufes intercambiables en caliente están montados en la PCB y son compatibles con casi todos los interruptores mecánicos de 3 pines y 5 pines estilo MX en el mercado (incluidos Gateron, Cherry, Kailh, etc. ), puede instalar o cambiar los interruptores sin soldar.",
+			"Bluetooth 5.1 inalámbrico y cable USB-C: el teclado Keychron K8 Pro para PC proporciona una variedad de métodos de conexión, incluyendo modo inalámbrico, Bluetooth 5.1 y modo con cable USB-C. Se puede conectar a hasta 3 dispositivos entre tu computadora, laptop, PC, tableta y teléfono sin problemas al mismo tiempo y cambiar entre ellos fácilmente, un gran teclado de escritura de computadora para el hogar, oficina, juegos al aire libre y casuales.",
 			"Experiencia de escritura rediseñada: hemos integrado los estabilizadores atornillados montados en PCB para una experiencia de escritura más suave con menos tambaleamiento en las teclas grandes como barra espaciadora, cambio, ingreso y eliminación. Incluso puede personalizarlo con estabilizadores alternativos como Cherry o Durock. Además, la espuma absorbente de sonido añadida, una almohadilla inferior de silicona gruesa y la placa de acero proporcionan una respuesta sensible y un sonido de escritura tranquilo, mientras que el peso adicional mejorará la estabilidad.",
-			"✅【Retroiluminación RGB orientada al sur】: viene con más de 22 tipos de ajustes de retroiluminación RGB, así como una opción de retroiluminación blanca estática. Puede ajustar aún más el tono RGB, la saturación, el brillo y la velocidad del efecto con facilidad. El RGB orientado hacia el sur está diseñado para iluminar mejor la retroiluminación del teclado desde el ángulo del mecanógrafo. Batería de gran capacidad de 4000 mAh, hasta 72 horas de escritura o hasta 7 días de uso normal (cuenta 8 horas por día)."
+			"Retroiluminación RGB orientada al su】: viene con más de 22 tipos de ajustes de retroiluminación RGB, así como una opción de retroiluminación blanca estática. Puede ajustar aún más el tono RGB, la saturación, el brillo y la velocidad del efecto con facilidad. El RGB orientado hacia el sur está diseñado para iluminar mejor la retroiluminación del teclado desde el ángulo del mecanógrafo. Batería de gran capacidad de 4000 mAh, hasta 72 horas de escritura o hasta 7 días de uso normal (cuenta 8 horas por día)."
 		],
 		"details": {
 			"Marca": "Keychron",
@@ -838,6 +847,7 @@
 			"Tecnología de conectividad": "USB-C"
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-k12-pro-qmkvia-marco",
+		"stock": 0,
 		"assets": [
 			{
 				"id": "d911f1c6-0d91-4a60-b196-f23f27868f20",
@@ -943,6 +953,7 @@
 			"Número de modelo del producto": "puzzle090"
 		},
 		"slug": "tabla-practica-letras-magneticas-iman-trazado-abc-tablero",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "2db32386-e73a-4b25-83b8-8e1dbabc1eb1",
@@ -1025,6 +1036,7 @@
 		],
 		"details": null,
 		"slug": "rompecabezas-expresion-juego-madera-a-juego-ninos-pequenos",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "a6b8a7f1-5784-4f5b-9d92-e97c58940762",
@@ -1111,6 +1123,7 @@
 			"Edad recomendada por el fabricante": "36 meses - 8 años"
 		},
 		"slug": "cubo-juguete-educativo-montessori-ninos-1-a-3-anos-tablero",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "fac4fb7e-f044-4347-b9bd-0c5a5b56f17c",
@@ -1202,6 +1215,7 @@
 			"Tema": "pistola de burbujas para niños"
 		},
 		"slug": "juguetes-ametralladora-burbujas-ninos-pequenos-ninos",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "775e9307-c861-4a33-b352-9c439bb374a2",
@@ -1291,6 +1305,7 @@
 			"Tema": "pistola de burbujas para niños"
 		},
 		"slug": "ametralladora-burbujas-ninos-soplador-burbujas-musica-luz",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "4abf1e25-4239-41cc-a506-4cc77078b295",
@@ -1383,6 +1398,7 @@
 			"Origen": "CN(Origen)"
 		},
 		"slug": "lenovoauriculares-inalambricos-lp40-pro-tws-cascos",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "f84d6cce-b5fb-4a35-beb5-9887a4fd4f19",
@@ -1500,6 +1516,7 @@
 			"CN": "Jiangsu"
 		},
 		"slug": "marionetas-dedo-mano-juguete-felpa-dibujos-animados",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "313ffa5b-066c-4999-ba41-978a7b64fe6f",
@@ -1785,6 +1802,7 @@
 		],
 		"details": null,
 		"slug": "juguetes-biomimeticos-erizo-montessori-bebe-rompecabezas",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "c21cf0fe-c4c3-4e63-a55b-5c310a555ce8",
@@ -1875,6 +1893,7 @@
 		],
 		"details": null,
 		"slug": "juguete-educativo-montessori-ninos-pequenos-juguetes-motor",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "eee1a3cb-07ea-4059-9eb4-b611ec7a9eee",
@@ -1975,6 +1994,7 @@
 		],
 		"details": null,
 		"slug": "huevos-pascua-sensoriales-bebe-ninos-juguete-montessori",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "ef6d9358-2302-45f5-9f54-2f0c41e62aee",
@@ -2073,6 +2093,7 @@
 			"Compatible con tecnología de carga rápida": "Carga rápida bidireccional"
 		},
 		"slug": "kuulaabateria-externa-portatil-10000mah-cargador-225-w-pd",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "4d3872f3-abd2-4d43-a0d0-45ddae61044a",
@@ -2162,6 +2183,7 @@
 			"PC Sistema": "windows 10 , mac, linux"
 		},
 		"slug": "xiaomimemoria-usb-portatil-u-disk-2tb-unidad-flash",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "cdda5e3c-df5d-4003-bf01-2d06a8bafa00",
@@ -2236,10 +2258,9 @@
 		"ranking": 4,
 		"category": "Tecnologia",
 		"features": null,
-		"details": {
-			"Origen": "BR"
-		},
+		"details": { "Origen": "BR" },
 		"slug": "termometro-ir-sin-contacto-medicion-rapida-ligero-o",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "a3e51c4e-f758-4307-8717-bfc27f65b22c",
@@ -2311,6 +2332,7 @@
 			"Características": "Impermeable,Con micrófono,Cancelación activa de ruido"
 		},
 		"slug": "lenovoauriculares-tws-air-pro6-inalambricos-por-bluetooth",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "4bba48b1-3032-4eb0-b11c-e99e0e3a3dba",
@@ -2436,6 +2458,7 @@
 			"Compatible con tecnología de carga rápida": "No"
 		},
 		"slug": "qoovibateria-externa-20000mah-cargador-portatil-ultrafino",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "56643414-910c-47d2-b393-323e5340f4ef",
@@ -2552,6 +2575,7 @@
 			"Nombre de la marca": "macroupta"
 		},
 		"slug": "mochila-portabebes-ergonomica-bebe-portabebes-frontal",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "828384c8-6d87-4ad5-bda0-3e0f98cece69",
@@ -2677,6 +2701,7 @@
 			"Control remoto": "No"
 		},
 		"slug": "figuras-accion-super-mario-bros-kart-ninos-juego-8-piezas",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "038bc563-2b5b-4d7a-ab40-33c79eb2d57a",
@@ -2757,6 +2782,7 @@
 			"Advertencia": "not for unders 3 years old"
 		},
 		"slug": "figuras-accion-star-wars-ninos-juguete-maestro-yoda-darth",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "a851cf5d-6d12-4508-a427-323a181ba525",
@@ -2855,6 +2881,7 @@
 			"Tipo de versión": "Primera edición"
 		},
 		"slug": "figura-accion-bebe-yoda-star-wars-marvel-muneco-peluche",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "ff83dfa2-0f94-4bef-8dd3-81d46a2184ae",
@@ -2942,7 +2969,6 @@
 	{
 		"id": "1032f5be-e393-4030-b91f-054667ccf7a2",
 		"price": 300,
-		"offert": 260,
 		"title": "RK Royal Kludge R75 Teclado mecánico con cable, 80 teclas, RGB, retroiluminado, intercambiable en caliente, español, MDA, PBT",
 		"cost": 205,
 		"ranking": 5,
@@ -2975,6 +3001,8 @@
 			"Estilo": "Moderno"
 		},
 		"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
+		"offert": 260,
+		"stock": 1,
 		"assets": [
 			{
 				"id": "3cf47c18-0ca9-4ae7-abbd-d828a69e0738",
@@ -3100,6 +3128,7 @@
 			"Métricas medidas": "Monitor de ritmo cardíaco,Monitor de oxígeno en sangre,Monitor de presión arterial,Monitor de azúcar en la sangre,Monitor de temperatura corporal,Monitor de estrés"
 		},
 		"slug": "hello-3-minireloj-inteligente-mujer-dispositivo-original",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "8590e1be-f0eb-41ec-ac32-e249549e1df6",
@@ -3187,7 +3216,6 @@
 	{
 		"id": "890914f3-9c4f-4103-854f-d5464447de3f",
 		"price": 420,
-		"offert": 370,
 		"title": "Redmi reloj inteligente 4 versión Global, dispositivo con Pantalla AMOLED de 1,97 pulgadas, GPS, GNSS, Bluetooth, llamadas telefónicas, monitoreo del sueño",
 		"cost": 277,
 		"ranking": 5,
@@ -3224,6 +3252,8 @@
 			"Características especiales": "GNSS multisistema, llamadas Bluetooth"
 		},
 		"slug": "redmireloj-inteligente-4-version-global-dispositivo",
+		"offert": 370,
+		"stock": 1,
 		"assets": [
 			{
 				"id": "f1918e94-0810-4086-8839-ea30c2c071ec",
@@ -3322,6 +3352,7 @@
 			"Rango de los Más Vendidos": "#34,945 en Juguetes y Juegos (Ver Top 100 en Juguetes y Juegos) #284 en Juguetes Antiestrés"
 		},
 		"slug": "2pcs-sensory-fidget-toys-for-kids-squishy-glitter-leap-frog",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "77251b43-ae1a-448c-98b6-f711d4a005ac",
@@ -3401,6 +3432,7 @@
 			"Rango de los Más Vendidos": "#52,012 en Juguetes y Juegos (Ver Top 100 en Juguetes y Juegos) #100 en Juguetes para Escritorio Ejecutivo"
 		},
 		"slug": "sensory-toys-liquid-motion-timer-bubbler-3-set-best-fidget",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "445c7697-740d-4714-adfb-ab7ab10dbea0",
@@ -3492,6 +3524,7 @@
 			"Tipo de interruptor": "Remoto"
 		},
 		"slug": "proyector-astronauta-estrella-galaxia-luz-led-noche-lampara",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "c2711432-3608-4eee-944e-dd442ba9f497",
@@ -3568,6 +3601,7 @@
 		"features": null,
 		"details": {},
 		"slug": "juego-aprendizaje-montessori-libro-actividades-pegatina",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "80246fe2-a837-41f4-b448-2e93a85abd86",
@@ -3654,7 +3688,11 @@
 	},
 	{
 		"id": "8e9d851d-9712-4372-8bfd-b1c6daadbf87",
+		"price": 500,
 		"title": "Keychron K2 Pro 75% Layout Teclado mecánico inalámbrico personalizado, compacto 84 teclas intercambiable en caliente QMK/VIA Teclado programable USB-C para juegos, interruptor rojo retroiluminado RGB",
+		"cost": 190,
+		"ranking": 5,
+		"category": "Tecnologia",
 		"features": [
 			"Teclado mecánico inalámbrico QMK/VIA actualizado permite a cualquiera dominar cualquier tecla o comandos macro en su diseño compacto del 75% a través de VIA, ha incluido teclas tanto para Windows como para macOS, y los usuarios pueden intercambiar en caliente con cualquier interruptor mecánico MX en una brisa.",
 			"Programa con QMK y VIA: simplemente conecta el K2 Pro a tu dispositivo con un cable, arrastra y suelta tus teclas favoritas o comandos de macro para reasignar cualquier clave que quieras en cualquier sistema (macOS, Windows o Linux).",
@@ -3674,12 +3712,9 @@
 			"Color de retroiluminación del teclado": "RGB",
 			"Estilo": "Moderno"
 		},
-		"price": 500,
-		"offert": 380,
-		"cost": 190,
-		"category": "Tecnologia",
-		"ranking": 5,
 		"slug": "keychron-k2-pro-75-layout-custom-wireless-mechanical",
+		"offert": 380,
+		"stock": 1,
 		"assets": [
 			{
 				"id": "77c56964-d3be-4747-bece-a4939d31162b",
@@ -3687,8 +3722,8 @@
 				"format": "jpg",
 				"width": 439,
 				"height": 174,
-				"publicId": "neystore/keferygiisi1edv1mlrk",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/keferygiisi1edv1mlrk"
 			},
 			{
 				"id": "03d9a90f-d422-4feb-8b10-e69feb9e3fc5",
@@ -3696,8 +3731,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/bcncrdrxeucxcjp6xvh7",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/bcncrdrxeucxcjp6xvh7"
 			},
 			{
 				"id": "d973dzzz-fd5c-42b6-b3ac-518ef3d3ed7c",
@@ -3705,8 +3740,8 @@
 				"format": "mp4",
 				"width": 854,
 				"height": 420,
-				"publicId": "output_b0ylcg",
-				"type": "video"
+				"type": "video",
+				"publicId": "output_b0ylcg"
 			},
 			{
 				"id": "d973df3c-fd5c-42b6-b3ac-518ef3d3ed7c",
@@ -3714,8 +3749,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/k6qymwgirz63gszfvwth",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/k6qymwgirz63gszfvwth"
 			},
 			{
 				"id": "c14bfbf3-9bb4-4221-8cca-3fb3bbdb034a",
@@ -3723,8 +3758,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 484,
-				"publicId": "neystore/ippsurl3vpvvneae3pke",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/ippsurl3vpvvneae3pke"
 			},
 			{
 				"id": "f17c97ca-93f2-4294-84bd-097ec6c3a4c7",
@@ -3732,8 +3767,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/bqjgge7sinkrnmkuhy0j",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/bqjgge7sinkrnmkuhy0j"
 			},
 			{
 				"id": "e5274552-751e-43ec-81d4-ae515117c21a",
@@ -3741,8 +3776,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 421,
-				"publicId": "neystore/knwogbxnlthbh3jyyo3d",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/knwogbxnlthbh3jyyo3d"
 			},
 			{
 				"id": "af4b4e70-1549-4f63-8105-4cb835a1d301",
@@ -3750,14 +3785,18 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/b6lfxtwujw6yvmp46k38",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/b6lfxtwujw6yvmp46k38"
 			}
 		]
 	},
 	{
 		"id": "195df8fa-582c-4cd4-9277-f4b4d41fa953",
+		"price": 520,
 		"title": "Keychron K3 Pro - Teclado mecánico inalámbrico ultra delgado QMK/VIA, macro programable 75% diseño RGB retroiluminación con perfil bajo Gateron G Pro Red Switch PBT teclado para Mac Windows Linux",
+		"cost": 415,
+		"ranking": 5,
+		"category": "Tecnologia",
 		"features": [
 			"Teclado mecánico inalámbrico QMK/VIA mejorado permite a cualquier persona dominar cualquier tecla o comando macro en su diseño compacto al 75% a través de VIA, ha incluido teclas tanto para Windows como para macOS, y los usuarios pueden intercambiar en caliente con cualquier interruptor mecánico MX en una brisa.",
 			"Programa con QMK y VIA: simplemente conecta el K3 Pro a tu dispositivo con un cable, arrastra y suelta tus teclas favoritas o comandos de macro para reasignar cualquier clave que quieras en cualquier sistema (macOS, Windows o Linux).",
@@ -3778,11 +3817,8 @@
 			"Dimensiones": "340 x 100 x 40 mm",
 			"Peso": "800g"
 		},
-		"price": 520,
-		"cost": 415,
-		"category": "Tecnologia",
-		"ranking": 5,
 		"slug": "keychron-k3-pro-ultraslim-qmkvia-wireless-custom-mechanical",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "f3b394ea-2581-43a4-b39b-9ee8815a789e",
@@ -3790,8 +3826,8 @@
 				"format": "jpg",
 				"width": 456,
 				"height": 339,
-				"publicId": "neystore/zxdvddq4mxm7rjq2d6lb",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/zxdvddq4mxm7rjq2d6lb"
 			},
 			{
 				"id": "20c866a3-e334-4e82-a245-e157829ba071",
@@ -3799,8 +3835,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 469,
-				"publicId": "neystore/qrms4lkk2ug68bothttd",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/qrms4lkk2ug68bothttd"
 			},
 			{
 				"id": "100866a3-e334-4e82-a245-e157829ba071",
@@ -3808,8 +3844,8 @@
 				"format": "webm",
 				"width": 850,
 				"height": 420,
-				"publicId": "neystore/k3pro_rkj5ez",
-				"type": "video"
+				"type": "video",
+				"publicId": "neystore/k3pro_rkj5ez"
 			},
 			{
 				"id": "4beafad2-1642-48ab-a5c2-b013060528e7",
@@ -3817,8 +3853,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/haaq9ioxsujwdanks5gh",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/haaq9ioxsujwdanks5gh"
 			},
 			{
 				"id": "c7609856-291d-48fa-87f5-f8ec186e3ffa",
@@ -3826,8 +3862,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/nqsd1hkxt0afv8cylgty",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/nqsd1hkxt0afv8cylgty"
 			},
 			{
 				"id": "c5fad78d-adb6-4add-be4f-944c95f1b0e6",
@@ -3835,8 +3871,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 449,
-				"publicId": "neystore/gsavrokcsjljnaisdgze",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/gsavrokcsjljnaisdgze"
 			},
 			{
 				"id": "8b84da10-e43d-4bc4-a389-848e4a9a683c",
@@ -3844,8 +3880,8 @@
 				"format": "jpg",
 				"width": 494,
 				"height": 410,
-				"publicId": "neystore/h2tdk0xhiqkndo0g6qrg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/h2tdk0xhiqkndo0g6qrg"
 			},
 			{
 				"id": "d91ddf8e-5414-4f44-8a33-60ecc638a214",
@@ -3853,14 +3889,18 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/x5o7attvjyf55dociizb",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/x5o7attvjyf55dociizb"
 			}
 		]
 	},
 	{
 		"id": "6c0b1d87-d9fb-49d3-9755-0c66ef81d735",
+		"price": 160,
 		"title": "Gateron Interruptores de llave de perfil bajo para teclados mecánicos de juegos  Montaje en placa rojo Gateron, 90 piezas",
+		"cost": 160,
+		"ranking": 4,
+		"category": "Tecnologia",
 		"features": [
 			"Rojo Gateron  Lineal  Previaje de 0.059 in  Recorrido total de 0.108 in  Actuación de 50cN",
 			"Para teclados mecánicos para juegos de intercambio en caliente y teclados personalizados de bricolaje compatibles con interruptores de perfil bajo.",
@@ -3881,11 +3921,8 @@
 			"Dimensiones del producto": "0,39\"l. x 0,39\"an. x 0,39\"al. pulgadas",
 			"Componentes incluidos": "Extractor de Teclas"
 		},
-		"price": 160,
-		"cost": 160,
-		"category": "Tecnologia",
-		"ranking": 4,
 		"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
+		"stock": 1,
 		"assets": [
 			{
 				"id": "00437907-13c9-41f6-8062-7d91e6615127",
@@ -3893,8 +3930,8 @@
 				"format": "jpg",
 				"width": 285,
 				"height": 224,
-				"publicId": "neystore/bdkmesl47i78v0f1szt2",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/bdkmesl47i78v0f1szt2"
 			},
 			{
 				"id": "d63b6dc7-bc2c-4fd7-b7ab-6af4e327111e",
@@ -3902,8 +3939,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/qqrsyftngpvgzbtxtfoc",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/qqrsyftngpvgzbtxtfoc"
 			},
 			{
 				"id": "9bb0a873-8e9a-4c56-a419-fba600f1503c",
@@ -3911,8 +3948,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/xc8ttlbrium4slfvgskr",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/xc8ttlbrium4slfvgskr"
 			},
 			{
 				"id": "b7a42a65-719a-41ee-91ff-21753b560305",
@@ -3920,8 +3957,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/y8bdngdpmc4omrhr1ivr",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/y8bdngdpmc4omrhr1ivr"
 			},
 			{
 				"id": "4894d9d9-fdc1-45ca-9972-bcf8df066eb9",
@@ -3929,8 +3966,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/tzgnafn7ljeac2rqwxzr",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/tzgnafn7ljeac2rqwxzr"
 			},
 			{
 				"id": "956839d8-d64d-4615-9ee1-660307d9d392",
@@ -3938,9 +3975,10 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/wsaktlpu9zarp5ga5ekt",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/wsaktlpu9zarp5ga5ekt"
 			}
 		]
 	}
 ]
+

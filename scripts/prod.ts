@@ -13,6 +13,8 @@ const newProducts = products.map((product) => {
 		features: product.features,
 		details: product.details,
 		slug: product.slug,
+		offert: product.offert,
+		stock: 1,
 		assets: [
 			...product.assets.map((asset) => {
 				return {
