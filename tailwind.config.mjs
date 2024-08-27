@@ -20,6 +20,7 @@ export default {
 		extend: {
 			colors: {
 				accent: 'oklch(var(--accent) / <alpha-value>)',
+				muted: 'oklch(var(--muted) / <alpha-value>)',
 				background: 'oklch(var(--background) / <alpha-value>)',
 				foreground: 'oklch(var(--foreground) / <alpha-value>)',
 				border: 'oklch(var(--border) / <alpha-value>)',

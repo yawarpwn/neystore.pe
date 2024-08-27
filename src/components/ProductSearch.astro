@@ -5,22 +5,36 @@ const products = await getProducts()
 const results = products.slice(5)
 ---
 
-<div class="sticky top-16 left-0 z-30">
-	<header class="bg-background p-4 h-[70px]">
-		<div class="flex items-center gap-2 rounded-md p-1 px-2">
-			<Icon name="tabler:search" />
-			<input
-				class="bg-transparent w-full border-none outline-none"
-				id="search-product"
-				type="search"
-				name="search-product"
-				placeholder="Que esta buscando?"
-			/>
-		</div>
-	</header>
+<button
+	id="open-search-dialog"
+	class="flex items-center gap-2 rounded-md p-1 px-2 border min-w-[320px]">
+	<Icon name="tabler:search" />
+	<span class="text-muted">Buscar producto...</span>
+</button>
+<dialog
+	open
+	id="search-dialog"
+	class="fixed h-[100dvh] w-screen top-0 left-0 z-40 bg-black/20"
+	tabindex="0">
+	<!-- Modal -->
 	<div
-		class="absolute left-1/2 -translate-x-1/2 top-[70px] z-50 flex justify-center bg-transparent rounded-lg overflow-hidden shadow-lg">
-		<div class="min-w-[320px] bg-background w-full h-[600px] overflow-y-scroll">
+		class="max-w-md rounded-md mx-auto mt-[calc(4rem+0.25rem)] h-[600px] bg-background text-foreground min-w-[320px] overflow-hidden shadow-lg">
+		<!-- SearchBox -->
+		<header class="bg-background p-4 h-[60px]">
+			<div class="flex items-center gap-2 rounded-md p-1 px-2">
+				<Icon name="tabler:search" />
+				<input
+					autofocus
+					class="bg-transparent w-full border-none outline-none text-foreground"
+					id="search-product"
+					type="search"
+					name="search-product"
+					placeholder="Que esta buscando?"
+				/>
+			</div>
+		</header>
+		<!-- Results -->
+		<div class="max-h-[calc(600px-60px)] overflow-y-auto">
 			<ul class="flex flex-col gap-2">
 				{
 					results.map((prod) => {
@@ -43,4 +57,22 @@ const results = products.slice(5)
 			</ul>
 		</div>
 	</div>
-</div>
+</dialog>
+<script>
+	const searchDialogEl = document.querySelector('#search-dialog') as HTMLDialogElement
+	const openSearchDialogEl = document.querySelector('#open-search-dialog') as HTMLButtonElement
+
+	openSearchDialogEl.addEventListener('click', () => {
+		document.body.style.overflowY = 'hidden'
+		searchDialogEl.show()
+	})
+
+	searchDialogEl.addEventListener('click', (event) => {
+		if (event.currentTarget !== event.target) {
+			return
+		}
+
+		document.body.style.overflowY = 'auto'
+		searchDialogEl.close()
+	})
+</script>
