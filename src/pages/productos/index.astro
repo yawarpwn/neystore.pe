@@ -2,7 +2,9 @@
 import Layout from '@/layouts/Layout.astro'
 import ProductCard from '@/components/ProductCard.astro'
 import { getProducts } from '@/lib/data'
+import { Icon } from 'astro-icon/components'
 const products = await getProducts()
+const results = products.slice(5)
 ---
 
 <Layout title="Nuestros Productos">
