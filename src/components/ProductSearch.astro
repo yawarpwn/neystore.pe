@@ -12,7 +12,7 @@ const results = products.slice(5)
 	<span class="text-muted">Buscar producto...</span>
 </button>
 <dialog
-	open
+	data-products={JSON.stringify(products)}
 	id="search-dialog"
 	class="fixed h-[100dvh] w-screen top-0 left-0 z-40 bg-black/20"
 	tabindex="0">
@@ -21,12 +21,12 @@ const results = products.slice(5)
 		class="max-w-md rounded-md mx-auto mt-[calc(4rem+0.25rem)] h-[600px] bg-background text-foreground min-w-[320px] overflow-hidden shadow-lg">
 		<!-- SearchBox -->
 		<header class="bg-background p-4 h-[60px]">
-			<div class="flex items-center gap-2 rounded-md p-1 px-2">
+			<div class="flex items-center gap-2 rounded-md p-1 px-2 border">
 				<Icon name="tabler:search" />
 				<input
 					autofocus
 					class="bg-transparent w-full border-none outline-none text-foreground"
-					id="search-product"
+					id="search-input"
 					type="search"
 					name="search-product"
 					placeholder="Que esta buscando?"
@@ -35,7 +35,7 @@ const results = products.slice(5)
 		</header>
 		<!-- Results -->
 		<div class="max-h-[calc(600px-60px)] overflow-y-auto">
-			<ul class="flex flex-col gap-2">
+			<ul id="results" class="flex flex-col gap-2">
 				{
 					results.map((prod) => {
 						return (
@@ -59,8 +59,19 @@ const results = products.slice(5)
 	</div>
 </dialog>
 <script>
+	// TODO: implementar debounce search
+	// TODO: mejorar legibilidad
+	import Fuse from 'fuse.js'
+	// document.addEventListener('astro:page-load', async () => {
 	const searchDialogEl = document.querySelector('#search-dialog') as HTMLDialogElement
+	const resultsEl = searchDialogEl.querySelector('#results') as HTMLUListElement
 	const openSearchDialogEl = document.querySelector('#open-search-dialog') as HTMLButtonElement
+	const searchInput = searchDialogEl.querySelector('#search-input') as HTMLInputElement
+
+	const products = JSON.parse(searchDialogEl.getAttribute('data-products')!)
+	console.log(products)
+
+	let FUSE_INSTANCE: Fuse<typeof products>
 
 	openSearchDialogEl.addEventListener('click', () => {
 		document.body.style.overflowY = 'hidden'
@@ -75,4 +86,59 @@ const results = products.slice(5)
 		document.body.style.overflowY = 'auto'
 		searchDialogEl.close()
 	})
+
+	const INIT_RESULTS = products
+		.map((prod) => {
+			return `
+<li>
+<a
+href="{/productos/${prod.slug}"
+class="flex gap-2 items-center h-20 hover:bg-neutral-100 p-2 md:p-6 cursor-pointer">
+<div class="min-w-[64px] size-16 bg-white">
+<img class="w-full h-full object-contain" src="${prod.assets[0].thumbUrl}" />
+</div>
+<div class="text-truncate">
+<span>${prod.title}</span>
+</div>
+</a>
+</li>
+`
+		})
+		.join('')
+
+	searchInput.addEventListener('input', (event) => {
+		if (!FUSE_INSTANCE) {
+			FUSE_INSTANCE = new Fuse(products, {
+				keys: ['title', 'category'],
+			})
+		}
+
+		const searchValue = event.target.value!
+
+		const results = FUSE_INSTANCE.search(searchValue)
+
+		resultsEl.innerHTML =
+			results.length <= 0
+				? INIT_RESULTS
+				: results
+						.map(
+							(prod) =>
+								`<li>
+								<a
+									href="/productos/${prod.item.slug}"
+									class="flex gap-2 items-center h-20 hover:bg-neutral-200 p-2 md:p-6 cursor-pointer">
+									<div class="min-w-[64px] size-16 bg-white">
+										<img class="w-full h-full object-contain" src="${prod.item.assets[0].thumbUrl}" />
+									</div>
+									<div class="text-truncate">
+										<span>${prod.item.title}</span>
+									</div>
+								</a>
+      </li>
+`
+						)
+						.join('')
+	})
+
+	// })
 </script>

@@ -1,5 +1,7 @@
 import productsJson from '@/muckup/products.json'
 
+import { v2 } from 'cloudinary'
+
 import type { Product } from '@/types'
 import { transformAsset } from '../cloudinary'
 

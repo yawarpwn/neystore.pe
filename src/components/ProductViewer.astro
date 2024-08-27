@@ -86,73 +86,73 @@ items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--backg
 	</div>
 </div>
 <script>
-	document.addEventListener('astro:page-load', () => {
-		const thumbsList = document.querySelectorAll('.slider--img') as NodeListOf<Element>
-		const slider = document.querySelector('.slider--slider') as HTMLDivElement
-		const mainImage = document.querySelector('#main-image img') as HTMLDivElement
-		const nextSlide = document.querySelector('.slider--next') as HTMLButtonElement
-		const prevSlide = document.querySelector('.slider--prev') as HTMLButtonElement
+	// document.addEventListener('astro:page-load', () => {
+	const thumbsList = document.querySelectorAll('.slider--img') as NodeListOf<Element>
+	const slider = document.querySelector('.slider--slider') as HTMLDivElement
+	const mainImage = document.querySelector('#main-image img') as HTMLDivElement
+	const nextSlide = document.querySelector('.slider--next') as HTMLButtonElement
+	const prevSlide = document.querySelector('.slider--prev') as HTMLButtonElement
 
-		//check prev and next button visibility
-		function updateButtonsVisibility() {
-			const maxScrollLeft = slider.scrollWidth - slider.clientWidth
-			const showPrevSlide = slider.scrollLeft > 0
-			const showNextSlide = slider.scrollLeft < maxScrollLeft
+	//check prev and next button visibility
+	function updateButtonsVisibility() {
+		const maxScrollLeft = slider.scrollWidth - slider.clientWidth
+		const showPrevSlide = slider.scrollLeft > 0
+		const showNextSlide = slider.scrollLeft < maxScrollLeft
 
-			console.log({
-				maxScrollLeft,
-				scrollWidth: slider.scrollWidth,
-				clientWidth: slider.clientWidth,
-				scrollLeft: slider.scrollLeft,
-			})
-
-			prevSlide.style.display = showPrevSlide ? 'flex' : 'none'
-			nextSlide.style.display = showNextSlide ? 'flex' : 'none'
-		}
-
-		thumbsList.forEach((item) => {
-			item.addEventListener('click', () => {
-				//Remove active  all items
-				thumbsList.forEach((item) => item.removeAttribute('data-thumb-active'))
-				//Add active to current item
-				item.toggleAttribute('data-thumb-active')
-
-				//get image Src
-				const src = item.getAttribute('data-large-url')!
-
-				//update image
-				mainImage.setAttribute('src', src)
-			})
+		console.log({
+			maxScrollLeft,
+			scrollWidth: slider.scrollWidth,
+			clientWidth: slider.clientWidth,
+			scrollLeft: slider.scrollLeft,
 		})
 
-		//handle scroll
-		slider.addEventListener('scroll', () => {
-			updateButtonsVisibility()
-		})
+		prevSlide.style.display = showPrevSlide ? 'flex' : 'none'
+		nextSlide.style.display = showNextSlide ? 'flex' : 'none'
+	}
 
-		//TODO: handle touch in mobile
-		slider.addEventListener('touchstart', (event) => {})
+	thumbsList.forEach((item) => {
+		item.addEventListener('click', () => {
+			//Remove active  all items
+			thumbsList.forEach((item) => item.removeAttribute('data-thumb-active'))
+			//Add active to current item
+			item.toggleAttribute('data-thumb-active')
 
-		slider.addEventListener('touchmove', (event) => {})
+			//get image Src
+			const src = item.getAttribute('data-large-url')!
 
-		slider.addEventListener('touchend', (event) => {})
-
-		//handle next Slide
-		nextSlide.addEventListener('click', () => {
-			slider.scrollBy(64, 0)
-		})
-
-		// handle prev Slide
-		prevSlide.addEventListener('click', () => {
-			slider.scrollBy(-64, 0)
-		})
-
-		// Initial check to hide buttons if necessary
-		updateButtonsVisibility()
-
-		// Handle window resize to update button visibility
-		window.addEventListener('resize', () => {
-			updateButtonsVisibility()
+			//update image
+			mainImage.setAttribute('src', src)
 		})
 	})
+
+	//handle scroll
+	slider.addEventListener('scroll', () => {
+		updateButtonsVisibility()
+	})
+
+	//TODO: handle touch in mobile
+	slider.addEventListener('touchstart', (event) => {})
+
+	slider.addEventListener('touchmove', (event) => {})
+
+	slider.addEventListener('touchend', (event) => {})
+
+	//handle next Slide
+	nextSlide.addEventListener('click', () => {
+		slider.scrollBy(64, 0)
+	})
+
+	// handle prev Slide
+	prevSlide.addEventListener('click', () => {
+		slider.scrollBy(-64, 0)
+	})
+
+	// Initial check to hide buttons if necessary
+	updateButtonsVisibility()
+
+	// Handle window resize to update button visibility
+	window.addEventListener('resize', () => {
+		updateButtonsVisibility()
+	})
+	// })
 </script>

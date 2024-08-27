@@ -127,25 +127,25 @@ lg:hidden
 </header>
 
 <script>
-	document.addEventListener('astro:page-load', () => {
-		const $header = document.querySelector('#main-header') as HTMLDivElement
-		const $burgerBtn = $header.querySelector('#burger-button') as HTMLButtonElement
+	// document.addEventListener('astro:page-load', () => {
+	const $header = document.querySelector('#main-header') as HTMLDivElement
+	const $burgerBtn = $header.querySelector('#burger-button') as HTMLButtonElement
 
-		$burgerBtn.addEventListener('click', () => {
-			const isOpen = $header.getAttribute('data-state') !== 'open'
-			$header.setAttribute('data-state', isOpen ? 'open' : 'closed')
-			document.body.toggleAttribute('data-mobile-menu-expanded', isOpen)
-		})
-
-		//animation on scroll
-		window.addEventListener('scroll', () => {
-			if (window.scrollY > 64) {
-				$header.setAttribute('data-scroll', 'active')
-			} else {
-				$header.removeAttribute('data-scroll')
-			}
-		})
+	$burgerBtn.addEventListener('click', () => {
+		const isOpen = $header.getAttribute('data-state') !== 'open'
+		$header.setAttribute('data-state', isOpen ? 'open' : 'closed')
+		document.body.toggleAttribute('data-mobile-menu-expanded', isOpen)
 	})
+
+	//animation on scroll
+	window.addEventListener('scroll', () => {
+		if (window.scrollY > 64) {
+			$header.setAttribute('data-scroll', 'active')
+		} else {
+			$header.removeAttribute('data-scroll')
+		}
+	})
+	// })
 </script>
 <style>
 	[data-state='open'] #mobile-menu {

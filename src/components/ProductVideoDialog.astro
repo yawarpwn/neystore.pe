@@ -62,39 +62,39 @@ const { video } = Astro.props
 	}
 </style>
 <script>
-	document.addEventListener('astro:page-load', async () => {
-		const videoItemEl = document.querySelector('#show-dialog-btn')
-		const dialogEl = document.querySelector('dialog')
+	// document.addEventListener('astro:page-load', async () => {
+	const videoItemEl = document.querySelector('#show-dialog-btn')
+	const dialogEl = document.querySelector('dialog')
 
-		if (dialogEl instanceof HTMLDialogElement && videoItemEl instanceof HTMLLIElement) {
-			const { default: Plyr } = await import('plyr')
-			const closeDialogBtn = dialogEl.querySelector('#close-dialog-btn') as HTMLButtonElement
+	if (dialogEl instanceof HTMLDialogElement && videoItemEl instanceof HTMLLIElement) {
+		const { default: Plyr } = await import('plyr')
+		const closeDialogBtn = dialogEl.querySelector('#close-dialog-btn') as HTMLButtonElement
 
-			const player = new Plyr('#player')
+		const player = new Plyr('#player')
 
-			const closeModal = () => {
-				dialogEl.close()
-				player.pause()
-			}
-
-			const showModal = () => {
-				dialogEl.showModal()
-			}
-
-			dialogEl.addEventListener('click', (event) => {
-				if (event.target !== dialogEl) return
-				closeModal()
-			})
-
-			videoItemEl.addEventListener('click', () => {
-				showModal()
-			})
-
-			closeDialogBtn.addEventListener('click', () => {
-				closeModal()
-			})
-		} else {
-			console.log('Dialog not found')
+		const closeModal = () => {
+			dialogEl.close()
+			player.pause()
 		}
-	})
+
+		const showModal = () => {
+			dialogEl.showModal()
+		}
+
+		dialogEl.addEventListener('click', (event) => {
+			if (event.target !== dialogEl) return
+			closeModal()
+		})
+
+		videoItemEl.addEventListener('click', () => {
+			showModal()
+		})
+
+		closeDialogBtn.addEventListener('click', () => {
+			closeModal()
+		})
+	} else {
+		console.log('Dialog not found')
+	}
+	// })
 </script>

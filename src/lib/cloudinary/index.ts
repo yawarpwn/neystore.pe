@@ -1,18 +1,12 @@
 import {
-	v2 as cloudinary,
+	v2,
 	type UploadApiResponse,
 	type UploadApiOptions,
 	type TransformationOptions,
 	type ConfigAndUrlOptions,
 } from 'cloudinary'
 
-import { envs } from '../../config/index'
-
-cloudinary.config({
-	cloud_name: 'dyshhk5h6',
-	api_key: '533526923894852',
-	api_secret: envs.CLOUDINARY_API_SECRET,
-})
+import { cloudinary } from './client'
 
 // type Result<T = void, E extends Error = Error> = T | E
 
@@ -42,6 +36,6 @@ export function transformAsset(
 	publicId: string,
 	options: TransformationOptions | ConfigAndUrlOptions
 ) {
-	const url = cloudinary.url(publicId, options)
+	const url = v2.url(publicId, options)
 	return url
 }
