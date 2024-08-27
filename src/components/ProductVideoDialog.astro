@@ -21,10 +21,15 @@ const { video } = Astro.props
 </li>
 <dialog>
 	<div class="relative rounded-md overflow-hidden">
-		<video class="" id="player" playsinline controls>
+		<video data-src={video.url} class="" id="player" data-title={video.title} playsinline controls>
 			<source src={video.url} type="video/mp4" />
 		</video>
 		<source src="/path/to/video.webm" type="video/webm" />
+		<button
+			id="share-video-button"
+			class="absolute top-3 right-9 size-7 bg-foreground flex items-center justify-center rounded-full">
+			<Icon name="tabler:share" />
+		</button>
 		<button
 			id="close-dialog-btn"
 			class="absolute top-3 right-1 size-7 bg-foreground flex items-center justify-center rounded-full">
@@ -69,8 +74,35 @@ const { video } = Astro.props
 	if (dialogEl instanceof HTMLDialogElement && videoItemEl instanceof HTMLLIElement) {
 		const { default: Plyr } = await import('plyr')
 		const closeDialogBtn = dialogEl.querySelector('#close-dialog-btn') as HTMLButtonElement
+		const shareVideoBtn = dialogEl.querySelector('#share-video-button') as HTMLButtonElement
 
+		const playerEl = document.querySelector('#player') as HTMLVideoElement
+		const videoUrl = playerEl.getAttribute('data-src')!
+		const videoTitle = playerEl.getAttribute('data-title')!
 		const player = new Plyr('#player')
+
+		shareVideoBtn.addEventListener('click', async () => {
+			if (!window.navigator.share) return
+
+			const videoBlob = await fetch(videoUrl).then((res) => res.blob())
+
+			window.navigator
+				.share({
+					text: videoTitle,
+					files: [new File([videoBlob], 'producto-neystore.mp4', { type: videoBlob.type })],
+					title: videoTitle,
+				})
+				.then(() => {
+					console.log('Video compartido con exito')
+				})
+				.catch((err) => console.log('Error al compartir el video', err))
+				.finally(() => {
+					//Update state icon
+					// shareVideoIcon.classList.remove('hidden')
+					// loadingVideoIcon.classList.add('hidden')
+					console.log('...sharing video')
+				})
+		})
 
 		const closeModal = () => {
 			dialogEl.close()
