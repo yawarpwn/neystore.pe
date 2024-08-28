@@ -1,0 +1,222 @@
+---
+import DashboardLayout from '@/layouts/DashboardLayout.astro'
+import Input from '@/components/ui/Input.astro'
+import Label from '@/components/ui/Label.astro'
+import Button from '@/components/ui/Button.astro'
+import 'filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css'
+import 'filepond/dist/filepond.min.css'
+import { buttonVariants } from '@/components/ui/Button.astro'
+---
+
+<DashboardLayout>
+	<h1 class="text-2xl">Cear producto</h1>
+	<form>
+		<div class="flex flex-col gap-2">
+			<div class="grid gap-0.5">
+				<Label>titulo</Label>
+				<Input
+					required
+					name="title"
+					placeholder="Nombre del producto"
+					type="text"
+					class="border border-orange-500"
+				/>
+			</div>
+
+			<!-- Prices -->
+			<div class="flex justify-between gap-2">
+				<div class="grid gap-0.5">
+					<Label>Costo</Label>
+					<Input required name="cost" class="w-40" placeholder="10.00" type="number" />
+				</div>
+
+				<div class="grid gap-0.5">
+					<Label>Precio</Label>
+					<Input name="price" required class="w-40" placeholder="20.00" type="number" />
+				</div>
+			</div>
+			<!-- Details -->
+			<!-- Features -->
+			<!-- Images -->
+			<div class="grid gap-0.5">
+				<input
+					class="filepond"
+					type="file"
+					name="filepond"
+					multiple
+					data-allow-reorder="true"
+					data-max-file-size="10mb"
+					data-max-files="5"
+					required
+				/>
+			</div>
+			<button type="button" id="enviar">Enviar</button>
+			<footer class="flex items-center gap-4 justify-between">
+				<a href="/dashboard" class:list={[buttonVariants({ variant: 'outline' }), 'w-full']}>
+					Volver
+				</a>
+				<Button class="w-full" id="submit-button" type="submit"> Crear Producto </Button>
+			</footer>
+		</div>
+	</form>
+</DashboardLayout>
+<script>
+	import * as filepond from 'filepond'
+	import FilePondPluginImagePreview from 'filepond-plugin-image-preview'
+	import FilePondPluginFileValidateSize from 'filepond-plugin-file-validate-size'
+	import FilePondPluginImageExifOrientation from 'filepond-plugin-image-exif-orientation'
+	import FilePondPluginImageCrop from 'filepond-plugin-image-crop'
+	import FilePondPluginFileValidateType from 'filepond-plugin-file-validate-type'
+	import FilePondPluginImageResize from 'filepond-plugin-image-resize'
+	import FilePondPluginImageTransform from 'filepond-plugin-image-transform'
+	import FilePondPluginImageEdit from 'filepond-plugin-image-edit'
+
+	filepond.registerPlugin(
+		FilePondPluginFileValidateType,
+		FilePondPluginImageExifOrientation,
+		FilePondPluginImagePreview,
+		FilePondPluginImageCrop,
+		FilePondPluginImageResize,
+		FilePondPluginImageTransform,
+		FilePondPluginImageEdit
+	)
+
+	// get a reference to the input element
+	const inputEl = document.querySelector('[name="filepond"]') as HTMLInputElement
+
+	// create a FilePond instance at the input element location
+	const pond = filepond.create(inputEl, {
+		labelIdle: `Drag & Drop your picture or <span class="filepond--label-action">Browse</span>`,
+		imagePreviewHeight: 170,
+		imageCropAspectRatio: '1:1',
+		imageResizeTargetWidth: 200,
+		imageResizeTargetHeight: 200,
+		styleLoadIndicatorPosition: 'center bottom',
+		styleProgressIndicatorPosition: 'right bottom',
+		styleButtonRemoveItemPosition: 'left bottom',
+		styleButtonProcessItemPosition: 'right bottom',
+		acceptedFileTypes: ['image/*'],
+		credits: false,
+	})
+
+	const btn = document.querySelector('#enviar') as HTMLButtonElement
+	btn.addEventListener('click', () => {
+		pond.setOptions({
+			server: {
+				url: 'http://localhost:4000',
+				// process: (fieldName, file, metadata, load, error, progress, abort, transfer, options) => {
+				// 	const formData = new FormData()
+				// 	formData.append(fieldName, file, file.name)
+				// 	console.log(formData)
+				//
+				// 	const controller = new AbortController()
+				// 	const signal = controller.signal
+				//
+				// 	const upload = async () => {
+				// 		try {
+				// 			const response = await fetch('/api/products/create', {
+				// 				method: 'POST',
+				// 				body: formData,
+				// 				signal,
+				// 			})
+				//
+				// 			//monitorear el processo de la carga
+				// 			if (response.body && response.body.getReader) {
+				// 				const reader = response.body.getReader()
+				// 				const contentLength = Number(response.headers.get('Content-Length')) || 0
+				// 				let receivedLength = 0
+				//
+				// 				while (true) {
+				// 					const { done, value } = await reader.read()
+				//
+				// 					if (done) break
+				// 					receivedLength += value.length
+				// 					progress(contentLength !== 0, receivedLength, contentLength)
+				// 				}
+				// 			}
+				//
+				// 			// Verificar si la solicitud fue exitosa
+				// 			if (!response.ok) {
+				// 				throw new Error('Oh no')
+				// 			}
+				//
+				// 			// Leer el cuerpo de la respuesta como texto
+				// 			const responseData = await response.text()
+				//
+				// 			// Llamar al método load con la respuesta del servidor
+				// 			load(responseData)
+				// 		} catch (err) {
+				// 			if (err instanceof Error && err.name === 'AbortError') {
+				// 				abort()
+				// 			}
+				//
+				// 			if (err instanceof Error) {
+				// 				error(err.message)
+				// 			} else {
+				// 				error('Unknown error')
+				// 			}
+				// 		}
+				// 	}
+				// 	// Ejecutar la función de carga
+				// 	upload()
+				//
+				// 	// Retornar un objeto con la función abort para cancelar la solicitud
+				// 	return {
+				// 		abort: () => {
+				// 			// Esta función se llama cuando la solicitud es cancelada
+				// 			controller.abort()
+				//
+				// 			// Permite FilePond saber que la petición ha sido cancelada
+				// 			abort()
+				// 		},
+				// 	}
+				// },
+			},
+		})
+
+		pond.processFile()
+	})
+
+	/*
+	const formEl = document.querySelector('form') as HTMLFormElement
+
+	const submitButtonEl = formEl.querySelector('button[type=submit]') as HTMLButtonElement
+	formEl.addEventListener('submit', async (event) => {
+		event.preventDefault()
+
+		const formData = new FormData(formEl)
+		const files = pond.getFiles()
+		const processFile = pond.processFile()
+		console.log(processFile)
+
+		files.forEach((file, index) => {
+			formData.append(`image${index + 1}`, file.file)
+		})
+
+		// TODO: Add validation
+		try {
+			submitButtonEl.textContent = 'Creando...'
+			const res = await fetch('/api/products/create', {
+				method: 'POST',
+				body: formData,
+			})
+
+			console.log(res.ok)
+
+			if (!res.ok) throw new Error('Error en conexión al servidor')
+
+			const { success } = await res.json()
+
+			if (!success) throw new Error('Error al crear el producto')
+
+			//Redirect to /dashboard
+			// window.location.href = '/dashboard'
+		} catch (error) {
+			//TODO: notification error in client
+			console.log(error)
+		} finally {
+			submitButtonEl.textContent = 'Crear producto'
+		}
+	})
+  */
+</script>

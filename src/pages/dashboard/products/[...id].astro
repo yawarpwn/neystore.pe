@@ -1,0 +1,16 @@
+---
+import DashbordLayout from '@/layouts/DashboardLayout.astro'
+import { getProductById } from '@/lib/data'
+
+export const prerender = false
+const { id } = Astro.params
+
+const { data, error } = await getProductById(id)
+
+if (error) Astro.redirect('/404')
+---
+
+<DashbordLayout>
+	<h1>Product</h1>
+	{JSON.stringify(data, null, 2)}
+</DashbordLayout>

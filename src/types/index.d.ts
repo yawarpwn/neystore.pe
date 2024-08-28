@@ -37,14 +37,4 @@ export type Product = {
 	assets: ProductAsset[]
 }
 
-type ProductRaw = {
-	title: string
-	details: Record<string, string> | null
-	features: string[]
-	video: {
-		url: string
-		cover: string
-		title: string
-	} | null
-	images: string[]
-}
+export type DatabaseResponse<T> = DatabaseResponseSuccess<T> | DatabaseResponseFailure
