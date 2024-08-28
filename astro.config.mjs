@@ -9,7 +9,7 @@ export default defineConfig({
 	site: site.url,
 	trailingSlash: 'never',
 	base: '/',
-	output: 'hybrid',
+	output: 'static',
 	compressHTML: true,
 	devToolbar: {
 		enabled: false,
@@ -35,6 +35,5 @@ export default defineConfig({
 			},
 		},
 	},
-	adapter: vercel(),
+	// adapter: vercel(),
 })
-
