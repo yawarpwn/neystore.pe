@@ -31,12 +31,12 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 ---
 
 <Layout {title} description={title} image={assets[0].url} url={productUrl}>
-	<div class="md:hidden">
-		<a href="/productos" class="inline-flex items-center gap-3 hover:cursor-pointer mt-4">
-			<Icon name="tabler:arrow-narrow-left" />
-			<span class="text-sm">Volver</span>
-		</a>
-	</div>
+	<!-- <div class="md:hidden"> -->
+	<!-- 	<a href="/productos" class="inline-flex items-center gap-3 hover:cursor-pointer mt-4"> -->
+	<!-- 		<Icon name="tabler:arrow-narrow-left" /> -->
+	<!-- 		<span class="text-sm">Volver</span> -->
+	<!-- 	</a> -->
+	<!-- </div> -->
 
 	<section class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
 		<article class="relative">

@@ -1,0 +1,48 @@
+---
+import Container from '@/components/Container.astro'
+
+const categories = [
+	{
+		title: 'Teclados',
+		href: '#',
+	},
+	{
+		title: 'Montessori',
+		href: '#',
+	},
+	{
+		title: 'Sensoriales',
+		href: '#',
+	},
+	{
+		title: 'Sensoriales',
+		href: '#',
+	},
+	{
+		title: 'Psicomotricidad',
+		href: '#',
+	},
+	{
+		title: 'Lenguaje',
+		href: '#',
+	},
+]
+---
+
+<div class="lg:hidden">
+	<Container>
+		<div class="overflow-x-auto">
+			<div style="scrollbar-width: none" class="flex items-center gap-2">
+				{
+					categories.map((category) => (
+						<a
+							href="#"
+							class="bg-foreground flex-shrink-0 w-[max-content]  flex-nowrap text-background rounded-lg px-2 py-1">
+							{category.title}
+						</a>
+					))
+				}
+			</div>
+		</div>
+	</Container>
+</div>

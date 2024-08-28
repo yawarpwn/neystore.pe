@@ -2,16 +2,15 @@
 import Layout from '@/layouts/Layout.astro'
 import ProductCard from '@/components/ProductCard.astro'
 import { getProducts } from '@/lib/data'
+import ProductCategories from '@/components/ProductCategories.astro'
 const products = await getProducts()
 import ProductSearch from '@/components/ProductSearch.astro'
 ---
 
 <Layout title="Nuestros Productos">
-	<header class="flex items-center h-[60px] justify-center py-4 mt-1">
-		<ProductSearch />
-	</header>
+	<ProductCategories />
 	<div class="py-5">
-		<h1 class="text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>
+		<h1 class="sr-only text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>
 		<ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
 			{
 				products

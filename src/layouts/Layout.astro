@@ -6,6 +6,7 @@ import Header from '@/components/Header.astro'
 import WhatsappPopup from '@/components/WhatsappPopup.astro'
 import Container from '@/components/Container.astro'
 import { site } from '@/config'
+import ProductSearch from '@/components/ProductSearch.astro'
 
 const {
 	title = site.title,
@@ -31,7 +32,8 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
 	<body>
 		<div class="page">
 			<Header />
-			<main class="mt-16">
+			<ProductSearch />
+			<main class="">
 				<Container>
 					<slot />
 				</Container>

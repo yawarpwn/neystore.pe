@@ -19,7 +19,7 @@ const { video } = Astro.props
 		<Icon name="tabler:player-play-filled" class="text-white" size={24} />
 	</span>
 </li>
-<dialog>
+<dialog id="video-dialog">
 	<div class="relative rounded-md overflow-hidden">
 		<video data-src={video.url} class="" id="player" data-title={video.title} playsinline controls>
 			<source src={video.url} type="video/mp4" />
@@ -69,7 +69,7 @@ const { video } = Astro.props
 <script>
 	// document.addEventListener('astro:page-load', async () => {
 	const videoItemEl = document.querySelector('#show-dialog-btn')
-	const dialogEl = document.querySelector('dialog')
+	const dialogEl = document.querySelector('#video-dialog')
 
 	if (dialogEl instanceof HTMLDialogElement && videoItemEl instanceof HTMLLIElement) {
 		const { default: Plyr } = await import('plyr')
