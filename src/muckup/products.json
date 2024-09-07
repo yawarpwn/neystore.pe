@@ -4117,6 +4117,124 @@
 				"type": "image"
 			}
 		]
+	},
+	{
+		"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
+		"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
+
+		"features": [
+			" Alivio definitivo del estrés: mantén tus manos ocupadas y tu mente relajada con nuestros juguetes favoritos para la ansiedad. Estos juguetes sensoriales ofrecen una experiencia táctil única que promueve la relajación y mejora la concentración",
+			"Gran idea de regalo: buscas un regalo divertido y significativo para una fiesta, cumpleaños u ocasión especial. Nuestro paquete a granel de juguetes antiestrés es la elección perfecta. Adecuado tanto para niños como para niñas de todas las edades.",
+			"Ayuda con la concentración, TDAH, TDA, autismo, TOC, dejar malos hábitos, etc. Ayuda a aliviar el estrés."
+		],
+		"details": {
+			"Juguete 1": "Plátano apretable",
+			"Juguete 2": "Reloj sensorial",
+			"Juguete 3": "Cubo infinito",
+			"Juguete 4": "Cubo laberinto",
+			"Juguete 5": "Esfera destrezas",
+			"Juguete 6": "Macha sensorial",
+			"Juguete 7": "Spinner metálico",
+			"Juguete 8": "Giroscopio",
+			"Juguete 9": "Resorte color",
+			"Juguete 10": "Pelota antiestres",
+			"Juguete 11": "Jirafa elástica"
+		},
+		"price": 120,
+		"cost": 75,
+		"category": "Juguetes",
+		"ranking": 5,
+		"slug": "kit-sensorial-calma",
+		"assets": [
+			{
+				"id": "9785678c-59fe-4eb9-a81a-2c52df7d7d43",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743664/neystore/pwjxhhyjovdalkhu0qiv.jpg",
+				"publicId": "neystore/pwjxhhyjovdalkhu0qiv",
+				"width": 900,
+				"height": 900,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "efaeccef-6e9f-42b9-ba0b-7eda1b6ee2df",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743768/neystore/z3zjxakdgypjxvuey9f0.png",
+				"publicId": "neystore/z3zjxakdgypjxvuey9f0",
+				"width": 900,
+				"height": 900,
+				"format": "png",
+				"type": "image"
+			},
+
+			{
+				"id": "349c1728-1f7e-4086-88ce-1cf7d2208691",
+				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1725746535/neystore/jo3yml5dgdfzaqgljkau.mp4",
+				"publicId": "neystore/jo3yml5dgdfzaqgljkau",
+				"width": 848,
+				"height": 478,
+				"format": "mp4",
+				"type": "video"
+			},
+
+			{
+				"id": "21dfdf9c-4ee4-475e-a6cd-e52b7c139eb9",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743818/neystore/bxbqrt18gy5jv4627ipm.png",
+				"publicId": "neystore/bxbqrt18gy5jv4627ipm",
+				"width": 900,
+				"height": 900,
+				"format": "png",
+				"type": "image"
+			},
+
+			{
+				"id": "f884a2bd-a39e-421c-a205-15fd13205942",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743858/neystore/uzpouxdvakpuiadjrerd.png",
+				"publicId": "neystore/uzpouxdvakpuiadjrerd",
+				"width": 900,
+				"height": 900,
+				"format": "png",
+				"type": "image"
+			},
+
+			{
+				"id": "e2edd755-9ea5-4b96-a7d8-1501feb2aad2",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743902/neystore/ig5w1hitgb0jt8yz2gc9.jpg",
+				"publicId": "neystore/ig5w1hitgb0jt8yz2gc9",
+				"width": 900,
+				"height": 900,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "f75ebdec-64d2-4bc1-9cdb-288689db7cde",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743932/neystore/kidyzp25peh5z8utvcdw.jpg",
+				"publicId": "neystore/kidyzp25peh5z8utvcdw",
+				"width": 900,
+				"height": 900,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "97006ba4-79e3-4460-ab0e-471b425d8168",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743969/neystore/oufbolhyyns7zoxbhuxy.jpg",
+				"publicId": "neystore/oufbolhyyns7zoxbhuxy",
+				"width": 900,
+				"height": 900,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "73485a83-65fc-4065-b17f-faca8031f2a4",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743994/neystore/f6kiykao6um0zhqtjtzj.jpg",
+				"publicId": "neystore/f6kiykao6um0zhqtjtzj",
+				"width": 900,
+				"height": 900,
+				"format": "jpg",
+				"type": "image"
+			}
+		]
 	}
 ]
-
