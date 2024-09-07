@@ -36,6 +36,8 @@ export async function extractVideoFromAmazon(
 			title: video.title,
 			cover: video.slateUrl,
 		}))
+
+		console.log(videos)
 		return mappedVideos[0]
 	} else {
 		return null

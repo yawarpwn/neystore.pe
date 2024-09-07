@@ -2258,7 +2258,9 @@
 		"ranking": 4,
 		"category": "Tecnologia",
 		"features": null,
-		"details": { "Origen": "BR" },
+		"details": {
+			"Origen": "BR"
+		},
 		"slug": "termometro-ir-sin-contacto-medicion-rapida-ligero-o",
 		"stock": 1,
 		"assets": [
@@ -3979,5 +3981,142 @@
 				"publicId": "neystore/wsaktlpu9zarp5ga5ekt"
 			}
 		]
+	},
+	{
+		"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bab1d",
+		"title": "Parches de espinillas para cara, parches de acné hidrocoloide, bonitas cubiertas de estrella, calcomanías coloridas con árbol de té, ácido salicílico y aceite de cica",
+		"features": [
+			"200 piezas de parches en 5 colores: rosa, amarillo, azul, verde y transparente, con 3 tamaños: S-0.394 in (50 piezas), M-0.472 in (100 piezas) y L-0.551 in (50 piezas).",
+			"Los parches de espinillas en forma de estrella ayudan a absorber las secreciones mientras cubren y protegen el acné, mejorando su aspecto durante la noche.",
+			"Ingredientes naturales como aceite de árbol de té (calmante y ayuda a cerrar poros), ácido salicílico (limpieza profunda), Centella (control de grasa) e hidrocoloide (promueve la curación).",
+			"Empaque individual para mantener la efectividad de cada hoja de parches, fáciles de despegar y aplicar, con fuerte adherencia incluso durante la noche.",
+			"Apto para veganos, hipoalergénicos, dermatológicamente probados, sin parabenos, sulfatos, ni pruebas en animales, aptos para todo tipo de piel.",
+			"Los parches pueden usarse en el rostro y cuerpo, absorben la suciedad y puntos blancos, acelerando la reducción de imperfecciones.",
+			"El diseño en forma de estrella y los 5 colores hacen que sean adecuados para el maquillaje y diversas ocasiones: dormir, fiestas, bodas, festivales, trabajo, etc.",
+			"Para usar, limpia y seca el área afectada, aplica el parche y déjalo actuar de 6 a 8 horas antes de retirarlo."
+		],
+		"details": {
+			"Forma del producto": "Hoja",
+			"Fragancia": "Tea Tree",
+			"Marca": "QUSTERE",
+			"Beneficios del producto": "Para acné y espinillas",
+			"Tipo de piel": "Todos"
+		},
+		"price": 20,
+		"cost": 7,
+		"category": "Tecnologia",
+		"ranking": 4,
+		"slug": "parche-estrellas-eliminar-acne-pegatinas-invisibles-colores",
+		"assets": [
+			{
+				"id": "15c07fc9-60cd-4963-82e2-21230dbf328f",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676345/neystore/zb8luctttv7avrbqf5f1.jpg",
+				"publicId": "neystore/zb8luctttv7avrbqf5f1",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+			{
+				"id": "a67260f9-7be3-4f4e-a4b3-b90f308690dd",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676444/neystore/nmmybh3o2cmkd62xg9vo.jpg",
+				"publicId": "neystore/nmmybh3o2cmkd62xg9vo",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+			{
+				"id": "a3ac9999-ac52-428a-9300-5e76c1fc8890",
+				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1725676032/neystore/irnpystgrfq17ktvvinr.mp4",
+				"format": "mp4",
+				"width": 1920,
+				"height": 1080,
+				"type": "video",
+				"publicId": "neystore/irnpystgrfq17ktvvinr"
+			},
+			{
+				"id": "69c850e5-6f19-4375-ac30-3607532ef1ba",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676547/neystore/xlm09txzawdwtmciwh4q.jpg",
+				"publicId": "neystore/xlm09txzawdwtmciwh4q",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+			{
+				"id": "148d5f58-58a8-4e77-8611-c7dd3613621c",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676571/neystore/ddvp55s24gxvpujw2nzf.jpg",
+				"publicId": "neystore/ddvp55s24gxvpujw2nzf",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+			{
+				"id": "0a0ffd26-11ec-4462-91dc-e4330f91053d",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676481/neystore/fndnuymy6myzzftddxsw.jpg",
+				"publicId": "neystore/fndnuymy6myzzftddxsw",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+			{
+				"id": "73ab8975-5969-41f1-ba47-83a9ad3ca0e8",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725671318/neystore/medwmspvpvogayvq5ebi.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/medwmspvpvogayvq5ebi",
+				"type": "image"
+			},
+			{
+				"id": "39e0ad25-85a4-43bd-adcc-05b2934c3da3",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725671318/neystore/tgfzmcyln7o00arqejqe.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/tgfzmcyln7o00arqejqe",
+				"type": "image"
+			},
+			{
+				"id": "c7c64600-7fd3-46f5-a30a-a7e7df1d5ed2",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725671319/neystore/iwmqcufssla4yggdfvkt.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/iwmqcufssla4yggdfvkt",
+				"type": "image"
+			},
+			{
+				"id": "bc883c03-7eda-4da1-b19c-aa6c8c16d38d",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725671318/neystore/jcauszkede63rwrap2zu.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/jcauszkede63rwrap2zu",
+				"type": "image"
+			},
+			{
+				"id": "e26cc32c-8027-4e99-b765-71714b555c59",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725671319/neystore/x88s8oo4eriigbb1nhxs.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/x88s8oo4eriigbb1nhxs",
+				"type": "image"
+			},
+			{
+				"id": "b2649d7c-6f24-47c6-8b32-7ce1b8ead1a5",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725671319/neystore/kop29x47qfzxolxrtji3.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/kop29x47qfzxolxrtji3",
+				"type": "image"
+			}
+		]
 	}
 ]
+
