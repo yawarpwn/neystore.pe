@@ -4314,15 +4314,6 @@
 				"type": "image"
 			},
 			{
-				"id": "3c17e6c6-b4ac-4fe3-94a8-7ede24ae07e7",
-				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1725926191/neystore/esfwzzc902rzd7jpwbnh.mp4",
-				"publicId": "neystore/esfwzzc902rzd7jpwbnh",
-				"width": 480,
-				"height": 854,
-				"format": "mp4",
-				"type": "video"
-			},
-			{
 				"id": "b727113b-05d1-46f5-bd49-5c562e428210",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725922307/neystore/o1u3qpbpl3qu9t3cybrd.jpg",
 				"format": "jpg",
@@ -4361,4 +4352,3 @@
 		]
 	}
 ]
-
