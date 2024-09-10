@@ -124,7 +124,7 @@ export async function scrapAmazonProduct(url: string): Promise<ProductRaw> {
 	const title = await extractTitleFromAmazon(page)
 	const features = await extractFeaturesFromAmazon(page)
 	const images = await extractImagesFromAmazon(page)
-	const video = await extractVideoFromAmazon(page)
+	// const video = await extractVideoFromAmazon(page)
 	const details = await extractDetailsFromAmazon(page)
 
 	// await context.close()
@@ -134,7 +134,7 @@ export async function scrapAmazonProduct(url: string): Promise<ProductRaw> {
 		title,
 		details,
 		features,
-		video,
+		video: null,
 		images,
 	}
 

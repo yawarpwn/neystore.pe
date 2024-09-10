@@ -4121,7 +4121,6 @@
 	{
 		"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
 		"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
-
 		"features": [
 			" Alivio definitivo del estrés: mantén tus manos ocupadas y tu mente relajada con nuestros juguetes favoritos para la ansiedad. Estos juguetes sensoriales ofrecen una experiencia táctil única que promueve la relajación y mejora la concentración",
 			"Gran idea de regalo: buscas un regalo divertido y significativo para una fiesta, cumpleaños u ocasión especial. Nuestro paquete a granel de juguetes antiestrés es la elección perfecta. Adecuado tanto para niños como para niñas de todas las edades.",
@@ -4155,7 +4154,6 @@
 				"format": "jpg",
 				"type": "image"
 			},
-
 			{
 				"id": "efaeccef-6e9f-42b9-ba0b-7eda1b6ee2df",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743768/neystore/z3zjxakdgypjxvuey9f0.png",
@@ -4165,7 +4163,6 @@
 				"format": "png",
 				"type": "image"
 			},
-
 			{
 				"id": "349c1728-1f7e-4086-88ce-1cf7d2208691",
 				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1725746535/neystore/jo3yml5dgdfzaqgljkau.mp4",
@@ -4175,7 +4172,6 @@
 				"format": "mp4",
 				"type": "video"
 			},
-
 			{
 				"id": "21dfdf9c-4ee4-475e-a6cd-e52b7c139eb9",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743818/neystore/bxbqrt18gy5jv4627ipm.png",
@@ -4185,7 +4181,6 @@
 				"format": "png",
 				"type": "image"
 			},
-
 			{
 				"id": "f884a2bd-a39e-421c-a205-15fd13205942",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743858/neystore/uzpouxdvakpuiadjrerd.png",
@@ -4195,7 +4190,6 @@
 				"format": "png",
 				"type": "image"
 			},
-
 			{
 				"id": "e2edd755-9ea5-4b96-a7d8-1501feb2aad2",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743902/neystore/ig5w1hitgb0jt8yz2gc9.jpg",
@@ -4205,7 +4199,6 @@
 				"format": "jpg",
 				"type": "image"
 			},
-
 			{
 				"id": "f75ebdec-64d2-4bc1-9cdb-288689db7cde",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743932/neystore/kidyzp25peh5z8utvcdw.jpg",
@@ -4215,7 +4208,6 @@
 				"format": "jpg",
 				"type": "image"
 			},
-
 			{
 				"id": "97006ba4-79e3-4460-ab0e-471b425d8168",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743969/neystore/oufbolhyyns7zoxbhuxy.jpg",
@@ -4225,7 +4217,6 @@
 				"format": "jpg",
 				"type": "image"
 			},
-
 			{
 				"id": "73485a83-65fc-4065-b17f-faca8031f2a4",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743994/neystore/f6kiykao6um0zhqtjtzj.jpg",
@@ -4236,5 +4227,138 @@
 				"type": "image"
 			}
 		]
+	},
+	{
+		"id": "5236dc69-f53d-4f12-b746-a125c022e2d1",
+		"title": "Koala Respiración con luces musicales sensoriales, Koala calma y ayuda con el descanso y relajación",
+		"features": [
+			"Compañero calmante para dormir: este suave oso koala está diseñado para calmar y calmar a su hijo, ayudándolo a conciliar el sueño rápidamente a través de sonidos suaves, música y movimientos de respiración rítmica, asegurando que disfrute de un descanso reparado",
+			"Juguete musical calmante para bebés de más de 0 meses, que pueden reproducir sonidos. y deja que tu bebé se calme o duerma rápidamente. La respiración de felpa koala dormida estimula el espíritu de exploración del bebé, mejora el entusiasmo del bebé por la interacción, mejora la capacidad de cognición sonora del bebé y la capacidad de discriminación del color durante el juego, y promueve el desarrollo cerebral del bebé.",
+			"Materiales de alta calidad la respiración de koala de alivio está hecha de material ABS de alta calidad y terciopelo suave sin partes pequeñas, lo que puede satisfacer el sueño relajante y tranquilo que los bebés necesitan durante sus etapas de desarrollo sensorial y motor.",
+			"Fácil operación primero instala 3 baterías de tamaño 7 de acuerdo con las reglas mantén el interruptor de la batería en la parte posterior en el estado de ON no lo mantengas en el estado apagado presiona la pata del pie derecho botón de inicio",
+			"Regalo ideal para bebés encontrarás que el juguete de respiración de koala para dormir es fácil de agarrar y sostener, especialmente adecuado para manos pequeñas, iluminación encantadora y hermosa música que pueden atraer rápidamente los ojos del bebé. La música puede calmar a su bebé y promover el desarrollo de audio del bebé."
+		],
+		"details": null,
+		"price": 80,
+		"cost": 40,
+		"category": "Juguetes",
+		"ranking": 4,
+		"slug": "koala-alivio-koala-aliviar-la-respiracion-animal-peluche",
+		"assets": [
+			{
+				"id": "7e3bae76-db41-4d15-b3a4-5f371c805c6d",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725922307/neystore/bhucrge84fc91uff1jnf.jpg",
+				"format": "jpg",
+				"width": 429,
+				"height": 444,
+				"publicId": "neystore/bhucrge84fc91uff1jnf",
+				"type": "image"
+			},
+
+			{
+				"id": "fd59ca44-6059-4249-b6eb-8d68e6a7dc9d",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725926618/neystore/cznjuhsscj6dko1aaigy.jpg",
+				"publicId": "neystore/cznjuhsscj6dko1aaigy",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "3c17e6c6-b4ac-4fe3-94a8-7ede24ae07e7",
+				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1725926191/neystore/esfwzzc902rzd7jpwbnh.mp4",
+				"publicId": "neystore/esfwzzc902rzd7jpwbnh",
+				"width": 480,
+				"height": 854,
+				"format": "mp4",
+				"type": "video"
+			},
+
+			{
+				"id": "ad393504-2adb-473a-a19c-540c10773347",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725927145/neystore/fqmjtnrfkac5wctzg3en.jpg",
+				"publicId": "neystore/fqmjtnrfkac5wctzg3en",
+				"width": 1461,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "121032fe-eabd-4766-bdc1-03046384f1cd",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725927193/neystore/pqycn9fd70cvbhypxi4d.jpg",
+				"publicId": "neystore/pqycn9fd70cvbhypxi4d",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "6bf5be37-7263-4ec6-9a64-2ca0b8ee83b0",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725927220/neystore/sbitfynfo3ainkl5vqjm.jpg",
+				"publicId": "neystore/sbitfynfo3ainkl5vqjm",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+			{
+				"id": "db08f980-7801-4e6c-bf7d-505c65df9c4e",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725922307/neystore/gsmoyfgzkla8tmf8jhzx.jpg",
+				"format": "jpg",
+				"width": 433,
+				"height": 500,
+				"publicId": "neystore/gsmoyfgzkla8tmf8jhzx",
+				"type": "image"
+			},
+			{
+				"id": "3c17e6c6-b4ac-4fe3-94a8-7ede24ae07e7",
+				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1725926191/neystore/esfwzzc902rzd7jpwbnh.mp4",
+				"publicId": "neystore/esfwzzc902rzd7jpwbnh",
+				"width": 480,
+				"height": 854,
+				"format": "mp4",
+				"type": "video"
+			},
+			{
+				"id": "b727113b-05d1-46f5-bd49-5c562e428210",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725922307/neystore/o1u3qpbpl3qu9t3cybrd.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/o1u3qpbpl3qu9t3cybrd",
+				"type": "image"
+			},
+			{
+				"id": "7288f3f9-8d6a-4a33-8d14-0368e22c08a0",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725922307/neystore/luezfsxpaxifjcintiuy.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/luezfsxpaxifjcintiuy",
+				"type": "image"
+			},
+			{
+				"id": "d526c9fa-e008-45f4-868f-f10082fbff79",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725922307/neystore/rfjrzlp06untpgfoxnjp.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/rfjrzlp06untpgfoxnjp",
+				"type": "image"
+			},
+			{
+				"id": "50109153-631b-412b-b7d7-68b2109c396c",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725922307/neystore/b9de2pu1rls8sy9hbpqo.jpg",
+				"format": "jpg",
+				"width": 500,
+				"height": 500,
+				"publicId": "neystore/b9de2pu1rls8sy9hbpqo",
+				"type": "image"
+			}
+		]
 	}
 ]
+
