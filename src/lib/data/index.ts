@@ -17,6 +17,7 @@ export async function getProducts(): Promise<Product[]> {
 			slug: product.slug,
 			offert: product.offert,
 			stock: product.stock,
+			tags: product.tags,
 			assets: [
 				...product.assets.map((asset) => {
 					return {
@@ -47,4 +48,3 @@ export async function getProducts(): Promise<Product[]> {
 
 	return productsMapped
 }
-

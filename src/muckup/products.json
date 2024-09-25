@@ -27,6 +27,7 @@
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
 		"stock": 1,
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron"],
 		"assets": [
 			{
 				"id": "8e16a1a9-77fd-4887-b5cf-f80f42bf4456",
@@ -134,6 +135,7 @@
 		},
 		"slug": "juguetes-ninos-pequenos-tarjetas-didacticas-en-espanol-224",
 		"stock": 1,
+		"tags": ["Montessori", "Juguetes"],
 		"assets": [
 			{
 				"id": "4918e821-5520-4453-9c71-c137573cad70",
@@ -223,6 +225,7 @@
 		},
 		"slug": "pistolas-burbujas-ninos-pequenos-maquina-burbujas-12",
 		"stock": 1,
+		"tags": ["Juguetes"],
 		"assets": [
 			{
 				"id": "121816e3-522e-41d8-8b22-be361a3309ab",
@@ -312,6 +315,7 @@
 		},
 		"slug": "cortadora-pelo-bebes-cuchilla-ceramica-electrica-ninos",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "c31b4c0c-c313-4c1c-bd0e-d4c67a277ca9",
@@ -377,6 +381,7 @@
 		"details": null,
 		"slug": "consola-empuje-rapido-retroalimentacion-instantanea-sonido",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "49f9df3a-c21d-4e6f-b2c0-22407442a0d6",
@@ -446,7 +451,7 @@
 	{
 		"id": "5783d3b3-a6b9-462a-8425-5acc23c36e0c",
 		"price": 80,
-		"title": "Vilalatfan Busy Cube - Cubo para niños con autismo, tablero sensorial de viaje, juguetes de viaje para niños pequeños de 1 a 3 años, juguetes Montessori de aprendizaje, cubo de actividades para personas autistas y TDAH para niños de 1 a 8 años",
+		"title": "Cubo ocupado para niños, tablero sensorial de viaje, juguetes de viaje para niños pequeños de 1 a 3 años, juguetes Montessori de aprendizaje, cubo de actividades para niños autistas y TDAH",
 		"cost": 61,
 		"ranking": 4.3,
 		"category": "Juguetes",
@@ -460,6 +465,15 @@
 		"details": null,
 		"slug": "vilalatfan-busy-cubecubo-ninos-autismo-tablero-sensorial",
 		"stock": 1,
+		"tags": [
+			"Montessori",
+			"Juguetes",
+			"Sensorial",
+			"Antiestrés",
+			"Psicomotricidad",
+			"Autismo",
+			"TDHA"
+		],
 		"assets": [
 			{
 				"id": "959bd665-c64e-43c4-afe6-a0eb84d3536d",
@@ -552,6 +566,7 @@
 		"details": null,
 		"slug": "cevioce-juguetes-ansiedad-ninos-adultos-1-unidad-juguetes",
 		"stock": 1,
+		"tags": ["Juguetes", "Sensorial", "Antiestrés", "Autismo"],
 		"assets": [
 			{
 				"id": "08140421-17e3-4cfc-aa73-d2ce627cc38d",
@@ -643,6 +658,7 @@
 		},
 		"slug": "keychron-v1-qmkviateclado-mecanico-cable-personalizado",
 		"stock": 1,
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron"],
 		"assets": [
 			{
 				"id": "24f0efdc-b4a5-4cf2-b08e-974b35457899",
@@ -753,6 +769,7 @@
 		},
 		"slug": "gateron-g-brown-pro-2.0-interruptores-prelubricados-3-pines",
 		"stock": 1,
+		"tags": ["Teclados"],
 		"assets": [
 			{
 				"id": "9de5a857-22d7-49cc-80a2-8e1e6d910c58",
@@ -847,7 +864,8 @@
 			"Tecnología de conectividad": "USB-C"
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-k12-pro-qmkvia-marco",
-		"stock": 0,
+		"stock": 1,
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron"],
 		"assets": [
 			{
 				"id": "d911f1c6-0d91-4a60-b196-f23f27868f20",
@@ -948,12 +966,11 @@
 		],
 		"details": {
 			"Dimensiones del producto": "17 x 13 x 1 pulgadas",
-			"Fabricante": "Coogam",
-			"ASIN": "B09X9HF8BB",
-			"Número de modelo del producto": "puzzle090"
+			"Fabricante": "Coogam"
 		},
 		"slug": "tabla-practica-letras-magneticas-iman-trazado-abc-tablero",
 		"stock": 1,
+		"tags": ["Juguetes", "Lenguaje", "Montessori"],
 		"assets": [
 			{
 				"id": "2db32386-e73a-4b25-83b8-8e1dbabc1eb1",
@@ -1037,6 +1054,7 @@
 		"details": null,
 		"slug": "rompecabezas-expresion-juego-madera-a-juego-ninos-pequenos",
 		"stock": 1,
+		"tags": ["Juguetes"],
 		"assets": [
 			{
 				"id": "a6b8a7f1-5784-4f5b-9d92-e97c58940762",
@@ -1124,6 +1142,7 @@
 		},
 		"slug": "cubo-juguete-educativo-montessori-ninos-1-a-3-anos-tablero",
 		"stock": 1,
+		"tags": ["Montessori", "Juguetes", "Sensorial", "Psicomotricidad", "Autismo", "TDHA"],
 		"assets": [
 			{
 				"id": "fac4fb7e-f044-4347-b9bd-0c5a5b56f17c",
@@ -1216,6 +1235,7 @@
 		},
 		"slug": "juguetes-ametralladora-burbujas-ninos-pequenos-ninos",
 		"stock": 1,
+		"tags": ["Juguetes"],
 		"assets": [
 			{
 				"id": "775e9307-c861-4a33-b352-9c439bb374a2",
@@ -1306,6 +1326,7 @@
 		},
 		"slug": "ametralladora-burbujas-ninos-soplador-burbujas-musica-luz",
 		"stock": 1,
+		"tags": ["Juguetes"],
 		"assets": [
 			{
 				"id": "4abf1e25-4239-41cc-a506-4cc77078b295",
@@ -1399,6 +1420,7 @@
 		},
 		"slug": "lenovoauriculares-inalambricos-lp40-pro-tws-cascos",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "f84d6cce-b5fb-4a35-beb5-9887a4fd4f19",
@@ -1517,6 +1539,7 @@
 		},
 		"slug": "marionetas-dedo-mano-juguete-felpa-dibujos-animados",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "313ffa5b-066c-4999-ba41-978a7b64fe6f",
@@ -1803,6 +1826,7 @@
 		"details": null,
 		"slug": "juguetes-biomimeticos-erizo-montessori-bebe-rompecabezas",
 		"stock": 1,
+		"tags": ["Juguetes", "Montessori", "Lenguaje", "Psicomotricidad"],
 		"assets": [
 			{
 				"id": "c21cf0fe-c4c3-4e63-a55b-5c310a555ce8",
@@ -1894,6 +1918,7 @@
 		"details": null,
 		"slug": "juguete-educativo-montessori-ninos-pequenos-juguetes-motor",
 		"stock": 1,
+		"tags": ["Montessori", "Juguetes", "Sensorial", "Psicomotricidad"],
 		"assets": [
 			{
 				"id": "eee1a3cb-07ea-4059-9eb4-b611ec7a9eee",
@@ -1995,6 +2020,7 @@
 		"details": null,
 		"slug": "huevos-pascua-sensoriales-bebe-ninos-juguete-montessori",
 		"stock": 1,
+		"tags": ["Juguetes", "Psicomotricidad", "Lenguaje", "Autismo", "TDHA"],
 		"assets": [
 			{
 				"id": "ef6d9358-2302-45f5-9f54-2f0c41e62aee",
@@ -2094,6 +2120,7 @@
 		},
 		"slug": "kuulaabateria-externa-portatil-10000mah-cargador-225-w-pd",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "4d3872f3-abd2-4d43-a0d0-45ddae61044a",
@@ -2184,6 +2211,7 @@
 		},
 		"slug": "xiaomimemoria-usb-portatil-u-disk-2tb-unidad-flash",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "cdda5e3c-df5d-4003-bf01-2d06a8bafa00",
@@ -2263,6 +2291,7 @@
 		},
 		"slug": "termometro-ir-sin-contacto-medicion-rapida-ligero-o",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "a3e51c4e-f758-4307-8717-bfc27f65b22c",
@@ -2335,6 +2364,7 @@
 		},
 		"slug": "lenovoauriculares-tws-air-pro6-inalambricos-por-bluetooth",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "4bba48b1-3032-4eb0-b11c-e99e0e3a3dba",
@@ -2461,6 +2491,7 @@
 		},
 		"slug": "qoovibateria-externa-20000mah-cargador-portatil-ultrafino",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "56643414-910c-47d2-b393-323e5340f4ef",
@@ -2578,6 +2609,7 @@
 		},
 		"slug": "mochila-portabebes-ergonomica-bebe-portabebes-frontal",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "828384c8-6d87-4ad5-bda0-3e0f98cece69",
@@ -2704,6 +2736,7 @@
 		},
 		"slug": "figuras-accion-super-mario-bros-kart-ninos-juego-8-piezas",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "038bc563-2b5b-4d7a-ab40-33c79eb2d57a",
@@ -2785,6 +2818,7 @@
 		},
 		"slug": "figuras-accion-star-wars-ninos-juguete-maestro-yoda-darth",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "a851cf5d-6d12-4508-a427-323a181ba525",
@@ -2884,6 +2918,7 @@
 		},
 		"slug": "figura-accion-bebe-yoda-star-wars-marvel-muneco-peluche",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "ff83dfa2-0f94-4bef-8dd3-81d46a2184ae",
@@ -3005,6 +3040,7 @@
 		"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
 		"offert": 260,
 		"stock": 1,
+		"tags": ["Teclados", "Mecánico", "Custom"],
 		"assets": [
 			{
 				"id": "3cf47c18-0ca9-4ae7-abbd-d828a69e0738",
@@ -3131,6 +3167,7 @@
 		},
 		"slug": "hello-3-minireloj-inteligente-mujer-dispositivo-original",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "8590e1be-f0eb-41ec-ac32-e249549e1df6",
@@ -3256,6 +3293,7 @@
 		"slug": "redmireloj-inteligente-4-version-global-dispositivo",
 		"offert": 370,
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "f1918e94-0810-4086-8839-ea30c2c071ec",
@@ -3334,7 +3372,7 @@
 	{
 		"id": "8c1eda88-bdd9-4c3e-b818-59dd5c419d8d",
 		"price": 50,
-		"title": "2 Juguetes Sensoriales Antiestrés para Niños, Juguetes Suaves y Brillantes con Forma de Rana para Niños Pequeños, Productos Sensoriales para Autismo, Juguetes de Viaje, Regalo de Cumpleaños para Niños de 3 4 5 7 Años, Juguetes Calmantes para el Aula y ADHD",
+		"title": "Juguete Sensorial en forma de Rana Antiestrés para Niños, Productos Sensoriales para Autismo, Juguetes de Viaje, Juguete Calmante",
 		"cost": 33,
 		"ranking": 3,
 		"category": "Juguetes",
@@ -3351,10 +3389,11 @@
 			"País de Origen": "China",
 			"ASIN": "B0D4QMLVMS",
 			"Edad Recomendada por el Fabricante": "3 años en adelante",
-			"Rango de los Más Vendidos": "#34,945 en Juguetes y Juegos (Ver Top 100 en Juguetes y Juegos) #284 en Juguetes Antiestrés"
+			"Rango de los Más Vendidos": "#34,945 en Juguetes y Juegos (Ver Top 100 en Juguetes y Juegos) en Juguetes Antiestrés"
 		},
 		"slug": "2pcs-sensory-fidget-toys-for-kids-squishy-glitter-leap-frog",
 		"stock": 1,
+		"tags": ["Juguetes", "Sensorial", "Antiestrés", "Psicomotricidad", "Autismo"],
 		"assets": [
 			{
 				"id": "77251b43-ae1a-448c-98b6-f711d4a005ac",
@@ -3429,12 +3468,11 @@
 		"details": {
 			"Dimensiones del Paquete": "8.03 x 6.89 x 4.49 pulgadas",
 			"Peso del Artículo": "1.39 libras",
-			"ASIN": "B07WQV5664",
-			"Edad Recomendada por el Fabricante": "3 años en adelante",
-			"Rango de los Más Vendidos": "#52,012 en Juguetes y Juegos (Ver Top 100 en Juguetes y Juegos) #100 en Juguetes para Escritorio Ejecutivo"
+			"Edad Recomendada por el Fabricante": "3 años en adelante"
 		},
 		"slug": "sensory-toys-liquid-motion-timer-bubbler-3-set-best-fidget",
 		"stock": 1,
+		"tags": ["Juguetes", "Sensorial", "Antiestrés", "Autismo"],
 		"assets": [
 			{
 				"id": "445c7697-740d-4714-adfb-ab7ab10dbea0",
@@ -3527,6 +3565,7 @@
 		},
 		"slug": "proyector-astronauta-estrella-galaxia-luz-led-noche-lampara",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "c2711432-3608-4eee-944e-dd442ba9f497",
@@ -3601,9 +3640,17 @@
 		"ranking": 4,
 		"category": "Juguetes",
 		"features": null,
-		"details": {},
+		"details": {
+			"Peso de producto": "0.14 KG",
+			"Material producto": "Papel",
+			"Color de producto": "como muestra la imagen",
+			"Tamaño de producto": "21 x 14 x 1.2 cm",
+			"Rango de edad": "3 - 12 años",
+			"Advertencia": "No comer"
+		},
 		"slug": "juego-aprendizaje-montessori-libro-actividades-pegatina",
 		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "80246fe2-a837-41f4-b448-2e93a85abd86",
@@ -3717,6 +3764,7 @@
 		"slug": "keychron-k2-pro-75-layout-custom-wireless-mechanical",
 		"offert": 380,
 		"stock": 1,
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron"],
 		"assets": [
 			{
 				"id": "77c56964-d3be-4747-bece-a4939d31162b",
@@ -3821,6 +3869,7 @@
 		},
 		"slug": "keychron-k3-pro-ultraslim-qmkvia-wireless-custom-mechanical",
 		"stock": 1,
+		"tags": ["Teclados"],
 		"assets": [
 			{
 				"id": "f3b394ea-2581-43a4-b39b-9ee8815a789e",
@@ -3925,6 +3974,7 @@
 		},
 		"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
 		"stock": 1,
+		"tags": ["Teclados"],
 		"assets": [
 			{
 				"id": "00437907-13c9-41f6-8062-7d91e6615127",
@@ -3984,7 +4034,11 @@
 	},
 	{
 		"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bab1d",
+		"price": 20,
 		"title": "Parches de espinillas para cara, parches de acné hidrocoloide, bonitas cubiertas de estrella, calcomanías coloridas con árbol de té, ácido salicílico y aceite de cica",
+		"cost": 7,
+		"ranking": 4,
+		"category": "Tecnologia",
 		"features": [
 			"200 piezas de parches en 5 colores: rosa, amarillo, azul, verde y transparente, con 3 tamaños: S-0.394 in (50 piezas), M-0.472 in (100 piezas) y L-0.551 in (50 piezas).",
 			"Los parches de espinillas en forma de estrella ayudan a absorber las secreciones mientras cubren y protegen el acné, mejorando su aspecto durante la noche.",
@@ -4002,29 +4056,27 @@
 			"Beneficios del producto": "Para acné y espinillas",
 			"Tipo de piel": "Todos"
 		},
-		"price": 20,
-		"cost": 7,
-		"category": "Tecnologia",
-		"ranking": 4,
 		"slug": "parche-estrellas-eliminar-acne-pegatinas-invisibles-colores",
+		"stock": 1,
+		"tags": [],
 		"assets": [
 			{
 				"id": "15c07fc9-60cd-4963-82e2-21230dbf328f",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676345/neystore/zb8luctttv7avrbqf5f1.jpg",
-				"publicId": "neystore/zb8luctttv7avrbqf5f1",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/zb8luctttv7avrbqf5f1"
 			},
 			{
 				"id": "a67260f9-7be3-4f4e-a4b3-b90f308690dd",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676444/neystore/nmmybh3o2cmkd62xg9vo.jpg",
-				"publicId": "neystore/nmmybh3o2cmkd62xg9vo",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/nmmybh3o2cmkd62xg9vo"
 			},
 			{
 				"id": "a3ac9999-ac52-428a-9300-5e76c1fc8890",
@@ -4038,29 +4090,29 @@
 			{
 				"id": "69c850e5-6f19-4375-ac30-3607532ef1ba",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676547/neystore/xlm09txzawdwtmciwh4q.jpg",
-				"publicId": "neystore/xlm09txzawdwtmciwh4q",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/xlm09txzawdwtmciwh4q"
 			},
 			{
 				"id": "148d5f58-58a8-4e77-8611-c7dd3613621c",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676571/neystore/ddvp55s24gxvpujw2nzf.jpg",
-				"publicId": "neystore/ddvp55s24gxvpujw2nzf",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/ddvp55s24gxvpujw2nzf"
 			},
 			{
 				"id": "0a0ffd26-11ec-4462-91dc-e4330f91053d",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725676481/neystore/fndnuymy6myzzftddxsw.jpg",
-				"publicId": "neystore/fndnuymy6myzzftddxsw",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/fndnuymy6myzzftddxsw"
 			},
 			{
 				"id": "73ab8975-5969-41f1-ba47-83a9ad3ca0e8",
@@ -4068,8 +4120,8 @@
 				"format": "webp",
 				"width": 1000,
 				"height": 1000,
-				"publicId": "neystore/medwmspvpvogayvq5ebi",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/medwmspvpvogayvq5ebi"
 			},
 			{
 				"id": "39e0ad25-85a4-43bd-adcc-05b2934c3da3",
@@ -4077,8 +4129,8 @@
 				"format": "webp",
 				"width": 1000,
 				"height": 1000,
-				"publicId": "neystore/tgfzmcyln7o00arqejqe",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/tgfzmcyln7o00arqejqe"
 			},
 			{
 				"id": "c7c64600-7fd3-46f5-a30a-a7e7df1d5ed2",
@@ -4086,8 +4138,8 @@
 				"format": "webp",
 				"width": 1000,
 				"height": 1000,
-				"publicId": "neystore/iwmqcufssla4yggdfvkt",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/iwmqcufssla4yggdfvkt"
 			},
 			{
 				"id": "bc883c03-7eda-4da1-b19c-aa6c8c16d38d",
@@ -4095,8 +4147,8 @@
 				"format": "webp",
 				"width": 1000,
 				"height": 1000,
-				"publicId": "neystore/jcauszkede63rwrap2zu",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/jcauszkede63rwrap2zu"
 			},
 			{
 				"id": "e26cc32c-8027-4e99-b765-71714b555c59",
@@ -4104,8 +4156,8 @@
 				"format": "webp",
 				"width": 1000,
 				"height": 1000,
-				"publicId": "neystore/x88s8oo4eriigbb1nhxs",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/x88s8oo4eriigbb1nhxs"
 			},
 			{
 				"id": "b2649d7c-6f24-47c6-8b32-7ce1b8ead1a5",
@@ -4113,13 +4165,14 @@
 				"format": "webp",
 				"width": 1000,
 				"height": 1000,
-				"publicId": "neystore/kop29x47qfzxolxrtji3",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/kop29x47qfzxolxrtji3"
 			}
 		]
 	},
 	{
 		"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
+		"price": 120,
 		"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
 		"features": [
 			" Alivio definitivo del estrés: mantén tus manos ocupadas y tu mente relajada con nuestros juguetes favoritos para la ansiedad. Estos juguetes sensoriales ofrecen una experiencia táctil única que promueve la relajación y mejora la concentración",
@@ -4139,92 +4192,98 @@
 			"Juguete 10": "Pelota antiestres",
 			"Juguete 11": "Jirafa elástica"
 		},
-		"price": 120,
-		"cost": 75,
-		"category": "Juguetes",
-		"ranking": 5,
 		"slug": "kit-sensorial-calma",
+		"stock": 1,
+		"tags": [
+			"Juguetes",
+			"Sensorial",
+			"Antiestrés",
+			"Psicomotricidad",
+			"Lenguaje",
+			"Autismo",
+			"TDHA"
+		],
 		"assets": [
 			{
 				"id": "9785678c-59fe-4eb9-a81a-2c52df7d7d43",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743664/neystore/pwjxhhyjovdalkhu0qiv.jpg",
-				"publicId": "neystore/pwjxhhyjovdalkhu0qiv",
+				"format": "jpg",
 				"width": 900,
 				"height": 900,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/pwjxhhyjovdalkhu0qiv"
 			},
 			{
 				"id": "efaeccef-6e9f-42b9-ba0b-7eda1b6ee2df",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743768/neystore/z3zjxakdgypjxvuey9f0.png",
-				"publicId": "neystore/z3zjxakdgypjxvuey9f0",
+				"format": "png",
 				"width": 900,
 				"height": 900,
-				"format": "png",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/z3zjxakdgypjxvuey9f0"
 			},
 			{
 				"id": "349c1728-1f7e-4086-88ce-1cf7d2208691",
 				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1725746535/neystore/jo3yml5dgdfzaqgljkau.mp4",
-				"publicId": "neystore/jo3yml5dgdfzaqgljkau",
+				"format": "mp4",
 				"width": 848,
 				"height": 478,
-				"format": "mp4",
-				"type": "video"
+				"type": "video",
+				"publicId": "neystore/jo3yml5dgdfzaqgljkau"
 			},
 			{
 				"id": "21dfdf9c-4ee4-475e-a6cd-e52b7c139eb9",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743818/neystore/bxbqrt18gy5jv4627ipm.png",
-				"publicId": "neystore/bxbqrt18gy5jv4627ipm",
+				"format": "png",
 				"width": 900,
 				"height": 900,
-				"format": "png",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/bxbqrt18gy5jv4627ipm"
 			},
 			{
 				"id": "f884a2bd-a39e-421c-a205-15fd13205942",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743858/neystore/uzpouxdvakpuiadjrerd.png",
-				"publicId": "neystore/uzpouxdvakpuiadjrerd",
+				"format": "png",
 				"width": 900,
 				"height": 900,
-				"format": "png",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/uzpouxdvakpuiadjrerd"
 			},
 			{
 				"id": "e2edd755-9ea5-4b96-a7d8-1501feb2aad2",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743902/neystore/ig5w1hitgb0jt8yz2gc9.jpg",
-				"publicId": "neystore/ig5w1hitgb0jt8yz2gc9",
+				"format": "jpg",
 				"width": 900,
 				"height": 900,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/ig5w1hitgb0jt8yz2gc9"
 			},
 			{
 				"id": "f75ebdec-64d2-4bc1-9cdb-288689db7cde",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743932/neystore/kidyzp25peh5z8utvcdw.jpg",
-				"publicId": "neystore/kidyzp25peh5z8utvcdw",
+				"format": "jpg",
 				"width": 900,
 				"height": 900,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/kidyzp25peh5z8utvcdw"
 			},
 			{
 				"id": "97006ba4-79e3-4460-ab0e-471b425d8168",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743969/neystore/oufbolhyyns7zoxbhuxy.jpg",
-				"publicId": "neystore/oufbolhyyns7zoxbhuxy",
+				"format": "jpg",
 				"width": 900,
 				"height": 900,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/oufbolhyyns7zoxbhuxy"
 			},
 			{
 				"id": "73485a83-65fc-4065-b17f-faca8031f2a4",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725743994/neystore/f6kiykao6um0zhqtjtzj.jpg",
-				"publicId": "neystore/f6kiykao6um0zhqtjtzj",
+				"format": "jpg",
 				"width": 900,
 				"height": 900,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/f6kiykao6um0zhqtjtzj"
 			}
 		]
 	},
@@ -4436,4 +4495,3 @@
 		]
 	}
 ]
-

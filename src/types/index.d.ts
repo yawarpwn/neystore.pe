@@ -35,6 +35,7 @@ export type Product = {
 	stock: number
 	slug: string
 	assets: ProductAsset[]
+	tags: string[]
 }
 
 export type DatabaseResponse<T> = DatabaseResponseSuccess<T> | DatabaseResponseFailure
