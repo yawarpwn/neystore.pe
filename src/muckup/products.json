@@ -135,7 +135,7 @@
 		},
 		"slug": "juguetes-ninos-pequenos-tarjetas-didacticas-en-espanol-224",
 		"stock": 1,
-		"tags": ["Montessori", "Juguetes"],
+		"tags": ["Montessori", "Juguetes", "Lenguaje"],
 		"assets": [
 			{
 				"id": "4918e821-5520-4453-9c71-c137573cad70",
@@ -381,7 +381,7 @@
 		"details": null,
 		"slug": "consola-empuje-rapido-retroalimentacion-instantanea-sonido",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Juguetes", "Psicomotricidad", "Antiestrés"],
 		"assets": [
 			{
 				"id": "49f9df3a-c21d-4e6f-b2c0-22407442a0d6",
@@ -1054,7 +1054,7 @@
 		"details": null,
 		"slug": "rompecabezas-expresion-juego-madera-a-juego-ninos-pequenos",
 		"stock": 1,
-		"tags": ["Juguetes"],
+		"tags": ["Juguetes", "Lenguaje", "Psicomotricidad"],
 		"assets": [
 			{
 				"id": "a6b8a7f1-5784-4f5b-9d92-e97c58940762",
@@ -1235,7 +1235,7 @@
 		},
 		"slug": "juguetes-ametralladora-burbujas-ninos-pequenos-ninos",
 		"stock": 1,
-		"tags": ["Juguetes"],
+		"tags": ["Juguetes", "Psicomotricidad", "Lenguaje"],
 		"assets": [
 			{
 				"id": "775e9307-c861-4a33-b352-9c439bb374a2",
@@ -1326,7 +1326,7 @@
 		},
 		"slug": "ametralladora-burbujas-ninos-soplador-burbujas-musica-luz",
 		"stock": 1,
-		"tags": ["Juguetes"],
+		"tags": ["Juguetes", "Lenguaje", "Psicomotricidad"],
 		"assets": [
 			{
 				"id": "4abf1e25-4239-41cc-a506-4cc77078b295",
@@ -1525,282 +1525,86 @@
 	},
 	{
 		"id": "e8787c48-cce0-4e3a-8da3-31c2b0125c73",
-		"price": 25,
-		"title": "Marionetas de dedo de mano, juguete de felpa de dibujos animados, suministro de fiesta, juguete favorito de reunión familiar",
+		"price": 180,
+		"title": "12 marionetas para niños, marionetas de mano de animales de peluche con boca abierta y movible, juguete para niños pequeños, escuela, aula, preescolar, regalo de cumpleaños (estilo clásico)",
 		"cost": 20,
 		"ranking": 4,
 		"category": "Juguetes",
-		"features": null,
+		"features": [
+			"Recibirás 12 marionetas de mano con boca móvil en forma de león, orangután, hipopótamo, rinoceronte, conejo, pato, mono, shar pei, tigre, husky, vaca, cocodrilo.",
+			"Las marionetas están hechas de tela de felpa de calidad y material de poliéster PP, suave y cómodo al tacto.",
+			"No se deforman fácilmente, son lavables y confiables, y tienen una boca móvil adecuada tanto para adultos como para niños.",
+			"Diseño atractivo con formas de varios animales y expresiones faciales que ayudan a desarrollar la imaginación y la coordinación ojo-mano.",
+			"Las marionetas miden aproximadamente 9.8 pulgadas de largo, son ligeras y portátiles para fácil almacenamiento.",
+			"Son adecuadas para diversas ocasiones como hogar, guardería, jardín de infantes y escuela primaria.",
+			"Pueden ayudar a los niños con su alfabetización, lenguaje y desarrollo social, promoviendo el pensamiento creativo."
+		],
 		"details": {
 			"Género": "Unisex",
-			"Material": "Felpa",
-			"Certificación": "NONE",
-			"CN": "Jiangsu"
+			"Material": "Felpa"
 		},
 		"slug": "marionetas-dedo-mano-juguete-felpa-dibujos-animados",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Juguetes", "Autismo"],
 		"assets": [
 			{
-				"id": "313ffa5b-066c-4999-ba41-978a7b64fe6f",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/dkacffyh1gc3opnwi3kh.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/dkacffyh1gc3opnwi3kh"
+				"id": "dcc30aad-53a3-4130-8bef-3089aac3d3c9",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234061/neystore/wyjlcz3rlg5peucv63jx.jpg",
+				"publicId": "neystore/wyjlcz3rlg5peucv63jx",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
 			},
+
 			{
-				"id": "1ab9881f-74b7-4567-b912-3e8241e0d1a9",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/ccbroqeoogtzdhrlnmja.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/ccbroqeoogtzdhrlnmja"
+				"id": "9ef8f3fb-2400-4d59-9978-43c5a40eaada",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234149/neystore/on1t3isq7uas7vtoqj9g.jpg",
+				"publicId": "neystore/on1t3isq7uas7vtoqj9g",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
 			},
+
 			{
-				"id": "48cbcaf6-0c9b-44d4-8698-7a8bd482f193",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/lvf57uqk1u2naozi4sm9.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/lvf57uqk1u2naozi4sm9"
+				"id": "1417c7f8-a358-44b9-a21e-ad5b9d05e483",
+				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1727234745/neystore/kbha9tkrhbtmbathfr5x.mp4",
+				"publicId": "neystore/kbha9tkrhbtmbathfr5x",
+				"width": 1280,
+				"height": 720,
+				"format": "mp4",
+				"type": "video"
 			},
+
 			{
-				"id": "06c49cb7-0461-4cf8-bcf7-184f38aecd59",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/rzzd30vvuqykyor4z7of.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/rzzd30vvuqykyor4z7of"
+				"id": "c575a978-039c-4ed9-99cf-109514449214",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234177/neystore/qy2gux2tgsh1sygpjubf.jpg",
+				"publicId": "neystore/qy2gux2tgsh1sygpjubf",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
 			},
+
 			{
-				"id": "30ba5c94-c8e0-4d11-831e-f15a40bb0707",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/pyzjqmvjdl7sxozo04jd.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/pyzjqmvjdl7sxozo04jd"
+				"id": "bf49f61d-ae5a-4f6f-80b2-4b2ac67a21b6",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234204/neystore/kglkobqga0ghzik25wje.jpg",
+				"publicId": "neystore/kglkobqga0ghzik25wje",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
 			},
+
 			{
-				"id": "208f9660-09e4-4ef8-acee-cfb6b5dfb70f",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/aysbrfi6ozwl6jfu6qna.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/aysbrfi6ozwl6jfu6qna"
-			},
-			{
-				"id": "0b69f213-bced-41bf-a11b-bdfb6bdee437",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/ayzl5k3qnsmq71vl7weq.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/ayzl5k3qnsmq71vl7weq"
-			},
-			{
-				"id": "d03cba2b-412a-4a7f-8524-3ae2645849e2",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/e4hbbhrqml9h4ggtfy6m.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/e4hbbhrqml9h4ggtfy6m"
-			},
-			{
-				"id": "430f4072-502a-48ba-b50b-0d75038eb040",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/i0nyh58owam90xh5arjn.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/i0nyh58owam90xh5arjn"
-			},
-			{
-				"id": "3c500255-55dc-4fc4-858b-fadbb133102d",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/nlqlsx63crnwwdwpdyhr.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/nlqlsx63crnwwdwpdyhr"
-			},
-			{
-				"id": "e92190fc-26c2-477b-a4fa-43ce2bd2f05d",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/ehaonkwrmt344hgzwpwu.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/ehaonkwrmt344hgzwpwu"
-			},
-			{
-				"id": "816bc093-01d7-4243-b208-4f339fc649f0",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/udwhpjhru4lwese1qo7j.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/udwhpjhru4lwese1qo7j"
-			},
-			{
-				"id": "b7f790b9-12ca-49dc-b68f-fb9f069736fd",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347646/neystore/thcrjq9kivrmeex5gbid.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/thcrjq9kivrmeex5gbid"
-			},
-			{
-				"id": "12859edf-0522-4000-adef-546c4c162589",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/cl57c6hars9tdsbohzr0.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/cl57c6hars9tdsbohzr0"
-			},
-			{
-				"id": "a7d4ae37-2f41-44ab-8f3a-3a7e28d93d7d",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/fum7plisllobowfch0iu.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/fum7plisllobowfch0iu"
-			},
-			{
-				"id": "62a1b193-a2bb-4be0-808d-e76688924488",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/awoh6fikbyxvlyugnevb.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/awoh6fikbyxvlyugnevb"
-			},
-			{
-				"id": "36a5fdc9-1a9c-4db3-8a4b-4f566b440663",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/z3r0wubwlip0qnag7vd7.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/z3r0wubwlip0qnag7vd7"
-			},
-			{
-				"id": "0eec6690-cc42-4ec4-8d56-822aafc82843",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347646/neystore/bh78nasxp1loeurjv8d5.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/bh78nasxp1loeurjv8d5"
-			},
-			{
-				"id": "ba4af7df-6dab-4a0f-a981-b88738516dcf",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/fs2xmk1rp2xl6jjzvrr9.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/fs2xmk1rp2xl6jjzvrr9"
-			},
-			{
-				"id": "20be6315-e2cc-45e6-9363-ffc39e847592",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/gyndwvgluwudmnglnfw5.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/gyndwvgluwudmnglnfw5"
-			},
-			{
-				"id": "e522426e-ba05-43c2-9d56-608b00322ec5",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/sfunbzlmfkmt7gcfttfx.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/sfunbzlmfkmt7gcfttfx"
-			},
-			{
-				"id": "9d4e21ed-1524-4cc0-b28e-7f2cedbdc8f5",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/ftvzxv7w7yjnks54cgev.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/ftvzxv7w7yjnks54cgev"
-			},
-			{
-				"id": "d12a0079-9b8d-4bc1-a972-3020ef1cba0c",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347646/neystore/whxpvopufjtdx1sphlux.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/whxpvopufjtdx1sphlux"
-			},
-			{
-				"id": "8ec7c9c3-054f-4938-ace8-b88bceb63032",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347646/neystore/n654zjhzs5iq3xbf5stw.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/n654zjhzs5iq3xbf5stw"
-			},
-			{
-				"id": "dfc25ae4-7f7b-48b6-961e-78d6c53f9f1c",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347646/neystore/zrgwue6cs8tuc75m1ma2.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/zrgwue6cs8tuc75m1ma2"
-			},
-			{
-				"id": "a868725f-9cbc-4353-ac48-f623c5a311eb",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/h0cqgpmgwzdasc8zk1ks.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/h0cqgpmgwzdasc8zk1ks"
-			},
-			{
-				"id": "6fbd8456-3be6-4dba-9d49-5f2ecac8f6cc",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/ucdanduleqpkqkpalxgf.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/ucdanduleqpkqkpalxgf"
-			},
-			{
-				"id": "106a9cad-24c5-4d3e-81e9-b6d385cce0b4",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/srn3pqiqnjgrimaijps7.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/srn3pqiqnjgrimaijps7"
-			},
-			{
-				"id": "282bdec9-4ddd-4819-bd49-6fc7b9cbbfaf",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716347645/neystore/sots4ko6utujkkj9srdq.webp",
-				"format": "webp",
-				"width": 800,
-				"height": 800,
-				"type": "image",
-				"publicId": "neystore/sots4ko6utujkkj9srdq"
+				"id": "6c953130-e3a5-4604-8a8a-8e7c0d2f71f0",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234240/neystore/nyodgylxhkiz5x16aurc.jpg",
+				"publicId": "neystore/nyodgylxhkiz5x16aurc",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
 			}
 		]
 	},
@@ -3650,7 +3454,7 @@
 		},
 		"slug": "juego-aprendizaje-montessori-libro-actividades-pegatina",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Juguetes", "Lenguaje", "Autismo", "TDHA"],
 		"assets": [
 			{
 				"id": "80246fe2-a837-41f4-b448-2e93a85abd86",
@@ -4303,6 +4107,7 @@
 		"category": "Juguetes",
 		"ranking": 4,
 		"slug": "koala-alivio-koala-aliviar-la-respiracion-animal-peluche",
+		"tags": ["Juguetes"],
 		"assets": [
 			{
 				"id": "7e3bae76-db41-4d15-b3a4-5f371c805c6d",
@@ -4422,6 +4227,15 @@
 			"Pilas": "AA (NO incluidas)",
 			"Edad": "1 a 5 años"
 		},
+		"tags": [
+			"Montessori",
+			"Juguetes",
+			"Sensorial",
+			"Psicomotricidad",
+			"Antiestrés",
+			"Autismo",
+			"TDHA"
+		],
 		"price": 100,
 		"cost": 60,
 		"category": "Juguetes",
