@@ -2,7 +2,7 @@ export const site = {
 	name: 'Ney Store',
 	title: 'Tecnologia y juguetes Didacticos',
 	url: 'https://www.neystore.pe',
-	ogImage: 'https://www.neystore.pe/assets/images/tecnologia.avif',
+	ogImage: 'https://www.neystore.pe/og-neystore.webp',
 	description:
 		'Somos importadores de juegos didácticos, periféricos originales y artículos relacionados. Consulta nuestras promociones y descuentos.',
 	phone: '900224005',
