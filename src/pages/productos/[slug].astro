@@ -26,7 +26,7 @@ export interface Props {
 	product: Product
 }
 const { product } = Astro.props
-const { title, assets, id, features, details, tags } = product
+const { title, assets, id, features, details, tags, stock } = product
 const productUrl = new URL(Astro.url.pathname, Astro.site)
 ---
 
@@ -67,6 +67,15 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 					}
 				</div>
 			</div>
+
+			<!-- Soldout -->
+			{
+				stock === 0 && (
+					<div class="py-2 text-red">
+						Este producto ya no está disponible, en proceso de reposición.
+					</div>
+				)
+			}
 
 			<!-- Price & Ranking -->
 			<div class="flex flex-col gap-4">
