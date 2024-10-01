@@ -1,0 +1,45 @@
+<div class="container opacity-0 flex justify-end">
+	<button
+		class="bg-white p-1 rounded-full"
+		id="scroll-to-top"
+		aria-label="Volver al inicio de la página">
+		<svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" width="20px">
+			<path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+		</svg>
+	</button>
+</div>
+<style>
+	.container {
+		position: fixed;
+		right: 4px;
+		bottom: 55px;
+		transition: opacity 300ms ease-in-out;
+		z-index: 10;
+	}
+
+	.opacity-0 {
+		opacity: 0;
+	}
+
+	svg {
+		transform: rotate(270deg);
+	}
+</style>
+<script>
+	const $scrollToTopButton = document.getElementById('scroll-to-top')
+
+	function scrollToTop() {
+		const scrollTop = document.body.scrollTop || document.documentElement.scrollTop
+		const display = scrollTop > 1000 ? 'block' : 'none'
+		$scrollToTopButton?.parentElement?.classList.toggle('opacity-0', display === 'none')
+		$scrollToTopButton?.classList.toggle('cursor-default', display === 'none')
+	}
+
+	// function throttledScrollHandler() {}
+
+	window.addEventListener('scroll', scrollToTop)
+
+	$scrollToTopButton?.addEventListener('click', () => {
+		window.scrollTo({ top: 0, behavior: 'smooth' })
+	})
+</script>

@@ -7,6 +7,7 @@ import WhatsappPopup from '@/components/WhatsappPopup.astro'
 import Container from '@/components/Container.astro'
 import { site } from '@/config'
 import ProductSearch from '@/components/ProductSearch.astro'
+import ScrollTopButton from '@/components/ScrollTopButton.astro'
 
 const {
 	title = site.title,
@@ -33,17 +34,19 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
 		<div class="page">
 			<Header />
 			<ProductSearch />
-			<main class="">
+			<main class="relative">
 				<Container>
 					<slot />
 				</Container>
 			</main>
+			<ScrollTopButton />
 			<WhatsappPopup />
 			<Footer />
 		</div>
 		<style>
 			.page {
 				display: flex;
+				position: relative;
 				flex-direction: column;
 				min-height: 100svh;
 				z-index: 1;
