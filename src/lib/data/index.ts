@@ -3,7 +3,10 @@ import productsJson from '@/muckup/products.json'
 import type { Product } from '@/types'
 import { transformAsset } from '../cloudinary'
 
-export async function getProducts(): Promise<Product[]> {
+interface Props {
+	category: string
+}
+export async function getProducts({ category }: Props): Promise<Product[]> {
 	const productsMapped = productsJson.map((product) => {
 		return {
 			id: product.id,
@@ -46,5 +49,5 @@ export async function getProducts(): Promise<Product[]> {
 		}
 	})
 
-	return productsMapped
+	return category ? productsMapped.filter((p) => p.tags.includes('meme')) : productsMapped
 }

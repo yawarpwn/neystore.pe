@@ -1,11 +1,10 @@
 ---
+export const prerender = false
 import Layout from '@/layouts/Layout.astro'
 import ProductCard from '@/components/ProductCard.astro'
 import { getProducts } from '@/lib/data'
 import ProductCategories from '@/components/ProductCategories.astro'
 import { Icon } from 'astro-icon/components'
-const products = await getProducts()
-import ProductSearch from '@/components/ProductSearch.astro'
 
 const categories = [
 	{
@@ -29,6 +28,13 @@ const categories = [
 		href: '#',
 	},
 ]
+
+const url = new URL(Astro.request.url)
+const category = url.searchParams.get('category') || ''
+
+const ps = await getProducts({ category })
+const filteredProducts = ps.filter((p) => p.offert)
+const products = category ? filteredProducts : ps
 ---
 
 <Layout title="Nuestros Productos">
