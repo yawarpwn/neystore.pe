@@ -71,8 +71,8 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 			<!-- Soldout -->
 			{
 				stock === 0 && (
-					<div class="py-2 text-red">
-						Este producto ya no está disponible, en proceso de reposición.
+					<div class="text-red">
+						* Este producto ya no está disponible, en proceso de reposición.
 					</div>
 				)
 			}

@@ -3,31 +3,80 @@ import Layout from '@/layouts/Layout.astro'
 import ProductCard from '@/components/ProductCard.astro'
 import { getProducts } from '@/lib/data'
 import ProductCategories from '@/components/ProductCategories.astro'
+import { Icon } from 'astro-icon/components'
 const products = await getProducts()
 import ProductSearch from '@/components/ProductSearch.astro'
+
+const categories = [
+	{
+		title: 'Teclados',
+		href: '#',
+	},
+	{
+		title: 'Montessori',
+		href: '#',
+	},
+	{
+		title: 'Sensoriales',
+		href: '#',
+	},
+	{
+		title: 'Psicomotricidad',
+		href: '#',
+	},
+	{
+		title: 'Lenguaje',
+		href: '#',
+	},
+]
 ---
 
 <Layout title="Nuestros Productos">
-	<ProductCategories />
-	<div class="py-5">
+	<ProductCategories {categories} />
+	<div class="">
 		<h1 class="sr-only text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>
-		<ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
-			{
-				products
-					.sort((a, b) => b.category.localeCompare(a.category))
-					.map((product) => (
-						<ProductCard
-							stock={product.stock}
-							id={product.id}
-							title={product.title}
-							price={product.price}
-							imgUrl={product.assets[0].smallUrl}
-							ranking={product.ranking}
-							slug={product.slug}
-							offert={product.offert}
-						/>
-					))
-			}
-		</ul>
+		<div class="grid gap-4 lg:grid-cols-[200px_1fr]">
+			<aside class="filter-side hidden lg:block">
+				<div class="filter w-[200px] h-[800px]">
+					<div class="flex items-center justify-between border-b py-1.5">
+						<h2 class="font-bold uppercase">Categorias</h2>
+						<Icon name="tabler:chevron-down" />
+					</div>
+					<ul>
+						{categories.map((c) => <li class="py-1.5">{c.title}</li>)}
+					</ul>
+				</div>
+			</aside>
+			<!-- Maiin Section -->
+			<section class="mt-4">
+				<ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
+					{
+						products
+							.sort((a, b) => b.category.localeCompare(a.category))
+							.map((product) => (
+								<ProductCard
+									stock={product.stock}
+									id={product.id}
+									title={product.title}
+									price={product.price}
+									imgUrl={product.assets[0].smallUrl}
+									ranking={product.ranking}
+									slug={product.slug}
+									offert={product.offert}
+								/>
+							))
+					}
+				</ul>
+			</section>
+		</div>
 	</div>
 </Layout>
+<style>
+	.filter-side {
+	}
+
+	.filter {
+		position: sticky;
+		top: calc(var(--navbar-height));
+	}
+</style>

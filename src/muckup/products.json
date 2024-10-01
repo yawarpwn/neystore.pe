@@ -293,78 +293,6 @@
 		]
 	},
 	{
-		"id": "0f8d0371-21fe-40af-b2d0-1f5d0849574c",
-		"price": 100,
-		"title": "Cortadora de pelo para bebés, cuchilla de cerámica eléctrica para niños, ultra silenciosa, inalámbrica, recargable, impermeable, kit de corte de pelo para niños y adultos",
-		"cost": 61,
-		"ranking": 3.9,
-		"category": "Tecnologia",
-		"features": [
-			"Cortapelos profesional para bebé: el kit de cortapelos está equipado con 3 peines de límite (1, 2, 0.118 in), 1 cepillo de limpieza suave, 1 cable de carga USB dedicado. La configuración completa hace que el conjunto sea ideal para peluqueros profesionales y cortes de pelo caseros.",
-			"La proporción de oro de 60 dientes, sistema de corte más seguro: la cortadora de pelo de bebé EANCEIL está equipada con una unidad de corte fina. La tecnología especial de patente de la unidad de corte de 60 dientes es diferente de los 28 dientes comunes. La tecnología hace que sea más fácil para este cortaúñas atrapar y cortar el cabello suave de los bebés sin tirar del pelo o rayar la piel.",
-			"【Inalámbrico y recargable por USB】El cortapelos para niños viene con un cable micro USB. Puedes cargar el recortador de pelo conectándolo a un adaptador de corriente de 5V 1A, banco de energía o cualquier otro cargador habilitado para USB. Puede soportar 60 minutos de uso inalámbrico después de una carga completa. La pantalla LED de alta definición integrada permite al peluquero comprobar rápidamente la energía restante, puede resolver la situación de falla repentina de energía durante tu trabajo.",
-			"Unidad de corte redondo R especialmente diseñada: la hoja diseñada en forma de R no tira del cabello ni raya la piel sensible. Este diseño le permite darle a su bebé un corte de pelo más seguro, eficiente y cómodo.",
-			"Estilo mini y portátil: el cuerpo de la recortadora de pelo es muy pequeño y ligero, se puede llevar fácilmente en un bolsillo o mochila. Ideal para una experiencia de aseo sin complicaciones en casa o en el viaje."
-		],
-		"details": {
-			"Marca": "Generic",
-			"Material": "Cerámica",
-			"Tipo de cabello": "Fino",
-			"Características especiales": "Sin cable, Impermeable",
-			"Usos Recomendados Para Producto": "Recorte"
-		},
-		"slug": "cortadora-pelo-bebes-cuchilla-ceramica-electrica-ninos",
-		"stock": 1,
-		"tags": [],
-		"assets": [
-			{
-				"id": "c31b4c0c-c313-4c1c-bd0e-d4c67a277ca9",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716164056/neystore/wr404nly9dwmkvurhj3x.jpg",
-				"format": "jpg",
-				"width": 1212,
-				"height": 1500,
-				"type": "image",
-				"publicId": "neystore/wr404nly9dwmkvurhj3x"
-			},
-			{
-				"id": "cd8c8aca-0ff8-49c1-944d-26c1f409e76c",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716164056/neystore/a50qbrnjkxjjdxs3blii.jpg",
-				"format": "jpg",
-				"width": 1200,
-				"height": 1476,
-				"type": "image",
-				"publicId": "neystore/a50qbrnjkxjjdxs3blii"
-			},
-			{
-				"id": "20893514-49fa-4679-93d0-cb7fcf128d99",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716164057/neystore/nmxi8df3npedxvp1umvb.jpg",
-				"format": "jpg",
-				"width": 1500,
-				"height": 1346,
-				"type": "image",
-				"publicId": "neystore/nmxi8df3npedxvp1umvb"
-			},
-			{
-				"id": "ae616458-2177-4fd4-8bb7-bf86269506e5",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716164056/neystore/amvlendzwcfimrofdlii.jpg",
-				"format": "jpg",
-				"width": 1500,
-				"height": 1346,
-				"type": "image",
-				"publicId": "neystore/amvlendzwcfimrofdlii"
-			},
-			{
-				"id": "d83ba478-39d3-44c3-a212-a404de3795eb",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1716164056/neystore/j5qu5sh7hle19na9iyun.jpg",
-				"format": "jpg",
-				"width": 1500,
-				"height": 1500,
-				"type": "image",
-				"publicId": "neystore/j5qu5sh7hle19na9iyun"
-			}
-		]
-	},
-	{
 		"id": "bef3c115-8616-43d8-929d-dcd87d9dc6fa",
 		"price": 85,
 		"title": "Consola de empuje rápido con retroalimentación instantánea de sonido | Juego de empuje rápido de mano | Juguete sensorial educativo interactivo Pop The Target para niños y adultos | Regalo divertido para niños de 3 a 12 años",
@@ -1124,7 +1052,8 @@
 	{
 		"id": "61e9d372-e169-4b13-8694-3ae922b55a7d",
 		"price": 150,
-		"title": "Cubo de juguete educativo Montessori para niños de 1 a 3 años, tablero sensorial ocupado y juguete de viaje para niños de 18 a 36 meses, regalos de cumpleaños y Navidad",
+		"offert": 140,
+		"title": "Combo Cubo 7 en uno  y Tablero oucupado Montessori",
 		"cost": 80,
 		"ranking": 4,
 		"category": "Juguetes",
@@ -2843,7 +2772,7 @@
 		},
 		"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
 		"offert": 260,
-		"stock": 1,
+		"stock": 0,
 		"tags": ["Teclados", "Mecánico", "Custom"],
 		"assets": [
 			{
@@ -3777,7 +3706,7 @@
 			"Componentes incluidos": "Extractor de Teclas"
 		},
 		"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
-		"stock": 1,
+		"stock": 0,
 		"tags": ["Teclados"],
 		"assets": [
 			{
@@ -3977,6 +3906,7 @@
 	{
 		"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
 		"price": 120,
+		"offert": 110,
 		"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
 		"features": [
 			" Alivio definitivo del estrés: mantén tus manos ocupadas y tu mente relajada con nuestros juguetes favoritos para la ansiedad. Estos juguetes sensoriales ofrecen una experiencia táctil única que promueve la relajación y mejora la concentración",
@@ -3998,6 +3928,7 @@
 		},
 		"slug": "kit-sensorial-calma",
 		"stock": 1,
+		"ranking": 5,
 		"tags": [
 			"Juguetes",
 			"Sensorial",

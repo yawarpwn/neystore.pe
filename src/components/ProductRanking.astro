@@ -13,12 +13,10 @@ interface Props {
 const { size = 'md', ranking, id } = Astro.props
 ---
 
-<div
-	class="flex gap-1 py-1"
-	transition:name={`product-ranking-${id}`}>
+<div class="flex gap-1 py-1" transition:name={`product-ranking-${id}`}>
 	{
 		Array.from({ length: TOTAL_STARS }, (_, index) => {
-			return index + 1 < ranking ? (
+			return index < ranking ? (
 				<Icon
 					name="tabler:star-filled"
 					class={cn('text-zinc-400', size === 'lg' ? 'w-6 h-6' : 'w-4 h-4')}

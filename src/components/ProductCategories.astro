@@ -1,28 +1,6 @@
 ---
 import Container from '@/components/Container.astro'
-
-const categories = [
-	{
-		title: 'Teclados',
-		href: '#',
-	},
-	{
-		title: 'Montessori',
-		href: '#',
-	},
-	{
-		title: 'Sensoriales',
-		href: '#',
-	},
-	{
-		title: 'Psicomotricidad',
-		href: '#',
-	},
-	{
-		title: 'Lenguaje',
-		href: '#',
-	},
-]
+const { categories } = Astro.props
 ---
 
 <div class="lg:hidden">
