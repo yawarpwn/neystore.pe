@@ -1,22 +1,35 @@
 ---
 import Container from '@/components/Container.astro'
-const { categories } = Astro.props
+
+export interface Props {
+	categories: {
+		title: string
+	}[]
+	url: URL
+}
+
+const { categories, url } = Astro.props
 ---
 
 <div class="lg:hidden">
-	<Container>
-		<div class="overflow-x-auto">
-			<div style="scrollbar-width: none" class="flex items-center gap-2">
-				{
-					categories.map((category) => (
+	<div class="overflow-x-auto py-4">
+		<div style="scrollbar-width: none" class="flex items-center gap-2">
+			{
+				categories.map((category) => {
+					const href = `/productos?category=${category.title}`
+					const active = url.toString().endsWith(href)
+					return (
 						<a
-							href="#"
-							class="bg-foreground flex-shrink-0 w-[max-content]  flex-nowrap text-background rounded-lg px-2 py-1">
+							href={href}
+							class:list={[
+								'bg-background text-foreground flex-shrink-0 w-[max-content]  flex-nowrap border rounded-lg px-2 py-1',
+								{ 'bg-foreground text-white': active },
+							]}>
 							{category.title}
 						</a>
-					))
-				}
-			</div>
+					)
+				})
+			}
 		</div>
-	</Container>
+	</div>
 </div>

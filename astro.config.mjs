@@ -4,6 +4,8 @@ import icon from 'astro-icon'
 import sitemap from '@astrojs/sitemap'
 import { site } from './src/config/site'
 
+import vercel from '@astrojs/vercel/serverless'
+
 // https://astro.build/config
 export default defineConfig({
 	site: site.url,
@@ -11,13 +13,17 @@ export default defineConfig({
 	base: '/',
 	output: 'hybrid',
 	compressHTML: true,
+
 	devToolbar: {
 		enabled: false,
 	},
+
 	scopedStyleStrategy: 'attribute',
+
 	build: {
 		assets: '_astro',
 	},
+
 	integrations: [
 		tailwind({
 			applyBaseStyles: false,
@@ -25,6 +31,7 @@ export default defineConfig({
 		icon(),
 		sitemap(),
 	],
+
 	experimental: {
 		env: {
 			schema: {
@@ -35,5 +42,7 @@ export default defineConfig({
 			},
 		},
 	},
-	// adapter: vercel(),
+
+	adapter: vercel(),
 })
+

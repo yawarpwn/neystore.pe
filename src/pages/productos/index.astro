@@ -9,36 +9,31 @@ import { Icon } from 'astro-icon/components'
 const categories = [
 	{
 		title: 'Teclados',
-		href: '#',
+	},
+	{
+		title: 'Tecnologia',
 	},
 	{
 		title: 'Montessori',
-		href: '#',
 	},
 	{
-		title: 'Sensoriales',
-		href: '#',
+		title: 'Sensorial',
 	},
 	{
 		title: 'Psicomotricidad',
-		href: '#',
 	},
 	{
 		title: 'Lenguaje',
-		href: '#',
 	},
 ]
 
 const url = new URL(Astro.request.url)
 const category = url.searchParams.get('category') || ''
-
-const ps = await getProducts({ category })
-const filteredProducts = ps.filter((p) => p.offert)
-const products = category ? filteredProducts : ps
+const products = await getProducts(category)
 ---
 
 <Layout title="Nuestros Productos">
-	<ProductCategories {categories} />
+	<ProductCategories {categories} {url} />
 	<div class="">
 		<h1 class="sr-only text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>
 		<div class="grid gap-4 lg:grid-cols-[200px_1fr]">
@@ -49,7 +44,21 @@ const products = category ? filteredProducts : ps
 						<Icon name="tabler:chevron-down" />
 					</div>
 					<ul>
-						{categories.map((c) => <li class="py-1.5">{c.title}</li>)}
+						{
+							categories.map((c) => {
+								const href = `/productos?category=${c.title}`
+								const active = url.toString().endsWith(href)
+								return (
+									<li class="py-1.5">
+										<a
+											class:list={['cursor-pointer hover:font-bold', { 'font-bold': active }]}
+											href={href}>
+											{c.title}
+										</a>
+									</li>
+								)
+							})
+						}
 					</ul>
 				</div>
 			</aside>
@@ -60,16 +69,18 @@ const products = category ? filteredProducts : ps
 						products
 							.sort((a, b) => b.category.localeCompare(a.category))
 							.map((product) => (
-								<ProductCard
-									stock={product.stock}
-									id={product.id}
-									title={product.title}
-									price={product.price}
-									imgUrl={product.assets[0].smallUrl}
-									ranking={product.ranking}
-									slug={product.slug}
-									offert={product.offert}
-								/>
+								<li>
+									<ProductCard
+										stock={product.stock}
+										id={product.id}
+										title={product.title}
+										price={product.price}
+										imgUrl={product.assets[0].smallUrl}
+										ranking={product.ranking}
+										slug={product.slug}
+										offert={product.offert}
+									/>
+								</li>
 							))
 					}
 				</ul>

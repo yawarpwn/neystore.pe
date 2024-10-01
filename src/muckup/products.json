@@ -27,7 +27,7 @@
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
 		"stock": 1,
-		"tags": ["Mecánico", "Custom", "Teclados", "Keychron"],
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
 				"id": "8e16a1a9-77fd-4887-b5cf-f80f42bf4456",
@@ -586,7 +586,7 @@
 		},
 		"slug": "keychron-v1-qmkviateclado-mecanico-cable-personalizado",
 		"stock": 1,
-		"tags": ["Mecánico", "Custom", "Teclados", "Keychron"],
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
 				"id": "24f0efdc-b4a5-4cf2-b08e-974b35457899",
@@ -697,7 +697,7 @@
 		},
 		"slug": "gateron-g-brown-pro-2.0-interruptores-prelubricados-3-pines",
 		"stock": 1,
-		"tags": ["Teclados"],
+		"tags": ["Teclados", "Tecnologia"],
 		"assets": [
 			{
 				"id": "9de5a857-22d7-49cc-80a2-8e1e6d910c58",
@@ -792,8 +792,8 @@
 			"Tecnología de conectividad": "USB-C"
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-k12-pro-qmkvia-marco",
-		"stock": 0,
-		"tags": ["Mecánico", "Custom", "Teclados", "Keychron"],
+		"stock": 1,
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
 				"id": "d911f1c6-0d91-4a60-b196-f23f27868f20",
@@ -1052,7 +1052,6 @@
 	{
 		"id": "61e9d372-e169-4b13-8694-3ae922b55a7d",
 		"price": 150,
-		"offert": 140,
 		"title": "Combo Cubo 7 en uno  y Tablero oucupado Montessori",
 		"cost": 80,
 		"ranking": 4,
@@ -1070,6 +1069,7 @@
 			"Edad recomendada por el fabricante": "36 meses - 8 años"
 		},
 		"slug": "cubo-juguete-educativo-montessori-ninos-1-a-3-anos-tablero",
+		"offert": 140,
 		"stock": 1,
 		"tags": ["Montessori", "Juguetes", "Sensorial", "Psicomotricidad", "Autismo", "TDHA"],
 		"assets": [
@@ -1349,7 +1349,7 @@
 		},
 		"slug": "lenovoauriculares-inalambricos-lp40-pro-tws-cascos",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "f84d6cce-b5fb-4a35-beb5-9887a4fd4f19",
@@ -1479,61 +1479,56 @@
 			{
 				"id": "dcc30aad-53a3-4130-8bef-3089aac3d3c9",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234061/neystore/wyjlcz3rlg5peucv63jx.jpg",
-				"publicId": "neystore/wyjlcz3rlg5peucv63jx",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/wyjlcz3rlg5peucv63jx"
 			},
-
 			{
 				"id": "9ef8f3fb-2400-4d59-9978-43c5a40eaada",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234149/neystore/on1t3isq7uas7vtoqj9g.jpg",
-				"publicId": "neystore/on1t3isq7uas7vtoqj9g",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/on1t3isq7uas7vtoqj9g"
 			},
-
 			{
 				"id": "1417c7f8-a358-44b9-a21e-ad5b9d05e483",
 				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1727234745/neystore/kbha9tkrhbtmbathfr5x.mp4",
-				"publicId": "neystore/kbha9tkrhbtmbathfr5x",
+				"format": "mp4",
 				"width": 1280,
 				"height": 720,
-				"format": "mp4",
-				"type": "video"
+				"type": "video",
+				"publicId": "neystore/kbha9tkrhbtmbathfr5x"
 			},
-
 			{
 				"id": "c575a978-039c-4ed9-99cf-109514449214",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234177/neystore/qy2gux2tgsh1sygpjubf.jpg",
-				"publicId": "neystore/qy2gux2tgsh1sygpjubf",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/qy2gux2tgsh1sygpjubf"
 			},
-
 			{
 				"id": "bf49f61d-ae5a-4f6f-80b2-4b2ac67a21b6",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234204/neystore/kglkobqga0ghzik25wje.jpg",
-				"publicId": "neystore/kglkobqga0ghzik25wje",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/kglkobqga0ghzik25wje"
 			},
-
 			{
 				"id": "6c953130-e3a5-4604-8a8a-8e7c0d2f71f0",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727234240/neystore/nyodgylxhkiz5x16aurc.jpg",
-				"publicId": "neystore/nyodgylxhkiz5x16aurc",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/nyodgylxhkiz5x16aurc"
 			}
 		]
 	},
@@ -1576,8 +1571,7 @@
 				"format": "webp",
 				"width": 800,
 				"height": 800,
-				"type": "image",
-				"lpublicId": "neystore/osr8dgaxn79utjlb0ui5"
+				"type": "image"
 			},
 			{
 				"id": "68db0a18-4108-41c4-ad96-72ba887d7449",
@@ -1853,7 +1847,7 @@
 		},
 		"slug": "kuulaabateria-externa-portatil-10000mah-cargador-225-w-pd",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "4d3872f3-abd2-4d43-a0d0-45ddae61044a",
@@ -1944,7 +1938,7 @@
 		},
 		"slug": "xiaomimemoria-usb-portatil-u-disk-2tb-unidad-flash",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "cdda5e3c-df5d-4003-bf01-2d06a8bafa00",
@@ -2024,7 +2018,7 @@
 		},
 		"slug": "termometro-ir-sin-contacto-medicion-rapida-ligero-o",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "a3e51c4e-f758-4307-8717-bfc27f65b22c",
@@ -2097,7 +2091,7 @@
 		},
 		"slug": "lenovoauriculares-tws-air-pro6-inalambricos-por-bluetooth",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "4bba48b1-3032-4eb0-b11c-e99e0e3a3dba",
@@ -2224,7 +2218,7 @@
 		},
 		"slug": "qoovibateria-externa-20000mah-cargador-portatil-ultrafino",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "56643414-910c-47d2-b393-323e5340f4ef",
@@ -2772,8 +2766,8 @@
 		},
 		"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
 		"offert": 260,
-		"stock": 0,
-		"tags": ["Teclados", "Mecánico", "Custom"],
+		"stock": 1,
+		"tags": ["Teclados", "Mecánico", "Custom", "Tecnologia"],
 		"assets": [
 			{
 				"id": "3cf47c18-0ca9-4ae7-abbd-d828a69e0738",
@@ -2900,7 +2894,7 @@
 		},
 		"slug": "hello-3-minireloj-inteligente-mujer-dispositivo-original",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "8590e1be-f0eb-41ec-ac32-e249549e1df6",
@@ -3026,7 +3020,7 @@
 		"slug": "redmireloj-inteligente-4-version-global-dispositivo",
 		"offert": 370,
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "f1918e94-0810-4086-8839-ea30c2c071ec",
@@ -3497,7 +3491,7 @@
 		"slug": "keychron-k2-pro-75-layout-custom-wireless-mechanical",
 		"offert": 380,
 		"stock": 1,
-		"tags": ["Mecánico", "Custom", "Teclados", "Keychron"],
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
 				"id": "77c56964-d3be-4747-bece-a4939d31162b",
@@ -3602,7 +3596,7 @@
 		},
 		"slug": "keychron-k3-pro-ultraslim-qmkvia-wireless-custom-mechanical",
 		"stock": 1,
-		"tags": ["Teclados"],
+		"tags": ["Teclados", "Tecnologia"],
 		"assets": [
 			{
 				"id": "f3b394ea-2581-43a4-b39b-9ee8815a789e",
@@ -3706,8 +3700,8 @@
 			"Componentes incluidos": "Extractor de Teclas"
 		},
 		"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
-		"stock": 0,
-		"tags": ["Teclados"],
+		"stock": 1,
+		"tags": ["Teclados", "Tecnologia"],
 		"assets": [
 			{
 				"id": "00437907-13c9-41f6-8062-7d91e6615127",
@@ -3791,7 +3785,7 @@
 		},
 		"slug": "parche-estrellas-eliminar-acne-pegatinas-invisibles-colores",
 		"stock": 1,
-		"tags": [],
+		"tags": ["Tecnologia"],
 		"assets": [
 			{
 				"id": "15c07fc9-60cd-4963-82e2-21230dbf328f",
@@ -3906,8 +3900,8 @@
 	{
 		"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
 		"price": 120,
-		"offert": 110,
 		"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
+		"ranking": 5,
 		"features": [
 			" Alivio definitivo del estrés: mantén tus manos ocupadas y tu mente relajada con nuestros juguetes favoritos para la ansiedad. Estos juguetes sensoriales ofrecen una experiencia táctil única que promueve la relajación y mejora la concentración",
 			"Gran idea de regalo: buscas un regalo divertido y significativo para una fiesta, cumpleaños u ocasión especial. Nuestro paquete a granel de juguetes antiestrés es la elección perfecta. Adecuado tanto para niños como para niñas de todas las edades.",
@@ -3927,8 +3921,8 @@
 			"Juguete 11": "Jirafa elástica"
 		},
 		"slug": "kit-sensorial-calma",
+		"offert": 110,
 		"stock": 1,
-		"ranking": 5,
 		"tags": [
 			"Juguetes",
 			"Sensorial",
@@ -4024,7 +4018,11 @@
 	},
 	{
 		"id": "5236dc69-f53d-4f12-b746-a125c022e2d1",
+		"price": 80,
 		"title": "Koala Respiración con luces musicales sensoriales, Koala calma y ayuda con el descanso y relajación",
+		"cost": 40,
+		"ranking": 4,
+		"category": "Juguetes",
 		"features": [
 			"Compañero calmante para dormir: este suave oso koala está diseñado para calmar y calmar a su hijo, ayudándolo a conciliar el sueño rápidamente a través de sonidos suaves, música y movimientos de respiración rítmica, asegurando que disfrute de un descanso reparado",
 			"Juguete musical calmante para bebés de más de 0 meses, que pueden reproducir sonidos. y deja que tu bebé se calme o duerma rápidamente. La respiración de felpa koala dormida estimula el espíritu de exploración del bebé, mejora el entusiasmo del bebé por la interacción, mejora la capacidad de cognición sonora del bebé y la capacidad de discriminación del color durante el juego, y promueve el desarrollo cerebral del bebé.",
@@ -4033,11 +4031,8 @@
 			"Regalo ideal para bebés encontrarás que el juguete de respiración de koala para dormir es fácil de agarrar y sostener, especialmente adecuado para manos pequeñas, iluminación encantadora y hermosa música que pueden atraer rápidamente los ojos del bebé. La música puede calmar a su bebé y promover el desarrollo de audio del bebé."
 		],
 		"details": null,
-		"price": 80,
-		"cost": 40,
-		"category": "Juguetes",
-		"ranking": 4,
 		"slug": "koala-alivio-koala-aliviar-la-respiracion-animal-peluche",
+		"stock": 1,
 		"tags": ["Juguetes"],
 		"assets": [
 			{
@@ -4046,53 +4041,53 @@
 				"format": "jpg",
 				"width": 429,
 				"height": 444,
-				"publicId": "neystore/bhucrge84fc91uff1jnf",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/bhucrge84fc91uff1jnf"
 			},
 			{
 				"id": "fd59ca44-6059-4249-b6eb-8d68e6a7dc9d",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725926618/neystore/cznjuhsscj6dko1aaigy.jpg",
-				"publicId": "neystore/cznjuhsscj6dko1aaigy",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/cznjuhsscj6dko1aaigy"
 			},
 			{
 				"id": "3c17e6c6-b4ac-4fe3-94a8-7ede24ae07e7",
 				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1725926191/neystore/esfwzzc902rzd7jpwbnh.mp4",
-				"publicId": "neystore/esfwzzc902rzd7jpwbnh",
+				"format": "mp4",
 				"width": 480,
 				"height": 854,
-				"format": "mp4",
-				"type": "video"
+				"type": "video",
+				"publicId": "neystore/esfwzzc902rzd7jpwbnh"
 			},
 			{
 				"id": "ad393504-2adb-473a-a19c-540c10773347",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725927145/neystore/fqmjtnrfkac5wctzg3en.jpg",
-				"publicId": "neystore/fqmjtnrfkac5wctzg3en",
+				"format": "jpg",
 				"width": 1461,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/fqmjtnrfkac5wctzg3en"
 			},
 			{
 				"id": "121032fe-eabd-4766-bdc1-03046384f1cd",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725927193/neystore/pqycn9fd70cvbhypxi4d.jpg",
-				"publicId": "neystore/pqycn9fd70cvbhypxi4d",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/pqycn9fd70cvbhypxi4d"
 			},
 			{
 				"id": "6bf5be37-7263-4ec6-9a64-2ca0b8ee83b0",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1725927220/neystore/sbitfynfo3ainkl5vqjm.jpg",
-				"publicId": "neystore/sbitfynfo3ainkl5vqjm",
+				"format": "jpg",
 				"width": 1500,
 				"height": 1500,
-				"format": "jpg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/sbitfynfo3ainkl5vqjm"
 			},
 			{
 				"id": "db08f980-7801-4e6c-bf7d-505c65df9c4e",
@@ -4100,8 +4095,8 @@
 				"format": "jpg",
 				"width": 433,
 				"height": 500,
-				"publicId": "neystore/gsmoyfgzkla8tmf8jhzx",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/gsmoyfgzkla8tmf8jhzx"
 			},
 			{
 				"id": "b727113b-05d1-46f5-bd49-5c562e428210",
@@ -4109,8 +4104,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/o1u3qpbpl3qu9t3cybrd",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/o1u3qpbpl3qu9t3cybrd"
 			},
 			{
 				"id": "7288f3f9-8d6a-4a33-8d14-0368e22c08a0",
@@ -4118,8 +4113,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/luezfsxpaxifjcintiuy",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/luezfsxpaxifjcintiuy"
 			},
 			{
 				"id": "d526c9fa-e008-45f4-868f-f10082fbff79",
@@ -4127,8 +4122,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/rfjrzlp06untpgfoxnjp",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/rfjrzlp06untpgfoxnjp"
 			},
 			{
 				"id": "50109153-631b-412b-b7d7-68b2109c396c",
@@ -4136,14 +4131,18 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/b9de2pu1rls8sy9hbpqo",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/b9de2pu1rls8sy9hbpqo"
 			}
 		]
 	},
 	{
 		"id": "bcbc7129-71e4-44e0-a5ef-5f2fd788329c",
+		"price": 100,
 		"title": "Tablero de actividades Montessori de madera con 8 interruptores de luz LED, juguetes sensoriales para niños de 1 a 3 años",
+		"cost": 60,
+		"ranking": 4,
+		"category": "Juguetes",
 		"features": [
 			"Especialmente diseñada para niños pequeños que aman los interruptores y las luces LED. Hay 8 interruptores diferentes configurados en esta placa ocupada, y cada interruptor corresponde a un color o estilo diferente de luz LED. ",
 			"El brillo de cada LED se ajusta para que sea justo para el bebé, no demasiado brillante, demasiado deslumbrante o demasiado oscuro para ver con claridad.",
@@ -4158,6 +4157,8 @@
 			"Pilas": "AA (NO incluidas)",
 			"Edad": "1 a 5 años"
 		},
+		"slug": "montessori-tablero-madera-8-interruptores-luz-led-juguetes",
+		"stock": 1,
 		"tags": [
 			"Montessori",
 			"Juguetes",
@@ -4167,11 +4168,6 @@
 			"Autismo",
 			"TDHA"
 		],
-		"price": 100,
-		"cost": 60,
-		"category": "Juguetes",
-		"ranking": 4,
-		"slug": "montessori-tablero-madera-8-interruptores-luz-led-juguetes",
 		"assets": [
 			{
 				"id": "71bf8383-4add-4c18-8b95-ecf56915d71e",
@@ -4179,8 +4175,8 @@
 				"format": "jpg",
 				"width": 427,
 				"height": 457,
-				"publicId": "neystore/wz3wrta9hv70pzwetfjs",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/wz3wrta9hv70pzwetfjs"
 			},
 			{
 				"id": "037f8940-ea7c-463e-b91e-e8097d0355d8",
@@ -4188,18 +4184,17 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 498,
-				"publicId": "neystore/f5yvdii5xe7x72va8a3u",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/f5yvdii5xe7x72va8a3u"
 			},
-
 			{
 				"id": "d531e1eb-20f7-4392-a796-dcbaf0530faf",
 				"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1726176944/neystore/hlec5xkpmm3gfbjyqwii.mp4",
-				"publicId": "neystore/hlec5xkpmm3gfbjyqwii",
+				"format": "mp4",
 				"width": 1920,
 				"height": 1080,
-				"format": "mp4",
-				"type": "video"
+				"type": "video",
+				"publicId": "neystore/hlec5xkpmm3gfbjyqwii"
 			},
 			{
 				"id": "392c6550-a6ab-44ee-be96-07e7ccbf5543",
@@ -4207,8 +4202,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/mzboszqwequk39fm8vn8",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/mzboszqwequk39fm8vn8"
 			},
 			{
 				"id": "9709e3b8-ebf6-4403-a86c-8caee9a27f89",
@@ -4216,8 +4211,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/emzi61tvl6aj2ssn2h5z",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/emzi61tvl6aj2ssn2h5z"
 			},
 			{
 				"id": "743a984f-6ad0-4c71-b371-39d09a3d6d5d",
@@ -4225,8 +4220,8 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/wbnsgxphemobtccyjtgi",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/wbnsgxphemobtccyjtgi"
 			},
 			{
 				"id": "c1719eff-1c8b-476b-880f-46a579678250",
@@ -4234,9 +4229,10 @@
 				"format": "jpg",
 				"width": 500,
 				"height": 500,
-				"publicId": "neystore/ofrrul59o0x7tusbb5tg",
-				"type": "image"
+				"type": "image",
+				"publicId": "neystore/ofrrul59o0x7tusbb5tg"
 			}
 		]
 	}
 ]
+
