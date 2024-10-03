@@ -1,6 +1,7 @@
 import { scrapAmazonProduct } from '../src/lib/scrap/amazon'
 import { scrapProductFromAliExpress } from '../src/lib/scrap/aliexpress'
 import { slugify } from '../src/lib/utils/string'
+import type { Product } from '../src/types'
 import fs from 'node:fs/promises'
 import productsJson from '../src/muckup/products.json'
 import { uploadAsset, transformAsset } from '../src/lib/cloudinary/index'
@@ -90,20 +91,22 @@ async function main() {
 			})
 		)
 		console.log('sucess: ---upload images')
-
-		const product = {
+		const product: Product = {
 			id,
 			title: productScrapped.title,
 			features: productScrapped.features,
 			details: productScrapped.details,
 			price: Number(price),
 			cost: Number(cost),
-			category: category,
+			category: category as Product['category'],
+			stock: 1,
+			tags: [category],
 			ranking: Number(ranking),
 			slug: slugify(productScrapped.title),
 			assets: [...images],
 		}
 
+		//Ordenar el video como item 3
 		if (video) {
 			product.assets.splice(2, 0, {
 				...video,
@@ -112,6 +115,7 @@ async function main() {
 
 		const productsToUpdate = [...productsJson, product]
 
+		//Guardar en product.json
 		fs.writeFile('./src/muckup/products.json', JSON.stringify(productsToUpdate, null, 2))
 			.then((data) => console.log('saved product'))
 			.catch((error) => console.log(error))

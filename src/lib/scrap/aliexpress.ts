@@ -1,6 +1,5 @@
 import { type Page } from 'playwright'
 import { chromium } from 'playwright'
-import { type ProductRaw } from '../../types/index.d'
 
 function cleanData(data: string) {
 	let cleanedData = data.split(/\s+/).join(' ').trim()
@@ -17,20 +16,16 @@ export async function extractTitleFromAliExpress(page: Page) {
 	return cleanedTitle
 }
 
-//main image --> https://ae01.alicdn.com/kf/Sf1ee08e24c1a469caad908568bce42bfC/Lenovo-auriculares-inal-mbricos-LP40-Pro-TWS-cascos-deportivos-con-Bluetooth-5-1-reducci-n-de.jpg_.webp
-//thumb image --> https://ae01.alicdn.com/kf/Sf1ee08e24c1a469caad908568bce42bfC/Lenovo-auriculares-inal-mbricos-LP40-Pro-TWS-cascos-deportivos-con-Bluetooth-5-1-reducci-n-de.jpg_80x80.jpg_.webp
 export async function extractImagesFromAliExpress(page: Page): Promise<string[]> {
 	const imagesEl = await page.locator('.slider--img--K0YbWW2 > img').all()
 	let images = []
 	for (const imgEl of imagesEl) {
 		const src = (await imgEl.getAttribute('src')) as string
 		//thumb image --> https://ae01.alicdn.com/kf/Sf1ee08e24c1a469caad908568bce42bfC/Lenovo-auriculares-inal-mbricos-LP40-Pro-TWS-cascos-deportivos-con-Bluetooth-5-1-reducci-n-de.jpg_80x80.jpg_.webp
-		const replaced = src.replace('_80x80.jpg_.webp', '')
+		const replaced = src.replace(/(80x80|120x120)/, '1000x1000')
 
 		images.push(replaced)
 	}
-
-	console.log(images)
 	return images
 }
 
@@ -78,7 +73,7 @@ export async function extractVideoFromAliExpress(page: Page, title: string) {
 	}
 }
 
-export async function scrapProductFromAliExpress(url: string): Promise<ProductRaw> {
+export async function scrapProductFromAliExpress(url: string): Promise<any> {
 	const browser = await chromium.launch({ headless: false })
 	// const context = await browser.newContext()
 	const page = await browser.newPage()
@@ -91,14 +86,14 @@ export async function scrapProductFromAliExpress(url: string): Promise<ProductRa
 	// const features = await extractFeaturesFromAmazon(page)
 	const images = await extractImagesFromAliExpress(page)
 	// TODO: scrap video
-	const video = await extractVideoFromAliExpress(page, title)
+	// const video = await extractVideoFromAliExpress(page, title)
 	const details = await extractDetailsFromAliExpress(page)
 
 	const product = {
 		title,
 		details,
 		features: null,
-		video,
+		video: null,
 		images,
 	}
 

@@ -792,7 +792,7 @@
 			"Tecnología de conectividad": "USB-C"
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-k12-pro-qmkvia-marco",
-		"stock": 1,
+		"stock": 0,
 		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
@@ -3607,7 +3607,6 @@
 				"format": "jpg",
 				"type": "image"
 			},
-
 			{
 				"id": "7c9dae84-b585-4ef5-9c7a-cc2d7ac0f42d",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727917806/neystore/zojxbkddx70o8nwvqsz7.jpg",
@@ -3626,7 +3625,6 @@
 				"type": "video",
 				"publicId": "neystore/k3pro_rkj5ez"
 			},
-
 			{
 				"id": "e17b2107-9974-4f6f-aa05-d45fd8e6e939",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727917848/neystore/nzzwlscmaknh9wjkpccj.jpg",
@@ -3636,7 +3634,6 @@
 				"format": "jpg",
 				"type": "image"
 			},
-
 			{
 				"id": "4beafad2-1642-48ab-a5c2-b013060528e7",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/haaq9ioxsujwdanks5gh.jpg",
@@ -3673,7 +3670,6 @@
 				"format": "jpg",
 				"type": "image"
 			},
-
 			{
 				"id": "9b8d1eac-7b05-41dd-8d6a-61396903cb2c",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727918027/neystore/eidvbiuwgniyk37ngcdf.jpg",
@@ -3683,7 +3679,6 @@
 				"format": "jpg",
 				"type": "image"
 			},
-
 			{
 				"id": "0cb5ad40-b4a1-47aa-9457-81a7c72039b9",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727918169/neystore/hj1ewd1uyymxllbhya2r.jpg",
@@ -4256,5 +4251,122 @@
 				"publicId": "neystore/ofrrul59o0x7tusbb5tg"
 			}
 		]
+	},
+	{
+		"id": "401bd9d6-0c85-421b-900c-50335f9daeec",
+		"title": "Keycaps - Juego de 139 teclas PBT en español, Perfil XDA, para teclado mecánico MX Switch, ISO Enter",
+		"features": [
+			"Este juego de teclas tiene un total de 139 teclas e incluye varios tamaños de teclas, adecuado para la mayoría de teclados mecánicos 61/64/87/104/108 Cherry MX interruptores ISO ANSI layout ",
+			"Perfil XDA: que te proporciona una experiencia de usuario cómoda, ya sea escribiendo o jugando, sin sentirte cansado",
+			"Este es un conjunto de teclas, no un teclado"
+		],
+		"details": {
+			"Material": "Tereftalato de polibutileno(PBT)",
+			"Estilo": "Gamer/Tech",
+			"Número de teclas": 139,
+			"Perfil": "XDA",
+			"Compatibilidad": "Switch MX",
+			"Distribución": "ANSI  |  ISO"
+		},
+		"price": 100,
+		"cost": 66,
+		"category": "Tecnologia",
+		"stock": 1,
+		"tags": ["Tecnologia", "Teclados", "Custom"],
+		"ranking": 3,
+		"slug": "teclas-xda-en-espanol-frances-coreano-brasileno-japones",
+		"assets": [
+			{
+				"id": "1db7d3f2-9999-4726-b50b-45781ba075ec",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925488/neystore/jhzwsuuykka10c5qq7sd.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/jhzwsuuykka10c5qq7sd",
+				"type": "image"
+			},
+			{
+				"id": "6b7491c9-07cd-4620-b05d-072a2c731e8c",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925488/neystore/pk5tihs3xzlz7hdrxhsn.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/pk5tihs3xzlz7hdrxhsn",
+				"type": "image"
+			},
+			{
+				"id": "487d7cd4-ee9e-4032-badb-042361544973",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925487/neystore/dmt71gcrdkxkxyczsbfe.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/dmt71gcrdkxkxyczsbfe",
+				"type": "image"
+			},
+			{
+				"id": "f9405fc6-f3e8-4ad4-aba4-55aa1197dc0c",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925487/neystore/gncyocndybanwhsadj4t.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/gncyocndybanwhsadj4t",
+				"type": "image"
+			},
+			{
+				"id": "14e75082-eb13-4276-ba86-3064cfe1fa6a",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925487/neystore/flrvqeqtej6lir65fjl0.webp",
+				"format": "webp",
+				"width": 1000,
+				"height": 1000,
+				"publicId": "neystore/flrvqeqtej6lir65fjl0",
+				"type": "image"
+			},
+			{
+				"id": "3b25c59f-7810-4c43-92fc-fa3f16ead98c",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925487/neystore/pckfeienc93feh449abq.webp",
+				"format": "webp",
+				"width": 750,
+				"height": 750,
+				"publicId": "neystore/pckfeienc93feh449abq",
+				"type": "image"
+			},
+			{
+				"id": "99a21322-3278-4205-8044-f6fff5debb45",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925489/neystore/xwldyf3d6xsmtiwuovex.webp",
+				"format": "webp",
+				"width": 2083,
+				"height": 2083,
+				"publicId": "neystore/xwldyf3d6xsmtiwuovex",
+				"type": "image"
+			},
+			{
+				"id": "1a97b807-0aaa-465c-bb96-17b24e7ea5fb",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925491/neystore/eynlfydsskdu1pg9i4zq.webp",
+				"format": "webp",
+				"width": 2083,
+				"height": 2083,
+				"publicId": "neystore/eynlfydsskdu1pg9i4zq",
+				"type": "image"
+			},
+			{
+				"id": "863c1f21-b6ff-42e1-962d-3b7ebbaacc69",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925488/neystore/opdlqsj1l1xbxjfzef8c.webp",
+				"format": "webp",
+				"width": 2083,
+				"height": 2083,
+				"publicId": "neystore/opdlqsj1l1xbxjfzef8c",
+				"type": "image"
+			},
+			{
+				"id": "fd694d27-03fb-4e6a-a4fc-9d597430432b",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727925489/neystore/yr8hzsrknhfcwly7ktqf.webp",
+				"format": "webp",
+				"width": 2083,
+				"height": 2083,
+				"publicId": "neystore/yr8hzsrknhfcwly7ktqf",
+				"type": "image"
+			}
+		]
 	}
 ]
+

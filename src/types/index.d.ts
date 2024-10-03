@@ -1,5 +1,5 @@
-// type Id = `${string}-${string}-${string}-${string}-${string}`
-type Id = string
+// type Id = string
+type Id = `${string}-${string}-${string}-${string}-${string}`
 
 export const PRODUCT_CATEGORY = {
 	Toys: 'Juguetes',
