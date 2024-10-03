@@ -26,7 +26,7 @@
 			"Color de retroiluminación del teclado": "Un Solo Color"
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
-		"stock": 1,
+		"stock": 0,
 		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
@@ -3596,25 +3596,26 @@
 		},
 		"slug": "keychron-k3-pro-ultraslim-qmkvia-wireless-custom-mechanical",
 		"stock": 1,
-		"tags": ["Teclados", "Tecnologia"],
+		"tags": ["Teclados", "Custom", "Keychron", "Tecnologia"],
 		"assets": [
 			{
-				"id": "f3b394ea-2581-43a4-b39b-9ee8815a789e",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/zxdvddq4mxm7rjq2d6lb.jpg",
+				"id": "56da3756-54f1-4879-9c46-30bfe5c0c14f",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727917755/neystore/drdpcq3dc4wscy0nmg4j.jpg",
+				"publicId": "neystore/drdpcq3dc4wscy0nmg4j",
+				"width": 1500,
+				"height": 936,
 				"format": "jpg",
-				"width": 456,
-				"height": 339,
-				"type": "image",
-				"publicId": "neystore/zxdvddq4mxm7rjq2d6lb"
+				"type": "image"
 			},
+
 			{
-				"id": "20c866a3-e334-4e82-a245-e157829ba071",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/qrms4lkk2ug68bothttd.jpg",
+				"id": "7c9dae84-b585-4ef5-9c7a-cc2d7ac0f42d",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727917806/neystore/zojxbkddx70o8nwvqsz7.jpg",
+				"publicId": "neystore/zojxbkddx70o8nwvqsz7",
+				"width": 1500,
+				"height": 1500,
 				"format": "jpg",
-				"width": 500,
-				"height": 469,
-				"type": "image",
-				"publicId": "neystore/qrms4lkk2ug68bothttd"
+				"type": "image"
 			},
 			{
 				"id": "100866a3-e334-4e82-a245-e157829ba071",
@@ -3625,6 +3626,17 @@
 				"type": "video",
 				"publicId": "neystore/k3pro_rkj5ez"
 			},
+
+			{
+				"id": "e17b2107-9974-4f6f-aa05-d45fd8e6e939",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727917848/neystore/nzzwlscmaknh9wjkpccj.jpg",
+				"publicId": "neystore/nzzwlscmaknh9wjkpccj",
+				"width": 1331,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
+			},
+
 			{
 				"id": "4beafad2-1642-48ab-a5c2-b013060528e7",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/haaq9ioxsujwdanks5gh.jpg",
@@ -3644,15 +3656,6 @@
 				"publicId": "neystore/nqsd1hkxt0afv8cylgty"
 			},
 			{
-				"id": "c5fad78d-adb6-4add-be4f-944c95f1b0e6",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/gsavrokcsjljnaisdgze.jpg",
-				"format": "jpg",
-				"width": 500,
-				"height": 449,
-				"type": "image",
-				"publicId": "neystore/gsavrokcsjljnaisdgze"
-			},
-			{
 				"id": "8b84da10-e43d-4bc4-a389-848e4a9a683c",
 				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/h2tdk0xhiqkndo0g6qrg.jpg",
 				"format": "jpg",
@@ -3662,13 +3665,33 @@
 				"publicId": "neystore/h2tdk0xhiqkndo0g6qrg"
 			},
 			{
-				"id": "d91ddf8e-5414-4f44-8a33-60ecc638a214",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/x5o7attvjyf55dociizb.jpg",
+				"id": "798370a2-d666-4111-a777-e4cb35274fc6",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727917938/neystore/duuakiwwm5w4eftiagxj.jpg",
+				"publicId": "neystore/duuakiwwm5w4eftiagxj",
+				"width": 1500,
+				"height": 1500,
 				"format": "jpg",
-				"width": 500,
-				"height": 500,
-				"type": "image",
-				"publicId": "neystore/x5o7attvjyf55dociizb"
+				"type": "image"
+			},
+
+			{
+				"id": "9b8d1eac-7b05-41dd-8d6a-61396903cb2c",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727918027/neystore/eidvbiuwgniyk37ngcdf.jpg",
+				"publicId": "neystore/eidvbiuwgniyk37ngcdf",
+				"width": 1500,
+				"height": 1335,
+				"format": "jpg",
+				"type": "image"
+			},
+
+			{
+				"id": "0cb5ad40-b4a1-47aa-9457-81a7c72039b9",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727918169/neystore/hj1ewd1uyymxllbhya2r.jpg",
+				"publicId": "neystore/hj1ewd1uyymxllbhya2r",
+				"width": 1500,
+				"height": 1500,
+				"format": "jpg",
+				"type": "image"
 			}
 		]
 	},
@@ -3701,7 +3724,7 @@
 		},
 		"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
 		"stock": 1,
-		"tags": ["Teclados", "Tecnologia"],
+		"tags": ["Teclados", "Tecnologia", "Custom"],
 		"assets": [
 			{
 				"id": "00437907-13c9-41f6-8062-7d91e6615127",
@@ -4235,4 +4258,3 @@
 		]
 	}
 ]
-

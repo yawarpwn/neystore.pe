@@ -2,7 +2,6 @@ import { scrapAmazonProduct } from '../src/lib/scrap/amazon'
 import { scrapProductFromAliExpress } from '../src/lib/scrap/aliexpress'
 import { slugify } from '../src/lib/utils/string'
 import fs from 'node:fs/promises'
-import type { ProductRaw } from '../src/types/index.d.ts'
 import productsJson from '../src/muckup/products.json'
 import { uploadAsset, transformAsset } from '../src/lib/cloudinary/index'
 import {
@@ -20,7 +19,7 @@ async function main() {
 		const provider = await getProvider()
 		const url = await getUrl(provider)
 
-		let productScrapped: ProductRaw
+		let productScrapped
 		if (provider === 'amazon') {
 			productScrapped = await scrapAmazonProduct(url)
 		} else {
