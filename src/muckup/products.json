@@ -3917,7 +3917,7 @@
 	},
 	{
 		"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
-		"price": 120,
+		"price": 130,
 		"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
 		"ranking": 5,
 		"features": [
@@ -3939,7 +3939,7 @@
 			"Juguete 11": "Jirafa elástica"
 		},
 		"slug": "kit-sensorial-calma",
-		"offert": 110,
+		"offert": 120,
 		"stock": 1,
 		"tags": [
 			"Juguetes",
@@ -4369,4 +4369,3 @@
 		]
 	}
 ]
-
