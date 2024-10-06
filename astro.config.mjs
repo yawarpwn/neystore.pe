@@ -11,7 +11,6 @@ export default defineConfig({
 	site: site.url,
 	trailingSlash: 'never',
 	base: '/',
-	output: 'hybrid',
 	compressHTML: true,
 
 	devToolbar: {
@@ -32,17 +31,14 @@ export default defineConfig({
 		sitemap(),
 	],
 
-	experimental: {
-		env: {
-			schema: {
-				CLOUDINARY_API_SECRET: envField.string({
-					context: 'server',
-					access: 'secret',
-				}),
-			},
+	env: {
+		schema: {
+			CLOUDINARY_API_SECRET: envField.string({
+				context: 'server',
+				access: 'secret',
+			}),
 		},
 	},
 
 	adapter: vercel(),
 })
-
