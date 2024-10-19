@@ -99,13 +99,6 @@ items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--backg
 		const showPrevSlide = slider.scrollLeft > 0
 		const showNextSlide = slider.scrollLeft < maxScrollLeft
 
-		console.log({
-			maxScrollLeft,
-			scrollWidth: slider.scrollWidth,
-			clientWidth: slider.clientWidth,
-			scrollLeft: slider.scrollLeft,
-		})
-
 		prevSlide.style.display = showPrevSlide ? 'flex' : 'none'
 		nextSlide.style.display = showNextSlide ? 'flex' : 'none'
 	}

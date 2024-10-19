@@ -2,7 +2,7 @@
 	{
 		"id": "5d652261-2ad5-4ba1-8091-8e43a23bed35",
 		"price": 400,
-		"title": "Keychrone K3 versión 2 Bluetooth , Teclado mecánico inalámbrico 84 teclas 75%, con interruptor mecánico marrón Gateron de perfil bajo",
+		"title": "Keychrone K3 versión 2 Bluetooth , Teclado mecánico inalámbrico 84 teclas 75%, con interruptor Gateron de perfil bajo",
 		"cost": 323,
 		"ranking": 4.7,
 		"category": "Tecnologia",
@@ -14,7 +14,7 @@
 			"Retroiluminación blanca con elegantes leyendas de teclas que ayuda a escribir en un entorno de centavos."
 		],
 		"details": {
-			"Color": "Interruptor café Gateron",
+			"Color": "Interruptor Rojo",
 			"Marca": "Keychron",
 			"Estilo": "Moderno",
 			"Número de teclas": "84",
@@ -26,7 +26,7 @@
 			"Color de retroiluminación del teclado": "Un Solo Color"
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
-		"stock": 0,
+		"stock": 2,
 		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
@@ -2747,22 +2747,14 @@
 		],
 		"details": {
 			"Marca": "RK ROYAL KLUDGE",
-			"Dispositivos Compatibles": ["PC", "Portátil", "Consola de videojuegos"],
+			"Dispositivos Compatibles": "PC, Portátil, Consola de videojuegos",
 			"Tecnologia de Conectividad": "USB-C",
 			"Descripcion del Teclado": "Mecánico",
 			"Usos Recomendados": "Personal, Videojuegos",
-			"Caracteristicas Especiales": [
-				"Rueda para el volumen",
-				"Retroiluminado",
-				"Sonido cremoso",
-				"Teclas programables",
-				"Intercambiable en caliente",
-				"Rodillo de volumen"
-			],
+			"Caracteristicas Especiales": "Rueda para el volumen, Retroiluminado, Sonido cremoso, Teclas programables, Intercambiable en caliente",
 			"Color": "Verde",
 			"Numero de Teclas": 81,
-			"Color de Retroiluminacion": "RGB",
-			"Estilo": "Moderno"
+			"Color de Retroiluminacion": "RGB"
 		},
 		"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
 		"offert": 260,

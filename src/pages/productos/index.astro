@@ -32,7 +32,7 @@ const category = url.searchParams.get('category') || ''
 const products = await getProducts(category)
 ---
 
-<Layout title="Nuestros Productos">
+<Layout showSearchbar title="Nuestros Productos">
 	<ProductCategories {categories} {url} />
 	<div class="">
 		<h1 class="sr-only text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>

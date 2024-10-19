@@ -9,11 +9,20 @@ import { site } from '@/config'
 import ProductSearch from '@/components/ProductSearch.astro'
 import ScrollTopButton from '@/components/ScrollTopButton.astro'
 
+export interface Props {
+	showSearchbar?: boolean
+	title?: string
+	description?: string
+	image?: URL
+	url?: URL
+}
+
 const {
 	title = site.title,
 	description = site.description,
-	url = site.url,
-	image = site.ogImage,
+	url = new URL(site.url),
+	image = new URL(site.ogImage),
+	showSearchbar,
 } = Astro.props
 
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
@@ -33,7 +42,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
 	<body>
 		<div class="page">
 			<Header />
-			<ProductSearch />
+			{showSearchbar && <ProductSearch />}
 			<main class="relative">
 				<Container>
 					<slot />

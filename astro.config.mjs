@@ -29,7 +29,11 @@ export default defineConfig({
 			applyBaseStyles: false,
 		}),
 		icon(),
-		sitemap(),
+		sitemap({
+			filter: (page) =>
+				page !== `${site.url}/politicas-de-devolucion` &&
+				page !== `${site.url}/preguntas-frecuentes`,
+		}),
 	],
 
 	experimental: {
@@ -45,4 +49,3 @@ export default defineConfig({
 
 	adapter: vercel(),
 })
-
