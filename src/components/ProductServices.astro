@@ -1,0 +1,39 @@
+---
+import { Icon } from 'astro-icon/components'
+
+const services = [
+	{
+		icon: 'shopping-bag',
+		title: 'Compra en línea',
+	},
+	{
+		icon: 'brand-hipchat',
+		title: 'Atención 24/7',
+	},
+	{
+		icon: 'motorbike',
+		title: 'Delivery en Lima',
+	},
+
+	{
+		icon: 'truck',
+		title: 'Envíos a provincia',
+	},
+]
+---
+
+<article class="product-services grid gap-4 md:grid-cols-2">
+	{
+		services.map(({ icon, title }) => (
+			<div class="card flex rounded-md shadow-sm p-2">
+				<div class="icon-container">
+					<Icon name={`tabler:${icon}`} size={30} />
+				</div>
+				<div class="h-[2rem] border-r border-gray-300 mx-4" />
+				<div style="padding-left: 1rem;">
+					<span class="card-title">{title}</span>
+				</div>
+			</div>
+		))
+	}
+</article>

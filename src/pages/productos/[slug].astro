@@ -2,6 +2,7 @@
 import ProductRanking from '@/components/ProductRanking.astro'
 import ProductViewer from '@/components/ProductViewer.astro'
 import ProductPrice from '@/components/ProductPrice.astro'
+import ProductServices from '@/components/ProductServices.astro'
 import Layout from '@/layouts/Layout.astro'
 import { Icon } from 'astro-icon/components'
 import { cn } from '@/lib/utils'
@@ -127,6 +128,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 					</div>
 				)
 			}
+			<ProductServices />
 
 			<article class="grid grid-cols-2 gap-4">
 				<a

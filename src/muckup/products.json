@@ -3457,7 +3457,7 @@
 	{
 		"id": "8e9d851d-9712-4372-8bfd-b1c6daadbf87",
 		"price": 500,
-		"title": "Keychron K2 Pro 75% Layout Teclado mecánico inalámbrico personalizado, compacto 84 teclas intercambiable en caliente QMK/VIA Teclado programable USB-C para juegos, interruptor rojo retroiluminado RGB",
+		"title": "Keychron K2 Pro 75% Layout Teclado mecánico inalámbrico personalizable, compacto 84 teclas intercambiable en caliente QMK/VIA connectividad USB-C y Bluetooth, retroiluminado RGB",
 		"cost": 190,
 		"ranking": 5,
 		"category": "Tecnologia",
@@ -3470,29 +3470,27 @@
 		],
 		"details": {
 			"Marca": "Keychron",
-			"Dispositivos compatibles": "Portátil, Tablet",
-			"Tecnología de conectividad": "Bluetooth, USB",
-			"Usos Recomendados Para Producto": "Videojuegos",
-			"Características especiales": "Retroiluminado",
-			"Color": "Rojo",
-			"Interruptor": "Red Switch",
+			"Retroiluminación": "RGB",
+			"Interruptor": "Gateron Red Switch",
 			"Número de teclas": 84,
-			"Color de retroiluminación del teclado": "RGB",
-			"Estilo": "Moderno"
+			"Tecnología de conectividad": "Bluetooth, USB",
+			"Programable": "Con QMK & Launcher",
+			"Teclas": "PBT de doble disparo de perfil OSA",
+			"Dispositivos compatibles": "Portátil, Tablet, Celular"
 		},
 		"slug": "keychron-k2-pro-75-layout-custom-wireless-mechanical",
-		"offert": 380,
-		"stock": 1,
+		"offert": 350,
+		"stock": 9,
 		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
-				"id": "77c56964-d3be-4747-bece-a4939d31162b",
-				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724547104/neystore/keferygiisi1edv1mlrk.jpg",
+				"id": "9457e435-0e7a-4bba-b66c-08abd8fc27c2",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1729888650/neystore/xundqj9rxoktcrxhngun.jpg",
+				"publicId": "neystore/xundqj9rxoktcrxhngun",
+				"width": 1500,
+				"height": 590,
 				"format": "jpg",
-				"width": 439,
-				"height": 174,
-				"type": "image",
-				"publicId": "neystore/keferygiisi1edv1mlrk"
+				"type": "image"
 			},
 			{
 				"id": "03d9a90f-d422-4feb-8b10-e69feb9e3fc5",
