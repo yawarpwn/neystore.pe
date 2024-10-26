@@ -1,5 +1,4 @@
 ---
-import { Icon } from 'astro-icon/components'
 import ProductShareButton from '@/components/ProductShareButton.astro'
 import type { Product } from '@/types'
 
@@ -11,6 +10,7 @@ interface Props {
 }
 
 const { assets, id, title } = Astro.props
+const video = assets.find((asset) => asset.type === 'video')
 ---
 
 <div class="image-view-wrap w-full md:w-full flex flex-col gap-4">
@@ -19,133 +19,211 @@ const { assets, id, title } = Astro.props
 		<div class="absolute top-1 right-1 z-10">
 			<ProductShareButton />
 		</div>
-		<div class="image-view--previewBox absolute left-0 top-0 w-full h-full">
-			<div class="maginifier--wrap w-full h-full bg-white">
-				<img
-					transition:name={`product-image-${id}`}
-					class="magnifier-image max-w-full max-h-full w-full h-full object-contain"
-					src={assets[0].mediumUrl}
-					alt={title}
-				/>
+		<div class="embla">
+			<div class="embla__viewport">
+				<div class="embla__container">
+					{
+						assets.map((asset) => {
+							if (asset.type === 'video') return
+							return (
+								<div class="embla__slide">
+									<img
+										transition:name={`product-image-${id}`}
+										class="magnifier-image max-w-full max-h-full w-full h-full object-contain"
+										src={asset.mediumUrl}
+										alt={title}
+									/>
+								</div>
+							)
+						})
+					}
+				</div>
 			</div>
 		</div>
-		<div class="image-view--previewCover pt-[100%]"></div>
 	</div>
 
 	{/* Thumbs */}
-	<div class="slider-wrap relative">
-		{/* Container */}
-		<div class="slider--slider overflow-x-auto snap-x snap-mandatory">
-			<ul class="slider--box flex">
+	<div class="embla-thumbs">
+		<div class="embla-thumbs__viewport">
+			<!-- <ProductVideoDialog -->
+			<!-- 	video={{ -->
+			<!-- 		url: assets[2].url, -->
+			<!-- 		title: title, -->
+			<!-- 		cover: assets[2].mediumUrl, -->
+			<!-- 	}} -->
+			<!-- /> -->
+			<div class="embla-thumbs__container">
 				{
 					assets.map((asset, index) => {
 						if (asset.type === 'video') {
-							return (
-								<ProductVideoDialog
-									video={{
-										url: asset.url,
-										title: title,
-										cover: assets[0].mediumUrl,
-									}}
-								/>
-							)
+							return
 						}
 
 						return (
-							<li
+							<div
+								class="embla-thumbs__item"
 								data-thumb-active={index === 0}
-								data-large-url={asset.mediumUrl}
-								class={`slider--img border-2 border-transparent opacity-50 size-[64px] flex-shrink-0 bg-white 
-                  flex items-center justify-center rounded-md overflow-hidden ml-2 first:ml-0 cursor-pointer
-                  data-[thumb-active]:border-primary data-[thumb-active]:opacity-100 `}>
+								data-large-url={asset.mediumUrl}>
 								<img class="max-w-full max-h-full" src={asset.thumbUrl} />
-							</li>
+							</div>
 						)
 					})
 				}
-			</ul>
+			</div>
 		</div>
-		<button
-			aria-label="imagen anterior"
-			class={`slider--prev absolute left-0 top-0 w-[36px] h-[64px] 
-cursor-pointer
-hidden items-center justify-start bg-gradient-to-l from-transparent to-[oklch(var(--background))]`}>
-			<span class="bg-black rounded-full p-1">
-				<Icon name="tabler:chevron-left" class="text-white" />
-			</span>
-		</button>
-		<button
-			aria-label="imagen siguiente"
-			class={`slider--next absolute right-0 top-0 w-[36px] h-[64px] 
-cursor-pointer
-items-center justify-end bg-gradient-to-r from-transparent to-[oklch(var(--background))] hidden`}>
-			<span class="bg-black rounded-full p-1">
-				<Icon name="tabler:chevron-right" class="text-white" />
-			</span>
-		</button>
 	</div>
+
+	<!-- Product Video -->
+	{
+		video && (
+			<div class="flex justify-center">
+				<ProductVideoDialog
+					video={{
+						url: video.url,
+					}}
+				/>
+			</div>
+		)
+	}
 </div>
-<script>
-	// document.addEventListener('astro:page-load', () => {
-	const thumbsList = document.querySelectorAll('.slider--img') as NodeListOf<Element>
-	const slider = document.querySelector('.slider--slider') as HTMLDivElement
-	const mainImage = document.querySelector('#main-image img') as HTMLDivElement
-	const nextSlide = document.querySelector('.slider--next') as HTMLButtonElement
-	const prevSlide = document.querySelector('.slider--prev') as HTMLButtonElement
-
-	//check prev and next button visibility
-	function updateButtonsVisibility() {
-		const maxScrollLeft = slider.scrollWidth - slider.clientWidth
-		const showPrevSlide = slider.scrollLeft > 0
-		const showNextSlide = slider.scrollLeft < maxScrollLeft
-
-		prevSlide.style.display = showPrevSlide ? 'flex' : 'none'
-		nextSlide.style.display = showNextSlide ? 'flex' : 'none'
+<style>
+	.embla {
+		max-width: 48rem;
+		margin: auto;
+		--slide-height: 19rem;
+		--slide-spacing: 1rem;
+		--slide-size: 100%;
+	}
+	.embla__viewport {
+		overflow: hidden;
+	}
+	.embla__container {
+		display: flex;
+		touch-action: pan-y pinch-zoom;
+		margin-left: calc(var(--slide-spacing) * -1);
+	}
+	.embla__slide {
+		transform: translate3d(0, 0, 0);
+		flex: 0 0 var(--slide-size);
+		min-width: 0;
+		padding-left: var(--slide-spacing);
+	}
+	.embla__slide__number {
+		box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+		border-radius: 1.8rem;
+		font-size: 4rem;
+		font-weight: 600;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: var(--slide-height);
+		user-select: none;
+	}
+	.embla-thumbs {
+		--thumbs-slide-spacing: 0.8rem;
+		--thumbs-slide-height: 6rem;
+		margin-top: var(--thumbs-slide-spacing);
+	}
+	.embla-thumbs__viewport {
+		overflow: hidden;
+	}
+	.embla-thumbs__container {
+		display: flex;
+		flex-direction: row;
+		/* gap: 0.5rem; */
+		margin-left: calc(var(--thumbs-slide-spacing) * -1);
+	}
+	.embla-thumbs__slide {
+		flex: 0 0 22%;
+		min-width: 0;
+		padding-left: var(--thumbs-slide-spacing);
+	}
+	@media (min-width: 576px) {
+		.embla-thumbs__slide {
+			flex: 0 0 15%;
+		}
 	}
 
-	thumbsList.forEach((item) => {
-		item.addEventListener('click', () => {
-			//Remove active  all items
-			thumbsList.forEach((item) => item.removeAttribute('data-thumb-active'))
-			//Add active to current item
-			item.toggleAttribute('data-thumb-active')
+	.embla-thumbs__item {
+		width: 64px;
+		height: 64px;
+		margin-left: 0.5rem;
+		/* border: 1px solid black; */
+		border-radius: 0.25rem;
+		overflow: hidden;
+		opacity: 0.3;
+		flex-shrink: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
 
-			//get image Src
-			const src = item.getAttribute('data-large-url')!
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.embla-thumbs__slide--selected {
+		opacity: 1;
+	}
+</style>
+<script>
+	import EmblaCarousel from 'embla-carousel'
 
-			//update image
-			mainImage.setAttribute('src', src)
+	const OPTIONS = {}
+	const OPTIONS_THUMBS = {
+		containScroll: 'keepSnaps',
+		dragFree: true,
+	}
+
+	const viewportNodeMainCarousel = document.querySelector('.embla__viewport')
+	const viewportNodeThumbCarousel = document.querySelector('.embla-thumbs__viewport')
+	const emblaApiMain = EmblaCarousel(viewportNodeMainCarousel, OPTIONS)
+	const emblaApiThumb = EmblaCarousel(viewportNodeThumbCarousel, OPTIONS_THUMBS)
+
+	export const addThumbBtnsClickHandlers = (emblaApiMain, emblaApiThumb) => {
+		const slidesThumbs = emblaApiThumb.slideNodes()
+
+		const scrollToIndex = slidesThumbs.map((_, index) => () => emblaApiMain.scrollTo(index))
+
+		slidesThumbs.forEach((slideNode, index) => {
+			slideNode.addEventListener('click', scrollToIndex[index], false)
 		})
-	})
 
-	//handle scroll
-	slider.addEventListener('scroll', () => {
-		updateButtonsVisibility()
-	})
+		return () => {
+			slidesThumbs.forEach((slideNode, index) => {
+				slideNode.removeEventListener('click', scrollToIndex[index], false)
+			})
+		}
+	}
 
-	//TODO: handle touch in mobile
-	slider.addEventListener('touchstart', (event) => {})
+	export const addToggleThumbBtnsActive = (emblaApiMain, emblaApiThumb) => {
+		const slidesThumbs = emblaApiThumb.slideNodes()
 
-	slider.addEventListener('touchmove', (event) => {})
+		const toggleThumbBtnsState = () => {
+			emblaApiThumb.scrollTo(emblaApiMain.selectedScrollSnap())
+			const previous = emblaApiMain.previousScrollSnap()
+			const selected = emblaApiMain.selectedScrollSnap()
+			slidesThumbs[previous].classList.remove('embla-thumbs__slide--selected')
+			slidesThumbs[selected].classList.add('embla-thumbs__slide--selected')
+		}
 
-	slider.addEventListener('touchend', (event) => {})
+		emblaApiMain.on('select', toggleThumbBtnsState)
+		emblaApiThumb.on('init', toggleThumbBtnsState)
 
-	//handle next Slide
-	nextSlide.addEventListener('click', () => {
-		slider.scrollBy(64, 0)
-	})
+		return () => {
+			const selected = emblaApiMain.selectedScrollSnap()
+			slidesThumbs[selected].classList.remove('embla-thumbs__slide--selected')
+		}
+	}
 
-	// handle prev Slide
-	prevSlide.addEventListener('click', () => {
-		slider.scrollBy(-64, 0)
-	})
+	const removeThumbBtnsClickHandlers = addThumbBtnsClickHandlers(emblaApiMain, emblaApiThumb)
+	const removeToggleThumbBtnsActive = addToggleThumbBtnsActive(emblaApiMain, emblaApiThumb)
 
-	// Initial check to hide buttons if necessary
-	updateButtonsVisibility()
+	emblaApiMain
+		.on('destroy', removeThumbBtnsClickHandlers)
+		.on('destroy', removeToggleThumbBtnsActive)
 
-	// Handle window resize to update button visibility
-	window.addEventListener('resize', () => {
-		updateButtonsVisibility()
-	})
-	// })
+	emblaApiThumb
+		.on('destroy', removeThumbBtnsClickHandlers)
+		.on('destroy', removeToggleThumbBtnsActive)
 </script>
