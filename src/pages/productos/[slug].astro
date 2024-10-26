@@ -31,7 +31,7 @@ const { title, assets, id, features, details, tags, stock } = product
 const productUrl = new URL(Astro.url.pathname, Astro.site)
 ---
 
-<Layout {title} description={title} image={new URL(assets[0].url)} url={productUrl}>
+<Layout {title} description={title} image={new URL(assets[0].url)} url={productUrl} showSearchbar>
 	<!-- <div class="md:hidden"> -->
 	<!-- 	<a href="/productos" class="inline-flex items-center gap-3 hover:cursor-pointer mt-4"> -->
 	<!-- 		<Icon name="tabler:arrow-narrow-left" /> -->
