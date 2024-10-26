@@ -3,9 +3,12 @@
 		"id": "5d652261-2ad5-4ba1-8091-8e43a23bed35",
 		"price": 400,
 		"title": "Keychrone K3 versión 2 Bluetooth , Teclado mecánico inalámbrico 84 teclas 75%, con interruptor Gateron de perfil bajo",
+		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
 		"cost": 323,
 		"ranking": 4.7,
 		"category": "Tecnologia",
+		"stock": 2,
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"features": [
 			"Diseño del 75%: Permite a los usuarios acceder a todas las teclas multimedia y de función esenciales, pero con un espacio más pequeño.",
 			"Ultradelgado: el interruptor de perfil bajo rediseñado es un 40% más delgado que los interruptores convencionales. Junto con el cuerpo de aluminio aerodinámico hace que el Keychron K3 sea uno de los teclados mecánicos inalámbricos más delgados y ligeros del mundo.",
@@ -14,19 +17,18 @@
 			"Retroiluminación blanca con elegantes leyendas de teclas que ayuda a escribir en un entorno de centavos."
 		],
 		"details": {
-			"Marca": "Keychron",
-			"Switch": "Gateron Rojo Perfil bajo",
-			"Características especiales": "Retroiluminado blanco",
-			"Tecnología de conectividad": "USB-C y Bluetooth",
+			"Modelo": "Keychron K3",
+			"Switches": "GPerfil baj Gateron Mecánico Rojo ",
+			"Retroiluminado": "Retroiluminado Led blanco",
+			"Tecnología de conectividad": "USB-C o Bluetooth",
+      "Dimensión": "12.05 x 4.56 inch",
+      "Bluetooth Version": "5.1",
 			"Cuerpo": "Aluminio",
-			"Layout": "75% (84 teclas)",
-			"Teclas": "Ultrafinas",
-			"Dispositivos compatibles": "Portátil, Tablet, Smartphone",
-			"Soporta": "Windows, Mac y Linux"
+			"Layout": "75%",
+      "Teclas": "Ultrafinas",
+      "Numero de teclas": "84",
+			"Sistema Operativo": "Windows/Mac/Linux"
 		},
-		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
-		"stock": 2,
-		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
 				"id": "8e16a1a9-77fd-4887-b5cf-f80f42bf4456",
@@ -3459,6 +3461,10 @@
 		"title": "Keychron K2 Pro 75% Layout Teclado mecánico inalámbrico personalizable, compacto 84 teclas intercambiable en caliente QMK/VIA connectividad USB-C y Bluetooth, retroiluminado RGB",
 		"cost": 190,
 		"ranking": 5,
+		"slug": "keychron-k2-pro-75-layout-custom-wireless-mechanical",
+		"offert": 350,
+		"stock": 9,
+		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"category": "Tecnologia",
 		"features": [
 			"Teclado mecánico inalámbrico QMK/VIA actualizado permite a cualquiera dominar cualquier tecla o comandos macro en su diseño compacto del 75% a través de VIA, ha incluido teclas tanto para Windows como para macOS, y los usuarios pueden intercambiar en caliente con cualquier interruptor mecánico MX en una brisa.",
@@ -3468,19 +3474,18 @@
 			"Teclas PBT de doble disparo de perfil OSA: el K2 Pro viene con nuestro perfil OSA único (perfil OEM con ángulo esférico) que tiene como objetivo proporcionar una sensación más cómoda en la punta de los dedos con una excelente resistencia al aceite para un uso a largo plazo. Encantadora retroiluminación RGB con elegantes leyendas de teclas ayuda a escribir en un entorno de diez centavos, también puede elegir otro modo de retroiluminación de color estático."
 		],
 		"details": {
-			"Marca": "Keychron",
+			"Modelo": "Keychron K2 Pro",
+      "Material de Placa ": "Acero"
+      "Switches": "Keychron K Pro Rojo"
 			"Retroiluminación": "RGB",
-			"Interruptor": "Gateron Red Switch",
+      "Layout": "75%"
 			"Número de teclas": 84,
-			"Tecnología de conectividad": "Bluetooth, USB",
+			"Conectividad": "Bluetooth o USB Type-C",
 			"Programable": "Con QMK & Launcher",
 			"Teclas": "PBT de doble disparo de perfil OSA",
-			"Dispositivos compatibles": "Portátil, Tablet, Celular"
+      "Sytema Operativo": "Window/MacOS/Linux"
+			"Dispositivos compatibles": "Portátil, Tablet, Smartphone"
 		},
-		"slug": "keychron-k2-pro-75-layout-custom-wireless-mechanical",
-		"offert": 350,
-		"stock": 9,
-		"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 		"assets": [
 			{
 				"id": "9457e435-0e7a-4bba-b66c-08abd8fc27c2",
