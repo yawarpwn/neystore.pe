@@ -3475,15 +3475,15 @@
 		],
 		"details": {
 			"Modelo": "Keychron K2 Pro",
-      "Material de Placa ": "Acero"
-      "Switches": "Keychron K Pro Rojo"
+      "Switches": "Keychron K Pro Rojo",
 			"Retroiluminación": "RGB",
-      "Layout": "75%"
+      "Layout": "75%",
 			"Número de teclas": 84,
 			"Conectividad": "Bluetooth o USB Type-C",
 			"Programable": "Con QMK & Launcher",
 			"Teclas": "PBT de doble disparo de perfil OSA",
-      "Sytema Operativo": "Window/MacOS/Linux"
+      "Material de Placa": "Acero",
+      "Sytema Operativo": "Window/MacOS/Linux",
 			"Dispositivos compatibles": "Portátil, Tablet, Smartphone"
 		},
 		"assets": [
