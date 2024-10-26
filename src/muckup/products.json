@@ -14,16 +14,15 @@
 			"Retroiluminación blanca con elegantes leyendas de teclas que ayuda a escribir en un entorno de centavos."
 		],
 		"details": {
-			"Color": "Interruptor Rojo",
 			"Marca": "Keychron",
-			"Estilo": "Moderno",
-			"Número de teclas": "84",
-			"Descripción del teclado": "Bluetooth",
+			"Switch": "Gateron Rojo Perfil bajo",
+			"Características especiales": "Retroiluminado blanco",
+			"Tecnología de conectividad": "USB-C y Bluetooth",
+			"Cuerpo": "Aluminio",
+			"Layout": "75% (84 teclas)",
+			"Teclas": "Ultrafinas",
 			"Dispositivos compatibles": "Portátil, Tablet, Smartphone",
-			"Características especiales": "Retroiluminado",
-			"Tecnología de conectividad": "Bluetooth",
-			"Usos Recomendados Para Producto": "Uso Diario",
-			"Color de retroiluminación del teclado": "Un Solo Color"
+			"Soporta": "Windows, Mac y Linux"
 		},
 		"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
 		"stock": 2,

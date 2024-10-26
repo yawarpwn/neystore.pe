@@ -58,12 +58,14 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 			</div>
 
 			<!-- Tags -->
-			<div class="overflow-x-auto w-full">
-				<div class="flex items-center gap-2">
+			<div class="w-full">
+				<div class="flex flex-wrap items-center gap-1">
 					{
 						tags.length > 0 &&
 							tags.map((tag) => (
-								<div class="flex-shrink-0 bg-black text-white px-2 py-1 rounded-xl">{tag}</div>
+								<small class="flex-shrink-0 bg-black text-white px-2 py-0.5 rounded-md">
+									{tag}
+								</small>
 							))
 					}
 				</div>
@@ -133,14 +135,14 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 			<article class="grid grid-cols-2 gap-4">
 				<a
 					href="/politicas-de-devolucion "
-					class="flex gap-2 items-center bg-foreground/5 p-4 rounded-md cursor-pointer hover:[&_span]:text-indigo-500">
+					class="flex gap-2 items-center bg-foreground/5 p-4 rounded-md cursor-pointer hover:text-indigo-500 leading-tight">
 					<Icon size={30} name="tabler:shield-check-filled" />
 					<span class="underline">Políticas de Devolución</span>
 				</a>
 
 				<a
 					href="/preguntas-frecuentes"
-					class="flex gap-2 items-center bg-foreground/5 p-4 rounded-md hover:[&_span]:text-indigo-500 cursor-pointer">
+					class="flex gap-2 items-center bg-foreground/5 p-4 rounded-md hover:text-indigo-500 cursor-pointer leading-tight">
 					<Icon size={30} name="tabler:help-hexagon-filled" />
 					<span class="underline">Preguntas Frecuentes</span>
 				</a>

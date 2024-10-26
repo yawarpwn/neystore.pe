@@ -3,7 +3,7 @@ import productsJson from '@/muckup/products.json'
 import type { Product } from '@/types'
 import { transformAsset } from '../cloudinary'
 
-export async function getProducts(category: string): Promise<Product[]> {
+export async function getProducts(category?: string): Promise<Product[]> {
 	const productsMapped = productsJson.map((product) => {
 		return {
 			id: product.id,

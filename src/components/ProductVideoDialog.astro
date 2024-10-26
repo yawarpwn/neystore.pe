@@ -19,12 +19,12 @@ const { video } = Astro.props
 		<Icon name="tabler:player-play-filled" class="text-white" size={24} />
 	</span>
 </li>
-<dialog id="video-dialog">
-	<div class="relative rounded-md overflow-hidden">
+<dialog id="video-dialog" class="bg-transparent">
+	<div class="relative rounded-md overflow-hidden mx-2">
 		<video data-src={video.url} class="" id="player" data-title={video.title} playsinline controls>
 			<source src={video.url} type="video/mp4" />
 		</video>
-		<source src="/path/to/video.webm" type="video/webm" />
+		<!-- <source src="/path/to/video.webm" type="video/webm" /> -->
 		<button
 			id="share-video-button"
 			class="absolute top-3 right-9 size-7 bg-foreground flex items-center justify-center rounded-full">
