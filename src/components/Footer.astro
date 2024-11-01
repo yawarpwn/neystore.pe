@@ -52,13 +52,33 @@ import { Icon } from 'astro-icon/components'
 		</article>
 		<aricle class="">
 			<div class="container flex flex-col items-center justify-center mb-8">
-				<p class="text-center mt-4 text-sm">
-					&nbsp;{site.name}<small>©{currentYear}</small>
+				<p class="text-center mt-4 text-base">
+					&nbsp;{site.name}©{currentYear}
 				</p>
-				<p class="text-sm text-center">
-					<br class="sm:hidden" /> Hecho con mucho <span class="text-red">❤️</span>
+				<p class="text-sm text-center flex items-center">
+					Hecho con mucho <span class="inline">
+						<Icon name="heart" size={24} />
+					</span>
 				</p>
 			</div>
 		</aricle>
 	</Container>
 </footer>
+<style>
+	[data-icon='heart'] {
+		animation: pulse 800ms ease infinite;
+		margin-left: 4px;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			transform: scale(1);
+			text-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+		}
+		50% {
+			transform: scale(1.2);
+			text-shadow: 0 0 15px rgba(255, 61, 61, 0.7);
+		}
+	}
+</style>
