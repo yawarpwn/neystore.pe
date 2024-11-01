@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components'
-import Container from '@/components/Container.astro'
+import { Image, getImage } from 'astro:assets'
 const features = [
 	{
 		icon: 'tabler:sparkles',
@@ -28,7 +28,7 @@ const features = [
 from-10% from-[#5901dd]  via-30% to-90% to-[#C850C0]  text-background`}>
 	<div class="pattern"></div>
 	<div class="max-w-screen-xl mx-auto">
-		<div class="grid items-end md:grid-cols-4 md:place-items-center h-[calc(100svh-4rem)] mt-16">
+		<div class="grid items-end md:grid-cols-4 md:place-items-center mt-16">
 			<div class="md:col-span-2 max-w-max relative z-20">
 				<h1
 					class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
@@ -38,47 +38,33 @@ from-10% from-[#5901dd]  via-30% to-90% to-[#C850C0]  text-background`}>
 					didácticos
 					<!-- <span class="text-primary">la Tecnologia</span> -->
 				</h1>
-				<ul class="relative pl-6 lg:pl-10 mt-16">
-					{
-						features.map((feature) => (
-							<li>
-								<div class="flex items-center gap-4 mb-6">
-									<Icon name={feature.icon} class="text-[#ffcc70] size-8" />
-									<p class="text-sm md:text-xl text-pretty">{feature.description}</p>
-								</div>
-							</li>
-						))
-					}
-				</ul>
+				<div class="px-10 xl:px-0">
+					<ul class="relative pl-6 lg:pl-10 mt-16">
+						{
+							features.map((feature) => (
+								<li>
+									<div class="flex items-center gap-4 mb-6">
+										<Icon name={feature.icon} class="text-[#ffcc70] size-8" />
+										<p class="text-sm md:text-xl text-pretty">{feature.description}</p>
+									</div>
+								</li>
+							))
+						}
+					</ul>
+				</div>
 			</div>
 			<div class="md:col-span-2 z-20 relative">
-				<figure class="main-image max-h-[500px]">
-					<img
-						src="/assets/images/mockup.avif"
-						alt="maqueta de la aplicación"
-						class="object-contain h-full w-full shadow-2xl"
-						width="2657"
-						height="2340"
-						loading="lazy"
-						decoding="async"
-						class="absolute inset-0 w-full h-full object-contain"
-					/>
-				</figure>
-
-				<figure
-					style="mix-blend-mode: overlay;"
-					class="absolute -top-10 -left-10 scale-105 blur-2xl opacity-50 saturate-200 -z-10 max-h-[500px]">
-					<img
-						src="/assets/images/mockup.avif"
-						alt="maqueta de la aplicación"
-						class="object-contain h-full w-full shadow-2xl"
-						width="2657"
-						height="2340"
-						loading="lazy"
-						decoding="async"
-						class="absolute inset-0 w-full h-full object-contain"
-					/>
-				</figure>
+				<Image
+					class="main-image max-h-[500px]"
+					src={'/assets/images/mockup.avif'}
+					alt="maqueta de la aplicación"
+					class="object-contain h-full w-full shadow-2xl"
+					width={500}
+					height={500}
+					loading="eager"
+					decoding="async"
+					class="inset-0 w-full h-full object-contain"
+				/>
 			</div>
 		</div>
 	</div>

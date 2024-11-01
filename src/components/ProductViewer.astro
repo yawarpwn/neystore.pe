@@ -3,6 +3,7 @@ import ProductShareButton from '@/components/ProductShareButton.astro'
 import type { Product } from '@/types'
 
 import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
+
 interface Props {
 	assets: Product['assets']
 	id: string
@@ -45,13 +46,6 @@ const video = assets.find((asset) => asset.type === 'video')
 	{/* Thumbs */}
 	<div class="embla-thumbs">
 		<div class="embla-thumbs__viewport">
-			<!-- <ProductVideoDialog -->
-			<!-- 	video={{ -->
-			<!-- 		url: assets[2].url, -->
-			<!-- 		title: title, -->
-			<!-- 		cover: assets[2].mediumUrl, -->
-			<!-- 	}} -->
-			<!-- /> -->
 			<div class="embla-thumbs__container">
 				{
 					assets.map((asset, index) => {
@@ -80,6 +74,7 @@ const video = assets.find((asset) => asset.type === 'video')
 				<ProductVideoDialog
 					video={{
 						url: video.url,
+						title: title,
 					}}
 				/>
 			</div>

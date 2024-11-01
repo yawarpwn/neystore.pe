@@ -58,11 +58,15 @@ const pages = [
 					))
 				}
 			</nav>
-			<div class="hidden lg:flex justify-center items-center">
+			<div class="hidden lg:flex justify-center items-center gap-4">
 				{
 					socialLinks.map(([name, link]) => (
-						<a class="hover:text-primary" href={link} rel="noopener noreferrer" target="_blank">
-							<Icon name={`tabler:brand-${name}`} size={25} />
+						<a
+							class="hover:scale-125 transition-transform duration-200"
+							href={link}
+							rel="noopener noreferrer"
+							target="_blank">
+							<Icon name={name} size={25} />
 						</a>
 					))
 				}
@@ -97,15 +101,15 @@ lg:hidden
 						</a>
 					</div>
 					<div class="flex justify-center">
-						<div class="flex items-center mt-4">
+						<div class="flex items-center gap-2 mt-4">
 							{
 								socialLinks.map(([name, link]) => (
 									<a
-										class="hover:text-primary"
+										class="hover:scale-125 transition-transform duration-200"
 										href={link}
 										rel="noopener noreferrer"
 										target="_blank">
-										<Icon name={`tabler:brand-${name}`} size={25} />
+										<Icon name={name} size={30} />
 									</a>
 								))
 							}

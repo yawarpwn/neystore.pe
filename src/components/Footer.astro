@@ -36,12 +36,12 @@ import { Icon } from 'astro-icon/components'
 				</div>
 				<div>
 					<h4 class="text-base font-bold mb-2">Redes Sociales</h4>
-					<div class="flex items-center gap-4">
+					<div class="flex items-center gap-2">
 						{
 							Object.entries(site.socialLinks).map(([key, value]) => {
 								return (
-									<a href={value} class="inline">
-										<Icon name={`tabler:brand-${key}`} size={25} />
+									<a href={value} class="hover:scale-125 transition-transform duration-200">
+										<Icon name={key} size={25} />
 									</a>
 								)
 							})

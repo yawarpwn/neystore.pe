@@ -4,7 +4,6 @@ export interface Props {
 	video: {
 		url: string
 		title: string
-		cover: string
 	}
 }
 
@@ -17,14 +16,6 @@ const { video } = Astro.props
 	<Icon name="tabler:player-play-filled" class="" size={24} />
 	<span>Ver video del producto</span>
 </button>
-<!-- <div -->
-<!-- 	id="show-dialog-btn" -->
-<!-- 	class="size-[64px] border-2 border-transparent ml-4 rounded-md overflow-hidden relative flex-shrink-0 flex items-center justify-center cursor-pointer"> -->
-<!-- 	<img class="absolute inset-0 w-full h-full object-cover" src={video.cover} /> -->
-<!-- 	<span class="bg-black absolute rounded-full p-2 z-10"> -->
-<!-- 		<Icon name="tabler:player-play-filled" class="text-white" size={24} /> -->
-<!-- 	</span> -->
-<!-- </div> -->
 <dialog id="video-dialog" class="bg-transparent">
 	<div class="relative rounded-md overflow-hidden mx-2">
 		<video data-src={video.url} class="" id="player" data-title={video.title} playsinline controls>

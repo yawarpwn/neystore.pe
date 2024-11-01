@@ -30,9 +30,9 @@ const team = [
 	<article
 		data-state="closed"
 		id="container"
-		class="fixed z-40 right-2.5 bottom-2.5 flex items-center justify-center">
+		class="fixed z-40 right-2 bottom-2 flex items-center justify-center">
 		<div
-			class={`window fixed bottom-14 right-2 p-4 shadow-sm rounded-md 
+			class={`window fixed bottom-16 border-2 right-2 p-4 shadow-sm rounded-md 
 bg-gradient-to-r from-primary to-secondary text-white
 transition-transform translate-x-full invisible`}>
 			<p class="mb-2 text-center">
@@ -72,10 +72,8 @@ transition-transform translate-x-full invisible`}>
 		<button
 			id="whatsapp-button"
 			aria-label="contacto via whatsapp boton"
-			class={`btn w-10 h-10 flex items-center justify-center rounded-full text-white
-bg-gradient-to-r from-[#00eaa1] to-[#00eb6e]
-transition-transform`}>
-			<Icon name="tabler:brand-whatsapp" size={30} />
+			class={'hover:scale-110 bg-background transition-transform duration-200 border-2 rounded-full p-2'}>
+			<Icon name="whatsapp" size={30} />
 			<Icon name="tabler:x" size={30} />
 		</button>
 	</article>
@@ -97,7 +95,6 @@ transition-transform`}>
 			const container = this.querySelector('#container')!
 			container.setAttribute('data-state', expanded ? 'open' : 'closed')
 		}
-
 		toggleExpanded() {
 			this.setExpanded(this.getAttribute('aria-expanded') !== 'true')
 			this.open = !this.open
@@ -112,7 +109,7 @@ transition-transform`}>
 		visibility: visible;
 	}
 
-	[data-state='open'] [data-icon='tabler:brand-whatsapp'] {
+	[data-state='open'] [data-icon='whatsapp'] {
 		display: none;
 	}
 
