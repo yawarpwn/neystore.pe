@@ -37,7 +37,6 @@ export default defineConfig({
 	],
 
 	experimental: {
-		serverIslands: true,
 		env: {
 			schema: {
 				CLOUDINARY_API_SECRET: envField.string({
