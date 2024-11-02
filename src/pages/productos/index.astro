@@ -7,5 +7,7 @@ import ProductSkeleton from '@/components/ProductsSkeleton.astro'
 
 <Layout showSearchbar title="Nuestros Productos">
 	<h1 class="sr-only text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>
-	<Products />
+	<Products server:defer>
+		<ProductSkeleton slot="fallback" />
+	</Products>
 </Layout>
