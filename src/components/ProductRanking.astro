@@ -17,15 +17,9 @@ const { size = 'md', ranking, id } = Astro.props
 	{
 		Array.from({ length: TOTAL_STARS }, (_, index) => {
 			return index < ranking ? (
-				<Icon
-					name="tabler:star-filled"
-					class={cn('text-zinc-400', size === 'lg' ? 'w-6 h-6' : 'w-4 h-4')}
-				/>
+				<Icon name="filled-star" class={cn(size === 'lg' ? 'w-6 h-6' : 'w-4 h-4')} />
 			) : (
-				<Icon
-					name="tabler:star"
-					class={cn('text-zinc-400', size === 'lg' ? 'w-6 h-6' : 'w-4 h-4')}
-				/>
+				<Icon name="star" class={cn(size === 'lg' ? 'w-6 h-6' : 'w-4 h-4')} />
 			)
 		})
 	}

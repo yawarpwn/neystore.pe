@@ -7,7 +7,7 @@ import Layout from '@/layouts/Layout.astro'
 import { Icon } from 'astro-icon/components'
 import { cn } from '@/lib/utils'
 import { type Product } from '@/types'
-import Button, { buttonVariants } from '@/components/ui/Button.astro'
+import Button from '@/components/ui/Button.astro'
 import { site } from '@/config/site'
 // import products from '@/muckup/products.json'
 import { getProducts } from '@/lib/data'
@@ -88,14 +88,14 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 
 			<!-- Whatsapp Button -->
 			<div>
-				<a
+				<Button
 					href={`https://wa.me/51${site.phone}?text=Hola,%20estoy%20interesado%20en%20el%20producto%20${title}, este es su enlace ${productUrl}`}
 					rel="noopener noreferrer"
-					target="_blank"
-					class={cn(buttonVariants({ size: 'lg' }), `w-full `)}>
+					class="w-[98%] bg-green/20 hover:bg-green/30"
+					target="_blank">
 					<span>Pedidos y Cotizaciones</span>
-					<Icon class="ml-2" name="tabler:brand-whatsapp" size={24} />
-				</a>
+					<Icon class="ml-2" name="whatsapp" size={24} />
+				</Button>
 			</div>
 
 			<!-- Details -->

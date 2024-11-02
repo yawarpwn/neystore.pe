@@ -56,6 +56,10 @@
 		}
 	}
 
+	.border-shadow {
+		@apply border-2 shadow-[0_3px_0_0_currentColor];
+	}
+
 	.text-truncate {
 		overflow: hidden;
 		text-overflow: ellipsis;

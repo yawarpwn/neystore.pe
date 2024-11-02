@@ -1,5 +1,6 @@
 ---
 import Container from '@/components/Container.astro'
+import Button from '@/components/ui/Button.astro'
 
 export interface Props {
 	categories: {
@@ -17,16 +18,15 @@ const { categories, url } = Astro.props
 			{
 				categories.map((category) => {
 					const href = `/productos?category=${category.title}`
-					const active = url.toString().endsWith(href)
+					const active = url.toString().endsWith(href) ? 'true' : 'false'
+					console.log({ active, url: url.toString(), href })
 					return (
-						<a
+						<Button
 							href={href}
-							class:list={[
-								'bg-background text-foreground flex-shrink-0 w-[max-content]  flex-nowrap border rounded-lg px-2 py-1',
-								{ 'bg-foreground text-white': active },
-							]}>
+							data-active={active}
+							class:list={[' flex-shrink-0 w-[max-content] flex-nowrap px-2 py-1']}>
 							{category.title}
-						</a>
+						</Button>
 					)
 				})
 			}

@@ -35,7 +35,8 @@ const products = await getProducts(category)
 	<div class="grid gap-4 lg:grid-cols-[200px_1fr]">
 		<aside class="filter-side hidden lg:block">
 			<div class="filter w-[200px] h-[800px]">
-				<div class="flex items-center justify-between border-b py-1.5">
+				<div
+					class="flex items-center justify-between border-2 shadow-[0_3px_0_0_currentcolor] py-1.5 rounded-md px-2">
 					<h2 class="font-bold uppercase">Categorias</h2>
 					<Icon name="tabler:chevron-down" />
 				</div>
@@ -47,7 +48,7 @@ const products = await getProducts(category)
 								const href = `/productos?category=${c.title}`
 								const active = url.toString().endsWith(href)
 								return (
-									<li class="py-1.5">
+									<li class="py-1.5 px-2">
 										<a
 											class:list={['cursor-pointer hover:font-bold', { 'font-bold': active }]}
 											href={href}>

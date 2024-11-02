@@ -21,12 +21,12 @@
 			"Switches": "GPerfil baj Gateron Mecánico Rojo ",
 			"Retroiluminado": "Retroiluminado Led blanco",
 			"Tecnología de conectividad": "USB-C o Bluetooth",
-      "Dimensión": "12.05 x 4.56 inch",
-      "Bluetooth Version": "5.1",
+			"Dimensión": "12.05 x 4.56 inch",
+			"Bluetooth Version": "5.1",
 			"Cuerpo": "Aluminio",
 			"Layout": "75%",
-      "Teclas": "Ultrafinas",
-      "Numero de teclas": "84",
+			"Teclas": "Ultrafinas",
+			"Numero de teclas": "84",
 			"Sistema Operativo": "Windows/Mac/Linux"
 		},
 		"assets": [
@@ -1328,7 +1328,7 @@
 		"price": 45,
 		"title": "Lenovoauriculares inalámbricos LP40 Pro TWS, cascos deportivos con Bluetooth 5,1, reducción de ruido, Control táctil, 250mAH, originales",
 		"cost": 30,
-		"ranking": 3,
+		"ranking": 2,
 		"category": "Tecnologia",
 		"features": null,
 		"details": {
@@ -1458,7 +1458,7 @@
 		"price": 180,
 		"title": "12 marionetas para niños, marionetas de mano de animales de peluche con boca abierta y movible, juguete para niños pequeños, escuela, aula, preescolar, regalo de cumpleaños (estilo clásico)",
 		"cost": 20,
-		"ranking": 4,
+		"ranking": 3,
 		"category": "Juguetes",
 		"features": [
 			"Recibirás 12 marionetas de mano con boca móvil en forma de león, orangután, hipopótamo, rinoceronte, conejo, pato, mono, shar pei, tigre, husky, vaca, cocodrilo.",
@@ -1929,7 +1929,7 @@
 		"price": 50,
 		"title": "Xiaomi memoria USB portátil 128GB, unidad Flash de transferencia de alta velocidad, interfaz tipo C 3,2 ",
 		"cost": 24,
-		"ranking": 5,
+		"ranking": 0,
 		"category": "Tecnologia",
 		"features": null,
 		"details": {
@@ -2082,7 +2082,7 @@
 		"price": 45,
 		"title": "Lenovo auriculares TWS Air Pro6, inalámbricos por Bluetooth, con micrófono, 9D, estéreo Pro 6, para Xiaomi, Samsung",
 		"cost": 18,
-		"ranking": 4,
+		"ranking": 2,
 		"category": "Tecnologia",
 		"features": null,
 		"details": {
@@ -2454,7 +2454,7 @@
 		"price": 120,
 		"title": "Figuras de acción de Super Mario Bros Kart para niños, juego de 8 piezas, figuras de acción de coches de carreras, modelo de dibujos animados, adornos, decoración del hogar, regalo",
 		"cost": 67,
-		"ranking": 4,
+		"ranking": 1,
 		"category": "Juguetes",
 		"features": null,
 		"details": {
@@ -2736,7 +2736,7 @@
 		"price": 300,
 		"title": "RK Royal Kludge R75 Teclado mecánico con cable, 80 teclas, RGB, retroiluminado, intercambiable en caliente, español, MDA, PBT",
 		"cost": 205,
-		"ranking": 5,
+		"ranking": 3,
 		"category": "Tecnologia",
 		"features": [
 			"Teclado mecánico compacto y personalizado al 75%",
@@ -2877,7 +2877,7 @@
 		"price": 150,
 		"title": "Hello 3 MiniReloj inteligente para mujer, dispositivo Original y oficial, Serie 9, 41mm, 1G de ROM, NFC, brújula, Bluetooth, ll",
 		"cost": 82,
-		"ranking": 4,
+		"ranking": 2,
 		"category": "Tecnologia",
 		"features": null,
 		"details": {
@@ -3475,15 +3475,15 @@
 		],
 		"details": {
 			"Modelo": "Keychron K2 Pro",
-      "Switches": "Keychron K Pro Rojo",
+			"Switches": "Keychron K Pro Rojo",
 			"Retroiluminación": "RGB",
-      "Layout": "75%",
+			"Layout": "75%",
 			"Número de teclas": 84,
 			"Conectividad": "Bluetooth o USB Type-C",
 			"Programable": "Con QMK & Launcher",
 			"Teclas": "PBT de doble disparo de perfil OSA",
-      "Material de Placa": "Acero",
-      "Sytema Operativo": "Window/MacOS/Linux",
+			"Material de Placa": "Acero",
+			"Sytema Operativo": "Window/MacOS/Linux",
 			"Dispositivos compatibles": "Portátil, Tablet, Smartphone"
 		},
 		"assets": [

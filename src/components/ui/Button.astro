@@ -1,40 +1,53 @@
 ---
 import type { HTMLAttributes } from 'astro/types'
-import { cva, cx, type VariantProps } from 'class-variance-authority'
-import { cn } from '@/lib/utils'
+// import { cva, cx, type VariantProps } from 'class-variance-authority'
+// import { cn } from '@/lib/utils'
 
-export const buttonVariants = cva(
-	`
-  inline-flex justify-center items-center whitespace-nowrap rounded-md
-  text-sm font-medium transition-colors 
-`,
-	{
-		variants: {
-			variant: {
-				default: 'gradient-accent text-white',
-				secondary: 'bg-secondary text-secondary-foreground',
-				link: 'text-primary underline-offset-8 hover:underline decoration-secondary decoration-wavy',
-				outline: 'border-gradient text-secondary',
-			},
-			size: {
-				default: 'h-9 px-4 py-2',
-				sm: 'h-8 rounded-md px-3 text-xs',
-				lg: 'h-10 rounded-md px-8',
-				icon: 'w-9 h-9 w-full',
-			},
-		},
-		defaultVariants: {
-			variant: 'default',
-			size: 'sm',
-		},
-	}
-)
+// export const buttonVariants = cva('btn button-shadow', {
+// 	variants: {
+// 		variant: {
+// 			default: 'border-2 bg-background',
+// 			secondary: '',
+// 		},
+// 		size: {
+// 			default: 'h-10 px-6 py-4',
+// 			sm: 'h-8 rounded-md px-3 text-xs',
+// 			lg: 'h-10 rounded-md px-8',
+// 			icon: 'w-9 h-9 w-full',
+// 		},
+// 	},
+// 	defaultVariants: {
+// 		variant: 'default',
+// 		size: 'sm',
+// 	},
+// })
 
-export interface Props extends HTMLAttributes<'button'>, VariantProps<typeof buttonVariants> {}
+// export interface Props extends HTMLAttributes<'button'>, VariantProps<typeof buttonVariants> {}
+export interface Props extends HTMLAttributes<'button'> {
+	href?: HTMLAttributes<'a'>['href']
+	target?: HTMLAttributes<'a'>['target']
+	rel?: HTMLAttributes<'a'>['rel']
+	size?: 'md' | 'lg' | 'sm' | 'icon'
+}
 
-const { variant, size } = Astro.props
+const { href, size = 'md' } = Astro.props
+const Component = href ? 'a' : 'button'
 ---
 
-<button class={cn(buttonVariants({ variant, size }), Astro.props.class)} {...Astro.props}>
+<Component
+	class:list={[
+		`inline-flex justify-center items-center whitespace-nowrap rounded-md text-sm font-medium border-shadow 
+bg-background text-foreground
+transition-all duration-100 hover:bg-gray-200 
+hover:translate-y-[3px] hover:translate-x-[2px]
+data-[active="true"]:bg-gray-200
+    `,
+		{
+			['px-4 py-2']: size === 'md',
+			['w-8 h-8']: size === 'icon',
+		},
+		Astro.props.class,
+	]}
+	{...Astro.props}>
 	<slot />
-</button>
+</Component>

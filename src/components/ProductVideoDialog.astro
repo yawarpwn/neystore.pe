@@ -1,5 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components'
+import Button from '@/components/ui/Button.astro'
 export interface Props {
 	video: {
 		url: string
@@ -10,12 +11,10 @@ export interface Props {
 const { video } = Astro.props
 ---
 
-<button
-	id="show-dialog-btn"
-	class="flex items-center gap-2 bg-neutral-100 rounded-md px-4 py-2 hover:text-indigo-500">
+<Button id="show-dialog-btn">
 	<Icon name="tabler:player-play-filled" class="" size={24} />
 	<span>Ver video del producto</span>
-</button>
+</Button>
 <dialog id="video-dialog" class="bg-transparent">
 	<div class="relative rounded-md overflow-hidden mx-2">
 		<video data-src={video.url} class="" id="player" data-title={video.title} playsinline controls>
