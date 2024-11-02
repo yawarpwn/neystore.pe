@@ -1,4 +1,4 @@
-import { defineConfig, envField } from 'astro/config'
+import { defineConfig } from 'astro/config'
 import tailwind from '@astrojs/tailwind'
 import icon from 'astro-icon'
 import sitemap from '@astrojs/sitemap'
@@ -36,16 +36,16 @@ export default defineConfig({
 		}),
 	],
 
-	experimental: {
-		// env: {
-		// 	schema: {
-		// 		CLOUDINARY_API_SECRET: envField.string({
-		// 			context: 'server',
-		// 			access: 'secret',
-		// 		}),
-		// 	},
-		// },
-	},
+	// experimental: {
+	// env: {
+	// 	schema: {
+	// 		CLOUDINARY_API_SECRET: envField.string({
+	// 			context: 'server',
+	// 			access: 'secret',
+	// 		}),
+	// 	},
+	// },
+	// },
 
 	adapter: vercel(),
 	// adapter: nodejs({ mode: 'standalone' }),
