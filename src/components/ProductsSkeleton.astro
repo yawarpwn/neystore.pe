@@ -1,0 +1,55 @@
+---
+import { Icon } from 'astro-icon/components'
+const products = Array.from({ length: 20 }, (_, index) => index)
+const categories = Array.from({ length: 6 }, (_, index) => index)
+import Skeleton from '@/components/Skeleton.astro'
+---
+
+<div class="">
+	<!-- categories Skeleton -->
+	<div class="lg:hidden">
+		<div class="overflow-x-auto py-4">
+			<div style="scrollbar-width: none" class="flex items-center gap-2">
+				{
+					categories.map((category) => {
+						return <Skeleton width={94} height={38} class="shrink-0" />
+					})
+				}
+			</div>
+		</div>
+	</div>
+	<div class="grid gap-4 lg:grid-cols-[200px_1fr]">
+		<aside class="filter-side hidden lg:block">
+			<div class="filter w-[200px] h-[800px]">
+				<div class="flex items-center justify-between border-b py-1.5">
+					<h2 class="font-bold uppercase">Categorias</h2>
+					<Icon name="tabler:chevron-down" />
+				</div>
+				<div class="flex flex-col gap-2 mt-4">
+					{
+						categories.map((c) => {
+							return <Skeleton height={30} />
+						})
+					}
+				</div>
+			</div>
+		</aside>
+		<!-- Maiin Section -->
+		<section class="mt-4">
+			<div class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
+				{
+					products.map((product) => (
+						<div>
+							<Skeleton height={185} />
+							<div class="flex flex-col gap-2 mt-2">
+								<Skeleton height={58} />
+								<Skeleton height={20} />
+								<Skeleton height={30} />
+							</div>
+						</div>
+					))
+				}
+			</div>
+		</section>
+	</div>
+</div>

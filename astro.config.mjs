@@ -37,6 +37,7 @@ export default defineConfig({
 	],
 
 	experimental: {
+		serverIslands: true,
 		env: {
 			schema: {
 				CLOUDINARY_API_SECRET: envField.string({
@@ -48,4 +49,5 @@ export default defineConfig({
 	},
 
 	adapter: vercel(),
+	// adapter: nodejs({ mode: 'standalone' }),
 })

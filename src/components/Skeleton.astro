@@ -1,0 +1,25 @@
+---
+import { cn } from '@/lib/utils'
+interface Props {
+	width?: number
+	height: number
+	class?: string
+}
+
+const { width, height } = Astro.props
+---
+
+<div class={cn(`skeleton bg-gray-200  rounded-md`, Astro.props.class)}></div>
+<style define:vars={{ skeletonWidth: width + 'px', skeletonHeight: height + 'px' }}>
+	.skeleton {
+		animation: pulse 2s ease infinite;
+		width: var(--skeletonWidth, 100%);
+		height: var(--skeletonHeight);
+	}
+
+	@keyframes pulse {
+		50% {
+			opacity: 0.5;
+		}
+	}
+</style>

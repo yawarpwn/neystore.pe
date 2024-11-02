@@ -1,99 +1,13 @@
 ---
 export const prerender = false
 import Layout from '@/layouts/Layout.astro'
-import ProductCard from '@/components/ProductCard.astro'
-import { getProducts } from '@/lib/data'
-import ProductCategories from '@/components/ProductCategories.astro'
-import { Icon } from 'astro-icon/components'
-
-const categories = [
-	{
-		title: 'Teclados',
-	},
-	{
-		title: 'Tecnologia',
-	},
-	{
-		title: 'Montessori',
-	},
-	{
-		title: 'Sensorial',
-	},
-	{
-		title: 'Psicomotricidad',
-	},
-	{
-		title: 'Lenguaje',
-	},
-]
-
-const url = new URL(Astro.request.url)
-const category = url.searchParams.get('category') || ''
-const products = await getProducts(category)
+import Products from '@/components/Products.astro'
+import ProductSkeleton from '@/components/ProductsSkeleton.astro'
 ---
 
 <Layout showSearchbar title="Nuestros Productos">
-	<ProductCategories {categories} {url} />
-	<div class="">
-		<h1 class="sr-only text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>
-		<div class="grid gap-4 lg:grid-cols-[200px_1fr]">
-			<aside class="filter-side hidden lg:block">
-				<div class="filter w-[200px] h-[800px]">
-					<div class="flex items-center justify-between border-b py-1.5">
-						<h2 class="font-bold uppercase">Categorias</h2>
-						<Icon name="tabler:chevron-down" />
-					</div>
-					<ul>
-						{
-							categories.map((c) => {
-								const href = `/productos?category=${c.title}`
-								const active = url.toString().endsWith(href)
-								return (
-									<li class="py-1.5">
-										<a
-											class:list={['cursor-pointer hover:font-bold', { 'font-bold': active }]}
-											href={href}>
-											{c.title}
-										</a>
-									</li>
-								)
-							})
-						}
-					</ul>
-				</div>
-			</aside>
-			<!-- Maiin Section -->
-			<section class="mt-4">
-				<ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
-					{
-						products
-							.sort((a, b) => b.category.localeCompare(a.category))
-							.map((product) => (
-								<li>
-									<ProductCard
-										stock={product.stock}
-										id={product.id}
-										title={product.title}
-										price={product.price}
-										imgUrl={product.assets[0].smallUrl}
-										ranking={product.ranking}
-										slug={product.slug}
-										offert={product.offert}
-									/>
-								</li>
-							))
-					}
-				</ul>
-			</section>
-		</div>
-	</div>
+	<h1 class="sr-only text-xl md:text-2xl font-extrabold mb-4">Nuestra Lista de Productos</h1>
+	<Products server:defer>
+		<ProductSkeleton slot="fallback" />
+	</Products>
 </Layout>
-<style>
-	.filter-side {
-	}
-
-	.filter {
-		position: sticky;
-		top: calc(var(--navbar-height));
-	}
-</style>
