@@ -41,19 +41,21 @@ const products = await getProducts(category)
 				</div>
 				<ul>
 					{
-						categories.map((c) => {
-							const href = `/productos?category=${c.title}`
-							const active = url.toString().endsWith(href)
-							return (
-								<li class="py-1.5">
-									<a
-										class:list={['cursor-pointer hover:font-bold', { 'font-bold': active }]}
-										href={href}>
-										{c.title}
-									</a>
-								</li>
-							)
-						})
+						categories &&
+							categories.length > 0 &&
+							categories.map((c) => {
+								const href = `/productos?category=${c.title}`
+								const active = url.toString().endsWith(href)
+								return (
+									<li class="py-1.5">
+										<a
+											class:list={['cursor-pointer hover:font-bold', { 'font-bold': active }]}
+											href={href}>
+											{c.title}
+										</a>
+									</li>
+								)
+							})
 					}
 				</ul>
 			</div>
@@ -62,22 +64,24 @@ const products = await getProducts(category)
 		<section class="mt-4">
 			<ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
 				{
-					products
-						.sort((a, b) => b.category.localeCompare(a.category))
-						.map((product) => (
-							<li>
-								<ProductCard
-									stock={product.stock}
-									id={product.id}
-									title={product.title}
-									price={product.price}
-									imgUrl={product.assets[0].smallUrl}
-									ranking={product.ranking}
-									slug={product.slug}
-									offert={product.offert}
-								/>
-							</li>
-						))
+					products &&
+						products.length > 0 &&
+						products
+							.sort((a, b) => b.category.localeCompare(a.category))
+							.map((product) => (
+								<li>
+									<ProductCard
+										stock={product.stock}
+										id={product.id}
+										title={product.title}
+										price={product.price}
+										imgUrl={product.assets[0].smallUrl}
+										ranking={product.ranking}
+										slug={product.slug}
+										offert={product.offert}
+									/>
+								</li>
+							))
 				}
 			</ul>
 		</section>
