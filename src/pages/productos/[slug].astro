@@ -82,7 +82,10 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 
 			<!-- Price & Ranking -->
 			<div class="flex flex-col gap-4">
-				<ProductRanking {id} size="lg" ranking={product.ranking} />
+				<div class="flex gap-2 items-center">
+					<ProductRanking {id} size="lg" ranking={product.ranking} />
+					<span class="ml-1 hidden md:block">Valoración ({product.ranking}/5)</span>
+				</div>
 				<ProductPrice offert={product.offert} {id} size="lg" price={product.price} />
 			</div>
 

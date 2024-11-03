@@ -13,7 +13,7 @@ interface Props {
 const { size = 'md', ranking, id } = Astro.props
 ---
 
-<div class="flex gap-1 py-1" transition:name={`product-ranking-${id}`}>
+<div class="inline-flex gap-1 py-1" transition:name={`product-ranking-${id}`}>
 	{
 		Array.from({ length: TOTAL_STARS }, (_, index) => {
 			return index < ranking ? (
