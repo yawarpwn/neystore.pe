@@ -1,15 +1,15 @@
 ---
+import type { HTMLAttributes } from 'astro/types'
 import { cn } from '@/lib/utils'
-interface Props {
+interface Props extends HTMLAttributes<'div'> {
 	width?: number
 	height: number
-	class?: string
 }
 
 const { width, height } = Astro.props
 ---
 
-<div class={cn(`skeleton bg-gray-200  rounded-md`, Astro.props.class)}></div>
+<div class:list={[`skeleton bg-gray-200  rounded-md`, Astro.props.class]}></div>
 <style define:vars={{ skeletonWidth: width + 'px', skeletonHeight: height + 'px' }}>
 	.skeleton {
 		animation: pulse 2s ease infinite;

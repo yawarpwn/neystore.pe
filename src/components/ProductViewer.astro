@@ -1,5 +1,6 @@
 ---
 import ProductShareButton from '@/components/ProductShareButton.astro'
+import Skeleton from '@/components/ui/Skeleton.astro'
 import type { Product } from '@/types'
 
 import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
@@ -28,10 +29,12 @@ const video = assets.find((asset) => asset.type === 'video')
 							if (asset.type === 'video') return
 							return (
 								<div class="embla__slide">
+									<div class="embla__spinner absolute inset-0 bg-gray-200 animate-pulse" />
 									<img
 										transition:name={`product-image-${id}`}
-										class="magnifier-image max-w-full max-h-full w-full h-full object-contain"
-										src={asset.mediumUrl}
+										class="embla__img magnifier-image max-w-full max-h-full w-full h-full object-contain"
+										src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D"
+										data-src={asset.mediumUrl}
 										alt={title}
 									/>
 								</div>
@@ -160,22 +163,34 @@ const video = assets.find((asset) => asset.type === 'video')
 	.embla-thumbs__slide--selected {
 		opacity: 1;
 	}
+
+	.embla__img {
+		opacity: 0;
+		transition: opacity 0.2s ease-in-out;
+	}
+	.embla__slide--has-loaded .embla__img {
+		opacity: 1;
+	}
 </style>
 <script>
-	import EmblaCarousel from 'embla-carousel'
+	import EmblaCarousel, { type EmblaCarouselType, type EmblaOptionsType } from 'embla-carousel'
 
-	const OPTIONS = {}
-	const OPTIONS_THUMBS = {
+	const OPTIONS: EmblaOptionsType = {}
+	const OPTIONS_THUMBS: EmblaOptionsType = {
 		containScroll: 'keepSnaps',
 		dragFree: true,
 	}
 
-	const viewportNodeMainCarousel = document.querySelector('.embla__viewport')
-	const viewportNodeThumbCarousel = document.querySelector('.embla-thumbs__viewport')
+	const viewportNodeMainCarousel = document.querySelector('.embla__viewport') as HTMLElement
+	const viewportNodeThumbCarousel = document.querySelector('.embla-thumbs__viewport') as HTMLElement
 	const emblaApiMain = EmblaCarousel(viewportNodeMainCarousel, OPTIONS)
 	const emblaApiThumb = EmblaCarousel(viewportNodeThumbCarousel, OPTIONS_THUMBS)
+	import { setupLazyloadImage } from './EmblaCarouselLazyLoad.js'
 
-	export const addThumbBtnsClickHandlers = (emblaApiMain, emblaApiThumb) => {
+	export const addThumbBtnsClickHandlers = (
+		emblaApiMain: EmblaCarouselType,
+		emblaApiThumb: EmblaCarouselType
+	) => {
 		const slidesThumbs = emblaApiThumb.slideNodes()
 
 		const scrollToIndex = slidesThumbs.map((_, index) => () => emblaApiMain.scrollTo(index))
@@ -191,7 +206,10 @@ const video = assets.find((asset) => asset.type === 'video')
 		}
 	}
 
-	export const addToggleThumbBtnsActive = (emblaApiMain, emblaApiThumb) => {
+	export const addToggleThumbBtnsActive = (
+		emblaApiMain: EmblaCarouselType,
+		emblaApiThumb: EmblaCarouselType
+	) => {
 		const slidesThumbs = emblaApiThumb.slideNodes()
 
 		const toggleThumbBtnsState = () => {
@@ -214,7 +232,12 @@ const video = assets.find((asset) => asset.type === 'video')
 	const removeThumbBtnsClickHandlers = addThumbBtnsClickHandlers(emblaApiMain, emblaApiThumb)
 	const removeToggleThumbBtnsActive = addToggleThumbBtnsActive(emblaApiMain, emblaApiThumb)
 
+	const loadImageInview = setupLazyloadImage(emblaApiMain)
+
 	emblaApiMain
+		.on('init', loadImageInview)
+		.on('reInit', loadImageInview)
+		.on('slidesInView', loadImageInview)
 		.on('destroy', removeThumbBtnsClickHandlers)
 		.on('destroy', removeToggleThumbBtnsActive)
 
