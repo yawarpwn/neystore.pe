@@ -21,6 +21,7 @@ const video = assets.find((asset) => asset.type === 'video')
 		<div class="absolute top-1 right-1 z-10">
 			<ProductShareButton />
 		</div>
+
 		<div class="embla">
 			<div class="embla__viewport">
 				<div class="embla__container">
@@ -29,7 +30,63 @@ const video = assets.find((asset) => asset.type === 'video')
 							if (asset.type === 'video') return
 							return (
 								<div class="embla__slide">
-									<div class="embla__spinner absolute inset-0 bg-gray-200 animate-pulse" />
+									<div class="embla__spinner absolute inset-0 bg-gray-200  flex items-center justify-center">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="80">
+											<>
+												<circle
+													fill="#888888"
+													stroke="#888888"
+													stroke-width="15"
+													r="15"
+													cx="40"
+													cy="65">
+													<animate
+														attributeName="cy"
+														calcMode="spline"
+														dur="2"
+														values="65;135;65;"
+														keySplines=".5 0 .5 1;.5 0 .5 1"
+														repeatCount="indefinite"
+														begin="-.4"
+													/>
+												</circle>
+												<circle
+													fill="#888888"
+													stroke="#888888"
+													stroke-width="15"
+													r="15"
+													cx="100"
+													cy="65">
+													<animate
+														attributeName="cy"
+														calcMode="spline"
+														dur="2"
+														values="65;135;65;"
+														keySplines=".5 0 .5 1;.5 0 .5 1"
+														repeatCount="indefinite"
+														begin="-.2"
+													/>
+												</circle>
+												<circle
+													fill="#888888"
+													stroke="#888888"
+													stroke-width="15"
+													r="15"
+													cx="160"
+													cy="65">
+													<animate
+														attributeName="cy"
+														calcMode="spline"
+														dur="2"
+														values="65;135;65;"
+														keySplines=".5 0 .5 1;.5 0 .5 1"
+														repeatCount="indefinite"
+														begin="0"
+													/>
+												</circle>
+											</>
+										</svg>
+									</div>
 									<img
 										transition:name={`product-image-${id}`}
 										class="embla__img magnifier-image max-w-full max-h-full w-full h-full object-contain"
