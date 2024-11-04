@@ -19,7 +19,6 @@ const { categories, url } = Astro.props
 				categories.map((category) => {
 					const href = `/productos?category=${category.title}`
 					const active = url.toString().endsWith(href) ? 'true' : 'false'
-					console.log({ active, url: url.toString(), href })
 					return (
 						<Button
 							href={href}

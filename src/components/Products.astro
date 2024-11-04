@@ -25,7 +25,7 @@ const categories = [
 	},
 ]
 
-const url = new URL(Astro.request.url)
+const url = new URL(Astro.request.headers.get('referer')!)
 const category = url.searchParams.get('category') || ''
 const products = await getProducts(category)
 ---
