@@ -1,12 +1,69 @@
 ---
-import Layout from '@/layouts/Layout.astro'
-import ContactPresentation from '@/components/ContactPresentation.astro'
+import Layout from '@/layouts/HeroLayout.astro'
+import { Icon } from 'astro-icon/components'
+import Contactform from '@/components/ContactForm.astro'
 import ContactInfo from '@/components/ContactInfo.astro'
 ---
 
-<Layout title="Contacto">
-	<section class="mb-20 w-full">
-		<ContactPresentation />
-		<ContactInfo />
-	</section>
+<Layout title="Contacta con Nosotros">
+	<div class="grid md:grid md:grid-cols-2 gap-8 md:gap-0">
+		<div
+			class="relative min-h-[calc(100dvh-var(--navbar-height))] grid place-content-center bg-[url(/assets/images/toys-background.jpg)] bg-cover bg-[position:40%] bg-no-repeat h-full">
+			<div class="flex flex-col items-center px-4">
+				<div class="flex flex-col justify-between gap-4">
+					<div class="flex items-center p-4 bg-background border-shadow max-w-xl py-8">
+						<div class="flex flex-col gap-y-12 w-full">
+							<div class="space-y-4 max-sm:text-center sm:space-y-2">
+								<h2 class="text-3xl/normal font-bold sm:text-4xl">
+									<span class="capitalize">¿ Necesitas ayuda ?</span>
+								</h2>
+								<p class="text-sm font-medium first-letter:uppercase max-sm:text-center">
+									Nuestro equipo esta listo para resolver tus dudas
+								</p>
+							</div>
+							<!-- Form -->
+							<Contactform />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="h-full grid place-content-center px-4">
+			<div class="flex flex-col gap-4 max-w-xl">
+				<!-- Conctact Card -->
+				<div class="p-4 border-shadow bg-purple-200 flex flex-col gap-2">
+					<!-- Commennt -->
+					<div class="relative flex items-center gap-4">
+						<Icon name="tabler:quote" size={60} />
+						<p class="leading-snug">
+							Hemos estado desde el principio con uds, y a medida que hemos ido crecido , nos
+							esforzamos por mejorar nuestra atención al cliente.
+						</p>
+					</div>
+
+					<!-- Author -->
+					<div class="flex items-center mx-auto max-w-[250px]">
+						<div class="relative flex items-center gap-2">
+							<!-- Avatar -->
+							<span class="relative flex" style="width: 50px; height: 50px;">
+								<img
+									class="h-full w-full object-cover border-2 rounded-full"
+									width="48"
+									height="48"
+									src="/assets/team/raquel-maldonado.webp"
+								/>
+							</span>
+
+							<!-- Cargo -->
+							<div class="space-y-0.5 xl:space-y-0">
+								<p class="text-sm font-medium">Raquel Maldonado</p>
+								<p class="text-xs">Gerente Comercial</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ContactInfo />
+			</div>
+		</div>
+	</div>
 </Layout>

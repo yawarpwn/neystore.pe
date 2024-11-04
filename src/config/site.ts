@@ -7,7 +7,7 @@ export const site = {
 		'Somos importadores de juegos didácticos, periféricos originales y artículos relacionados. Consulta nuestras promociones y descuentos.',
 	phone: '900224005',
 	email: 'ventas.neystore@gmail.com',
-	address: 'Maquinaria 325 - Reynoso - Lima ',
+	address: 'Av. Maquinaria 325 - Carmen de La Legua - Reynoso ',
 	socialLinks: {
 		tiktok: 'https://www.tiktok.com/@neystoreperu',
 		facebook: 'https://www.facebook.com/people/NeyStore/100068073616022/?mibextid=ZbWKwL',

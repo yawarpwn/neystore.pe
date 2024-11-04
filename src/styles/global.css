@@ -57,7 +57,7 @@
 	}
 
 	.border-shadow {
-		@apply border-2 shadow-[0_3px_0_0_currentColor];
+		@apply border-2 rounded-md shadow-[0_3px_0_0_currentColor];
 	}
 
 	.text-truncate {
