@@ -29,12 +29,12 @@ const video = assets.find((asset) => asset.type === 'video')
 							if (asset.type === 'video') return
 							return (
 								<div class="embla__slide">
-									<div class="embla__spinner absolute inset-0 bg-gray-200  flex items-center justify-center">
+									<div class="embla__spinner absolute inset-0 bg-muted  flex items-center justify-center">
 										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="80">
 											<>
 												<circle
-													fill="#888888"
-													stroke="#888888"
+													fill="oklch(var(--muted-foreground)"
+													stroke="oklch(var(--muted-foreground)"
 													stroke-width="15"
 													r="15"
 													cx="40"
@@ -50,8 +50,8 @@ const video = assets.find((asset) => asset.type === 'video')
 													/>
 												</circle>
 												<circle
-													fill="#888888"
-													stroke="#888888"
+													fill="oklch(var(--muted-foreground)"
+													stroke="oklch(var(--muted-foreground)"
 													stroke-width="15"
 													r="15"
 													cx="100"
@@ -67,8 +67,8 @@ const video = assets.find((asset) => asset.type === 'video')
 													/>
 												</circle>
 												<circle
-													fill="#888888"
-													stroke="#888888"
+													fill="oklch(var(--muted-foreground)"
+													stroke="oklch(var(--muted-foreground)"
 													stroke-width="15"
 													r="15"
 													cx="160"

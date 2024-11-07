@@ -20,10 +20,13 @@ export default {
 		extend: {
 			colors: {
 				accent: 'oklch(var(--accent) / <alpha-value>)',
-				muted: 'oklch(var(--muted) / <alpha-value>)',
 				background: 'oklch(var(--background) / <alpha-value>)',
 				foreground: 'oklch(var(--foreground) / <alpha-value>)',
 				border: 'oklch(var(--border) / <alpha-value>)',
+				muted: {
+					DEFAULT: 'oklch(var(--muted) / <alpha-value>)',
+					foreground: 'oklch(var(--muted-foreground) / <alpha-value>)',
+				},
 				primary: {
 					DEFAULT: 'oklch(var(--primary) / <alpha-value>)',
 					foreground: 'oklch(var(--primary-foreground) / <alpha-value>)',

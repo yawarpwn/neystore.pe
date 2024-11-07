@@ -11,5 +11,6 @@ export const site = {
 	socialLinks: {
 		tiktok: 'https://www.tiktok.com/@neystoreperu',
 		facebook: 'https://www.facebook.com/people/NeyStore/100068073616022/?mibextid=ZbWKwL',
+		instagram: 'https://www.instagram.com/neystore.pe/',
 	},
 }

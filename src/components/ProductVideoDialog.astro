@@ -12,12 +12,19 @@ const { video } = Astro.props
 ---
 
 <Button id="show-dialog-btn">
-	<Icon name="tabler:player-play-filled" class="" size={24} />
+	<Icon name="play" class="" size={24} />
 	<span>Ver video del producto</span>
 </Button>
 <dialog id="video-dialog" class="bg-transparent">
 	<div class="relative rounded-md overflow-hidden mx-2">
-		<video data-src={video.url} class="" id="player" data-title={video.title} playsinline controls>
+		<video
+			data-src={video.url}
+			class=""
+			id="player"
+			data-title={video.title}
+			data-poster="/og-neystore.webp"
+			playsinline
+			controls>
 			<source src={video.url} type="video/mp4" />
 		</video>
 		<!-- <source src="/path/to/video.webm" type="video/webm" /> -->
@@ -64,7 +71,7 @@ const { video } = Astro.props
 	}
 </style>
 <script>
-	// document.addEventListener('astro:page-load', async () => {
+	// document.addEventListener('', async () => {
 	const videoItemEl = document.querySelector('#show-dialog-btn')
 	const dialogEl = document.querySelector('#video-dialog')
 

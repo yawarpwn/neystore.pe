@@ -62,11 +62,17 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 				<div class="flex flex-wrap items-center gap-1">
 					{
 						tags.length > 0 &&
-							tags.map((tag) => (
-								<small class="flex-shrink-0 bg-black text-white px-2 py-0.5 rounded-md">
-									{tag}
-								</small>
-							))
+							tags.map((tag) => {
+								// const getRandomColor = (max: number, min: number) =>
+								// 	Math.floor(Math.random() * (max - min) + min)
+								// const randomColor = getRandomColor(360, 0)
+
+								return (
+									<small class="flex-shrink-0 text-sm bg-muted text-muted-foreground  px-2 py-0.5 rounded-md shadow-sm">
+										{tag}
+									</small>
+								)
+							})
 					}
 				</div>
 			</div>
@@ -101,12 +107,50 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 				</Button>
 			</div>
 
+			<!-- K2 pro -->
+			{
+				product.id === '8e9d851d-9712-4372-8bfd-b1c6daadbf87' && (
+					<video
+						src="https://cdn.shopify.com/videos/c/o/v/baf4999ea66f4bea98ff9afccf08cec4.mp4"
+						autoplay
+						controlslist="nodownload"
+						loop
+						disablepictureinpicture
+						muted
+					/>
+				)
+			}
+			<!-- K3 v2 -->
+			{
+				product.id === '5d652261-2ad5-4ba1-8091-8e43a23bed35' && (
+					<video
+						src="https://cdn.shopify.com/videos/c/o/v/53b7731b1ffe48d4ae964384a981026b.mp4"
+						autoplay
+						controlslist="nodownload"
+						loop
+						disablepictureinpicture
+						muted
+					/>
+				)
+			}
+			<!-- K3 pro -->
+			{
+				product.id === '195df8fa-582c-4cd4-9277-f4b4d41fa953' && (
+					<video
+						src="https://cdn.shopify.com/videos/c/o/v/1badc26cb0bf43f093e23188e846ea5b.mp4"
+						autoplay
+						controlslist="nodownload"
+						loop
+						disablepictureinpicture
+						muted
+					/>
+				)
+			}
 			<!-- Details -->
-
 			{
 				details && (
 					<div>
-						<h2 class="text-2xl font-bold mb-4">Detalles</h2>
+						<h2 class="text-2xl font-bold mb-4">Características</h2>
 						<table class="w-full">
 							<tbody>
 								{Object.entries(details).map(([key, value]) => (
@@ -133,8 +177,8 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 					</div>
 				)
 			}
-			<ProductServices />
 
+			<ProductServices />
 			<article class="grid grid-cols-2 gap-4">
 				<a
 					href="/politicas-de-devolucion "

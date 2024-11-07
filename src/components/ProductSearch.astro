@@ -9,10 +9,10 @@ const results = products.slice(5)
 <div class="min-w-[200px] px-2 flex items-center">
 	<button
 		id="open-search-dialog"
-		class="flex flex-1 items-center gap-2 rounded-md px-2 py-1 bg-gray-200">
-		<span class="text-muted flex-1">Buscar...</span>
+		class="flex flex-1 items-center gap-2 rounded-md px-2 py-1 bg-muted">
+		<span class="text-muted-foreground flex-1">Buscar...</span>
 		<span class="hidden">Producto...</span>
-		<span class="text-muted">
+		<span class="text-muted-foreground">
 			<Icon class="" name="tabler:search" size={22} />
 		</span>
 	</button>
@@ -31,16 +31,17 @@ const results = products.slice(5)
 			<button id="close-dialog-button" aria-label="Cerrar dialogo" class="px-2">
 				<Icon size={22} name="tabler:chevron-left" />
 			</button>
-			<div class="flex flex-1 items-center gap-2 rounded-md p-1 px-2 bg-gray-200">
+			<div
+				class="flex flex-1 items-center gap-2 rounded-md py-1 px-2 bg-muted text-muted-foreground">
 				<input
 					autofocus
-					class="bg-transparent w-full border-none outline-none text-foreground placeholder:text-muted"
+					class="bg-transparent w-full border-none outline-none placeholder:text-muted"
 					id="search-input"
 					type="search"
 					name="search-product"
 					placeholder="Que esta buscando?"
 				/>
-				<Icon class="text-muted" name="tabler:search" size={22} />
+				<Icon class="text-muted-foreground" name="tabler:search" size={22} />
 			</div>
 		</header>
 		<!-- Results -->
@@ -52,7 +53,7 @@ const results = products.slice(5)
 							<li>
 								<a
 									href={`/productos/${prod.slug}`}
-									class="flex gap-2 items-center h-20 hover:bg-neutral-100 p-2 md:p-6 cursor-pointer">
+									class="flex gap-2 items-center h-20 hover:bg-zinc-200 p-2 md:p-6 cursor-pointer">
 									<div class="min-w-[64px] size-16 bg-white rounded-md overflow-hidden">
 										<img class="w-full h-full object-contain" src={prod.assets[0].thumbUrl} />
 									</div>
