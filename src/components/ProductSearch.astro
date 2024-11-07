@@ -6,20 +6,18 @@ const products = await getProducts()
 const results = products.slice(5)
 ---
 
-<div class="sticky top-0 left-0 z-40 bg-background">
-	<Container>
-		<div class="h-[var(--search-height)] max-w-md mx-auto px-2 flex items-center">
-			<button
-				id="open-search-dialog"
-				class="flex flex-1 items-center gap-2 rounded-md px-2 py-1 bg-gray-200">
-				<span class="ml-4 text-muted flex-1">Buscar producto...</span>
-				<span class="text-muted">
-					<Icon class="" name="tabler:search" size={22} />
-				</span>
-			</button>
-		</div>
-	</Container>
+<div class="min-w-[200px] px-2 flex items-center">
+	<button
+		id="open-search-dialog"
+		class="flex flex-1 items-center gap-2 rounded-md px-2 py-1 bg-gray-200">
+		<span class="text-muted flex-1">Buscar...</span>
+		<span class="hidden">Producto...</span>
+		<span class="text-muted">
+			<Icon class="" name="tabler:search" size={22} />
+		</span>
+	</button>
 </div>
+<!-- <div class="bg-background"> --><!-- 	<Container> --><!-- 		<div class="h-[var(--search-height)] max-w-md mx-auto px-2 flex items-center mt-16"> --><!-- 			<button --><!-- 				id="open-search-dialog" --><!-- 				class="flex flex-1 items-center gap-2 rounded-md px-2 py-1 bg-gray-200"> --><!-- 				<span class="ml-4 text-muted flex-1">Buscar producto...</span> --><!-- 				<span class="text-muted"> --><!-- 					<Icon class="" name="tabler:search" size={22} /> --><!-- 				</span> --><!-- 			</button> --><!-- 		</div> --><!-- 	</Container> --><!-- </div> -->
 <dialog
 	data-products={JSON.stringify(products)}
 	id="search-dialog"
@@ -75,7 +73,11 @@ const results = products.slice(5)
 		--searchbox-height: var(--search-height);
 		--search-spacing: 12px;
 		--modal-width: 560px;
-		z-index: 60;
+	}
+
+	dialog::backdrop {
+		background: oklch(100% 0 0 /0.2);
+		backdrop-filter: blur(8px);
 	}
 
 	.searchbox {
@@ -120,7 +122,8 @@ const results = products.slice(5)
 
 	openSearchDialogEl.addEventListener('click', () => {
 		document.body.style.overflowY = 'hidden'
-		searchDialogEl.show()
+		console.log('abre')
+		searchDialogEl.showModal()
 	})
 
 	searchDialogEl.addEventListener('click', (event) => {

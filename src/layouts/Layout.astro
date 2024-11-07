@@ -42,8 +42,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
 	<body>
 		<div class="page">
 			<Header />
-			{showSearchbar && <ProductSearch />}
-			<main class="relative">
+			<main class="relative mt-16">
 				<Container>
 					<slot />
 				</Container>
