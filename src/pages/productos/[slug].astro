@@ -1,19 +1,19 @@
 ---
+import { ProductsModel } from '@/models/products'
 import ProductRanking from '@/components/ProductRanking.astro'
 import ProductViewer from '@/components/ProductViewer.astro'
 import ProductPrice from '@/components/ProductPrice.astro'
 import ProductServices from '@/components/ProductServices.astro'
 import Layout from '@/layouts/Layout.astro'
 import { Icon } from 'astro-icon/components'
-import { cn } from '@/lib/utils'
 import { type Product } from '@/types'
 import Button from '@/components/ui/Button.astro'
 import { site } from '@/config/site'
-// import products from '@/muckup/products.json'
-import { getProducts } from '@/lib/data'
 
 export async function getStaticPaths() {
-	const products = await getProducts()
+	const { data: products, error } = await ProductsModel.getAll()
+
+	if (error) throw error
 
 	return products.map((product) => {
 		return {

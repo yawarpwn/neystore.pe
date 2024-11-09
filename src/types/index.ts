@@ -1,4 +1,4 @@
-// type Id = string
+import { DatabaseError } from '@/errors'
 type Id = `${string}-${string}-${string}-${string}-${string}`
 
 export const PRODUCT_CATEGORY = {
@@ -6,12 +6,28 @@ export const PRODUCT_CATEGORY = {
 	Tecnology: 'Tecnologia',
 } as const
 
+const PRODUCT_TAGS = {
+	Teclados: 'teclado',
+	Keychron: 'keychron',
+	Montessori: 'montessori',
+	Juguetes: 'juguete',
+	Lenguaje: 'lenguaje',
+	Sensorial: 'sensorial',
+	Antiestrés: 'antiestrés',
+	Autismo: 'autismo',
+	Psicomotricidad: 'psicomotricidad',
+} as const
+
 type ProductCategory = (typeof PRODUCT_CATEGORY)[keyof typeof PRODUCT_CATEGORY]
+
+export type ProductTags = (typeof PRODUCT_TAGS)[keyof typeof PRODUCT_TAGS]
 
 export type ProductAsset = {
 	id: Id
-	thumbUrl: string
 	url: string
+	thumbUrl: string
+	smallUrl: string
+	mediumUrl: string
 	width: number
 	height: number
 	publicId: string
@@ -39,4 +55,13 @@ export type InsertProduct = Omit<Product, 'id'>
 
 export type UpdateProduct = Partial<InsertProduct>
 
+type DatabaseResponseSuccess<T> = {
+	data: T
+	error: null
+}
+
+type DatabaseResponseFailure = {
+	data: null
+	error: DatabaseError
+}
 export type DatabaseResponse<T> = DatabaseResponseSuccess<T> | DatabaseResponseFailure
