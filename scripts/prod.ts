@@ -15,12 +15,12 @@ const TAGS = {
 	Psicomotricidad: 'psicomotricidad',
 }
 
-const newProducts = products.map((product) => {
-	return {
-		...product,
-		createdAt: new Date().toISOString(),
-	}
-})
+// const newProducts = products.map((product) => {
+// 	return {
+// 		...product,
+// 		createdAt: new Date().toISOString(),
+// 	}
+// })
 
 // const newProducts = products.map((product) => {
 // 	// let tags: string[] = []

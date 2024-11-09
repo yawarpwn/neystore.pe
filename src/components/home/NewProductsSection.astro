@@ -1,7 +1,9 @@
 ---
 import Container from '@/components/Container.astro'
 import { getProducts } from '@/lib/data'
-const products = await getProducts()
+const { data: products, error } = await ProductsModel.getAll()
+
+if (error) throw error
 
 //TODO: implment recents products
 const lastedProducts = products
@@ -10,6 +12,7 @@ const lastedProducts = products
 	.slice(0, 8)
 
 import ProductCard from '../ProductCard.astro'
+import { ProductsModel } from '@/models/products'
 ---
 
 <section>
