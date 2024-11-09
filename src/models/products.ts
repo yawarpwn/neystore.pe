@@ -1,7 +1,5 @@
-import { db } from '@/db'
-import type { SelectProduct, InsertProduct, UpdateProduct } from '@/types'
-import type { DatabaseResponse } from '@/types'
 import { productsTable } from '@/db/schemas'
+import type { Product, InsertProduct, UpdateProduct, DatabaseResponse } from '@/types'
 
 export class DatabaError extends Error {
 	constructor(message: string) {
@@ -18,52 +16,25 @@ export class DatabaError extends Error {
 }
 
 export class ProductsModel {
-	static async getAll(): Promise<DatabaseResponse<SelectProduct[]>> {
+	static async getAll(): Promise<DatabaseResponse<Product[]>> {
 		try {
-			const products = await db.select().from(productsTable)
-			return {
-				data: products,
-				error: null,
-			}
-		} catch (error) {
-			console.log(error)
-			return {
-				data: null,
-				error: DatabaError.notFound(),
-			}
-		}
+			return []
+		} catch (error) {}
 	}
 
-	static async getById(id: SelectProduct['id']) {
+	static async getById(id: Product['id']): Promise<DatabaseResponse<Product | null>> {
 		try {
 		} catch (error) {}
 	}
 
-	static async create(product: InsertProduct): Promise<DatabaseResponse<string>> {
-		try {
-			const products = await db
-				.insert(productsTable)
-				.values(product)
-				.returning({ id: productsTable.id })
-			return {
-				data: products[0].id,
-				error: null,
-			}
-		} catch (error) {
-			console.log(error)
-			return {
-				data: null,
-				error: DatabaError.internalError(),
-			}
-		}
-	}
+	static async create(product: InsertProduct) {}
 
-	static async update(product: UpdateProduct) {
+	static async update(product: UpdateProduct, id: Product['id']) {
 		try {
 		} catch (error) {}
 	}
 
-	static async delete(id: SelectProduct['id']) {
+	static async delete(id: Product['id']) {
 		try {
 		} catch (error) {}
 	}

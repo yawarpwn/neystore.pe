@@ -11,13 +11,10 @@ type ProductCategory = (typeof PRODUCT_CATEGORY)[keyof typeof PRODUCT_CATEGORY]
 export type ProductAsset = {
 	id: Id
 	thumbUrl: string
-	mediumUrl: string
-	smallUrl: string
 	url: string
 	width: number
 	height: number
 	publicId: string
-	productId: string
 	format: string
 	type: 'image' | 'video'
 }
@@ -37,5 +34,9 @@ export type Product = {
 	assets: ProductAsset[]
 	tags: string[]
 }
+
+export type InsertProduct = Omit<Product, 'id'>
+
+export type UpdateProduct = Partial<InsertProduct>
 
 export type DatabaseResponse<T> = DatabaseResponseSuccess<T> | DatabaseResponseFailure
