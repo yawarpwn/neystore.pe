@@ -4,6 +4,7 @@ import path from 'node:path'
 import { JSONFilePreset } from 'lowdb/node'
 
 export const GET: APIRoute = async ({ request }) => {
+	console.log('Get Request /api/products')
 	type Data = {
 		products: Product[]
 	}
@@ -16,9 +17,12 @@ export const GET: APIRoute = async ({ request }) => {
 	try {
 		const db = await JSONFilePreset<Data>(JSON_PRODUCTS_PATH, defaultData)
 		const { products } = db.data
-		return new Response(JSON.stringify({ products }), { status: 200 })
+		return new Response(JSON.stringify({ products }), {
+			status: 200,
+			headers: { 'Content-Type': 'application/json' },
+		})
 	} catch (error) {
 		console.log(error)
-		return new Response(JSON.stringify({ message: 'Error obteniendo productos' }), { status: 500 })
+		return new Response(null, { status: 500 })
 	}
 }

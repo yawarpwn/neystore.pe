@@ -1,6 +1,4 @@
 import { JSONFilePreset } from 'lowdb/node'
-import path from 'node:path'
-
 import type {
 	Product,
 	InsertProduct,
@@ -18,8 +16,7 @@ const defaultData: Data = {
 	products: [],
 }
 
-const JSON_PRODUCTS_PATH = path.join('src/db/db.json')
-const db = await JSONFilePreset<Data>(JSON_PRODUCTS_PATH, defaultData)
+const JSON_PRODUCTS_PATH = './src/db/db.json'
 
 export class ProductsModel {
 	static async getAll(
@@ -27,11 +24,19 @@ export class ProductsModel {
 	): Promise<DatabaseResponse<Product[]>> {
 		const { category } = filter
 
+		const isDevelopment = import.meta.env.NODE_ENV === 'development'
+		const URL = isDevelopment ? 'http://localhost:4321/api/products' : '/api/products'
+
 		try {
-			await db.read()
+			const data = (await fetch(URL).then((res) => {
+				if (!res.ok) throw new Error('Error obteniendo productos')
+				return res.json()
+			})) as Data
+			const { products } = data
+
 			const filterdProducts = category
-				? db.data.products.filter((p) => p.tags.includes(category))
-				: db.data.products
+				? products.filter((p) => p.tags.includes(category))
+				: products
 
 			return {
 				data: filterdProducts,
@@ -47,6 +52,7 @@ export class ProductsModel {
 
 	static async getById(id: Product['id']): Promise<DatabaseResponse<Product>> {
 		try {
+			const db = await JSONFilePreset<Data>(JSON_PRODUCTS_PATH, defaultData)
 			await db.read()
 			const product = db.data.products.find((p) => p.id === id)
 
@@ -66,6 +72,8 @@ export class ProductsModel {
 
 	static async create(product: InsertProduct): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
+			const db = await JSONFilePreset<Data>(JSON_PRODUCTS_PATH, defaultData)
+			await db.read()
 			const id = crypto.randomUUID()
 			db.data.products.push({
 				...product,
@@ -91,6 +99,7 @@ export class ProductsModel {
 		id: Product['id']
 	): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
+			const db = await JSONFilePreset<Data>(JSON_PRODUCTS_PATH, defaultData)
 			db.update((data) => data.products.map((p) => (p.id === id ? product : p)))
 
 			return {

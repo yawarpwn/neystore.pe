@@ -1,8 +1,8 @@
 ---
 import { Icon } from 'astro-icon/components'
-import { getProducts } from '@/lib/data'
-import Container from './Container.astro'
-const products = await getProducts()
+import { ProductsModel } from '@/models/products'
+const { data: products, error } = await ProductsModel.getAll()
+if (error) throw error
 const results = products.slice(5)
 ---
 

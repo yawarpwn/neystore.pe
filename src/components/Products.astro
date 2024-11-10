@@ -28,7 +28,6 @@ const categories = [
 const url = new URL(Astro.request.headers.get('referer')!)
 const category = url.searchParams.get('category') || ''
 const { data: products, error } = await ProductsModel.getAll({ category })
-console.log('productos ', products)
 if (error) console.log(error)
 ---
 
