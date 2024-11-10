@@ -1,5 +1,4 @@
-import { Low } from 'lowdb'
-import { JSONFileSyncPreset } from 'lowdb/node'
+import { JSONFilePreset } from 'lowdb/node'
 import path from 'node:path'
 
 import type {
@@ -11,8 +10,16 @@ import type {
 } from '@/types/index'
 import { DatabaseError } from '@/errors'
 
+type Data = {
+	products: Product[]
+}
+
+const defaultData: Data = {
+	products: [],
+}
+
 const JSON_PRODUCTS_PATH = path.join('src/db/db.json')
-const db = JSONFileSyncPreset<Product[]>(JSON_PRODUCTS_PATH, [])
+const db = await JSONFilePreset<Data>(JSON_PRODUCTS_PATH, defaultData)
 
 export class ProductsModel {
 	static async getAll(
@@ -22,7 +29,9 @@ export class ProductsModel {
 
 		try {
 			await db.read()
-			const filterdProducts = category ? db.data.filter((p) => p.tags.includes(category)) : db.data
+			const filterdProducts = category
+				? db.data.products.filter((p) => p.tags.includes(category))
+				: db.data.products
 
 			return {
 				data: filterdProducts,
@@ -39,7 +48,7 @@ export class ProductsModel {
 	static async getById(id: Product['id']): Promise<DatabaseResponse<Product>> {
 		try {
 			await db.read()
-			const product = db.data.find((p) => p.id === id)
+			const product = db.data.products.find((p) => p.id === id)
 
 			if (!product) throw new Error('Producto con id: ' + id + 'no encontrado')
 
@@ -58,7 +67,7 @@ export class ProductsModel {
 	static async create(product: InsertProduct): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
 			const id = crypto.randomUUID()
-			db.data.push({
+			db.data.products.push({
 				...product,
 				id,
 				createdAt: new Date().toISOString(),
@@ -82,7 +91,7 @@ export class ProductsModel {
 		id: Product['id']
 	): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
-			db.update((products) => products.map((p) => (p.id === id ? product : p)))
+			db.update((data) => data.products.map((p) => (p.id === id ? product : p)))
 
 			return {
 				data: { id },
