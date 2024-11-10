@@ -1,5 +1,5 @@
 import { Low } from 'lowdb'
-import { JSONFile } from 'lowdb/node'
+import { JSONFileSyncPreset } from 'lowdb/node'
 import path from 'node:path'
 
 import type {
@@ -12,7 +12,7 @@ import type {
 import { DatabaseError } from '@/errors'
 
 const JSON_PRODUCTS_PATH = path.join('src/db/db.json')
-const db = new Low<Product[]>(new JSONFile(JSON_PRODUCTS_PATH), [])
+const db = JSONFileSyncPreset<Product[]>(JSON_PRODUCTS_PATH, [])
 
 export class ProductsModel {
 	static async getAll(
