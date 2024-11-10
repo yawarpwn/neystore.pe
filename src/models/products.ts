@@ -1,3 +1,6 @@
+import process from 'node:process'
+import { Low } from 'lowdb'
+
 import type {
 	Product,
 	InsertProduct,
@@ -6,9 +9,15 @@ import type {
 	ProductTags,
 } from '@/types/index'
 import { DatabaseError } from '@/errors'
-import { Low } from 'lowdb'
 import { JSONFilePreset } from 'lowdb/node'
-const JSON_PRODUCTS_PATH = './src/db/db.json'
+
+const JSON_PRODUCTS_PATH = process.cwd() + '/src/db/db.json'
+
+class Database {
+	constructor() {}
+
+	async connect() {}
+}
 
 export class ProductsModel {
 	static async getAll(
