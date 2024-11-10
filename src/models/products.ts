@@ -1,5 +1,6 @@
 import { Low } from 'lowdb'
 import { JSONFile } from 'lowdb/node'
+import path from 'node:path'
 
 import type {
 	Product,
@@ -10,16 +11,8 @@ import type {
 } from '@/types/index'
 import { DatabaseError } from '@/errors'
 
-const JSON_PRODUCTS_PATH = process.cwd() + '/src/db/db.json'
-
-class Database {
-	public db = new Low<Product[]>(new JSONFile(JSON_PRODUCTS_PATH), [])
-	constructor() {}
-
-	async connect() {
-		this.db.read()
-	}
-}
+const JSON_PRODUCTS_PATH = path.join('src/db/db.json')
+const db = new Low<Product[]>(new JSONFile(JSON_PRODUCTS_PATH), [])
 
 export class ProductsModel {
 	static async getAll(
@@ -28,9 +21,7 @@ export class ProductsModel {
 		const { category } = filter
 
 		try {
-			const db = new Low<Product[]>(new JSONFile('src/db/db.json'), [])
 			await db.read()
-
 			const filterdProducts = category ? db.data.filter((p) => p.tags.includes(category)) : db.data
 
 			return {
@@ -47,7 +38,6 @@ export class ProductsModel {
 
 	static async getById(id: Product['id']): Promise<DatabaseResponse<Product>> {
 		try {
-			const db = new Low<Product[]>(new JSONFile('src/db/db.json'), [])
 			await db.read()
 			const product = db.data.find((p) => p.id === id)
 
@@ -68,8 +58,6 @@ export class ProductsModel {
 	static async create(product: InsertProduct): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
 			const id = crypto.randomUUID()
-			const db = new Low<Product[]>(new JSONFile('src/db/db.json'), [])
-
 			db.data.push({
 				...product,
 				id,
@@ -94,7 +82,6 @@ export class ProductsModel {
 		id: Product['id']
 	): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
-			const db = new Low<Product[]>(new JSONFile('src/db/db.json'), [])
 			db.update((products) => products.map((p) => (p.id === id ? product : p)))
 
 			return {
