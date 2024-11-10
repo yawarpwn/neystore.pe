@@ -1,4 +1,3 @@
-import process from 'node:process'
 import { Low } from 'lowdb'
 import { JSONFile } from 'lowdb/node'
 
@@ -10,14 +9,16 @@ import type {
 	ProductTags,
 } from '@/types/index'
 import { DatabaseError } from '@/errors'
-import { JSONFilePreset } from 'lowdb/node'
 
 const JSON_PRODUCTS_PATH = process.cwd() + '/src/db/db.json'
 
 class Database {
+	public db = new Low<Product[]>(new JSONFile(JSON_PRODUCTS_PATH), [])
 	constructor() {}
 
-	async connect() {}
+	async connect() {
+		this.db.read()
+	}
 }
 
 export class ProductsModel {
