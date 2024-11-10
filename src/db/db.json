@@ -5912,6 +5912,19 @@
 				"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/jwynxetkzv74cwkiotlu?_a=BAMADKRi0",
 				"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/jwynxetkzv74cwkiotlu?_a=BAMADKRi0",
 				"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/jwynxetkzv74cwkiotlu?_a=BAMADKRi0"
+			},
+
+			{
+				"id": "57caaff3-8474-4d37-a3da-763777d0ce3e",
+				"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731201882/neystore/a2po4bxixkpbgg",
+				"publicId": "neystore/a2po4bxixkpbggitjzes",
+				"width": 800,
+				"height": 800,
+				"format": "webp",
+				"type": "image",
+				"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/a2potjzes?_a=BAMADKRi0",
+				"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/a2potjzes?_a=BAMADKRi0",
+				"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/a2pitjzes?_a=BAMADKRi0"
 			}
 		],
 		"id": "4fa05deb-e1b3-47dc-aa7e-6d6e60aaa4b3",
