@@ -1,6 +1,5 @@
 import { type Page } from 'playwright'
 import { chromium } from 'playwright'
-import { type ProductRaw } from '../../types/index.d.ts'
 
 function cleanData(data: string) {
 	let cleanedData = data.split(/\s+/).join(' ').trim()
@@ -79,41 +78,27 @@ export async function extractDetailsFromAmazon(page: Page): Promise<Record<strin
 
 		let details: Record<string, string> = {}
 
-		if (overviewRows && overviewRows.length > 0) {
-			for (const row of overviewRows) {
-				const entry = await row.locator('th').textContent()
-				const value = await row.locator('td').textContent()
-
-				if (entry && value) {
-					details[entry.trim()] = value.trim()
-				}
-			}
-		} else {
-			const detailsRows = await page.locator('#productDetails_detailBullets_sections1 tr').all()
-
-			for (const row of detailsRows) {
-				const entry = await row.locator('th').textContent()
-				const value = await row.locator('td').textContent()
-
-				if (value && value.length > 200) {
-					break
-				}
-
-				if (entry && value) {
-					details[entry.trim()] = value.trim()
-				}
-			}
-
-			return !details ? null : details
+		if (!overviewRows || overviewRows.length === 0) {
+			return null
 		}
 
-		return null
+		for (const row of overviewRows) {
+			const entry = await row.locator('th').textContent()
+			const value = await row.locator('td').textContent()
+
+			if (entry && value) {
+				details[entry.trim()] = value.trim()
+			}
+		}
+
+		return details
 	} catch (error) {
+		console.log(error)
 		return null
 	}
 }
 
-export async function scrapAmazonProduct(url: string): Promise<ProductRaw> {
+export async function scrapAmazonProduct(url: string) {
 	const browser = await chromium.launch({ headless: false })
 	// const context = await browser.newContext()
 	const page = await browser.newPage()

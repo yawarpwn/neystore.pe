@@ -1,22 +1,6 @@
 import { DatabaseError } from '@/errors'
+import { PRODUCT_CATEGORY, PRODUCT_TAGS } from '@/constants'
 type Id = `${string}-${string}-${string}-${string}-${string}`
-
-export const PRODUCT_CATEGORY = {
-	Toys: 'Juguetes',
-	Tecnology: 'Tecnologia',
-} as const
-
-const PRODUCT_TAGS = {
-	Teclados: 'teclado',
-	Keychron: 'keychron',
-	Montessori: 'montessori',
-	Juguetes: 'juguete',
-	Lenguaje: 'lenguaje',
-	Sensorial: 'sensorial',
-	Antiestrés: 'antiestrés',
-	Autismo: 'autismo',
-	Psicomotricidad: 'psicomotricidad',
-} as const
 
 type ProductCategory = (typeof PRODUCT_CATEGORY)[keyof typeof PRODUCT_CATEGORY]
 

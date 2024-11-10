@@ -3,18 +3,6 @@ import products from '../src/db/db.json'
 import { transformAsset } from '../src/lib/cloudinary/index'
 import type { Product } from '../src/types'
 
-const TAGS = {
-	Teclados: 'teclado',
-	Keychron: 'keychron',
-	Montessori: 'montessori',
-	Juguetes: 'juguete',
-	Lenguaje: 'lenguaje',
-	Sensorial: 'sensorial',
-	Antiestrés: 'antiestrés',
-	Autismo: 'autismo',
-	Psicomotricidad: 'psicomotricidad',
-}
-
 // const newProducts = products.map((product) => {
 // 	return {
 // 		...product,

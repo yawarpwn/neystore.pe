@@ -1,4 +1,16 @@
-import { input, select, confirm, Separator } from '@inquirer/prompts'
+import { input, select, confirm, Separator, checkbox } from '@inquirer/prompts'
+import { PRODUCT_TAGS } from '@/constants'
+
+const tags = Object.entries(PRODUCT_TAGS)
+
+export async function askTags(): Promise<string[]> {
+	const answer = await checkbox({
+		message: 'Select a package manager',
+		choices: tags.map(([key, value]) => ({ name: key, value })),
+	})
+
+	return answer
+}
 
 function isValidAmazonUrl(url: string) {
 	// Expresión regular para verificar si la URL pertenece a Amazon
@@ -53,7 +65,7 @@ export async function getCanUpload() {
 	return canUploadImage
 }
 
-export async function getPrice() {
+export async function askPrice() {
 	const price = await input({
 		message: 'Price',
 		validate: (price) => !isNaN(Number(price)),
@@ -61,7 +73,7 @@ export async function getPrice() {
 	return price
 }
 
-export async function getCost() {
+export async function askCost() {
 	const cost = await input({
 		message: 'Cost',
 		validate: (price) => !isNaN(Number(price)),
@@ -69,7 +81,7 @@ export async function getCost() {
 	return cost
 }
 
-export async function getRank() {
+export async function azkRank() {
 	const ranking = await input({
 		message: 'Ranking 1 - 5',
 		validate: (rank) => {
@@ -85,7 +97,7 @@ export async function getRank() {
 	return ranking
 }
 
-export async function getCategory() {
+export async function askCategory() {
 	const category = await select({
 		message: 'Choise a category',
 		choices: [
