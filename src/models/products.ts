@@ -1,5 +1,6 @@
 import process from 'node:process'
 import { Low } from 'lowdb'
+import { JSONFile } from 'lowdb/node'
 
 import type {
 	Product,
@@ -26,7 +27,7 @@ export class ProductsModel {
 		const { category } = filter
 
 		try {
-			const db = await JSONFilePreset<Product[]>(JSON_PRODUCTS_PATH, [])
+			const db = new Low<Product[]>(new JSONFile('src/db/db.json'), [])
 			await db.read()
 
 			const filterdProducts = category ? db.data.filter((p) => p.tags.includes(category)) : db.data
@@ -45,7 +46,7 @@ export class ProductsModel {
 
 	static async getById(id: Product['id']): Promise<DatabaseResponse<Product>> {
 		try {
-			const db = await JSONFilePreset<Product[]>(JSON_PRODUCTS_PATH, [])
+			const db = new Low<Product[]>(new JSONFile('src/db/db.json'), [])
 			await db.read()
 			const product = db.data.find((p) => p.id === id)
 
@@ -66,7 +67,7 @@ export class ProductsModel {
 	static async create(product: InsertProduct): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
 			const id = crypto.randomUUID()
-			const db = await JSONFilePreset<Product[]>(JSON_PRODUCTS_PATH, [])
+			const db = new Low<Product[]>(new JSONFile('src/db/db.json'), [])
 
 			db.data.push({
 				...product,
@@ -92,7 +93,7 @@ export class ProductsModel {
 		id: Product['id']
 	): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
-			const db = await JSONFilePreset<Product[]>(JSON_PRODUCTS_PATH, [])
+			const db = new Low<Product[]>(new JSONFile('src/db/db.json'), [])
 			db.update((products) => products.map((p) => (p.id === id ? product : p)))
 
 			return {
