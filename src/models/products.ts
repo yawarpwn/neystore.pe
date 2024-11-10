@@ -24,8 +24,11 @@ export class ProductsModel {
 	): Promise<DatabaseResponse<Product[]>> {
 		const { category } = filter
 
-		const isDevelopment = import.meta.env.NODE_ENV === 'development'
-		const URL = isDevelopment ? 'http://localhost:4321/api/products' : '/api/products'
+		const isDevelopment = process.env.NODE_ENV === 'development'
+		console.log(isDevelopment)
+		const URL = isDevelopment
+			? 'http://localhost:4321/api/products'
+			: 'https://neystore.pe/api/products'
 
 		try {
 			const data = (await fetch(URL).then((res) => {
