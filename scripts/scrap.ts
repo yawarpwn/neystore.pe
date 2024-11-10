@@ -66,7 +66,7 @@ async function main() {
 					height: data.height,
 					publicId: data.public_id,
 					type: 'image',
-				}  g
+				}
 			}
 		}
 
@@ -100,28 +100,28 @@ async function main() {
 			details: productScrapped.details,
 			price: Number(price),
 			cost: Number(cost),
-			category: category as Product['category'],
+			category: category,
 			stock: 1,
-			tags, 
+			tags,
 			ranking: Number(ranking),
 			slug: slugify(productScrapped.title),
-			assets: images.map(img => {
-        return {
-          ...img,
-						thumbUrl: transformAsset(img.publicId, {
-							height: 100,
-							crop: 'thumb',
-						}),
-						smallUrl: transformAsset(img.publicId, {
-							height: 200,
-							crop: 'scale',
-						}),
-						mediumUrl: transformAsset(img.publicId, {
-							height: 500,
-							crop: 'scale',
-						}),
-        }
-      }),
+			assets: images.map((img) => {
+				return {
+					...img,
+					thumbUrl: transformAsset(img.publicId, {
+						height: 100,
+						crop: 'thumb',
+					}),
+					smallUrl: transformAsset(img.publicId, {
+						height: 200,
+						crop: 'scale',
+					}),
+					mediumUrl: transformAsset(img.publicId, {
+						height: 500,
+						crop: 'scale',
+					}),
+				}
+			}),
 		}
 
 		//Ordenar el video como item 3
@@ -129,10 +129,10 @@ async function main() {
 			product.assets.push(video)
 		}
 
-    console.log(product)
+		const { data, error } = await ProductsModel.create(product)
 
-		// const { data, error } = await ProductsModel.create(product)
-		// if (error) throw error
+		if (error) throw error
+
 		console.log('Create a new Product Successfully')
 	} catch (error) {
 		console.log('error, ', error)

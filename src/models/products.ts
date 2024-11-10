@@ -62,6 +62,7 @@ export class ProductsModel {
 			db.data.push({
 				...product,
 				id,
+				createdAt: new Date().toISOString(),
 			})
 
 			await db.write()
@@ -77,9 +78,24 @@ export class ProductsModel {
 		}
 	}
 
-	static async update(product: UpdateProduct, id: Product['id']) {
+	static async update(
+		product: UpdateProduct,
+		id: Product['id']
+	): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
-		} catch (error) {}
+			const db = await JSONFilePreset<Product[]>(JSON_PRODUCTS_PATH, [])
+			db.update((products) => products.map((p) => (p.id === id ? product : p)))
+
+			return {
+				data: { id },
+				error: null,
+			}
+		} catch (error) {
+			return {
+				data: null,
+				error: DatabaseError.internalError('Error actualizando producto con id: ' + id),
+			}
+		}
 	}
 
 	static async delete(id: Product['id']) {

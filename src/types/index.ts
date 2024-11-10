@@ -33,9 +33,10 @@ export type Product = {
 	slug: string
 	assets: ProductAsset[]
 	tags: string[]
+	createdAt: string
 }
 
-export type InsertProduct = Omit<Product, 'id'>
+export type InsertProduct = Omit<Product, 'id' | 'createdAt'>
 
 export type UpdateProduct = Partial<InsertProduct>
 
