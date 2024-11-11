@@ -1,6 +1,7 @@
 import { DatabaseError } from '@/errors'
 import { PRODUCT_CATEGORY, PRODUCT_TAGS } from '@/constants'
-type Id = `${string}-${string}-${string}-${string}-${string}`
+// type Id = `${string}-${string}-${string}-${string}-${string}`
+type Id = string
 
 type ProductCategory = (typeof PRODUCT_CATEGORY)[keyof typeof PRODUCT_CATEGORY]
 
@@ -22,13 +23,13 @@ export type ProductAsset = {
 export type Product = {
 	id: Id
 	title: string
-	features: string[] | null
-	details: Record<string, string> | null
+	features: string[] | null | undefined
+	details: Record<string, string> | null | undefined
 	price: number
 	cost: number
 	ranking: number
 	category: ProductCategory
-	offert?: number
+	offert?: number | null
 	stock: number
 	slug: string
 	assets: ProductAsset[]
