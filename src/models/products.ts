@@ -1,4 +1,5 @@
-import { JSONFilePreset } from 'lowdb/node'
+import { JSONFilePreset, JSONFile } from 'lowdb/node'
+import { Low } from 'lowdb'
 import type {
 	Product,
 	InsertProduct,
@@ -18,23 +19,37 @@ const defaultData: Data = {
 
 const JSON_PRODUCTS_PATH = './src/db/db.json'
 
+class Database {
+	public db: Low<Data>
+
+	constructor() {
+		// Inicializa `db` con un archivo JSON pero sin cargar los datos aún
+		const adapter = new JSONFile<Data>(JSON_PRODUCTS_PATH)
+		this.db = new Low(adapter, defaultData)
+	}
+
+	async connect() {
+		// Carga los datos del archivo JSON o establece los datos predeterminados
+		await this.db.read()
+	}
+}
+
 export class ProductsModel {
 	static async getAll(
 		filter: { category?: ProductTags } | undefined = {}
 	): Promise<DatabaseResponse<Product[]>> {
 		const { category } = filter
 
-		const isDevelopment = process.env.NODE_ENV === 'development'
-		const URL = isDevelopment
-			? 'http://localhost:4321/api/products'
-			: 'https://neystore.pe/api/products'
+		// const isDevelopment = process.env.NODE_ENV === 'development'
+		// const URL = isDevelopment
+		// 	? 'http://localhost:4321/api/products'
+		// 	: 'https://neystore.pe/api/products'
 
 		try {
-			const data = (await fetch(URL).then((res) => {
-				if (!res.ok) throw new Error('Error obteniendo productos')
-				return res.json()
-			})) as Data
-			const { products } = data
+			const database = new Database()
+			await database.connect()
+			const { products } = database.db.data
+			// const { products } = data
 
 			const filterdProducts = category
 				? products.filter((p) => p.tags.includes(category))
