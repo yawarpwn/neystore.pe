@@ -25,7 +25,6 @@ export class ProductsModel {
 		const { category } = filter
 
 		const isDevelopment = process.env.NODE_ENV === 'development'
-		console.log(isDevelopment)
 		const URL = isDevelopment
 			? 'http://localhost:4321/api/products'
 			: 'https://neystore.pe/api/products'
