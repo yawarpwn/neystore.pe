@@ -15,16 +15,17 @@ export class Database {
 	constructor() {}
 
 	async write() {
-		fs.writeFile(JSON.stringify(this.data), FILE_PATH)
+		fs.writeFile(FILE_PATH, JSON.stringify(this.data, null, 2))
 	}
 
-	async finOne() {
-		this.read()
-	}
-
-	async read() {
-		const data = JSON.parse(await fs.readFile(FILE_PATH, 'utf-8'))
+	async update(cb: (data: Data) => Data): Promise<void> {
+		const data = cb(this.data)
 		this.data = data
-		return this.data
+		await this.write()
+	}
+
+	async read(): Promise<void> {
+		const data = JSON.parse(await fs.readFile(FILE_PATH, 'utf-8'))
+		if (data) this.data = data
 	}
 }

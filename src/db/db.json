@@ -8,7 +8,7 @@
 			"cost": 323,
 			"ranking": 4.7,
 			"category": "Tecnologia",
-			"stock": 2,
+			"stock": 0,
 			"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
 			"features": [
 				"Diseño del 75%: Permite a los usuarios acceder a todas las teclas multimedia y de función esenciales, pero con un espacio más pequeño.",
@@ -19,16 +19,16 @@
 			],
 			"details": {
 				"Modelo": "Keychron K3",
-				"Switches": "GPerfil baj Gateron Mecánico Rojo ",
-				"Retroiluminado": "Retroiluminado Led blanco",
-				"Tecnología de conectividad": "USB-C o Bluetooth",
+				"Interruptores": "Mecánico Gateron Perfil bajo Rojo",
+				"Distribución": "75% USA-ANSI ",
+				"Retroiluminado": "Led blanco",
+				"Tecnología de conectividad": "USB-C & Bluetooth",
 				"Dimensión": "12.05 x 4.56 inch",
-				"Bluetooth Version": "5.1",
 				"Cuerpo": "Aluminio",
-				"Layout": "75%",
-				"Teclas": "Ultrafinas",
+				"Layout": "75% ANSI",
+				"Teclas": "ABS Ultrafinas",
 				"Numero de teclas": "84",
-				"Sistema Operativo": "Windows/Mac/Linux"
+				"Sistema Operativo": "MacOS/Windows/Linux"
 			},
 			"assets": [
 				{
@@ -974,7 +974,7 @@
 			],
 			"details": {
 				"Marca": "Keychron",
-				"Estilo": "Interruptor marrón",
+				"Interruptor": "marrón",
 				"Material": "Acrilonitrilo butadieno estireno",
 				"Número de teclas": "61",
 				"Tipo de interruptor": "Táctil",
@@ -3456,8 +3456,10 @@
 			"details": {
 				"Marca": "RK ROYAL KLUDGE",
 				"Dispositivos Compatibles": "PC, Portátil, Consola de videojuegos",
+				"Distribución": "75% SPANISH-ANSI",
+				"Teclas": "PBT",
+				"Perfil de Teclas": "MDA",
 				"Tecnologia de Conectividad": "USB-C",
-				"Descripcion del Teclado": "Mecánico",
 				"Usos Recomendados": "Personal, Videojuegos",
 				"Caracteristicas Especiales": "Rueda para el volumen, Retroiluminado, Sonido cremoso, Teclas programables, Intercambiable en caliente",
 				"Color": "Verde",
@@ -3465,7 +3467,7 @@
 				"Color de Retroiluminacion": "RGB"
 			},
 			"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
-			"offert": 290,
+			"offert": 280,
 			"stock": 1,
 			"tags": ["Teclados", "Mecánico", "Custom", "Tecnologia"],
 			"assets": [
@@ -4362,14 +4364,13 @@
 				"Teclas PBT de doble disparo de perfil OSA: el K2 Pro viene con nuestro perfil OSA único (perfil OEM con ángulo esférico) que tiene como objetivo proporcionar una sensación más cómoda en la punta de los dedos con una excelente resistencia al aceite para un uso a largo plazo. Encantadora retroiluminación RGB con elegantes leyendas de teclas ayuda a escribir en un entorno de diez centavos, también puede elegir otro modo de retroiluminación de color estático."
 			],
 			"details": {
-				"Modelo": "Keychron K2 Pro",
 				"Switches": "Keychron K Pro Rojo",
 				"Retroiluminación": "RGB",
-				"Layout": "75%",
+				"Distribución": "75% USA-ANSI",
 				"Número de teclas": 84,
-				"Conectividad": "Bluetooth o USB Type-C",
+				"Conectividad": "Bluetooth & USB-C",
 				"Programable": "Con QMK & Launcher",
-				"Teclas": "PBT de doble disparo de perfil OSA",
+				"Perfil de Teclas": "PBT de doble disparo - OSA",
 				"Material de Placa": "Acero",
 				"Sytema Operativo": "Window/MacOS/Linux",
 				"Dispositivos compatibles": "Portátil, Tablet, Smartphone"
@@ -4490,12 +4491,14 @@
 			],
 			"details": {
 				"Marca": "Keychron",
-				"Modelo": "K3 Pro",
 				"Tipo": "Mecánico",
-				"Distribución": "ANSI",
+				"Distribución": "75% USA-ANSI",
 				"Conectividad": "Bluetooth 5.1, USB-C",
-				"Interruptores": "Gateron Rojo",
+				"Systemas compatibles": "MacOS/Windows/Linux",
+				"Interruptores": "Gateron perfil bajo Rojo",
+				"Total de teclas": "84",
 				"Teclas": "PBT de doble disparo",
+				"Perfil de Teclas": "ANSI",
 				"Retroiluminación": "RGB personalizable",
 				"Software": "QMK/VIA",
 				"Dimensiones": "340 x 100 x 40 mm",
@@ -5822,7 +5825,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/aw20fih3aobpx4f20j2p?_a=BAMADKJu0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/aw20fih3aobpx4f20j2p?_a=BAMADKJu0"
 				},
-
 				{
 					"id": "34e02e6b-4e5d-4bb1-81cc-4ec2ee5b0b05",
 					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1731290066/neystore/a12xhfif0axgwueqxeal.mp4",
@@ -5937,6 +5939,145 @@
 			],
 			"id": "4fa05deb-e1b3-47dc-aa7e-6d6e60aaa4b3",
 			"createdAt": "2024-11-10T00:44:43.964Z"
+		},
+		{
+			"title": "EPOMAKER TH80 75% Teclado Mecánico, NKRO intercambiable en caliente RGB 2.4Ghz/Bluetooth 5.0/teclado para juegos con cable con espuma de porón/EVA, batería de 4000 mAh",
+			"features": [
+				"Edición especial del teclado mecánico EPOMAKER TH80 SE, con un atractivo diseño en colores púrpura y negro, y un software actualizado que mejora la experiencia del usuario.",
+				"Tres modos de conectividad: Bluetooth 5.0, 2.4 GHz y USB-C, con una batería de 4000 mAh que permite un uso prolongado y eficiente en entornos inalámbricos y por cable.",
+				"Interruptores mecánicos personalizados Gateron Pro, prelubricados de fábrica para una experiencia de escritura suave, además de ser intercambiables en caliente para mayor personalización.",
+				"Diseño compacto del 75% que optimiza el espacio en el escritorio, ideal tanto para juegos como para trabajo, manteniendo la comodidad y la funcionalidad.",
+				"Perilla giratoria de metal programable que permite un control adicional sobre las configuraciones del teclado, mejorando la experiencia general del usuario.",
+				"Teclas PBT en perfil cereza con técnica de doble disparo, garantizando durabilidad y resistencia al desgaste, proporcionando una experiencia de escritura cómoda."
+			],
+			"details": {
+				"Marca": "EPOMAKER",
+				"Distribución": "75% ANSI QWERTY USA",
+				"Perfil de Teclas": "PBT Cherry",
+				"conectividad": "USB-C & Bluetooth 5.0",
+				"Características especiales": "Perilla giratoria programable",
+				"Color": "Negro púrpura",
+				"Número de teclas": 80,
+				"Retroiluminación": "RGB orientado al norte"
+			},
+			"price": 320,
+			"cost": 208,
+			"category": "Tecnologia",
+			"stock": 0,
+			"tags": ["teclado"],
+			"ranking": 4,
+			"slug": "epomaker-th80-75-teclado-mecanico-nkro-intercambiable-en-caliente",
+			"assets": [
+				{
+					"id": "524220c6-09d9-4ae7-bd21-bc19a6834e7c",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731385867/neystore/yinba4mktosnvfnputwx.webp",
+					"format": "webp",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/yinba4mktosnvfnputwx",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/yinba4mktosnvfnputwx?_a=BAMADKcc0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/yinba4mktosnvfnputwx?_a=BAMADKcc0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/yinba4mktosnvfnputwx?_a=BAMADKcc0"
+				},
+				{
+					"id": "dadde531-0529-4af2-a3df-65b5cd3a7d74",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731385868/neystore/mwew10rwumo6gft6hbii.webp",
+					"format": "webp",
+					"width": 1600,
+					"height": 1600,
+					"publicId": "neystore/mwew10rwumo6gft6hbii",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mwew10rwumo6gft6hbii?_a=BAMADKcc0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mwew10rwumo6gft6hbii?_a=BAMADKcc0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mwew10rwumo6gft6hbii?_a=BAMADKcc0"
+				},
+				{
+					"id": "44be161f-d649-4104-8336-fcc7be1995c8",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731385867/neystore/xpuxbpktrgpqfkkv91lr.webp",
+					"format": "webp",
+					"width": 1600,
+					"height": 1600,
+					"publicId": "neystore/xpuxbpktrgpqfkkv91lr",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/xpuxbpktrgpqfkkv91lr?_a=BAMADKcc0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/xpuxbpktrgpqfkkv91lr?_a=BAMADKcc0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/xpuxbpktrgpqfkkv91lr?_a=BAMADKcc0"
+				},
+				{
+					"id": "979813fc-d506-48af-b581-83467c3ec91d",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731385867/neystore/gnibteuwsq6xsfxn9an5.webp",
+					"format": "webp",
+					"width": 1600,
+					"height": 1600,
+					"publicId": "neystore/gnibteuwsq6xsfxn9an5",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/gnibteuwsq6xsfxn9an5?_a=BAMADKcc0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/gnibteuwsq6xsfxn9an5?_a=BAMADKcc0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/gnibteuwsq6xsfxn9an5?_a=BAMADKcc0"
+				},
+				{
+					"id": "35fc1627-b16b-4fad-b2c1-9dd29a90390f",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731385867/neystore/bwiue61yxdsp4hiy4dkj.webp",
+					"format": "webp",
+					"width": 1600,
+					"height": 1600,
+					"publicId": "neystore/bwiue61yxdsp4hiy4dkj",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bwiue61yxdsp4hiy4dkj?_a=BAMADKcc0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bwiue61yxdsp4hiy4dkj?_a=BAMADKcc0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/bwiue61yxdsp4hiy4dkj?_a=BAMADKcc0"
+				},
+				{
+					"id": "84a0e9dc-d02e-4672-8d50-66336f29a53f",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731385867/neystore/xyfh6xqhx2w3qabtzots.webp",
+					"format": "webp",
+					"width": 1600,
+					"height": 1600,
+					"publicId": "neystore/xyfh6xqhx2w3qabtzots",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/xyfh6xqhx2w3qabtzots?_a=BAMADKcc0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/xyfh6xqhx2w3qabtzots?_a=BAMADKcc0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/xyfh6xqhx2w3qabtzots?_a=BAMADKcc0"
+				},
+				{
+					"id": "2721854e-4ed4-40fd-b20c-1f91e51b3449",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731385867/neystore/vudtaeyx4wva0y6hvgjx.webp",
+					"format": "webp",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/vudtaeyx4wva0y6hvgjx",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vudtaeyx4wva0y6hvgjx?_a=BAMADKcc0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vudtaeyx4wva0y6hvgjx?_a=BAMADKcc0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/vudtaeyx4wva0y6hvgjx?_a=BAMADKcc0"
+				},
+				{
+					"id": "c5e6140a-19b2-4aab-9a0d-0a72dd49fcba",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1731385867/neystore/vjab3dfp9upf8fvr13tf.webp",
+					"format": "webp",
+					"width": 1600,
+					"height": 1600,
+					"publicId": "neystore/vjab3dfp9upf8fvr13tf",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vjab3dfp9upf8fvr13tf?_a=BAMADKcc0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vjab3dfp9upf8fvr13tf?_a=BAMADKcc0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/vjab3dfp9upf8fvr13tf?_a=BAMADKcc0"
+				},
+
+				{
+					"id": "87e2e358-40a2-4e14-bca5-c158969a666d",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1731387267/neystore/yd2riqgxe2kwvxiswqmp.mp4",
+					"publicId": "neystore/yd2riqgxe2kwvxiswqmp",
+					"width": 1280,
+					"height": 720,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"id": "4b6add2d-1668-43f9-b8bc-def37c8fc065",
+			"createdAt": "2024-11-12T04:31:08.998Z"
 		}
 	]
 }
+

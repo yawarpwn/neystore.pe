@@ -1,4 +1,5 @@
-import database from '@/db/db.json'
+import { Database } from '@/db'
+
 import type {
 	Product,
 	InsertProduct,
@@ -8,14 +9,6 @@ import type {
 } from '@/types/index'
 import { DatabaseError } from '@/errors'
 
-type Data = {
-	products: Product[]
-}
-
-const defaultData: Data = {
-	products: [],
-}
-
 export class ProductsModel {
 	static async getAll(
 		filter: { category?: ProductTags } | undefined = {}
@@ -23,8 +16,11 @@ export class ProductsModel {
 		const { category } = filter
 
 		try {
-			const { products } = database
 			// const { products } = data
+			//
+			const db = new Database()
+			await db.read()
+			const { products } = db.data
 
 			const filterdProducts = category
 				? products.filter((p) => p.tags.includes(category))
@@ -44,7 +40,10 @@ export class ProductsModel {
 
 	static async getById(id: Product['id']): Promise<DatabaseResponse<Product>> {
 		try {
-			const { products } = database
+			const db = new Database()
+			await db.read()
+			const { products } = db.data
+
 			const product = products.find((p) => p.id === id)
 
 			if (!product) throw new Error('Producto con id: ' + id + 'no encontrado')
@@ -63,13 +62,16 @@ export class ProductsModel {
 
 	static async create(product: InsertProduct): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
-			const { products } = database
+			const db = new Database()
+			await db.read()
+			const { products } = db.data
 			const id = crypto.randomUUID()
 			products.push({
 				...product,
 				id,
 				createdAt: new Date().toISOString(),
 			})
+			await db.write()
 
 			return {
 				data: { id },
@@ -88,7 +90,9 @@ export class ProductsModel {
 		id: Product['id']
 	): Promise<DatabaseResponse<{ id: Product['id'] }>> {
 		try {
-			database.update((data) => data.products.map((p) => (p.id === id ? product : p)))
+			const db = new Database()
+			await db.read()
+			const { products } = db.data
 
 			return {
 				data: { id },
