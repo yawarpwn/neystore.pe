@@ -1,4 +1,5 @@
 import { Database } from '@/db'
+import databaseJson from '@/db/db.json'
 
 import type {
 	Product,
@@ -18,9 +19,7 @@ export class ProductsModel {
 		try {
 			// const { products } = data
 			//
-			const db = new Database()
-			await db.read()
-			const { products } = db.data
+			const { products } = databaseJson
 
 			const filterdProducts = category
 				? products.filter((p) => p.tags.includes(category))
