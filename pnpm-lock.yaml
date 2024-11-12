@@ -29,9 +29,6 @@ importers:
       astro-icon:
         specifier: ^1.1.2
         version: 1.1.2
-      class-variance-authority:
-        specifier: 0.7.0
-        version: 0.7.0
       cloudinary:
         specifier: 2.2.0
         version: 2.2.0
@@ -44,9 +41,6 @@ importers:
       fuse.js:
         specifier: 7.0.0
         version: 7.0.0
-      lowdb:
-        specifier: ^7.0.1
-        version: 7.0.1
       nodemailer:
         specifier: 6.9.16
         version: 6.9.16
@@ -1386,9 +1380,6 @@ packages:
     resolution: {integrity: sha512-TdHqgGf9odd8SXNuxtUBVx8Nv+qZOejE6qyqiy5NtbYYQOeFa6zmHkxlPzmaLxWWHsU6nJmB7AETdVPi+2NBUg==}
     engines: {node: '>=8'}
 
-  class-variance-authority@0.7.0:
-    resolution: {integrity: sha512-jFI8IQw4hczaL4ALINxqLEXQbWcNjoSkloa4IaufXCJr6QawJyw7tuRysRsrE8w2p/4gGaxKIt/hX3qz/IbD1A==}
-
   cli-boxes@3.0.0:
     resolution: {integrity: sha512-/lzGpEWL/8PfI0BmBOPRwp0c/wFNX1RdUML3jK/RcSBA9T8mZDdQpqYBKtCFTOfQbwPqWEOpjqW+Fnayc0969g==}
     engines: {node: '>=10'}
@@ -1412,10 +1403,6 @@ packages:
   cloudinary@2.2.0:
     resolution: {integrity: sha512-akbLTZcNegGSkl07Frnt9fyiK9KZ2zPS+a+j7uLrjNYxVhDpDdIBz9G6snPCYqgk+WLVMRPfXTObalLr5L6g0Q==}
     engines: {node: '>=9'}
-
-  clsx@2.0.0:
-    resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
-    engines: {node: '>=6'}
 
   clsx@2.1.1:
     resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
@@ -2354,10 +2341,6 @@ packages:
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
-  lowdb@7.0.1:
-    resolution: {integrity: sha512-neJAj8GwF0e8EpycYIDFqEPcx9Qz4GUho20jWFR7YiFeXzF1YMLdxB36PypcTSPMA+4+LvgyMacYhlr18Zlymw==}
-    engines: {node: '>=18'}
-
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
@@ -3140,10 +3123,6 @@ packages:
 
   stdin-discarder@0.2.2:
     resolution: {integrity: sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ==}
-    engines: {node: '>=18'}
-
-  steno@4.0.2:
-    resolution: {integrity: sha512-yhPIQXjrlt1xv7dyPQg2P17URmXbuM5pdGkpiMB3RenprfiBlvK415Lctfe0eshk90oA7/tNq7WEiMK8RSP39A==}
     engines: {node: '>=18'}
 
   stream-replace-string@2.0.0:
@@ -5136,10 +5115,6 @@ snapshots:
 
   ci-info@4.0.0: {}
 
-  class-variance-authority@0.7.0:
-    dependencies:
-      clsx: 2.0.0
-
   cli-boxes@3.0.0: {}
 
   cli-cursor@5.0.0:
@@ -5160,8 +5135,6 @@ snapshots:
     dependencies:
       lodash: 4.17.21
       q: 1.5.1
-
-  clsx@2.0.0: {}
 
   clsx@2.1.1: {}
 
@@ -6256,10 +6229,6 @@ snapshots:
 
   longest-streak@3.1.0: {}
 
-  lowdb@7.0.1:
-    dependencies:
-      steno: 4.0.2
-
   lru-cache@10.4.3: {}
 
   lru-cache@5.1.1:
@@ -7283,8 +7252,6 @@ snapshots:
   sprintf-js@1.0.3: {}
 
   stdin-discarder@0.2.2: {}
-
-  steno@4.0.2: {}
 
   stream-replace-string@2.0.0: {}
 
