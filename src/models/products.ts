@@ -22,7 +22,9 @@ export class ProductsModel {
 			const { products } = databaseJson
 
 			const filterdProducts = category
-				? products.filter((p) => p.tags.includes(category))
+				? products.filter((p) =>
+						p.tags.map((t) => t.toLowerCase()).includes(category.toLowerCase())
+					)
 				: products
 
 			return {
