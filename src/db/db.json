@@ -143,7 +143,7 @@
 		},
 		{
 			"id": "d25e49d3-9441-4321-ba63-b6a8d3985b6b",
-			"title": "Juguetes para niños pequeños, tarjetas didácticas en español, 224 palabras visuales, juguetes de terapia del habla de bolsillo, tarjetas flash bilingües, juguetes sensoriales para autismo para niños autistas, juguetes Montessori de aprendizaje, color azul",
+			"title": "Juguetes para niños pequeños, tarjetas didácticas en español, 224 palabras visuales, juguetes de terapia del habla de bolsillo, tarjetas flash bilingües, juguetes sensoriales para autismo para niños autistas",
 			"slug": "juguetes-ninos-pequenos-tarjetas-didacticas-en-espanol-224",
 			"price": 70,
 			"cost": 38,
@@ -368,6 +368,7 @@
 			"title": "Consola de empuje rápido con retroalimentación instantánea de sonido | Juego de empuje rápido de mano | Juguete sensorial educativo interactivo Pop The Target para niños y adultos | Regalo divertido para niños de 3 a 12 años",
 			"slug": "consola-empuje-rapido-retroalimentacion-instantanea-sonido",
 			"price": 85,
+			"offert": 65,
 			"cost": 65,
 			"stock": 1,
 			"ranking": 4.4,
@@ -1300,21 +1301,16 @@
 			"title": "Combo Cubo 7 en uno  y Tablero oucupado Montessori",
 			"slug": "cubo-juguete-educativo-montessori-ninos-1-a-3-anos-tablero",
 			"price": 150,
+			"offert": 140,
 			"cost": 80,
 			"stock": 1,
 			"ranking": 4,
 			"features": [
-				"Tablero ocupado bien diseñadoNuestra tabla de actividades está especialmente diseñada para niños pequeños que aman los botones de interruptores y las luces LED, hay 6 interruptores diferentes configurados en esta tabla ocupada, y cada interruptor se relaciona con una luz LED de diferente color. Las luces coloridas son fáciles de llamar la atención de tus hijos, y el brillo de cada LED se ajusta para ser amigable con los ojos del bebé, no demasiado brillante, demasiado deslumbrante o demasiado oscuro para ver claramente.",
+				"Está especialmente diseñada para niños pequeños que aman los botones de interruptores y las luces LED, hay 6 interruptores diferentes configurados en esta tabla ocupada, y cada interruptor se relaciona con una luz LED de diferente color. Las luces coloridas son fáciles de llamar la atención de tus hijos, y el brillo de cada LED se ajusta para ser amigable con los ojos del bebé, no demasiado brillante, demasiado deslumbrante o demasiado oscuro para ver claramente.",
 				"Cubo Montessori ocupado 7 en 1 este cubo de madera de calidad tiene 6 lados con 7 actividades de aprendizaje diferentes, incluye giroscopio de punta de dedo, cerradura de seguridad antirrobo y llave, perno de resorte, interruptor, rueda universal, grifo de agua y tapón de rosca giratorio. Ayuda a tu hijo a explorar y aprender a través del juego sensorial, gran manera de desarrollar sus habilidades motoras finas y la resolución de problemas cognitivos.",
 				"Juguetes de madera seguros y resistentesNuestros juguetes interactivos están hechos de madera natural, cuidadosamente hechos a mano con esquinas y bordes lisos para un ajuste perfecto en manos pequeñas y garantizar que tu hijo esté seguro durante el uso. La madera natural resistente también puede soportar niños pequeños ásperos y duros que aún tiran cosas, no se desmoronará. La tabla de actividades para bebés necesita 2 pilas AAA no incluidas",
-				"Regalo perfecto para niños la tabla de actividades para niños pequeños es tan interesante y única que mejorará el reconocimiento de tus hijos y desarrollará sus actividades de aprendizaje sensorial, por lo que es un gran juguete educativo para niños pequeños, también juguetes perfectos para ansiedad y juguetes sensoriales para autismo. Gran regalo de juguetes para niños y niñas de 1, 2, 3, 4 años, cumpleaños, Halloween, Navidad, Pascua, Año Nuevo, etc. ¡A tus hijos definitivamente les encanta",
-				"Juguete de viaje pequeño y portátil nuestros juguetes Montessori para niños de 1 año proporcionan horas de juego y exploración, mantienen a tus hijos interesados y entretenidos que se rompen de las pantallas. El diseño pequeño y ligero hace que sea un gran juguete para exteriores para artículos esenciales de viaje, fácil de llevar donde quiera que vayas, llevarlo en un viaje por carreteraavión lo ayudará a concentrarse en el asiento y no aburrirse, tu bebé disfrutará del viaje."
+				"Regalo perfecto para niños la tabla de actividades para niños pequeños es tan interesante y única que mejorará el reconocimiento de tus hijos y desarrollará sus actividades de aprendizaje sensorial, por lo que es un gran juguete educativo para niños pequeños, también juguetes perfectos para ansiedad y juguetes sensoriales para autismo. Gran regalo de juguetes para niños y niñas de 1, 2, 3, 4 años, cumpleaños, Halloween, Navidad, Pascua, Año Nuevo, etc. ¡A tus hijos definitivamente les encanta"
 			],
-			"details": {
-				"Dimensiones del paquete": "6,14 x 6,02 x 5,39 pulgadas",
-				"ASIN": "B0C7139V54",
-				"Edad recomendada por el fabricante": "36 meses - 8 años"
-			},
 			"tags": ["MONTESSORI", "TOYS", "SENSORY", "PSYCHOMOTRICITY", "STRESS_RELIEF"],
 			"assets": [
 				{
@@ -1409,6 +1405,7 @@
 			"title": "Juguetes de ametralladora de burbujas para niños pequeños niños pequeños de 1 a 3 años  Pistola sopladora de burbujas para niños  Fabricante de regalos de cumpleaños para niñas de 2 años, juguete",
 			"slug": "juguetes-ametralladora-burbujas-ninos-pequenos-ninos",
 			"price": 135,
+			"offert": 120,
 			"cost": 70,
 			"stock": 1,
 			"ranking": 3,
@@ -1523,6 +1520,7 @@
 			"title": "Ametralladora de burbujas para niños, soplador de burbujas con música y luz para niños pequeños, fabricante de burbujas automático portátil con solución de burbujas para niños de 2, 3, 4, 5, 6 años,",
 			"slug": "ametralladora-burbujas-ninos-soplador-burbujas-musica-luz",
 			"price": 135,
+			"offert": 120,
 			"cost": 70,
 			"stock": 1,
 			"ranking": 4,
@@ -3085,6 +3083,7 @@
 			"title": "RK Royal Kludge R75 Teclado mecánico con cable, 80 teclas, RGB, retroiluminado, intercambiable en caliente, español, MDA, PBT",
 			"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
 			"price": 300,
+			"offert": 280,
 			"cost": 205,
 			"stock": 1,
 			"ranking": 3,
@@ -3390,6 +3389,7 @@
 			"title": "Redmi reloj inteligente 4 versión Global, dispositivo con Pantalla AMOLED de 1,97 pulgadas, GPS, GNSS, Bluetooth, llamadas telefónicas, monitoreo del sueño",
 			"slug": "redmireloj-inteligente-4-version-global-dispositivo",
 			"price": 420,
+			"offert": 350,
 			"cost": 277,
 			"stock": 1,
 			"ranking": 5,
@@ -3984,6 +3984,7 @@
 			"slug": "keychron-k2-pro-75-layout-custom-wireless-mechanical",
 			"price": 500,
 			"cost": 190,
+			"offert": 350,
 			"stock": 9,
 			"ranking": 5,
 			"features": [
@@ -4545,6 +4546,7 @@
 			"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
 			"slug": "kit-sensorial-calma",
 			"price": 130,
+			"offert": 120,
 			"cost": 80,
 			"stock": 1,
 			"ranking": 5,
@@ -5337,7 +5339,8 @@
 			"id": "f447c9d5-57ee-4985-856c-ce4e2ce22574",
 			"title": "Cactus bailarín que imita sonidos, reproduce 120 canciones, recargable por USB, felpa suave, luces LED",
 			"slug": "cactus-bailarin-que-imita-sonidos",
-			"price": 40,
+			"price": 60,
+			"offert": 40,
 			"cost": 15,
 			"stock": 1,
 			"ranking": 3,
@@ -6168,4 +6171,3 @@
 		}
 	]
 }
-

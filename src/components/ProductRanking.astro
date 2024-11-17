@@ -6,11 +6,12 @@ const TOTAL_STARS = 5
 
 interface Props {
 	ranking: number
+	hasStock?: boolean
 	size?: 'lg' | 'md'
 	id?: string
 }
 
-const { size = 'md', ranking, id } = Astro.props
+const { size = 'md', ranking, id, hasStock } = Astro.props
 ---
 
 <div class="inline-flex gap-1 py-1" transition:name={`product-ranking-${id}`}>

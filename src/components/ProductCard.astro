@@ -9,7 +9,7 @@ interface Props {
 	imgUrl: string
 	ranking: number
 	slug: string
-	offert?: number
+	offert?: number | null
 	stock: number
 }
 
@@ -36,14 +36,15 @@ const { title, price, imgUrl, ranking, id, slug, offert, stock } = Astro.props
 			)
 		}
 		<img
+			data-has-stock={stock > 0 ? 'true' : 'false'}
+			class="product-img"
 			transition:name={`product-image-${id}`}
 			width={160}
 			height={160}
 			src={imgUrl}
 			alt={title}
-			class="absolute inset-0 z-10 object-contain w-full h-full p-2"
 		/>
-		<div class="absolute inset-0 w-full bg- rounded-md"></div>
+		<div class="absolute bg-white inset-0 w-full rounded-md"></div>
 	</div>
 	<!-- {/* Info Card */} -->
 	<div class="flex flex-col gap-1">
@@ -54,7 +55,21 @@ const { title, price, imgUrl, ranking, id, slug, offert, stock } = Astro.props
 			</p>
 		</div>
 
-		<ProductRanking {id} {ranking} />
+		<ProductRanking hasStock={Boolean(stock)} {id} {ranking} />
 		<ProductPrice {offert} {id} {price} />
 	</div>
 </a>
+<style>
+	.product-img {
+		position: absolute;
+		inset: 0;
+		object-fit: contain;
+		height: 100%;
+		width: 100%;
+		z-index: 10;
+	}
+
+	.product-img[data-has-stock='false'] {
+		filter: grayscale(0.7);
+	}
+</style>

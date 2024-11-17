@@ -1,10 +1,15 @@
 ---
 import Container from '@/components/Container.astro'
-import { getProducts } from '@/lib/data'
-const products = await getProducts()
+import { ProductsModel } from '@/models/products'
+
+const { data: products, error } = await ProductsModel.getAll()
+
+if (error) {
+	throw error
+}
 
 //TODO: implment recents products
-const lastedProducts = products.filter((p) => p.category === 'Tecnologia').slice(0, 8)
+const technologyProducts = products.filter((p) => p.tags.includes('TECHNOLOGY')).slice(0, 8)
 
 import ProductCard from '../ProductCard.astro'
 ---
@@ -20,10 +25,11 @@ import ProductCard from '../ProductCard.astro'
 		<div class="overflow-x-auto overflow-y-hidden">
 			<ul class="flex gap-4 flex-row">
 				{
-					lastedProducts.map((product) => (
+					technologyProducts.map((product) => (
 						<li class="min-w-[160px] w-[160px]">
 							<ProductCard
 								id={product.id}
+								stock={product.stock}
 								title={product.title}
 								price={product.price}
 								imgUrl={product.assets[0].smallUrl}
