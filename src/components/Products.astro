@@ -1,29 +1,14 @@
 ---
+import { PRODUCT_TAGS } from '@/constants'
 import ProductCard from '@/components/ProductCard.astro'
 import { ProductsModel } from '@/models/products'
 import ProductCategories from '@/components/ProductCategories.astro'
 import { Icon } from 'astro-icon/components'
 
-const categories = [
-	{
-		title: 'Teclados',
-	},
-	{
-		title: 'Tecnologia',
-	},
-	{
-		title: 'Montessori',
-	},
-	{
-		title: 'Sensorial',
-	},
-	{
-		title: 'Psicomotricidad',
-	},
-	{
-		title: 'Lenguaje',
-	},
-]
+const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
+	title: key,
+	href: `/productos?category=${value}`,
+}))
 
 const url = new URL(Astro.request.headers.get('referer')!)
 const category = url.searchParams.get('category') || ''
@@ -44,15 +29,14 @@ const { data: products, error } = await ProductsModel.getAll({ category })
 					{
 						categories &&
 							categories.length > 0 &&
-							categories.map((c) => {
-								const href = `/productos?category=${c.title}`
+							categories.map(({ title, href }) => {
 								const active = url.toString().endsWith(href)
 								return (
 									<li class="py-1.5 px-2">
 										<a
 											class:list={['cursor-pointer hover:font-bold', { 'font-bold': active }]}
 											href={href}>
-											{c.title}
+											{title}
 										</a>
 									</li>
 								)

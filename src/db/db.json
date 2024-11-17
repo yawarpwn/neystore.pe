@@ -4915,6 +4915,7 @@
 		{
 			"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
 			"price": 130,
+			"cost": 80,
 			"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
 			"ranking": 5,
 			"features": [
@@ -6570,4 +6571,3 @@
 		}
 	]
 }
-

@@ -1,10 +1,12 @@
 ---
 import Container from '@/components/Container.astro'
 import Button from '@/components/ui/Button.astro'
+import { type ProductTags } from '@/types'
 
 export interface Props {
 	categories: {
 		title: string
+		href: string
 	}[]
 	url: URL
 }
@@ -16,8 +18,7 @@ const { categories, url } = Astro.props
 	<div class="overflow-x-auto py-4">
 		<div style="scrollbar-width: none" class="flex items-center gap-2">
 			{
-				categories.map((category) => {
-					const href = `/productos?category=${category.title}`
+				categories.map(({ title, href }) => {
 					const active = url.toString().endsWith(href)
 					return (
 						<Button
@@ -27,7 +28,7 @@ const { categories, url } = Astro.props
 								' flex-shrink-0 w-[max-content] flex-nowrap px-2 py-1',
 								active && 'bg-emerald-200',
 							]}>
-							{category.title}
+							{title}
 						</Button>
 					)
 				})
