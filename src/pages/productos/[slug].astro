@@ -4,6 +4,7 @@ import ProductRanking from '@/components/ProductRanking.astro'
 import ProductViewer from '@/components/ProductViewer.astro'
 import ProductPrice from '@/components/ProductPrice.astro'
 import ProductServices from '@/components/ProductServices.astro'
+import { PRODUCT_TAGS } from '@/constants'
 import Layout from '@/layouts/Layout.astro'
 import { Icon } from 'astro-icon/components'
 import { type Product } from '@/types'
@@ -69,7 +70,7 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 
 								return (
 									<small class="flex-shrink-0 text-sm bg-muted text-muted-foreground  px-2 py-0.5 rounded-md shadow-sm">
-										{tag}
+										{PRODUCT_TAGS[tag as keyof typeof PRODUCT_TAGS]}
 									</small>
 								)
 							})

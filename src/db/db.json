@@ -2,14 +2,12 @@
 	"products": [
 		{
 			"id": "5d652261-2ad5-4ba1-8091-8e43a23bed35",
-			"price": 400,
 			"title": "Keychrone K3 versión 2 Bluetooth , Teclado mecánico inalámbrico 84 teclas 75%, con interruptor Gateron de perfil bajo",
 			"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
+			"price": 400,
 			"cost": 323,
-			"ranking": 4.7,
-			"category": "Tecnologia",
 			"stock": 0,
-			"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
+			"ranking": 4.7,
 			"features": [
 				"Diseño del 75%: Permite a los usuarios acceder a todas las teclas multimedia y de función esenciales, pero con un espacio más pequeño.",
 				"Ultradelgado: el interruptor de perfil bajo rediseñado es un 40% más delgado que los interruptores convencionales. Junto con el cuerpo de aluminio aerodinámico hace que el Keychron K3 sea uno de los teclados mecánicos inalámbricos más delgados y ligeros del mundo.",
@@ -30,6 +28,7 @@
 				"Numero de teclas": "84",
 				"Sistema Operativo": "MacOS/Windows/Linux"
 			},
+			"tags": ["KEYBOARDS", "KEYCHRON", "TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "8e16a1a9-77fd-4887-b5cf-f80f42bf4456",
@@ -144,11 +143,12 @@
 		},
 		{
 			"id": "d25e49d3-9441-4321-ba63-b6a8d3985b6b",
-			"price": 70,
 			"title": "Juguetes para niños pequeños, tarjetas didácticas en español, 224 palabras visuales, juguetes de terapia del habla de bolsillo, tarjetas flash bilingües, juguetes sensoriales para autismo para niños autistas, juguetes Montessori de aprendizaje, color azul",
+			"slug": "juguetes-ninos-pequenos-tarjetas-didacticas-en-espanol-224",
+			"price": 70,
 			"cost": 38,
+			"stock": 1,
 			"ranking": 4.7,
-			"category": "Juguetes",
 			"features": [
 				"Versión bilingüe en inglés y español Juguetes de aprendizaje para niños pequeños: Las tarjetas flash parlantes para niños pequeños incluyen una máquina de tarjetas de aprendizaje y 225 tarjetas de doble cara 510 palabras a la vista que cubren 31 temas, agregando tres canciones para niños. Grandes juguetes Montessori para niños y niñas de más de 3 años. Puede ayudar a su hijo a ejercitar la escucha, mejorar la capacidad cognitiva y mejorar eficazmente la memoria y la concentración de los niños.",
 				"Tarjetas educativas de aprendizaje inteligentes: diseñadas por profesores, una excelente herramienta para el uso de la educación en casa o en el aula preescolar, el juguete educativo interactivo también cuenta con sonidos realistas de simulación de animales y automóviles, que es bueno para inspirar las habilidades fonológicas de los niños y las ilustraciones coloridas y los sonidos divertidos pueden atraer la atención de los niños y el interés de aprendizaje.",
@@ -163,9 +163,7 @@
 				"Material": "Plástico",
 				"Objetivo Educativo": "Habilidades lingüísticas"
 			},
-			"slug": "juguetes-ninos-pequenos-tarjetas-didacticas-en-espanol-224",
-			"stock": 1,
-			"tags": ["Montessori", "Juguetes", "Lenguaje"],
+			"tags": ["MONTESSORI", "TOYS", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "4918e821-5520-4453-9c71-c137573cad70",
@@ -256,11 +254,12 @@
 		},
 		{
 			"id": "03bbd053-6251-4529-bff4-487bf399b15f",
-			"price": 60,
 			"title": "Pistolas de burbujas para niños pequeños, máquina de burbujas de 12 agujeros con luces LED, diseño a prueba de fugas de 360° para fiesta de cumpleaños, juguetes de verano al aire libre para niños de 4 a 8 años (azul)",
+			"slug": "pistolas-burbujas-ninos-pequenos-maquina-burbujas-12",
+			"price": 60,
 			"cost": 34,
+			"stock": 1,
 			"ranking": 5,
-			"category": "Juguetes",
 			"features": [
 				"【Máquina de burbujas colorida de 12 agujeros】La pistola de burbujas automática utiliza una innovadora tecnología giratoria para soplar miles de burbujas por minuto a través de sus 12 agujeros, por lo que es perfecta para fiestas al aire libre e interior. Requiere 4 pilas AA (no incluidas) para arrancar, por lo que recomendamos prepararlas con anticipación. Esta pistola de burbujas es una forma divertida y entretenida de mantener a tus hijos comprometidos y activos, sin importar la ocasión.",
 				"Diseño a prueba de fugas de 360°: nuestra pistola de burbujas cuenta con un anillo de sellado de alta calidad que logra un diseño a prueba de fugas de 360°. Con esta función, los niños pueden disfrutar de más horas de diversión y experiencia de juego sin preocupaciones sin temor a que el líquido de burbujas se filtre y ensucie sus pequeñas manos. Incluso cuando se gira boca abajo o de lado, la pistola de burbujas no gotea, proporcionando la máxima diversión y comodidad.",
@@ -275,9 +274,7 @@
 				"Estilo": "Burbuja, soplador de burbujas, pistola de burbuja, pistolas de burbujas, táctica",
 				"Material": "Plástico"
 			},
-			"slug": "pistolas-burbujas-ninos-pequenos-maquina-burbujas-12",
-			"stock": 1,
-			"tags": ["Juguetes"],
+			"tags": ["TOYS", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "121816e3-522e-41d8-8b22-be361a3309ab",
@@ -368,11 +365,12 @@
 		},
 		{
 			"id": "bef3c115-8616-43d8-929d-dcd87d9dc6fa",
-			"price": 85,
 			"title": "Consola de empuje rápido con retroalimentación instantánea de sonido | Juego de empuje rápido de mano | Juguete sensorial educativo interactivo Pop The Target para niños y adultos | Regalo divertido para niños de 3 a 12 años",
+			"slug": "consola-empuje-rapido-retroalimentacion-instantanea-sonido",
+			"price": 85,
 			"cost": 65,
+			"stock": 1,
 			"ranking": 4.4,
-			"category": "Juguetes",
 			"features": [
 				"Juego interactivo multimodo: nuestra consola de juegos portátil, la Speed Push Pop, ofrece cuatro modos de juego divertidos: modo de escenario, modo de memoria, modo de puntuación y modo multijugador. Cada modo proporciona una forma única de jugar y disfrutar del juego, y el diseño de forma única de la consola lo convierte en un excelente juego de rompecabezas y herramienta de descompresión tanto para niños como para adultos.",
 				"Materiales y mano de obra de primera calidad: los materiales y la mano de obra de alta calidad de la consola de juegos no solo garantizan durabilidad y resistencia a los daños, sino que también garantizan largas horas de juego. Los botones son altamente sensibles, lo que hace que el juego sea fácil de jugar y controlar.",
@@ -381,9 +379,7 @@
 				"Compacta y portátil: con dimensiones de 5.1 x 3.9 x 2.3 pulgadas y un diseño ligero, esta consola de juegos portátil es un compañero de viaje ideal que puede acompañar fácilmente a los padres y a sus hijos sobre la marcha, asegurando un sinfín de horas de diversión y entretenimiento."
 			],
 			"details": null,
-			"slug": "consola-empuje-rapido-retroalimentacion-instantanea-sonido",
-			"stock": 1,
-			"tags": ["Juguetes", "Psicomotricidad", "Antiestrés"],
+			"tags": ["TOYS", "STRESS_RELIEF"],
 			"assets": [
 				{
 					"id": "49f9df3a-c21d-4e6f-b2c0-22407442a0d6",
@@ -474,11 +470,12 @@
 		},
 		{
 			"id": "5783d3b3-a6b9-462a-8425-5acc23c36e0c",
-			"price": 80,
 			"title": "Cubo ocupado para niños, tablero sensorial de viaje, juguetes de viaje para niños pequeños de 1 a 3 años, juguetes Montessori de aprendizaje, cubo de actividades para niños autistas y TDAH",
+			"slug": "vilalatfan-busy-cubecubo-ninos-autismo-tablero-sensorial",
+			"price": 80,
 			"cost": 61,
+			"stock": 1,
 			"ranking": 4.3,
-			"category": "Juguetes",
 			"features": [
 				"Los juguetes sensoriales de cubo ocupado incluyen: los juguetes sensoriales están meticulosamente hechos de madera de calidad con bordes lijados suavemente y pintura no tóxica. Este cubo de actividad de madera de calidad incluye giroscopio de la punta de los dedos, cerradura de seguridad antirrobo y llave, perno de resorte, interruptor, rueda universal, grifo de agua y tapón de rosca giratorio. Los 6 lados del juego fomentan el descubrimiento y la exploración, cultiva la capacidad cognitiva, la atención y el aprendizaje de los niños.",
 				"Juguetes educativos Montessori de aprendizaje: estos cubos de actividad son grandes juguetes Montessori que pueden mejorar la capacidad práctica y ayuda a los niños a desarrollar habilidades motoras finas. Ayuda a los bebés a practicar la coordinación mano-ojo utilizando desafíos del mundo real. O simplemente dale tiempo tranquilo para centrarse en las actividades de aprendizaje natural. Nuestros juguetes fomentan la imaginación para ayudar a mejorar la concentración y la memoria, todo mientras se centran en las importantes habilidades de desarrollo que tu hijo necesita dominar",
@@ -487,17 +484,7 @@
 				"El mejor regalo para niños: la tabla de actividades Vilalatfan es un gran regalo para niños y niñas, educativa, divertida, segura y aprobada por los padres, los juguetes para niños pequeños pondrán grandes sonrisas en lindas caras pequeñas. Además, el juguete de aprendizaje de cubo de actividades también es un valioso juego de padres e hijos que te anima a ti y a tu hijo a jugar juntos y aumentar la interacción con tu hijo."
 			],
 			"details": null,
-			"slug": "vilalatfan-busy-cubecubo-ninos-autismo-tablero-sensorial",
-			"stock": 1,
-			"tags": [
-				"Montessori",
-				"Juguetes",
-				"Sensorial",
-				"Antiestrés",
-				"Psicomotricidad",
-				"Autismo",
-				"TDHA"
-			],
+			"tags": ["MONTESSORI", "TOYS", "SENSORY", "PSYCHOMOTRICITY", "STRESS_RELIEF"],
 			"assets": [
 				{
 					"id": "959bd665-c64e-43c4-afe6-a0eb84d3536d",
@@ -600,11 +587,12 @@
 		},
 		{
 			"id": "1bc7d87c-04a5-4726-8e83-cec5b530e593",
-			"price": 38,
 			"title": "Cevioce Juguetes para ansiedad para niños y adultos, 1 unidad, juguetes sensoriales para niños autistas con TDAH, juguetes para niños de 3 años en adelante, regalos para niños y niñas, cumpleaños, fiesta de Navidad (A)",
+			"slug": "cevioce-juguetes-ansiedad-ninos-adultos-1-unidad-juguetes",
+			"price": 38,
 			"cost": 23,
+			"stock": 1,
 			"ranking": 4.6,
-			"category": "Juguetes",
 			"features": [
 				"Cevioce Juguetes antiestrés para ratones: perfectos para aliviar la ansiedad y proporcionar una distracción divertida para niños y adolescentes. Estos juguetes antiestrés son una gran adición a cualquier escritorio y proporcionan una experiencia táctil satisfactoria. Seguro para niños de 3 años en adelante, estos juguetes sensoriales son imprescindibles para cualquier persona que busque una manera de aliviar el estrés y canalizar el exceso de energía.",
 				"Trensura el ejercicio de la mano: el mouse antiestrés es un juguete multifuncional diseñado para aliviar la ansiedad a través de temblores y tocarlos. Los juguetes antiestrés para adultos también promueven el ejercicio de las manos y la destreza de los dedos a través de la estimulación sensoriAdecuado para niños de tres años o más, así como para adultos que pasan mucho tiempo usando computadoras o tienen tendencia a hacerlo.",
@@ -613,9 +601,7 @@
 				"Servicio de satisfacción: Cevioce se toma en serio la seguridad de nuestros clientes, por lo que los juguetes sensoriales para bebés han sido sometidos a rigurosas inspecciones por parte de agencias de terceros. Estos juguetes sensoriales autistas no solo son seguros, sino que también son increíblemente suaves y sin rebabas, asegurando una experiencia sensorial cómoda y agradable. Si tienes alguna pregunta o inquietud sobre nuestros mejores juguetes, nuestro equipo de servicio dedicado siempre está aquí para ayudar"
 			],
 			"details": null,
-			"slug": "cevioce-juguetes-ansiedad-ninos-adultos-1-unidad-juguetes",
-			"stock": 1,
-			"tags": ["Juguetes", "Sensorial", "Antiestrés", "Autismo"],
+			"tags": ["TOYS", "SENSORY", "STRESS_RELIEF", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "08140421-17e3-4cfc-aa73-d2ce627cc38d",
@@ -706,11 +692,12 @@
 		},
 		{
 			"id": "ba8fbc2b-e96b-4f48-9fba-7dc54ec7d39d",
-			"price": 380,
 			"title": "Keychron V1 QMK/VIA - Teclado mecánico con cable, diseño del 75% con interruptor marrón K Pro intercambiable en caliente, teclas PBT, teclado retroiluminado RGB para Mac Windows Linux, translúcido",
+			"slug": "keychron-v1-qmkviateclado-mecanico-cable-personalizado",
+			"price": 380,
 			"cost": 285,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Tecnologia",
 			"features": [
 				"Con QMK/VIA del V1, puedes reasignar intuitivamente tus claves favoritas y crear macros con cualquier tecla en cualquier sistema operativo (macOS, Windows o Linux) para un flujo de trabajo fluido. El firmware de código abierto significa infinitas posibilidades para diseños de teclado, accesos directos, efectos de retroiluminación y más.",
 				"Con el interruptor mecánico prelubricado proporciona una respuesta táctil inigualable con una vida útil de hasta 50 millones de pulsaciones de tecla. También puede cambiar en caliente el V1 con casi todos los interruptores mecánicos MX de 3 pines y 5 pines en el mercado (incluidos Cherry, Gateron, Kailh, Panda, etc.) sin soldadura requerida.",
@@ -727,9 +714,7 @@
 				"Orientación de la mano": "Ambidiestra",
 				"Características especiales": "Retroiluminado"
 			},
-			"slug": "keychron-v1-qmkviateclado-mecanico-cable-personalizado",
-			"stock": 1,
-			"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
+			"tags": ["KEYBOARDS", "KEYCHRON", "TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "24f0efdc-b4a5-4cf2-b08e-974b35457899",
@@ -844,11 +829,12 @@
 		},
 		{
 			"id": "7377a7a4-bc5c-4a78-864e-ec4261c6195c",
-			"price": 150,
 			"title": "Gateron G Brown Pro 2.0 Interruptores prelubricados de 3 pines lineales para interruptores de teclado de juego tipo mecánico MX, interruptores montados en placa de luz SMD RGB (70 unidades, 3 pines, marrón)",
+			"slug": "gateron-g-brown-pro-2.0-interruptores-prelubricados-3-pines",
+			"price": 150,
 			"cost": 99,
+			"stock": 1,
 			"ranking": 4.5,
-			"category": "Tecnologia",
 			"features": [
 				"Gateron G Pro 2.0 la segunda versión de sus impresionantes interruptores Gateron Pro ya lubricados de fábrica.",
 				"El Pro 2.0 cambia la actualización del proceso del punto de contacto de la aleación, mejora la resistencia a la oxidación y la vulcanización, mejorando así la vida útil de los interruptores.",
@@ -866,9 +852,7 @@
 				"Protocolo de conectividad": "X-10",
 				"Calificación de Protección Internacional": "IP00"
 			},
-			"slug": "gateron-g-brown-pro-2.0-interruptores-prelubricados-3-pines",
-			"stock": 1,
-			"tags": ["Teclados", "Tecnologia"],
+			"tags": ["KEYBOARDS", "TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "9de5a857-22d7-49cc-80a2-8e1e6d910c58",
@@ -959,11 +943,12 @@
 		},
 		{
 			"id": "e76f3cb8-331d-4233-a511-31be5fe9a986",
-			"price": 350,
 			"title": "Keychron K12 Pro QMK/VIA Teclado mecánico inalámbrico , marco de aluminio intercambiable en caliente, teclado programable personalizado con retroiluminación RGB, interruptor marrón K Pro para Mac Windows Linux",
+			"slug": "keychron-teclado-mecanico-inalambrico-k12-pro-qmkvia-marco",
+			"price": 350,
 			"cost": 475,
+			"stock": 0,
 			"ranking": 4,
-			"category": "Tecnologia",
 			"features": [
 				"Con QMK/VIA del K12 Pro, puedes reasignar intuitivamente tus claves favoritas y crear macros con cualquier tecla en cualquier sistema operativo (macOS, Windows o Linux) para un flujo de trabajo fluido. El firmware de código abierto significa infinitas posibilidades para diseños de teclado, accesos directos, efectos de retroiluminación y más. El K8 Pro es el primer teclado mecánico inalámbrico QMK/VIA listo para usar del mundo que allana el camino para una nueva era para los teclados mecánicos.",
 				"Teclas PBT y marco de aluminio: teclado mecánico totalmente personalizable con 60% de diseño de 61 teclas, teclas PBT de doble disparo con perfil OSA. Las teclas PBT tienen un alto grado de restauración y tienen una mayor resistencia al calor, dureza, resistencia a la fatiga, autolubricantes y baja fricción que las teclas ABS. El marco de aluminio es resistente y garantiza una vida útil más larga.",
@@ -984,9 +969,7 @@
 				"Características especiales": "Ergonómico",
 				"Tecnología de conectividad": "USB-C"
 			},
-			"slug": "keychron-teclado-mecanico-inalambrico-k12-pro-qmkvia-marco",
-			"stock": 0,
-			"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
+			"tags": ["KEYBOARDS", "KEYCHRON", "TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "d911f1c6-0d91-4a60-b196-f23f27868f20",
@@ -1101,11 +1084,12 @@
 		},
 		{
 			"id": "d28bcecb-3371-4e3e-96b3-8a59632d0c20",
-			"price": 130,
 			"title": "Tabla de práctica de letras magnéticas, imán de trazado ABC, tablero del alfabeto ABC para aprender a escribir mayúsculas y minúsculas, juguete educativo de motricidad fina, regalo Montessori",
+			"slug": "tabla-practica-letras-magneticas-iman-trazado-abc-tablero",
+			"price": 130,
 			"cost": 83,
+			"stock": 1,
 			"ranking": 3,
-			"category": "Juguetes",
 			"features": [
 				"Tableta magnética ABC ¡Aprende letras visualmente con la tabla magnética Coogam para trazar el alfabeto Cuenta con una fuente grande, hecha de alta resistencia, el bloc de escritura en tamaño compacto viene con letras mayúsculas y minúsculas en una sin tener que tener que tener dos tableros separados, con un lápiz magnético para trazar.",
 				"Juguete de escritura fascinante el tablero de escritura mágico con material ABS sin plomo hizo un juguete más seguro para los niños. Un lápiz óptico lo suficientemente fuerte pero no súper magnético es apropiado para atraer esas bolas de metal para que aparezcan mientras agrega una tactilidad suave para el seguimiento de letras. ¡Enseña letras mayúsculas, letras minúsculas, trazos de letras y mucho más",
@@ -1117,9 +1101,7 @@
 				"Dimensiones del producto": "17 x 13 x 1 pulgadas",
 				"Fabricante": "Coogam"
 			},
-			"slug": "tabla-practica-letras-magneticas-iman-trazado-abc-tablero",
-			"stock": 1,
-			"tags": ["Juguetes", "Lenguaje", "Montessori"],
+			"tags": ["TOYS", "LANGUAGE", "MONTESSORI"],
 			"assets": [
 				{
 					"id": "2db32386-e73a-4b25-83b8-8e1dbabc1eb1",
@@ -1210,11 +1192,12 @@
 		},
 		{
 			"id": "1959f781-9ad1-4411-a49e-034f6efc8096",
-			"price": 50,
 			"title": "Rompecabezas de expresión de juego de madera a juego para niños pequeños de 1 a 3 años, juguetes Montessori para niños de 1, 2 y 3 años, juguetes educativos STEM de aprendizaje preescolar para niños",
+			"slug": "rompecabezas-expresion-juego-madera-a-juego-ninos-pequenos",
+			"price": 50,
 			"cost": 30,
+			"stock": 1,
 			"ranking": 3,
-			"category": "Juguetes",
 			"features": [
 				"Un juego de rompecabezas interactivo ideal 20 piezas de madera, 40 lados y 12 tarjetas, 24 lados, este es un juguete simple, con una gran cantidad de combinaciones posibles. Las piezas son lo suficientemente grandes para que el bebé no se las trague. Las piezas del kit están bien acabadas, madera lisa. También viene con tarjetas que muestran un montón de caras diferentes que puedes hacer. ¡Más expresiones de las que jamás pensaste posible ¡Grandes regalos para niños pequeños Educativo y entretenido.",
 				"Rompecabezas de madera para niños de 3 a 5 años. Juguetes de aprendizaje para bebés de más de 36 meses. Juguetes educativos para niños de 3 a 6 años. Los niños y niñas pueden aprender las diversas expresiones de alegría, ira, tristeza y felicidad, también pueden desarrollar el reconocimiento de color y la coordinación manoojo. Es el mejor regalo para padres y ancianos para dar a los niños pequeños.",
@@ -1223,9 +1206,7 @@
 				"Gran regalo para niños y niñas de 3 a 5 años rompecabezas de madera coloridos y lindos con expresiones lindas atraerán rápidamente la atención de los niños. Los niños pequeños pueden jugar rompecabezas en interiores o disfrutar de actividades al aire libre con padres o amigos. El juego de regalo perfecto para padresancianos para regalar a niños pequeños a partir de 3 años para Navidad, Acción de Gracias, Año Nuevo, fiestas de cumpleaños u otros días importantes."
 			],
 			"details": null,
-			"slug": "rompecabezas-expresion-juego-madera-a-juego-ninos-pequenos",
-			"stock": 1,
-			"tags": ["Juguetes", "Lenguaje", "Psicomotricidad"],
+			"tags": ["TOYS", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "a6b8a7f1-5784-4f5b-9d92-e97c58940762",
@@ -1316,11 +1297,12 @@
 		},
 		{
 			"id": "61e9d372-e169-4b13-8694-3ae922b55a7d",
-			"price": 150,
 			"title": "Combo Cubo 7 en uno  y Tablero oucupado Montessori",
+			"slug": "cubo-juguete-educativo-montessori-ninos-1-a-3-anos-tablero",
+			"price": 150,
 			"cost": 80,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": [
 				"Tablero ocupado bien diseñadoNuestra tabla de actividades está especialmente diseñada para niños pequeños que aman los botones de interruptores y las luces LED, hay 6 interruptores diferentes configurados en esta tabla ocupada, y cada interruptor se relaciona con una luz LED de diferente color. Las luces coloridas son fáciles de llamar la atención de tus hijos, y el brillo de cada LED se ajusta para ser amigable con los ojos del bebé, no demasiado brillante, demasiado deslumbrante o demasiado oscuro para ver claramente.",
 				"Cubo Montessori ocupado 7 en 1 este cubo de madera de calidad tiene 6 lados con 7 actividades de aprendizaje diferentes, incluye giroscopio de punta de dedo, cerradura de seguridad antirrobo y llave, perno de resorte, interruptor, rueda universal, grifo de agua y tapón de rosca giratorio. Ayuda a tu hijo a explorar y aprender a través del juego sensorial, gran manera de desarrollar sus habilidades motoras finas y la resolución de problemas cognitivos.",
@@ -1333,10 +1315,7 @@
 				"ASIN": "B0C7139V54",
 				"Edad recomendada por el fabricante": "36 meses - 8 años"
 			},
-			"slug": "cubo-juguete-educativo-montessori-ninos-1-a-3-anos-tablero",
-			"offert": 140,
-			"stock": 1,
-			"tags": ["Montessori", "Juguetes", "Sensorial", "Psicomotricidad", "Autismo", "TDHA"],
+			"tags": ["MONTESSORI", "TOYS", "SENSORY", "PSYCHOMOTRICITY", "STRESS_RELIEF"],
 			"assets": [
 				{
 					"id": "fac4fb7e-f044-4347-b9bd-0c5a5b56f17c",
@@ -1427,11 +1406,12 @@
 		},
 		{
 			"id": "b1813406-2dc6-4cdb-a183-2654c67484d4",
-			"price": 135,
 			"title": "Juguetes de ametralladora de burbujas para niños pequeños niños pequeños de 1 a 3 años  Pistola sopladora de burbujas para niños  Fabricante de regalos de cumpleaños para niñas de 2 años, juguete",
+			"slug": "juguetes-ametralladora-burbujas-ninos-pequenos-ninos",
+			"price": 135,
 			"cost": 70,
+			"stock": 1,
 			"ranking": 3,
-			"category": "Juguetes",
 			"features": [
 				"Presentamos la mejor ametralladora de burbujas más de 10000 burbujas por minuto  ¿Buscas una máquina de burbujas, una pistola de burbujas o un fabricante de burbujas que realmente sorprenderá a tus hijos ¡No busques más allá de nuestra revolucionaria ametralladora de burbujas Con su potente motor y 8 varitas giratorias, nuestra ametralladora de burbujas produce un asombroso flujo de más de 10,000 burbujas por minuto, lo que la convierte en el soplador de burbujas definitivo para niños",
 				"Ametralladora de burbujas con sonido y luces los juguetes de burbujas tienen luces LED brillantes que pueden brillar en la oscuridad. Añade toneladas de diversión a la noche de juegos de burbujas para niños. La máquina de burbujas con música alegre puede atraer más la atención de los niños. Nuestro soplador de burbujas viene con un asa, por lo que es muy conveniente para que lo lleves contigo, el diseño portátil también puede permitir que tus hijos lleven la máquina de burbujas fácilmente al patio, parque y patios de recreo, y disfruten del momento feliz que traen las burbujas",
@@ -1449,9 +1429,7 @@
 				"Estilo": "pistola de burbujas",
 				"Tema": "pistola de burbujas para niños"
 			},
-			"slug": "juguetes-ametralladora-burbujas-ninos-pequenos-ninos",
-			"stock": 1,
-			"tags": ["Juguetes", "Psicomotricidad", "Lenguaje"],
+			"tags": ["TOYS", "LANGUAGE", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "775e9307-c861-4a33-b352-9c439bb374a2",
@@ -1542,11 +1520,12 @@
 		},
 		{
 			"id": "1cdb01d2-114d-4690-aec1-630a5778d5be",
-			"price": 135,
 			"title": "Ametralladora de burbujas para niños, soplador de burbujas con música y luz para niños pequeños, fabricante de burbujas automático portátil con solución de burbujas para niños de 2, 3, 4, 5, 6 años,",
+			"slug": "ametralladora-burbujas-ninos-soplador-burbujas-musica-luz",
+			"price": 135,
 			"cost": 70,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": [
 				"Ametralladora de burbujas y burbujas ricas en comparación con otros fabricantes de burbujas, nuestra máquina de burbujas tiene un potente motor y está equipada con 8 varitas giratorias, que soplan miles de burbujas en minutos. En comparación con otras pistolas de burbujas grandes tradicionales, tenemos la misma cantidad de salida de burbujas, pero el tamaño es más ligero y práctico, lo que es más adecuado para que tus pequeños lo usen y fácil de llevar.",
 				"Diseño absoluto a prueba de fugas de 360 nuestra ametralladora de burbujas tiene un nuevo diseño a prueba de fugas y utiliza una estricta inspección de calidad para garantizar que el líquido de burbujas no gotee. Ya sea que tu pequeño lo gire de lado o boca abajo, la máquina de burbujas no goteará y hará que las manos se ensucien o se peguen. Los niños disfrutarán de toneladas de diversión con estas burbujas de colores geniales. Utiliza 4 pilas AA, no incluidas.",
@@ -1562,9 +1541,7 @@
 				"Estilo": "pistola de burbujas",
 				"Tema": "pistola de burbujas para niños"
 			},
-			"slug": "ametralladora-burbujas-ninos-soplador-burbujas-musica-luz",
-			"stock": 1,
-			"tags": ["Juguetes", "Lenguaje", "Psicomotricidad"],
+			"tags": ["TOYS", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "4abf1e25-4239-41cc-a506-4cc77078b295",
@@ -1655,11 +1632,12 @@
 		},
 		{
 			"id": "312711f9-05c6-4ad2-82b7-cba2816155d7",
-			"price": 45,
 			"title": "Lenovoauriculares inalámbricos LP40 Pro TWS, cascos deportivos con Bluetooth 5,1, reducción de ruido, Control táctil, 250mAH, originales",
+			"slug": "lenovoauriculares-inalambricos-lp40-pro-tws-cascos",
+			"price": 45,
 			"cost": 30,
+			"stock": 1,
 			"ranking": 2,
-			"category": "Tecnologia",
 			"features": null,
 			"details": {
 				"Material": "Plástico",
@@ -1678,9 +1656,7 @@
 				"Estilo": "In-ear",
 				"Origen": "CN(Origen)"
 			},
-			"slug": "lenovoauriculares-inalambricos-lp40-pro-tws-cascos",
-			"stock": 1,
-			"tags": ["Tecnologia"],
+			"tags": ["TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "f84d6cce-b5fb-4a35-beb5-9887a4fd4f19",
@@ -1819,11 +1795,12 @@
 		},
 		{
 			"id": "e8787c48-cce0-4e3a-8da3-31c2b0125c73",
-			"price": 180,
 			"title": "12 marionetas para niños, marionetas de mano de animales de peluche con boca abierta y movible, juguete para niños pequeños, escuela, aula, preescolar, regalo de cumpleaños (estilo clásico)",
+			"slug": "marionetas-dedo-mano-juguete-felpa-dibujos-animados",
+			"price": 180,
 			"cost": 20,
+			"stock": 1,
 			"ranking": 3,
-			"category": "Juguetes",
 			"features": [
 				"Recibirás 12 marionetas de mano con boca móvil en forma de león, orangután, hipopótamo, rinoceronte, conejo, pato, mono, shar pei, tigre, husky, vaca, cocodrilo.",
 				"Las marionetas están hechas de tela de felpa de calidad y material de poliéster PP, suave y cómodo al tacto.",
@@ -1837,9 +1814,7 @@
 				"Género": "Unisex",
 				"Material": "Felpa"
 			},
-			"slug": "marionetas-dedo-mano-juguete-felpa-dibujos-animados",
-			"stock": 1,
-			"tags": ["Juguetes", "Autismo", "Lenguaje"],
+			"tags": ["TOYS", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "dcc30aad-53a3-4130-8bef-3089aac3d3c9",
@@ -1918,11 +1893,12 @@
 		},
 		{
 			"id": "68db0a18-4108-41c4-ad96-81ba887d7449",
-			"price": 50,
 			"title": "Erizo Montessori para bebé, rompecabezas de entrenamiento de concentración, Motor fino, juguetes sensoriales de ortografía, regalo para niños",
+			"slug": "juguetes-biomimeticos-erizo-montessori-bebe-rompecabezas",
+			"price": 50,
 			"cost": 25,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": [
 				"Juego de motora fina para desarrollar habilidades motoras finas en niños.",
 				"Incluye piezas en forma de clavija que se ajustan a la parte posterior del erizo.",
@@ -1936,9 +1912,7 @@
 				"Fomenta el juego imaginativo y la coordinación ojo-mano."
 			],
 			"details": null,
-			"slug": "juguetes-biomimeticos-erizo-montessori-bebe-rompecabezas",
-			"stock": 1,
-			"tags": ["Juguetes", "Montessori", "Lenguaje", "Psicomotricidad"],
+			"tags": ["TOYS", "MONTESSORI", "LANGUAGE", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "c21cf0fe-c4c3-4e63-a55b-5c310a555ce8",
@@ -2025,11 +1999,12 @@
 		},
 		{
 			"id": "46e009ea-bc13-43c5-87af-56868b361072",
-			"price": 50,
 			"title": "Juguete educativo Montessori para niños pequeños, juguetes de Motor fino, aprendizaje de conteo y clasificación, desarrollo, regalos sensoriales, 13",
+			"slug": "juguete-educativo-montessori-ninos-pequenos-juguetes-motor",
+			"price": 50,
 			"cost": 24,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": [
 				"Juguete Montessori de erizo con forma y colorido.",
 				"Ideal para niños pequeños de 1 a 3 años.",
@@ -2046,9 +2021,7 @@
 				"Es un excelente recurso para la educación en el hogar."
 			],
 			"details": null,
-			"slug": "juguete-educativo-montessori-ninos-pequenos-juguetes-motor",
-			"stock": 1,
-			"tags": ["Montessori", "Juguetes", "Sensorial", "Psicomotricidad"],
+			"tags": ["MONTESSORI", "TOYS", "SENSORY", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "eee1a3cb-07ea-4059-9eb4-b611ec7a9eee",
@@ -2151,11 +2124,12 @@
 		},
 		{
 			"id": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
-			"price": 80,
 			"title": "Huevos de Pascua Sensoriales para Bebé y Niños, Juguete Montessori, Clasificar Colores, Formas, Gallina, Juego Educativo, Aprendizaje, Regalo, 12 Unidades",
+			"slug": "huevos-pascua-sensoriales-bebe-ninos-juguete-montessori",
+			"price": 80,
 			"cost": 50,
+			"stock": 1,
 			"ranking": 3,
-			"category": "Juguetes",
 			"features": [
 				"Juguete de Pascua con 12 huevos blancos.",
 				"Cada huevo se abre revelando un interior colorido.",
@@ -2173,9 +2147,7 @@
 				"Perfecto para guarderías en casa o actividades en grupo."
 			],
 			"details": null,
-			"slug": "huevos-pascua-sensoriales-bebe-ninos-juguete-montessori",
-			"stock": 1,
-			"tags": ["Juguetes", "Psicomotricidad", "Lenguaje", "Autismo", "TDHA"],
+			"tags": ["TOYS", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "ef6d9358-2302-45f5-9f54-2f0c41e62aee",
@@ -2289,239 +2261,18 @@
 			"createdAt": "2024-11-09T04:23:50.766Z"
 		},
 		{
-			"id": "d116c504-b31b-43ca-b125-59bc0330b16d",
-			"price": 130,
-			"title": "KUULAAbatería externa portátil de 10000mAh, cargador de 22,5 W PD DE CARGA RÁPIDA, Cable incorporado para iPhone 15, 14, 13, Samsung",
-			"cost": 104,
-			"ranking": 3,
-			"category": "Tecnologia",
-			"features": null,
-			"details": {
-				"Certificación": "RoHS,CE,FCC",
-				"Material de la carcasa": "Plástico",
-				"Compatible con tecnología de carga rápida": "Carga rápida bidireccional"
-			},
-			"slug": "kuulaabateria-externa-portatil-10000mah-cargador-225-w-pd",
-			"stock": 1,
-			"tags": ["Tecnologia"],
-			"assets": [
-				{
-					"id": "4d3872f3-abd2-4d43-a0d0-45ddae61044a",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112646/neystore/cfulas5cokcl0v9shb0j.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/cfulas5cokcl0v9shb0j",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/cfulas5cokcl0v9shb0j?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/cfulas5cokcl0v9shb0j?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/cfulas5cokcl0v9shb0j?_a=BAMADKJu0"
-				},
-				{
-					"id": "4af6b0b5-80b1-4f48-87c9-4a5bc7145109",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112646/neystore/mvvmidadbthhjagxygmd.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/mvvmidadbthhjagxygmd",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mvvmidadbthhjagxygmd?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mvvmidadbthhjagxygmd?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mvvmidadbthhjagxygmd?_a=BAMADKJu0"
-				},
-				{
-					"id": "3ae2fc95-c2d9-419c-9a8b-797b94723c9f",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112646/neystore/grgl4bgijoplumepibln.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/grgl4bgijoplumepibln",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/grgl4bgijoplumepibln?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/grgl4bgijoplumepibln?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/grgl4bgijoplumepibln?_a=BAMADKJu0"
-				},
-				{
-					"id": "844bcc93-d2f7-420a-ab54-83ab3c4e15cf",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112646/neystore/mdjviw8ztrijjx3yalt1.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/mdjviw8ztrijjx3yalt1",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mdjviw8ztrijjx3yalt1?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mdjviw8ztrijjx3yalt1?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mdjviw8ztrijjx3yalt1?_a=BAMADKJu0"
-				},
-				{
-					"id": "7ddbfcdc-e285-40f9-9d52-8bede90aa7f3",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112646/neystore/cjkxctafodo07uiirusb.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/cjkxctafodo07uiirusb",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/cjkxctafodo07uiirusb?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/cjkxctafodo07uiirusb?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/cjkxctafodo07uiirusb?_a=BAMADKJu0"
-				},
-				{
-					"id": "947b2c10-8400-4579-9bc0-354444d3811f",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112646/neystore/kzifytulgpfrxxnjeime.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/kzifytulgpfrxxnjeime",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/kzifytulgpfrxxnjeime?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/kzifytulgpfrxxnjeime?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/kzifytulgpfrxxnjeime?_a=BAMADKJu0"
-				},
-				{
-					"id": "383e63e4-c159-4b06-a053-3f75cdd8406c",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112646/neystore/fhxkg5bl4witeuqvdbp9.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/fhxkg5bl4witeuqvdbp9",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/fhxkg5bl4witeuqvdbp9?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/fhxkg5bl4witeuqvdbp9?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/fhxkg5bl4witeuqvdbp9?_a=BAMADKJu0"
-				},
-				{
-					"id": "c5e1ca69-9911-4035-8d53-50387a118b53",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719112646/neystore/uqfrl43aftbdacp69zxw.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/uqfrl43aftbdacp69zxw",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/uqfrl43aftbdacp69zxw?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/uqfrl43aftbdacp69zxw?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/uqfrl43aftbdacp69zxw?_a=BAMADKJu0"
-				}
-			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
-		},
-		{
-			"id": "bf5e48ae-b92d-4f65-bb44-52cdc37f48d4",
-			"price": 50,
-			"title": "Xiaomi memoria USB portátil 128GB, unidad Flash de transferencia de alta velocidad, interfaz tipo C 3,2 ",
-			"cost": 24,
-			"ranking": 0,
-			"category": "Tecnologia",
-			"features": null,
-			"details": {
-				"Número de modelo": "XIAOMl usb flash drives",
-				"Nombre de la marca": "XIAOMI",
-				"PC Sistema": "windows 10 , mac, linux"
-			},
-			"slug": "xiaomimemoria-usb-portatil-u-disk-2tb-unidad-flash",
-			"stock": 1,
-			"tags": ["Tecnologia"],
-			"assets": [
-				{
-					"id": "cdda5e3c-df5d-4003-bf01-2d06a8bafa00",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163070/neystore/r7vyvplmfnnevpv3jah2.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 780,
-					"type": "image",
-					"publicId": "neystore/r7vyvplmfnnevpv3jah2",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/r7vyvplmfnnevpv3jah2?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/r7vyvplmfnnevpv3jah2?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/r7vyvplmfnnevpv3jah2?_a=BAMADKJu0"
-				},
-				{
-					"id": "b7d3256c-8b3d-4561-bf98-9c9de9b0e47d",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163069/neystore/mfzex9xpl4k9g24zl0vs.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/mfzex9xpl4k9g24zl0vs",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mfzex9xpl4k9g24zl0vs?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mfzex9xpl4k9g24zl0vs?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mfzex9xpl4k9g24zl0vs?_a=BAMADKJu0"
-				},
-				{
-					"id": "31c4b148-d3f9-4b2b-94aa-5490b4907ffd",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163069/neystore/gdujky91uxkah9jc7vch.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/gdujky91uxkah9jc7vch",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/gdujky91uxkah9jc7vch?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/gdujky91uxkah9jc7vch?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/gdujky91uxkah9jc7vch?_a=BAMADKJu0"
-				},
-				{
-					"id": "da0ca646-df35-4350-b634-ff3abc996402",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163069/neystore/brpcjmiijoygcpejgacj.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/brpcjmiijoygcpejgacj",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/brpcjmiijoygcpejgacj?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/brpcjmiijoygcpejgacj?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/brpcjmiijoygcpejgacj?_a=BAMADKJu0"
-				},
-				{
-					"id": "f027bac6-0d69-413e-abac-cd35db27c223",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163069/neystore/cmzndgbsvi59oja8dhr3.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/cmzndgbsvi59oja8dhr3",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/cmzndgbsvi59oja8dhr3?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/cmzndgbsvi59oja8dhr3?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/cmzndgbsvi59oja8dhr3?_a=BAMADKJu0"
-				},
-				{
-					"id": "17054320-84dc-4e26-8aed-13956d3b6dde",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163069/neystore/vzpwe9clhdzsomfu3pdv.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/vzpwe9clhdzsomfu3pdv",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vzpwe9clhdzsomfu3pdv?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vzpwe9clhdzsomfu3pdv?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/vzpwe9clhdzsomfu3pdv?_a=BAMADKJu0"
-				},
-				{
-					"id": "c1cb1eb4-97fd-4c1d-8e08-718655589c4b",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163070/neystore/pzxbaxsidwgpojuz8a49.webp",
-					"format": "webp",
-					"width": 1001,
-					"height": 1001,
-					"type": "image",
-					"publicId": "neystore/pzxbaxsidwgpojuz8a49",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/pzxbaxsidwgpojuz8a49?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/pzxbaxsidwgpojuz8a49?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/pzxbaxsidwgpojuz8a49?_a=BAMADKJu0"
-				}
-			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
-		},
-		{
 			"id": "ce3760eb-01c9-4607-9ea9-d177c8f2e0a7",
-			"price": 45,
 			"title": "Termómetro IR sin contacto, medición rápida, ligero o portátil, equipo médico para la yema del dedo",
+			"slug": "termometro-ir-sin-contacto-medicion-rapida-ligero-o",
+			"price": 45,
 			"cost": 15,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Tecnologia",
 			"features": null,
 			"details": {
 				"Origen": "BR"
 			},
-			"slug": "termometro-ir-sin-contacto-medicion-rapida-ligero-o",
-			"stock": 1,
-			"tags": ["Tecnologia"],
+			"tags": ["TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "a3e51c4e-f758-4307-8717-bfc27f65b22c",
@@ -2600,20 +2351,19 @@
 		},
 		{
 			"id": "059bedfc-96f6-40a5-b51a-3fddc7c5bb49",
-			"price": 45,
 			"title": "Lenovo auriculares TWS Air Pro6, inalámbricos por Bluetooth, con micrófono, 9D, estéreo Pro 6, para Xiaomi, Samsung",
+			"slug": "lenovoauriculares-tws-air-pro6-inalambricos-por-bluetooth",
+			"price": 45,
 			"cost": 18,
+			"stock": 1,
 			"ranking": 2,
-			"category": "Tecnologia",
 			"features": null,
 			"details": {
 				"Material": "Plástico",
 				"Método de carga": "Estuche de carga",
 				"Características": "Impermeable,Con micrófono,Cancelación activa de ruido"
 			},
-			"slug": "lenovoauriculares-tws-air-pro6-inalambricos-por-bluetooth",
-			"stock": 1,
-			"tags": ["Tecnologia"],
+			"tags": ["TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "4bba48b1-3032-4eb0-b11c-e99e0e3a3dba",
@@ -2764,20 +2514,19 @@
 		},
 		{
 			"id": "435ff7b6-30f4-4904-bc10-272c43be1993",
-			"price": 140,
 			"title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
+			"slug": "qoovibateria-externa-20000mah-cargador-portatil-ultrafino",
+			"price": 140,
 			"cost": 75,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Tecnologia",
 			"features": null,
 			"details": {
 				"Certificación": "Weee,RoHS,CE",
 				"Material de la carcasa": "Plástico",
 				"Compatible con tecnología de carga rápida": "No"
 			},
-			"slug": "qoovibateria-externa-20000mah-cargador-portatil-ultrafino",
-			"stock": 1,
-			"tags": ["Tecnologia"],
+			"tags": ["TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "56643414-910c-47d2-b393-323e5340f4ef",
@@ -2916,19 +2665,18 @@
 		},
 		{
 			"id": "f70dc076-1018-4a31-a2f7-212342e17e73",
-			"price": 90,
 			"title": "Mochila portabebés ergonómica para bebé, portabebés frontal, canguro ergonómico, mochila de viaje",
+			"slug": "mochila-portabebes-ergonomica-bebe-portabebes-frontal",
+			"price": 90,
 			"cost": 45,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": null,
 			"details": {
 				"Tipo de transporte": "Carga frontal",
 				"Capacidad de carga": "20 kg",
 				"Nombre de la marca": "macroupta"
 			},
-			"slug": "mochila-portabebes-ergonomica-bebe-portabebes-frontal",
-			"stock": 1,
 			"tags": [],
 			"assets": [
 				{
@@ -3079,124 +2827,19 @@
 			"createdAt": "2024-11-09T04:23:50.766Z"
 		},
 		{
-			"id": "323cdfee-b482-4074-8956-d6024e9a754f",
-			"price": 120,
-			"title": "Figuras de acción de Super Mario Bros Kart para niños, juego de 8 piezas, figuras de acción de coches de carreras, modelo de dibujos animados, adornos, decoración del hogar, regalo",
-			"cost": 67,
-			"ranking": 1,
-			"category": "Juguetes",
-			"features": null,
-			"details": {
-				"Paquete original": "YES",
-				"Tipo de versión": "Primera edición",
-				"Control remoto": "No"
-			},
-			"slug": "figuras-accion-super-mario-bros-kart-ninos-juego-8-piezas",
-			"stock": 1,
-			"tags": [],
-			"assets": [
-				{
-					"id": "038bc563-2b5b-4d7a-ab40-33c79eb2d57a",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856561/neystore/qqymskae2oanv8ooo9lh.webp",
-					"format": "webp",
-					"width": 1500,
-					"height": 1500,
-					"type": "image",
-					"publicId": "neystore/qqymskae2oanv8ooo9lh",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qqymskae2oanv8ooo9lh?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/qqymskae2oanv8ooo9lh?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/qqymskae2oanv8ooo9lh?_a=BAMADKJu0"
-				},
-				{
-					"id": "fd10f9c0-2afe-40f8-afd6-a46d398e524b",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856561/neystore/lkkld2gge2vpox3s4wro.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/lkkld2gge2vpox3s4wro",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/lkkld2gge2vpox3s4wro?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/lkkld2gge2vpox3s4wro?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/lkkld2gge2vpox3s4wro?_a=BAMADKJu0"
-				},
-				{
-					"id": "c7c57935-34fe-4d47-8239-92354b69399f",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856561/neystore/i0kdb1iwjukbdsa460kj.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/i0kdb1iwjukbdsa460kj",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/i0kdb1iwjukbdsa460kj?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/i0kdb1iwjukbdsa460kj?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/i0kdb1iwjukbdsa460kj?_a=BAMADKJu0"
-				},
-				{
-					"id": "67dafa88-3b99-4d33-aa4a-97f15074a72d",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856561/neystore/tmyvzoogrqz8vsus868y.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/tmyvzoogrqz8vsus868y",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/tmyvzoogrqz8vsus868y?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/tmyvzoogrqz8vsus868y?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/tmyvzoogrqz8vsus868y?_a=BAMADKJu0"
-				},
-				{
-					"id": "8d5b3ec6-b926-4adc-b2ee-cfe874e13bcf",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856561/neystore/ak1yq3l8fpsh5hnxyvah.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/ak1yq3l8fpsh5hnxyvah",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ak1yq3l8fpsh5hnxyvah?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ak1yq3l8fpsh5hnxyvah?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ak1yq3l8fpsh5hnxyvah?_a=BAMADKJu0"
-				},
-				{
-					"id": "1c39c2a1-d56f-4fa3-8b3c-a2a4018b74f1",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856561/neystore/al4szzpsm4dhxkpnchqv.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/al4szzpsm4dhxkpnchqv",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/al4szzpsm4dhxkpnchqv?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/al4szzpsm4dhxkpnchqv?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/al4szzpsm4dhxkpnchqv?_a=BAMADKJu0"
-				},
-				{
-					"id": "0194d309-9018-492d-81d3-a0482e9b41e5",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856562/neystore/ezlmjnfot3bsglxwln3y.webp",
-					"format": "webp",
-					"width": 1500,
-					"height": 1500,
-					"type": "image",
-					"publicId": "neystore/ezlmjnfot3bsglxwln3y",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ezlmjnfot3bsglxwln3y?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ezlmjnfot3bsglxwln3y?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ezlmjnfot3bsglxwln3y?_a=BAMADKJu0"
-				}
-			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
-		},
-		{
 			"id": "93a62bd9-955a-4b1c-a8d8-e37201159fe4",
-			"price": 50,
 			"title": "Figuras de acción de Star Wars para niños, juguete de maestro Yoda, Darth, PVC, colección de figuras de Anime, modelo Mini, regalo, 5 piezas",
+			"slug": "figuras-accion-star-wars-ninos-juguete-maestro-yoda-darth",
+			"price": 50,
 			"cost": 28,
+			"stock": 1,
 			"ranking": 3,
-			"category": "Juguetes",
 			"features": null,
 			"details": {
 				"ACG carácter": "Baby Yoda",
 				"Estado": "Artículos en stock",
 				"Advertencia": "not for unders 3 years old"
 			},
-			"slug": "figuras-accion-star-wars-ninos-juguete-maestro-yoda-darth",
-			"stock": 1,
 			"tags": [],
 			"assets": [
 				{
@@ -3312,19 +2955,18 @@
 		},
 		{
 			"id": "fdeb4760-8083-45a9-b94d-a4e32a7c3b94",
-			"price": 150,
 			"title": "Figura de acción de bebé Yoda de Star Wars de Marvel, muñeco de peluche Kawaii, muñeco de juguete, adorno de colección para niños, regalo de cumpleaños y Navidad",
+			"slug": "figura-accion-bebe-yoda-star-wars-marvel-muneco-peluche",
+			"price": 150,
 			"cost": 92,
+			"stock": 1,
 			"ranking": 5,
-			"category": "Juguetes",
 			"features": null,
 			"details": {
 				"ACG carácter": "Star Wars Yoda",
 				"Paquete original": "no",
 				"Tipo de versión": "Primera edición"
 			},
-			"slug": "figura-accion-bebe-yoda-star-wars-marvel-muneco-peluche",
-			"stock": 1,
 			"tags": [],
 			"assets": [
 				{
@@ -3440,11 +3082,12 @@
 		},
 		{
 			"id": "1032f5be-e393-4030-b91f-054667ccf7a2",
-			"price": 300,
 			"title": "RK Royal Kludge R75 Teclado mecánico con cable, 80 teclas, RGB, retroiluminado, intercambiable en caliente, español, MDA, PBT",
+			"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
+			"price": 300,
 			"cost": 205,
+			"stock": 1,
 			"ranking": 3,
-			"category": "Tecnologia",
 			"features": [
 				"Teclado mecánico compacto y personalizado al 75%",
 				"Reducción de ruido y vibración con montaje en junta",
@@ -3466,10 +3109,7 @@
 				"Numero de Teclas": 81,
 				"Color de Retroiluminacion": "RGB"
 			},
-			"slug": "rk-royal-kludge-r75teclado-mecanico-cable-80-teclas-rgb",
-			"offert": 280,
-			"stock": 1,
-			"tags": ["Teclados", "Mecánico", "Custom", "Tecnologia"],
+			"tags": ["KEYBOARDS", "TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "3cf47c18-0ca9-4ae7-abbd-d828a69e0738",
@@ -3620,20 +3260,19 @@
 		},
 		{
 			"id": "b452c569-42a2-4f22-801e-0de56aa024f0",
-			"price": 150,
 			"title": "Hello 3 MiniReloj inteligente para mujer, dispositivo Original y oficial, Serie 9, 41mm, 1G de ROM, NFC, brújula, Bluetooth, ll",
+			"slug": "hello-3-minireloj-inteligente-mujer-dispositivo-original",
+			"price": 150,
 			"cost": 82,
+			"stock": 1,
 			"ranking": 2,
-			"category": "Tecnologia",
 			"features": null,
 			"details": {
 				"Peso [g]": "153",
 				"Versión compatible con Bluetooth": "5.0",
 				"Métricas medidas": "Monitor de ritmo cardíaco,Monitor de oxígeno en sangre,Monitor de presión arterial,Monitor de azúcar en la sangre,Monitor de temperatura corporal,Monitor de estrés"
 			},
-			"slug": "hello-3-minireloj-inteligente-mujer-dispositivo-original",
-			"stock": 1,
-			"tags": ["Tecnologia"],
+			"tags": ["TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "8590e1be-f0eb-41ec-ac32-e249549e1df6",
@@ -3748,11 +3387,12 @@
 		},
 		{
 			"id": "890914f3-9c4f-4103-854f-d5464447de3f",
-			"price": 420,
 			"title": "Redmi reloj inteligente 4 versión Global, dispositivo con Pantalla AMOLED de 1,97 pulgadas, GPS, GNSS, Bluetooth, llamadas telefónicas, monitoreo del sueño",
+			"slug": "redmireloj-inteligente-4-version-global-dispositivo",
+			"price": 420,
 			"cost": 277,
+			"stock": 1,
 			"ranking": 5,
-			"category": "Tecnologia",
 			"features": [
 				"Pantalla AMOLED de 1.97 pulgadas con alta frecuencia de actualización de 60 Hz.",
 				"Diseño elegante con marco de aleación de aluminio.",
@@ -3784,10 +3424,7 @@
 				"Capacidad de almacenamiento": "1 GB",
 				"Características especiales": "GNSS multisistema, llamadas Bluetooth"
 			},
-			"slug": "redmireloj-inteligente-4-version-global-dispositivo",
-			"offert": 370,
-			"stock": 1,
-			"tags": ["Tecnologia"],
+			"tags": ["TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "f1918e94-0810-4086-8839-ea30c2c071ec",
@@ -3890,11 +3527,12 @@
 		},
 		{
 			"id": "8c1eda88-bdd9-4c3e-b818-59dd5c419d8d",
-			"price": 50,
 			"title": "Juguete Sensorial en forma de Rana Antiestrés para Niños, Productos Sensoriales para Autismo, Juguetes de Viaje, Juguete Calmante",
+			"slug": "2pcs-sensory-fidget-toys-for-kids-squishy-glitter-leap-frog",
+			"price": 50,
 			"cost": 33,
+			"stock": 1,
 			"ranking": 3,
-			"category": "Juguetes",
 			"features": [
 				"Productos Sensoriales para Autismo El producto incluye dos almohadillas suaves con una linda apariencia de rana. Están llenas de líquido y brillantes colores. Cuando las aprietas, puedes ver el fascinante flujo del líquido y escuchar el agradable sonido de las cuentas chocando. Esta almohadilla tiene todos los elementos necesarios para un artículo sensorial: tacto, vista y sonido.",
 				"Juguetes Sensoriales Antiestrés Este tubo de rana está diseñado para niños con ansiedad, estrés, autismo, TDAH y TDA. Tiene colores brillantes y proporciona estimulación visual y auditiva que captura la atención de los niños durante el juego, calmándolos.",
@@ -3910,9 +3548,7 @@
 				"Edad Recomendada por el Fabricante": "3 años en adelante",
 				"Rango de los Más Vendidos": "#34,945 en Juguetes y Juegos (Ver Top 100 en Juguetes y Juegos) en Juguetes Antiestrés"
 			},
-			"slug": "2pcs-sensory-fidget-toys-for-kids-squishy-glitter-leap-frog",
-			"stock": 1,
-			"tags": ["Juguetes", "Sensorial", "Antiestrés", "Psicomotricidad", "Autismo"],
+			"tags": ["TOYS", "SENSORY", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "77251b43-ae1a-448c-98b6-f711d4a005ac",
@@ -3991,11 +3627,12 @@
 		},
 		{
 			"id": "f2b11135-ac7b-43d4-8805-d301a86df025",
-			"price": 110,
 			"title": "Juguetes Sensoriales Temporizador de Movimiento de Líquido 3 Set Mejores Juguetes Antiestrés para Niños y Adultos para Aliviar el Estrés y la Ansiedad, Herramienta Calmante para Niños con Autismo, Rellenos de Calcetines para Niños Pequeños",
+			"slug": "sensory-toys-liquid-motion-timer-bubbler-3-set-best-fidget",
+			"price": 110,
 			"cost": 67,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": [
 				"ALIVIO INSTANTÁNEO DEL ESTRÉS Y LA ANSIEDAD Inmediatamente alivia el estrés y la ansiedad, así como las explosiones emocionales y la ira, con este temporizador de movimiento de líquido visualmente estimulante. Las gotas son muy hipnotizantes y pueden hacer girar las ruedas coloridas y proporcionar más movimientos. Es una forma más divertida que solo usar temporizadores de arena. Simplemente voltea estos geniales temporizadores de líquido y comienza de nuevo hasta que estés completamente relajado.",
 				"EXCELENTES JUGUETES CALMANTES PARA TODOS Estos juguetes sensoriales antiestrés son las mejores herramientas calmantes para AUTISMO, necesidades especiales de los niños, ayudan en gran medida a que tu hijo se relaje y permanezca enfocado con su ritmo lento y rítmico. Estos coloridos temporizadores burbujeantes son herramientas sensoriales visuales perfectas para ejercicios de atención plena y ayudan a los niños con problemas sensoriales e hiperactividad a calmarse.",
@@ -4008,9 +3645,7 @@
 				"Peso del Artículo": "1.39 libras",
 				"Edad Recomendada por el Fabricante": "3 años en adelante"
 			},
-			"slug": "sensory-toys-liquid-motion-timer-bubbler-3-set-best-fidget",
-			"stock": 1,
-			"tags": ["Juguetes", "Sensorial", "Antiestrés", "Autismo"],
+			"tags": ["TOYS", "SENSORY", "PSYCHOMOTRICITY", "STRESS_RELIEF"],
 			"assets": [
 				{
 					"id": "445c7697-740d-4714-adfb-ab7ab10dbea0",
@@ -4101,11 +3736,12 @@
 		},
 		{
 			"id": "6a02ab2d-5cb9-4de1-9258-4df483610235",
-			"price": 65,
 			"title": "Proyector de astronauta de estrella de galaxia, luz LED de noche, lámpara de decoración de cielo estrellado, dormitorio, habitación, regalos decorativos para niños",
+			"slug": "proyector-astronauta-estrella-galaxia-luz-led-noche-lampara",
+			"price": 65,
 			"cost": 30,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": [
 				"Proyecta nebulosas y estrellas de alta definición en múltiples colores.",
 				"Diseño innovador en forma de astronauta con cabeza magnética para ajustar el ángulo.",
@@ -4123,8 +3759,6 @@
 				"Color de sombra": "Multicolor",
 				"Tipo de interruptor": "Remoto"
 			},
-			"slug": "proyector-astronauta-estrella-galaxia-luz-led-noche-lampara",
-			"stock": 1,
 			"tags": [],
 			"assets": [
 				{
@@ -4216,11 +3850,12 @@
 		},
 		{
 			"id": "32b2d457-22f0-4bec-a24e-77a2eb5bf52f",
-			"price": 35,
 			"title": "Juego de aprendizaje Montessori, libro de actividades, pegatina de pasta, capacidad de vida lógica, clasificación, educativo, regalo para niños pequeños",
+			"slug": "juego-aprendizaje-montessori-libro-actividades-pegatina",
+			"price": 35,
 			"cost": 18,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": null,
 			"details": {
 				"Peso de producto": "0.14 KG",
@@ -4230,9 +3865,7 @@
 				"Rango de edad": "3 - 12 años",
 				"Advertencia": "No comer"
 			},
-			"slug": "juego-aprendizaje-montessori-libro-actividades-pegatina",
-			"stock": 1,
-			"tags": ["Juguetes", "Lenguaje", "Autismo", "TDHA"],
+			"tags": ["TOYS", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "80246fe2-a837-41f4-b448-2e93a85abd86",
@@ -4347,15 +3980,12 @@
 		},
 		{
 			"id": "8e9d851d-9712-4372-8bfd-b1c6daadbf87",
-			"price": 500,
 			"title": "Keychron K2 Pro 75% Layout Teclado mecánico inalámbrico personalizable, compacto 84 teclas intercambiable en caliente QMK/VIA connectividad USB-C y Bluetooth, retroiluminado RGB",
-			"cost": 190,
-			"ranking": 5,
 			"slug": "keychron-k2-pro-75-layout-custom-wireless-mechanical",
-			"offert": 350,
+			"price": 500,
+			"cost": 190,
 			"stock": 9,
-			"tags": ["Mecánico", "Custom", "Teclados", "Keychron", "Tecnologia"],
-			"category": "Tecnologia",
+			"ranking": 5,
 			"features": [
 				"Teclado mecánico inalámbrico QMK/VIA actualizado permite a cualquiera dominar cualquier tecla o comandos macro en su diseño compacto del 75% a través de VIA, ha incluido teclas tanto para Windows como para macOS, y los usuarios pueden intercambiar en caliente con cualquier interruptor mecánico MX en una brisa.",
 				"Programa con QMK y VIA: simplemente conecta el K2 Pro a tu dispositivo con un cable, arrastra y suelta tus teclas favoritas o comandos de macro para reasignar cualquier clave que quieras en cualquier sistema (macOS, Windows o Linux).",
@@ -4375,6 +4005,7 @@
 				"Sytema Operativo": "Window/MacOS/Linux",
 				"Dispositivos compatibles": "Portátil, Tablet, Smartphone"
 			},
+			"tags": ["KEYBOARDS", "KEYCHRON", "TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "9457e435-0e7a-4bba-b66c-08abd8fc27c2",
@@ -4477,11 +4108,12 @@
 		},
 		{
 			"id": "195df8fa-582c-4cd4-9277-f4b4d41fa953",
-			"price": 500,
 			"title": "Keychron K3 Pro - Teclado mecánico inalámbrico ultra delgado QMK/VIA, macro programable 75% diseño RGB retroiluminación con perfil bajo Gateron G Pro Red Switch PBT teclado para Mac Windows Linux",
+			"slug": "keychron-k3-pro-ultraslim-qmkvia-wireless-custom-mechanical",
+			"price": 500,
 			"cost": 415,
+			"stock": 1,
 			"ranking": 5,
-			"category": "Tecnologia",
 			"features": [
 				"Teclado mecánico inalámbrico QMK/VIA mejorado permite a cualquier persona dominar cualquier tecla o comando macro en su diseño compacto al 75% a través de VIA, ha incluido teclas tanto para Windows como para macOS, y los usuarios pueden intercambiar en caliente con cualquier interruptor mecánico MX en una brisa.",
 				"Programa con QMK y VIA: simplemente conecta el K3 Pro a tu dispositivo con un cable, arrastra y suelta tus teclas favoritas o comandos de macro para reasignar cualquier clave que quieras en cualquier sistema (macOS, Windows o Linux).",
@@ -4504,9 +4136,7 @@
 				"Dimensiones": "340 x 100 x 40 mm",
 				"Peso": "800g"
 			},
-			"slug": "keychron-k3-pro-ultraslim-qmkvia-wireless-custom-mechanical",
-			"stock": 1,
-			"tags": ["Teclados", "Custom", "Keychron", "Tecnologia"],
+			"tags": ["KEYBOARDS", "KEYCHRON", "TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "56da3756-54f1-4879-9c46-30bfe5c0c14f",
@@ -4633,11 +4263,12 @@
 		},
 		{
 			"id": "6c0b1d87-d9fb-49d3-9755-0c66ef81d735",
-			"price": 160,
 			"title": "Gateron Interruptores de llave de perfil bajo para teclados mecánicos de juegos  Montaje en placa rojo Gateron, 90 piezas",
+			"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
+			"price": 160,
 			"cost": 160,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Tecnologia",
 			"features": [
 				"Rojo Gateron  Lineal  Previaje de 0.059 in  Recorrido total de 0.108 in  Actuación de 50cN",
 				"Para teclados mecánicos para juegos de intercambio en caliente y teclados personalizados de bricolaje compatibles con interruptores de perfil bajo.",
@@ -4658,9 +4289,7 @@
 				"Dimensiones del producto": "0,39\"l. x 0,39\"an. x 0,39\"al. pulgadas",
 				"Componentes incluidos": "Extractor de Teclas"
 			},
-			"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
-			"stock": 1,
-			"tags": ["Teclados", "Tecnologia", "Custom"],
+			"tags": ["KEYBOARDS", "TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "00437907-13c9-41f6-8062-7d91e6615127",
@@ -4739,11 +4368,12 @@
 		},
 		{
 			"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bab1d",
-			"price": 20,
 			"title": "Parches de espinillas para cara, parches de acné hidrocoloide, bonitas cubiertas de estrella, calcomanías coloridas con árbol de té, ácido salicílico y aceite de cica",
+			"slug": "parche-estrellas-eliminar-acne-pegatinas-invisibles-colores",
+			"price": 20,
 			"cost": 7,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Tecnologia",
 			"features": [
 				"200 piezas de parches en 5 colores: rosa, amarillo, azul, verde y transparente, con 3 tamaños: S-0.394 in (50 piezas), M-0.472 in (100 piezas) y L-0.551 in (50 piezas).",
 				"Los parches de espinillas en forma de estrella ayudan a absorber las secreciones mientras cubren y protegen el acné, mejorando su aspecto durante la noche.",
@@ -4761,9 +4391,7 @@
 				"Beneficios del producto": "Para acné y espinillas",
 				"Tipo de piel": "Todos"
 			},
-			"slug": "parche-estrellas-eliminar-acne-pegatinas-invisibles-colores",
-			"stock": 1,
-			"tags": ["Tecnologia"],
+			"tags": ["TECHNOLOGY"],
 			"assets": [
 				{
 					"id": "15c07fc9-60cd-4963-82e2-21230dbf328f",
@@ -4914,16 +4542,17 @@
 		},
 		{
 			"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
+			"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
+			"slug": "kit-sensorial-calma",
 			"price": 130,
 			"cost": 80,
-			"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
+			"stock": 1,
 			"ranking": 5,
 			"features": [
 				" Alivio definitivo del estrés: mantén tus manos ocupadas y tu mente relajada con nuestros juguetes favoritos para la ansiedad. Estos juguetes sensoriales ofrecen una experiencia táctil única que promueve la relajación y mejora la concentración",
 				"Gran idea de regalo: buscas un regalo divertido y significativo para una fiesta, cumpleaños u ocasión especial. Nuestro paquete a granel de juguetes antiestrés es la elección perfecta. Adecuado tanto para niños como para niñas de todas las edades.",
 				"Ayuda con la concentración, TDAH, TDA, autismo, TOC, dejar malos hábitos, etc. Ayuda a aliviar el estrés."
 			],
-			"category": "Juguetes",
 			"details": {
 				"Juguete 1": "Plátano apretable",
 				"Juguete 2": "Reloj sensorial",
@@ -4937,18 +4566,7 @@
 				"Juguete 10": "Pelota antiestres",
 				"Juguete 11": "Jirafa elástica"
 			},
-			"slug": "kit-sensorial-calma",
-			"offert": 120,
-			"stock": 1,
-			"tags": [
-				"Juguetes",
-				"Sensorial",
-				"Antiestrés",
-				"Psicomotricidad",
-				"Lenguaje",
-				"Autismo",
-				"TDHA"
-			],
+			"tags": ["TOYS", "SENSORY", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "9785678c-59fe-4eb9-a81a-2c52df7d7d43",
@@ -5063,11 +4681,12 @@
 		},
 		{
 			"id": "5236dc69-f53d-4f12-b746-a125c022e2d1",
-			"price": 65,
 			"title": "Koala Respiración con luces musicales sensoriales, Koala calma y ayuda con el descanso y relajación",
+			"slug": "koala-alivio-koala-aliviar-la-respiracion-animal-peluche",
+			"price": 65,
 			"cost": 40,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": [
 				"Compañero calmante para dormir: este suave oso koala está diseñado para calmar y calmar a su hijo, ayudándolo a conciliar el sueño rápidamente a través de sonidos suaves, música y movimientos de respiración rítmica, asegurando que disfrute de un descanso reparado",
 				"Juguete musical calmante para bebés de más de 0 meses, que pueden reproducir sonidos. y deja que tu bebé se calme o duerma rápidamente. La respiración de felpa koala dormida estimula el espíritu de exploración del bebé, mejora el entusiasmo del bebé por la interacción, mejora la capacidad de cognición sonora del bebé y la capacidad de discriminación del color durante el juego, y promueve el desarrollo cerebral del bebé.",
@@ -5076,9 +4695,7 @@
 				"Regalo ideal para bebés encontrarás que el juguete de respiración de koala para dormir es fácil de agarrar y sostener, especialmente adecuado para manos pequeñas, iluminación encantadora y hermosa música que pueden atraer rápidamente los ojos del bebé. La música puede calmar a su bebé y promover el desarrollo de audio del bebé."
 			],
 			"details": null,
-			"slug": "koala-alivio-koala-aliviar-la-respiracion-animal-peluche",
-			"stock": 1,
-			"tags": ["Juguetes"],
+			"tags": ["TOYS", "STRESS_RELIEF", "SENSORY"],
 			"assets": [
 				{
 					"id": "7e3bae76-db41-4d15-b3a4-5f371c805c6d",
@@ -5217,11 +4834,12 @@
 		},
 		{
 			"id": "bcbc7129-71e4-44e0-a5ef-5f2fd788329c",
-			"price": 100,
 			"title": "Tablero de actividades Montessori de madera con 8 interruptores de luz LED, juguetes sensoriales para niños de 1 a 3 años",
+			"slug": "montessori-tablero-madera-8-interruptores-luz-led-juguetes",
+			"price": 100,
 			"cost": 60,
+			"stock": 1,
 			"ranking": 4,
-			"category": "Juguetes",
 			"features": [
 				"Especialmente diseñada para niños pequeños que aman los interruptores y las luces LED. Hay 8 interruptores diferentes configurados en esta placa ocupada, y cada interruptor corresponde a un color o estilo diferente de luz LED. ",
 				"El brillo de cada LED se ajusta para que sea justo para el bebé, no demasiado brillante, demasiado deslumbrante o demasiado oscuro para ver con claridad.",
@@ -5236,17 +4854,7 @@
 				"Pilas": "AA (NO incluidas)",
 				"Edad": "1 a 5 años"
 			},
-			"slug": "montessori-tablero-madera-8-interruptores-luz-led-juguetes",
-			"stock": 1,
-			"tags": [
-				"Montessori",
-				"Juguetes",
-				"Sensorial",
-				"Psicomotricidad",
-				"Antiestrés",
-				"Autismo",
-				"TDHA"
-			],
+			"tags": ["MONTESSORI", "TOYS", "SENSORY", "PSYCHOMOTRICITY", "STRESS_RELIEF"],
 			"assets": [
 				{
 					"id": "71bf8383-4add-4c18-8b95-ecf56915d71e",
@@ -5338,6 +4946,11 @@
 		{
 			"id": "401bd9d6-0c85-421b-900c-50335f9daeec",
 			"title": "Keycaps - Juego de 139 teclas PBT en español, Perfil XDA, para teclado mecánico MX Switch, ISO Enter",
+			"slug": "teclas-xda-en-espanol-frances-coreano-brasileno-japones",
+			"price": 100,
+			"cost": 66,
+			"stock": 1,
+			"ranking": 3,
 			"features": [
 				"Este juego de teclas tiene un total de 139 teclas e incluye varios tamaños de teclas, adecuado para la mayoría de teclados mecánicos 61/64/87/104/108 Cherry MX interruptores ISO ANSI layout ",
 				"Perfil XDA: que te proporciona una experiencia de usuario cómoda, ya sea escribiendo o jugando, sin sentirte cansado",
@@ -5351,13 +4964,7 @@
 				"Compatibilidad": "Switch MX",
 				"Distribución": "ANSI  |  ISO"
 			},
-			"price": 100,
-			"cost": 66,
-			"category": "Tecnologia",
-			"stock": 1,
-			"tags": ["Tecnologia", "Teclados", "Custom"],
-			"ranking": 3,
-			"slug": "teclas-xda-en-espanol-frances-coreano-brasileno-japones",
+			"tags": ["TECHNOLOGY", "KEYBOARDS"],
 			"assets": [
 				{
 					"id": "1db7d3f2-9999-4726-b50b-45781ba075ec",
@@ -5485,19 +5092,18 @@
 		{
 			"id": "be444dd9-0602-4103-9ba4-39b3fb523b24",
 			"title": "Tarjetas de estimulación Visual Montessori para bebé de alto contrate, 20 piezas  / 40 caras",
+			"slug": "tarjetas-estimulacion-visual-montessori",
+			"price": 35,
+			"cost": 17,
+			"stock": 1,
+			"ranking": 3,
 			"features": [
 				"Activa el desarrollo del cerebro derecho del bebé Parpadear estas tarjetas de estimulación visual de alto contraste desencadena rápidamente la activación del cerebro derecho, responsable de la actividad del ritmo de alta velocidad. Diseñadas para promover el desarrollo cerebral, nuestras tarjetas didácticas son perfectas para mejorar las habilidades cognitivas de tu bebé",
 				"Cultiva la memoria instantánea del niño. Nuestras tarjetas flash para bebés de alto contraste están especialmente diseñadas para mejorar la memoria instantánea de tu hijo. Al participar con estas tarjetas a una edad temprana, tu pequeño puede desarrollar la capacidad de recordar estímulos visuales de forma rápida y eficiente, ahorrando un tiempo precioso en el proceso de aprendizaje",
 				"Materiales seguros para la salud de tu bebé. Garantizando el bienestar de tu bebé, nuestras tarjetas están hechas de película de doble cara con una superficie mate antirreflejos que no dañará sus delicados ojos. La tinta de soja ecológica utilizada para imprimir garantiza colores brillantes, frescura y una agradable experiencia sin olor"
 			],
 			"details": null,
-			"price": 35,
-			"cost": 17,
-			"category": "Juguetes",
-			"stock": 1,
-			"tags": ["Juguetes", "Lenguaje", "Montessori", "Autismo", "TDHA"],
-			"ranking": 3,
-			"slug": "tarjetas-estimulacion-visual-montessori",
+			"tags": ["TOYS", "LANGUAGE", "MONTESSORI"],
 			"assets": [
 				{
 					"id": "91a42b3f-9077-475e-87ea-8d7c575b91a8",
@@ -5625,6 +5231,11 @@
 		{
 			"id": "7cd26056-9492-44b7-90b8-efe411676285",
 			"title": "Juguete de tablero de arte con pin 3D, colorido tablero de plástico, diseño clásico de pin impresión, escultura para niños y niños",
+			"slug": "juguete-tablero-arte-pin-3d-colorido-tablero-plastico",
+			"price": 30,
+			"cost": 11,
+			"stock": 1,
+			"ranking": 3,
 			"features": [
 				"Inspira creatividad e imaginación puedes presionar un objeto en la pared de estos coloridos pines para dejar un perfil impresionante, como la estatua de juguete de Batman, tu huella de mano o contorno facial. Creará esculturas 3D inimaginables, inspirando la creatividad y la imaginación ilimitadas de los niños",
 				"Pizarra limpia Simplemente empuja los pines hacia atrás y tu lienzo estará listo de nuevo para lo que sea que tu mente se esté preparando. Hay infinitas formas de diseñar esto",
@@ -5633,13 +5244,7 @@
 				"PAQUETE Hecho de pasadores de plástico y marco de plástico negro con frente de plástico transparente. Tamaño del juguete del arte del pin 3.75x 5 pulgadas"
 			],
 			"details": null,
-			"price": 30,
-			"cost": 11,
-			"category": "Juguetes",
-			"stock": 1,
-			"tags": ["Juguetes", "Sensorial"],
-			"ranking": 3,
-			"slug": "juguete-tablero-arte-pin-3d-colorido-tablero-plastico",
+			"tags": ["TOYS", "SENSORY", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "a154e39f-4fcd-4929-aa71-47624042f135",
@@ -5731,6 +5336,11 @@
 		{
 			"id": "f447c9d5-57ee-4985-856c-ce4e2ce22574",
 			"title": "Cactus bailarín que imita sonidos, reproduce 120 canciones, recargable por USB, felpa suave, luces LED",
+			"slug": "cactus-bailarin-que-imita-sonidos",
+			"price": 40,
+			"cost": 15,
+			"stock": 1,
+			"ranking": 3,
 			"features": [
 				"Reconoce e imita la voz del niño para una mayor diversión interactiva.",
 				"La función de grabación permite al niño grabar su voz y reproducirla.",
@@ -5746,13 +5356,7 @@
 				"Tamaño": "34cm x 10cm x 10cm",
 				"Color": "Verde"
 			},
-			"price": 40,
-			"cost": 15,
-			"category": "Juguetes",
-			"stock": 1,
-			"tags": ["Juguetes", "Lenguaje"],
-			"ranking": 3,
-			"slug": "cactus-bailarin-que-imita-sonidos",
+			"tags": ["TOYS", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "4a3d714b-d459-4a36-a513-65a51e487381",
@@ -5839,7 +5443,13 @@
 			"createdAt": "2024-11-09T04:23:50.766Z"
 		},
 		{
+			"id": "4fa05deb-e1b3-47dc-aa7e-6d6e60aaa4b3",
 			"title": "Gorila Squeeze Antiestrés aplasta y estira este juguete para aliviar el estrés para niños y adultos",
+			"slug": "gorila-squeeze-antiestres-aplasta-y-estira-este-juguete-para-aliviar-el-estres-para-ninos",
+			"price": 60,
+			"cost": 35,
+			"stock": 1,
+			"ranking": 3,
 			"features": [
 				"Divertido juguete de mono para el estrés¿Te encanta Gorilla ¿Te sientes estresado Este novedoso juguete antiestrés de mono te ayudará a liberarte del estrés.",
 				"Regalo creativo este chimpancé no es solo un modelo, puede tirar de nudos y extrusiones. No importa lo que hagas, volverá al estado original.",
@@ -5848,13 +5458,7 @@
 				"Decoración perfecta el accesorio de escritorio perfecto, no hay momento en el que quieras dejarlo, puedes relajarte y descansar adecuadamente al pensar."
 			],
 			"details": null,
-			"price": 60,
-			"cost": 35,
-			"category": "Juguetes",
-			"stock": 1,
-			"tags": ["juguete", "lenguaje", "sensorial", "antiestrés", "psicomotricidad"],
-			"ranking": 3,
-			"slug": "gorila-squeeze-antiestres-aplasta-y-estira-este-juguete-para-aliviar-el-estres-para-ninos",
+			"tags": ["LANGUAGE", "SENSORY", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "dccc7db1-35e9-483c-b4d2-1a3beb821433",
@@ -5938,11 +5542,16 @@
 					"type": "video"
 				}
 			],
-			"id": "4fa05deb-e1b3-47dc-aa7e-6d6e60aaa4b3",
 			"createdAt": "2024-11-10T00:44:43.964Z"
 		},
 		{
+			"id": "4b6add2d-1668-43f9-b8bc-def37c8fc065",
 			"title": "EPOMAKER TH80 75% Teclado Mecánico, NKRO intercambiable en caliente RGB 2.4Ghz/Bluetooth 5.0/teclado para juegos con cable con espuma de porón/EVA, batería de 4000 mAh",
+			"slug": "epomaker-th80-75-teclado-mecanico-nkro-intercambiable-en-caliente",
+			"price": 320,
+			"cost": 208,
+			"stock": 0,
+			"ranking": 4,
 			"features": [
 				"Edición especial del teclado mecánico EPOMAKER TH80 SE, con un atractivo diseño en colores púrpura y negro, y un software actualizado que mejora la experiencia del usuario.",
 				"Tres modos de conectividad: Bluetooth 5.0, 2.4 GHz y USB-C, con una batería de 4000 mAh que permite un uso prolongado y eficiente en entornos inalámbricos y por cable.",
@@ -5961,13 +5570,7 @@
 				"Número de teclas": 80,
 				"Retroiluminación": "RGB orientado al norte"
 			},
-			"price": 320,
-			"cost": 208,
-			"category": "Tecnologia",
-			"stock": 0,
-			"tags": ["teclado"],
-			"ranking": 4,
-			"slug": "epomaker-th80-75-teclado-mecanico-nkro-intercambiable-en-caliente",
+			"tags": ["KEYBOARDS"],
 			"assets": [
 				{
 					"id": "524220c6-09d9-4ae7-bd21-bc19a6834e7c",
@@ -6075,11 +5678,16 @@
 					"type": "video"
 				}
 			],
-			"id": "4b6add2d-1668-43f9-b8bc-def37c8fc065",
 			"createdAt": "2024-11-12T04:31:08.998Z"
 		},
 		{
+			"id": "87d38f76-0071-4015-b2e1-8a8d23bc93fc",
 			"title": "Juego de 4 jirafas flexibles, juguete telescópico de jirafa con ventosa",
+			"slug": "girafa-elastica-pack-4",
+			"price": 30,
+			"cost": 18,
+			"stock": 1,
+			"ranking": 3,
 			"features": [
 				"Adecuado para niños de más de 3 años. ¡Pop, arruga, tira, estira! El sonido continuo de estallido excitará a los niños. La ventosa inferior se puede conectar a superficies lisas como espejos, ventanas y azulejos. Los niños pueden disfrutar pegándolo en varios lugares y viendo al robot posar en varias formas y verlo doblarse y girar en diferentes direcciones.",
 				"Los tubos Robot Pop están hechos de plástico ecológico de alta calidad, cumpliendo con los más altos estándares de seguridad y calidad, pero sin los bordes afilados del tubo de expansión y están diseñados para soportar una tonelada de inquietud, reventar, estirar, tirar.",
@@ -6088,13 +5696,7 @@
 				"Nuestros juguetes antiestrés de tubos para niños están diseñados para mayor comodidad y fácil manejo. La construcción ligera hace que sea fácil de llevar contigo dondequiera que vayas."
 			],
 			"details": null,
-			"price": 30,
-			"cost": 18,
-			"category": "Juguetes",
-			"stock": 1,
-			"tags": ["juguete", "lenguaje", "sensorial", "psicomotricidad"],
-			"ranking": 3,
-			"slug": "girafa-elastica-pack-4",
+			"tags": ["LANGUAGE", "SENSORY", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "9037b0e0-b50d-42e0-ad48-11d21f1c4a13",
@@ -6205,12 +5807,16 @@
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/qdfmdbt9agjg5qsho5pr?_a=BAMADKcc0"
 				}
 			],
-			"id": "87d38f76-0071-4015-b2e1-8a8d23bc93fc",
 			"createdAt": "2024-11-16T02:24:07.049Z"
 		},
 		{
+			"id": "696075a5-b6db-475f-b9b8-e1415b182993",
 			"title": "Orejeras de protección auditiva para niños y bebés, orejeras con reducción de ruido, seguridad NRR ajustable, 25dB",
-			"details": null,
+			"slug": "orejeras-proteccion-auditiva-ninos-bebes-orejeras-reduccion",
+			"price": 21,
+			"cost": 60,
+			"stock": 1,
+			"ranking": 3,
 			"features": [
 				"Auriculares con cancelación de ruido: Diseñados específicamente para niños, con un SNR de 28 dB, ideales para reducir el ruido en entornos ruidosos ",
 				"Cuentan con un diseño acolchado en la diadema y almohadillas suaves, además de copas giratorias de 360° para un ajuste cómodo.",
@@ -6218,13 +5824,8 @@
 				"Útiles para ayudar a los niños a concentrarse durante actividades como la lectura o el estudio.",
 				"Diseño ligero (0.5 libras) y plegable, con bolsa de transporte incluida para facilitar su transporte."
 			],
-			"price": 21,
-			"cost": 60,
-			"category": "Juguetes",
-			"stock": 1,
-			"tags": ["Autismo", "TDHA", "Antiestrés", "Sensorial"],
-			"ranking": 3,
-			"slug": "orejeras-proteccion-auditiva-ninos-bebes-orejeras-reduccion",
+			"details": null,
+			"tags": ["SENSORY"],
 			"assets": [
 				{
 					"id": "3e6b8097-ee0f-4333-ba51-214cc7808eef",
@@ -6323,11 +5924,16 @@
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/j1hbngwwjsn8u0er6wzl?_a=BAMADKcc0"
 				}
 			],
-			"id": "696075a5-b6db-475f-b9b8-e1415b182993",
 			"createdAt": "2024-11-16T03:35:21.639Z"
 		},
 		{
+			"id": "e5997134-3a64-4537-8bc2-6fe931d27305",
 			"title": "Tablero ocupado para niños, actividades educativas, tablero sensorial para habilidades motoras de vestido básico fino",
+			"slug": "tablero-ocupado-ninos-actividades-educativas",
+			"price": 65,
+			"cost": 25,
+			"stock": 1,
+			"ranking": 4,
 			"features": [
 				"Juguete Montessori 25 en 1 el juguete Montessori de Guolely ayuda a los niños a aprender de forma natural a través del juego. Cuenta con 25 actividades Montessori para niños pequeños, incluyendo cremalleras, cordones de zapatos, botones, hebillas de cinturón, rompecabezas, alfabeto, relojes y juegos de aprendizaje de calendario. Actividades seguras de aprendizaje preescolar para un juego silencioso y desarrolla habilidades motoras finas, habilidades para vestirse, destreza con los dedos y habilidades cognitivas.",
 				"Tablero de negocios de diseño original diseño mejorado con más secciones y más diversión. En comparación con otras tablas ocupadas, la nuestra se basa en la sección original de aprendizaje de habilidades básicas para la vida, y agrega el juego de rompecabezas, la sección de reconocimiento de color y forma, la sección del alfabeto respectivamente, y los relojes y juegos de aprendizaje de calendario.",
@@ -6336,13 +5942,7 @@
 				"Regalo perfecto para niños esta tabla Montessori está diseñada exclusivamente con elementos de dinosaurios y 26 tipos de letras inglesas en forma de animal para atraer a cualquier niño. Es un regalo perfecto para niños de 1 a 6 años como cumpleaños, premio de carnaval, Navidad, Halloween, Acción de Gracias, premios de concursos. Sorprende a tus hijos con nuestra increíble tabla ocupada."
 			],
 			"details": null,
-			"price": 65,
-			"cost": 25,
-			"category": "Juguetes",
-			"stock": 1,
-			"tags": ["montessori", "juguete", "lenguaje", "sensorial", "psicomotricidad"],
-			"ranking": 4,
-			"slug": "tablero-ocupado-ninos-actividades-educativas",
+			"tags": ["MONTESSORI", "LANGUAGE", "SENSORY", "PSYCHOMOTRICITY"],
 			"assets": [
 				{
 					"id": "a6908c2b-a87f-4939-b32b-1efa1688dc15",
@@ -6426,11 +6026,16 @@
 					"type": "video"
 				}
 			],
-			"id": "e5997134-3a64-4537-8bc2-6fe931d27305",
 			"createdAt": "2024-11-16T03:47:59.824Z"
 		},
 		{
+			"id": "a0106c1f-1582-4534-9808-9ae1a0ac4c49",
 			"title": "Piedritas de silicona sensorial Paquete de 6 texturizados para autismo, Juguete para aliviar el estrés",
+			"slug": "silicona-sensorial-paquete-6",
+			"price": 25,
+			"cost": 7,
+			"stock": 1,
+			"ranking": 5,
 			"features": [
 				"Juguetes calmantes diseñados para reemplazar comportamientos repetitivos en niños autistas, permitiendo frotar texturas para reducir la ansiedad.",
 				"Cada juguete presenta colores vibrantes y texturas únicas, ofreciendo una experiencia sensorial satisfactoria para niños y adultos.",
@@ -6439,13 +6044,7 @@
 				"Hechos de material suave y duradero, con bordes redondeados, garantizando seguridad para niños autistas y facilidad de limpieza."
 			],
 			"details": null,
-			"price": 25,
-			"cost": 7,
-			"category": "Juguetes",
-			"stock": 1,
-			"tags": ["lenguaje", "sensorial", "antiestrés", "autismo"],
-			"ranking": 5,
-			"slug": "silicona-sensorial-paquete-6",
+			"tags": ["LANGUAGE", "SENSORY", "STRESS_RELIEF", "LANGUAGE"],
 			"assets": [
 				{
 					"id": "a424d504-b4b2-4fb6-8f54-0e79ecb87326",
@@ -6555,7 +6154,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/yg2z17mqk4hl5mtmxvvj?_a=BAMADKcc0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/yg2z17mqk4hl5mtmxvvj?_a=BAMADKcc0"
 				},
-
 				{
 					"id": "fab77f14-ac4e-41c4-a6a6-4dc65fa11c0f",
 					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1731729915/neystore/ctr2e7g10xalvy1ogjvv.mp4",
@@ -6566,8 +6164,8 @@
 					"type": "video"
 				}
 			],
-			"id": "a0106c1f-1582-4534-9808-9ae1a0ac4c49",
 			"createdAt": "2024-11-16T03:54:32.501Z"
 		}
 	]
 }
+

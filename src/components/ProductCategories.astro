@@ -9,14 +9,24 @@ export interface Props {
 		href: string
 	}[]
 	url: URL
+	category?: ProductTags
 }
 
-const { categories, url } = Astro.props
+const { categories, url, category } = Astro.props
 ---
 
 <div class="lg:hidden">
 	<div class="overflow-x-auto py-4">
 		<div style="scrollbar-width: none" class="flex items-center gap-2">
+			<Button
+				href="/productos"
+				data-active={!category}
+				class:list={[
+					' flex-shrink-0 w-[max-content] flex-nowrap px-2 py-1',
+					!category && 'bg-emerald-200',
+				]}>
+				Todos
+			</Button>
 			{
 				categories.map(({ title, href }) => {
 					const active = url.toString().endsWith(href)

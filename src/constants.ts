@@ -4,13 +4,13 @@ export const PRODUCT_CATEGORY = {
 } as const
 
 export const PRODUCT_TAGS = {
-	Teclados: 'teclado',
-	Keychron: 'keychron',
-	Montessori: 'montessori',
-	Juguetes: 'juguete',
-	Lenguaje: 'lenguaje',
-	Sensorial: 'sensorial',
-	Antiestrés: 'antiestrés',
-	Autismo: 'autismo',
-	Psicomotricidad: 'psicomotricidad',
+	TECHNOLOGY: 'Tecnología',
+	TOYS: 'Juguetes',
+	MONTESSORI: 'Montessori',
+	PSYCHOMOTRICITY: 'Psicomotricidad',
+	LANGUAGE: 'Lenguaje',
+	SENSORY: 'Sensorial',
+	KEYCHRON: 'Keychron',
+	STRESS_RELIEF: 'Antiestrés',
+	KEYBOARDS: 'Teclados',
 } as const

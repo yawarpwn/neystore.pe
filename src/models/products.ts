@@ -12,7 +12,7 @@ import { DatabaseError } from '@/errors'
 
 export class ProductsModel {
 	static async getAll(
-		filter: { category?: ProductTags } | undefined = {}
+		filter: { category?: string } | undefined = {}
 	): Promise<DatabaseResponse<Product[]>> {
 		const { category } = filter
 
@@ -22,9 +22,7 @@ export class ProductsModel {
 			const { products } = databaseJson
 
 			const filterdProducts = category
-				? products.filter((p) =>
-						p.tags.map((t) => t.toLowerCase()).includes(category.toLowerCase())
-					)
+				? products.filter((p) => p.tags.includes(category))
 				: products
 
 			return {

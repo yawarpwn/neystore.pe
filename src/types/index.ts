@@ -3,9 +3,7 @@ import { PRODUCT_CATEGORY, PRODUCT_TAGS } from '@/constants'
 // type Id = `${string}-${string}-${string}-${string}-${string}`
 type Id = string
 
-type ProductCategory = (typeof PRODUCT_CATEGORY)[keyof typeof PRODUCT_CATEGORY]
-
-export type ProductTags = (typeof PRODUCT_TAGS)[keyof typeof PRODUCT_TAGS]
+export type ProductTags = keyof typeof PRODUCT_TAGS
 
 export type ProductAsset = {
 	id: Id
@@ -28,12 +26,11 @@ export type Product = {
 	price: number
 	cost: number
 	ranking: number
-	category: ProductCategory
 	offert?: number | null
 	stock: number
 	slug: string
 	assets: ProductAsset[]
-	tags: string[]
+	tags: ProductTags[]
 	createdAt: string
 }
 

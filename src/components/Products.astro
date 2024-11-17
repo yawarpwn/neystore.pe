@@ -4,19 +4,20 @@ import ProductCard from '@/components/ProductCard.astro'
 import { ProductsModel } from '@/models/products'
 import ProductCategories from '@/components/ProductCategories.astro'
 import { Icon } from 'astro-icon/components'
+import type { ProductTags } from '@/types'
 
 const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
-	title: key,
-	href: `/productos?category=${value}`,
+	title: value,
+	href: `/productos?category=${key}`,
 }))
 
 const url = new URL(Astro.request.headers.get('referer')!)
-const category = url.searchParams.get('category') || ''
+const category = url.searchParams.get('category') as ProductTags
 const { data: products, error } = await ProductsModel.getAll({ category })
 ---
 
 <div class="">
-	<ProductCategories {categories} {url} />
+	<ProductCategories {category} {categories} {url} />
 	<div class="grid gap-4 lg:grid-cols-[200px_1fr]">
 		<aside class="filter-side hidden lg:block">
 			<div class="filter w-[200px] h-[800px]">
@@ -26,6 +27,13 @@ const { data: products, error } = await ProductsModel.getAll({ category })
 					<Icon name="tabler:chevron-down" />
 				</div>
 				<ul>
+					<li class="py-1.5 px-2">
+						<a
+							class:list={['cursor-pointer hover:font-bold', { 'font-bold': !category }]}
+							href={'/productos'}>
+							Todos
+						</a>
+					</li>
 					{
 						categories &&
 							categories.length > 0 &&

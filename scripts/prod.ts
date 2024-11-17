@@ -25,7 +25,6 @@ const newProducts = data.products.map((product) => {
 		ranking: product.ranking,
 		features: product.features,
 		details: product.details,
-		assets: null,
 		tags: product.tags
 			.map((tag) => {
 				const t = tag.toLowerCase()
@@ -42,11 +41,10 @@ const newProducts = data.products.map((product) => {
 				return null
 			})
 			.filter(Boolean),
+		assets: product.assets,
 		createdAt: product.createdAt,
 	}
 })
-
-console.log(newProducts)
 
 // const newProducts = products.map((product) => {
 // 	// let tags: string[] = []
@@ -103,4 +101,4 @@ console.log(newProducts)
 
 // fs.writeFileSync('./src/muckup/products.json', JSON.stringify(newProducts, null, 2))
 
-// fs.writeFileSync('./src/db/db.json', JSON.stringify(newProducts, null, 2))
+fs.writeFileSync('./src/db/db.json', JSON.stringify(newProducts, null, 2))
