@@ -6,7 +6,7 @@ const tags = Object.entries(PRODUCT_TAGS)
 export async function askTags(): Promise<string[]> {
 	const answer = await checkbox({
 		message: 'Select a package manager',
-		choices: tags.map(([key, value]) => ({ name: key, value })),
+		choices: tags.map(([key, value]) => ({ name: value, value: key })),
 	})
 
 	return answer

@@ -5,7 +5,6 @@ import { slugify } from '../src/lib/utils/string'
 import type { InsertProduct, Product, ProductAsset } from '../src/types'
 import { uploadAsset, transformAsset } from '../src/lib/cloudinary/index'
 import {
-	askCategory,
 	azkRank,
 	getProvider,
 	askCost,
@@ -45,7 +44,6 @@ async function main() {
 		const price = await askPrice()
 		const cost = await askCost()
 		const ranking = await azkRank()
-		const category = await askCategory()
 		const id = crypto.randomUUID()
 
 		if (productScrapped.video) {
@@ -100,7 +98,6 @@ async function main() {
 			details: productScrapped.details,
 			price: Number(price),
 			cost: Number(cost),
-			category: category,
 			stock: 1,
 			tags,
 			ranking: Number(ranking),
