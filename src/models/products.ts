@@ -26,7 +26,7 @@ export class ProductsModel {
 				: products
 
 			return {
-				data: filterdProducts,
+				data: filterdProducts.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)),
 				error: null,
 			}
 		} catch (error) {

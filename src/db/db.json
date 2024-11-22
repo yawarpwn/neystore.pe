@@ -1997,7 +1997,7 @@
 		},
 		{
 			"id": "46e009ea-bc13-43c5-87af-56868b361072",
-			"title": "Juguete educativo Montessori para niños pequeños, juguetes de Motor fino, aprendizaje de conteo y clasificación, desarrollo, regalos sensoriales, 13",
+			"title": "Erizo de motricidad fina y sensorial, Juguete educativo Montessori para niños pequeños, aprendizaje de conteo y clasificación",
 			"slug": "juguete-educativo-montessori-ninos-pequenos-juguetes-motor",
 			"price": 50,
 			"cost": 24,
@@ -2118,7 +2118,7 @@
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/q8qx09hofjmhrseqfqbe?_a=BAMADKJu0"
 				}
 			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
+			"createdAt": "2024-11-18T04:23:50.766Z"
 		},
 		{
 			"id": "b57e77ee-8526-44e1-92ea-e6c6d6f6afd2",
@@ -4943,7 +4943,7 @@
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ofrrul59o0x7tusbb5tg?_a=BAMADKJu0"
 				}
 			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
+			"createdAt": "2024-11-19T04:23:50.766Z"
 		},
 		{
 			"id": "401bd9d6-0c85-421b-900c-50335f9daeec",
@@ -5443,7 +5443,7 @@
 					"type": "video"
 				}
 			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
+			"createdAt": "2024-11-16T04:23:50.766Z"
 		},
 		{
 			"id": "4fa05deb-e1b3-47dc-aa7e-6d6e60aaa4b3",
@@ -5816,8 +5816,8 @@
 			"id": "696075a5-b6db-475f-b9b8-e1415b182993",
 			"title": "Orejeras de protección auditiva para niños y bebés, orejeras con reducción de ruido, seguridad NRR ajustable, 25dB",
 			"slug": "orejeras-proteccion-auditiva-ninos-bebes-orejeras-reduccion",
-			"price": 21,
-			"cost": 60,
+			"price": 60,
+			"cost": 21,
 			"stock": 1,
 			"ranking": 3,
 			"features": [
