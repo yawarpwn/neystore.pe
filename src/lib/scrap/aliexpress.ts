@@ -91,7 +91,7 @@ export async function scrapProductFromAliExpress(url: string): Promise<any> {
 
 	const product = {
 		title,
-		details,
+		details: null,
 		features: null,
 		video: null,
 		images,

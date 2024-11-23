@@ -13,4 +13,5 @@ export const PRODUCT_TAGS = {
 	KEYCHRON: 'Keychron',
 	STRESS_RELIEF: 'Antiestrés',
 	KEYBOARDS: 'Teclados',
+	MATH: 'Matemáticas',
 } as const
