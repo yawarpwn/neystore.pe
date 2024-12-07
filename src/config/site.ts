@@ -1,10 +1,11 @@
 export const site = {
 	name: 'Ney Store',
-	title: 'Tecnologia y juguetes Didacticos',
+	title:
+		'Juguetes Didácticos Desarrollo Cognitivo, Sensorial, Lenguaje, Comunicación y Motricidad para Niños',
 	url: 'https://www.neystore.pe',
 	ogImage: 'https://www.neystore.pe/og-neystore.webp',
 	description:
-		'Somos importadores de juegos didácticos, periféricos originales y artículos relacionados. Consulta nuestras promociones y descuentos.',
+		'Descubre juguetes didácticos diseñados para estimular el desarrollo cognitivo, sensorial, la comunicación, el lenguaje y la motricidad en niños. Ideales para aprender jugando.',
 	phone: '900224005',
 	email: 'ventas.neystore@gmail.com',
 	address: 'Av. Maquinaria 325 - Carmen de La Legua - Reynoso ',

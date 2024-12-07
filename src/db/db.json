@@ -4543,7 +4543,7 @@
 		},
 		{
 			"id": "f0a7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
-			"title": "Kit sensorial de 11 juguetes - Herramienta para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
+			"title": "Kit sensorial Descubre - Herramientas para la autorregulación, para canalizar emociones y para generar espacios de calma y tranquilidad. Autismo, TDHA",
 			"slug": "kit-sensorial-calma",
 			"price": 130,
 			"offert": 120,
@@ -4679,7 +4679,101 @@
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/f6kiykao6um0zhqtjtzj?_a=BAMADKJu0"
 				}
 			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
+			"createdAt": "2024-12-09T04:23:50.766Z"
+		},
+
+		{
+			"id": "zzz7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
+			"title": "Kit Explorador Sensorial  - conjunto de juguetes para la autorregulación,canalización emociones y para generar espacios de calma y tranquilidad.",
+			"slug": "kit-sensorial-2",
+			"price": 250,
+			"offert": 200,
+			"cost": 150,
+			"stock": 1,
+			"ranking": 5,
+			"features": [
+				" Alivio definitivo del estrés: mantén tus manos ocupadas y tu mente relajada con nuestros juguetes favoritos para la ansiedad. Estos juguetes sensoriales ofrecen una experiencia táctil única que promueve la relajación y mejora la concentración",
+				"Gran idea de regalo: buscas un regalo divertido y significativo para una fiesta, cumpleaños u ocasión especial. Nuestro paquete a granel de juguetes antiestrés es la elección perfecta. Adecuado tanto para niños como para niñas de todas las edades.",
+				"Ayuda con la concentración, TDAH, TDA, autismo, TOC, dejar malos hábitos, etc. Ayuda a aliviar el estrés."
+			],
+			"details": {
+				"Juguete 1": "Gorila Elástico",
+				"Juguete 2": "Pelota Mágica",
+				"Juguete 3": "Plátano apretable",
+				"Juguete 4": "Giroscopio con luces",
+				"Juguete 5": "Pelota peluda",
+				"Juguete 6": "Bloque de formas",
+				"Juguete 7": "Pelotas antiestrés",
+				"Juguete 8": "Corrector de lápiz",
+				"Juguete 9": "Linterna de proyección",
+				"Juguete 10": "Péndulo tridimensional",
+				"Juguete 11": "Pollito"
+			},
+			"tags": ["TOYS", "SENSORY", "LANGUAGE", "PSYCHOMOTRICITY", "STRESS_RELIEF"],
+			"assets": [
+				{
+					"id": "4060c093-4207-45d3-9220-f24a00b56c97",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733602962/neystore/svccoaazdkvbgynyg34m.jpg",
+					"publicId": "neystore/svccoaazdkvbgynyg34m",
+					"width": 1200,
+					"height": 1200,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/svccoaazdkvbgynyg34m?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/svccoaazdkvbgynyg34m?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/svccoaazdkvbgynyg34m?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "53068d6c-9877-409e-bf95-5f5ff622d134",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733603095/neystore/yyf8nsgszvnfj7zmhthn.jpg",
+					"publicId": "neystore/yyf8nsgszvnfj7zmhthn",
+					"width": 1200,
+					"height": 1200,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/yyf8nsgszvnfj7zmhthn?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/yyf8nsgszvnfj7zmhthn?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/yyf8nsgszvnfj7zmhthn?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "ed65a608-ba37-4856-819a-9e58e0557aaf",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733603251/neystore/zipafhl0i6fytvzkpkyk.jpg",
+					"publicId": "neystore/zipafhl0i6fytvzkpkyk",
+					"width": 1200,
+					"height": 1200,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/zipafhl0i6fytvzkpkyk?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/zipafhl0i6fytvzkpkyk?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/zipafhl0i6fytvzkpkyk?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "eda6d200-e49f-4162-b51c-e83600e9bc57",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733603294/neystore/bovysywkflieqx6kfwjf.jpg",
+					"publicId": "neystore/bovysywkflieqx6kfwjf",
+					"width": 1200,
+					"height": 1200,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bovysywkflieqx6kfwjf?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bovysywkflieqx6kfwjf?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/bovysywkflieqx6kfwjf?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "43a3376b-32f2-4b08-8fce-a8de864bbf2f",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1733603357/neystore/ssqcoke11lhpbttw2qcp.mp4",
+					"publicId": "neystore/ssqcoke11lhpbttw2qcp",
+					"width": 1280,
+					"height": 720,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"createdAt": "2024-12-09T04:23:50.766Z"
 		},
 		{
 			"id": "5236dc69-f53d-4f12-b746-a125c022e2d1",
@@ -5552,8 +5646,9 @@
 			"title": "EPOMAKER TH80 75% Teclado Mecánico, NKRO intercambiable en caliente RGB 2.4Ghz/Bluetooth 5.0/teclado para juegos con cable con espuma de porón/EVA, batería de 4000 mAh",
 			"slug": "epomaker-th80-75-teclado-mecanico-nkro-intercambiable-en-caliente",
 			"price": 320,
+			"offert": 310,
 			"cost": 208,
-			"stock": 0,
+			"stock": 2,
 			"ranking": 4,
 			"features": [
 				"Edición especial del teclado mecánico EPOMAKER TH80 SE, con un atractivo diseño en colores púrpura y negro, y un software actualizado que mejora la experiencia del usuario.",
