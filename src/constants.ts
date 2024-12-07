@@ -10,8 +10,9 @@ export const PRODUCT_TAGS = {
 	PSYCHOMOTRICITY: 'Psicomotricidad',
 	LANGUAGE: 'Lenguaje',
 	SENSORY: 'Sensorial',
-	KEYCHRON: 'Keychron',
 	STRESS_RELIEF: 'Antiestrés',
-	KEYBOARDS: 'Teclados',
 	MATH: 'Matemáticas',
+	KIT: 'Kit',
+	KEYCHRON: 'Keychron',
+	KEYBOARDS: 'Teclados',
 } as const

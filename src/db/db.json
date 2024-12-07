@@ -4568,7 +4568,7 @@
 				"Juguete 10": "Pelota antiestres",
 				"Juguete 11": "Jirafa elástica"
 			},
-			"tags": ["TOYS", "SENSORY", "LANGUAGE", "PSYCHOMOTRICITY", "STRESS_RELIEF"],
+			"tags": ["TOYS", "SENSORY", "LANGUAGE", "PSYCHOMOTRICITY", "STRESS_RELIEF", "KIT"],
 			"assets": [
 				{
 					"id": "9785678c-59fe-4eb9-a81a-2c52df7d7d43",
@@ -4681,7 +4681,6 @@
 			],
 			"createdAt": "2024-12-09T04:23:50.766Z"
 		},
-
 		{
 			"id": "zzz7f9ab-b9f1-4b69-854b-0bfca94bzzzz",
 			"title": "Kit Explorador Sensorial  - conjunto de juguetes para la autorregulación,canalización emociones y para generar espacios de calma y tranquilidad.",
@@ -4709,7 +4708,7 @@
 				"Juguete 10": "Péndulo tridimensional",
 				"Juguete 11": "Pollito"
 			},
-			"tags": ["TOYS", "SENSORY", "LANGUAGE", "PSYCHOMOTRICITY", "STRESS_RELIEF"],
+			"tags": ["TOYS", "SENSORY", "LANGUAGE", "PSYCHOMOTRICITY", "STRESS_RELIEF", "KIT"],
 			"assets": [
 				{
 					"id": "4060c093-4207-45d3-9220-f24a00b56c97",
@@ -4723,7 +4722,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/svccoaazdkvbgynyg34m?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/svccoaazdkvbgynyg34m?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "53068d6c-9877-409e-bf95-5f5ff622d134",
 					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733603095/neystore/yyf8nsgszvnfj7zmhthn.jpg",
@@ -4736,7 +4734,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/yyf8nsgszvnfj7zmhthn?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/yyf8nsgszvnfj7zmhthn?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "ed65a608-ba37-4856-819a-9e58e0557aaf",
 					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733603251/neystore/zipafhl0i6fytvzkpkyk.jpg",
@@ -4749,7 +4746,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/zipafhl0i6fytvzkpkyk?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/zipafhl0i6fytvzkpkyk?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "eda6d200-e49f-4162-b51c-e83600e9bc57",
 					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733603294/neystore/bovysywkflieqx6kfwjf.jpg",
@@ -4762,7 +4758,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bovysywkflieqx6kfwjf?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/bovysywkflieqx6kfwjf?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "43a3376b-32f2-4b08-8fce-a8de864bbf2f",
 					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1733603357/neystore/ssqcoke11lhpbttw2qcp.mp4",
@@ -7163,6 +7158,485 @@
 			],
 			"id": "c5286b03-f04c-4391-9581-1e81e73e6fce",
 			"createdAt": "2024-11-23T04:17:03.259Z"
+		},
+		{
+			"title": "Spinner de mano Simple para niños, juguetes de dedo Pop, alivio del estrés y la ansiedad, TDAH",
+			"features": [
+				"FÁCIL DE JUGAR: Para girar el fidget spinner, sostenga cada lado del centro con un dedo y gire con la otra mano. Con práctica, se puede usar solo con una mano.",
+				"Para usar el juguete de ansiedad en la mesa, presiona el centro para mantenerlo estable y gíralo al mismo tiempo. Al soltarlo, seguirá girando.",
+				"Superficie lisa y esquinas redondas: protege tus dedos de arañazos. No necesita reparación ni mantenimiento, listo para usar fuera de la caja.",
+				"El spinner girará cómodamente durante un tiempo prolongado y utilizará un spinner muy duro durante aún más tiempo con poca desaceleración.",
+				"BOLA DE CERÁMICA HYBRIDA DE ALTA VELOCIDAD: Garantiza rotación y consistencia suaves. 3 contrapesos de acero 608 aumentan la fuerza centrípeta.",
+				"Los rodamientos son extraíbles para futuras actualizaciones. Ideal para mejorar la experiencia del usuario y aumentar el rendimiento del spinner.",
+				"La mejor opción de regalo de Navidad: perfecto como relleno de calcetines o regalos sorpresa de cumpleaños. Ideal para inquietos y personas con ansiedad.",
+				"Ayuda a quienes tienen TDAH, autismo y a deshacerse de malos hábitos. En lugar de morderse las uñas, puedes jugar con el fidget spinner.",
+				"Reducción del estrés y alivio de la ansiedad: este juguete giratorio es perfecto para matar el tiempo aburrido y mantenerse concentrado."
+			],
+			"details": null,
+			"price": 12,
+			"cost": 5,
+			"stock": 1,
+			"tags": ["TOYS", "PSYCHOMOTRICITY", "SENSORY", "STRESS_RELIEF"],
+			"ranking": 3,
+			"slug": "spinner-mano-simple",
+			"assets": [
+				{
+					"id": "30b44669-dae8-418f-901c-d7a1de325648",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605447/neystore/zezk7hylbgynundzh9gr.webp",
+					"format": "webp",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/zezk7hylbgynundzh9gr",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/zezk7hylbgynundzh9gr?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/zezk7hylbgynundzh9gr?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/zezk7hylbgynundzh9gr?_a=BAMADKRi0"
+				},
+				{
+					"id": "23715fa9-e422-480f-99ba-4503e0313cdf",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605448/neystore/mbt3oqmgaqczxpla9rub.webp",
+					"format": "webp",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/mbt3oqmgaqczxpla9rub",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mbt3oqmgaqczxpla9rub?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mbt3oqmgaqczxpla9rub?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mbt3oqmgaqczxpla9rub?_a=BAMADKRi0"
+				},
+				{
+					"id": "f752e593-2134-4bf8-8474-de02e118d0c8",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605448/neystore/q9c6jfmyjd9gzodyuonq.webp",
+					"format": "webp",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/q9c6jfmyjd9gzodyuonq",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/q9c6jfmyjd9gzodyuonq?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/q9c6jfmyjd9gzodyuonq?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/q9c6jfmyjd9gzodyuonq?_a=BAMADKRi0"
+				},
+				{
+					"id": "800b8731-38fc-481e-8da7-d98bbaa06a9a",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605447/neystore/oesw27r3thskh7wytnln.webp",
+					"format": "webp",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/oesw27r3thskh7wytnln",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/oesw27r3thskh7wytnln?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/oesw27r3thskh7wytnln?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/oesw27r3thskh7wytnln?_a=BAMADKRi0"
+				},
+				{
+					"id": "988439e4-e390-4bbe-b046-09723be5b95c",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605448/neystore/ujcf1vsj7i2alzloqqhx.webp",
+					"format": "webp",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/ujcf1vsj7i2alzloqqhx",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ujcf1vsj7i2alzloqqhx?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ujcf1vsj7i2alzloqqhx?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ujcf1vsj7i2alzloqqhx?_a=BAMADKRi0"
+				},
+				{
+					"id": "7f543b62-1439-4860-812f-a5087fff6c81",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605447/neystore/ak9picjubl5nmt86lgnv.webp",
+					"format": "webp",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/ak9picjubl5nmt86lgnv",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ak9picjubl5nmt86lgnv?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ak9picjubl5nmt86lgnv?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ak9picjubl5nmt86lgnv?_a=BAMADKRi0"
+				},
+				{
+					"id": "8285faa7-f98e-4f43-a392-1c26c10c1d46",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605448/neystore/q0ohd8uro1csjtmhdjdp.webp",
+					"format": "webp",
+					"width": 1920,
+					"height": 1920,
+					"publicId": "neystore/q0ohd8uro1csjtmhdjdp",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/q0ohd8uro1csjtmhdjdp?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/q0ohd8uro1csjtmhdjdp?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/q0ohd8uro1csjtmhdjdp?_a=BAMADKRi0"
+				},
+				{
+					"id": "58101496-cfb9-45f1-a977-4d993f419d89",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605448/neystore/rqnyso9wyyl4zbm77nmv.webp",
+					"format": "webp",
+					"width": 1919,
+					"height": 1919,
+					"publicId": "neystore/rqnyso9wyyl4zbm77nmv",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/rqnyso9wyyl4zbm77nmv?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/rqnyso9wyyl4zbm77nmv?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/rqnyso9wyyl4zbm77nmv?_a=BAMADKRi0"
+				}
+			],
+			"id": "5c5e57dc-0761-4ae5-8c50-52c4337052e1",
+			"createdAt": "2024-12-07T21:04:11.955Z"
+		},
+		{
+			"title": "Pelota mágica negra de arcoíris para niños",
+			"features": [
+				"😀 Divertida bola de rompecabezas: la bola arcoíris de CUBIDI es un rompecabezas de colores en forma de bola con 12 agujeros y 11 bolas más grandes en el interior.",
+				"Juguete emocionante: las bolas de colores están mezcladas. Mueve las bolas y colócalas en el lugar correcto, haciendo coincidir el color con el anillo. ¡Divertido pero complicado!",
+				"🎁 Regalo perfecto: ideal para cualquier ocasión como cumpleaños, Navidad o Pascua. ¡La alegría será enorme! Perfecto para niños y niñas de 6 a 10 años.",
+				"Juego de viaje: los juegos cerebrales son pequeños y prácticos, perfectos para llevar a cualquier lugar. Ideal para viajes largos o salas de espera. ¡El aburrimiento no tiene oportunidad!",
+				"🎉 Cumpleaños infantiles: un regalo ideal que promueve el pensamiento espacial, la lógica y las habilidades de concentración. Una alternativa inteligente a otros juguetes."
+			],
+			"details": null,
+			"price": 25,
+			"cost": 15,
+			"stock": 1,
+			"tags": ["TOYS", "PSYCHOMOTRICITY", "SENSORY", "STRESS_RELIEF"],
+			"ranking": 3,
+			"slug": "pelota-magica-negra-arcoiris-ninos-1-piezas-juego-liberar",
+			"assets": [
+				{
+					"id": "39710da5-11a9-4bbe-81a5-de53d4945281",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605794/neystore/w5la3ude40adnizrbvxw.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/w5la3ude40adnizrbvxw",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/w5la3ude40adnizrbvxw?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/w5la3ude40adnizrbvxw?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/w5la3ude40adnizrbvxw?_a=BAMADKRi0"
+				},
+				{
+					"id": "b726952d-6349-4c2b-8d31-d72f3d11bef8",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605794/neystore/mxof92vqjj3rgjtrtdjf.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/mxof92vqjj3rgjtrtdjf",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mxof92vqjj3rgjtrtdjf?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mxof92vqjj3rgjtrtdjf?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mxof92vqjj3rgjtrtdjf?_a=BAMADKRi0"
+				},
+				{
+					"id": "3c4c20a2-9342-4bf5-a0af-9473f798a598",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605794/neystore/pju7r3fs3dwysr9fpflo.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/pju7r3fs3dwysr9fpflo",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/pju7r3fs3dwysr9fpflo?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/pju7r3fs3dwysr9fpflo?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/pju7r3fs3dwysr9fpflo?_a=BAMADKRi0"
+				},
+				{
+					"id": "052d7004-0eb3-454f-9ff3-65537944f34b",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605794/neystore/awa4isduefkd3fnhsn1e.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/awa4isduefkd3fnhsn1e",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/awa4isduefkd3fnhsn1e?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/awa4isduefkd3fnhsn1e?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/awa4isduefkd3fnhsn1e?_a=BAMADKRi0"
+				},
+				{
+					"id": "de6116a4-c09b-45c7-8262-75c253bcf338",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605794/neystore/djdk3bsywidkucbnbov0.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/djdk3bsywidkucbnbov0",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/djdk3bsywidkucbnbov0?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/djdk3bsywidkucbnbov0?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/djdk3bsywidkucbnbov0?_a=BAMADKRi0"
+				},
+				{
+					"id": "46ed380c-0419-4a85-9cf4-676beb323924",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605794/neystore/pfh3dhvkpaq2uuia88ba.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/pfh3dhvkpaq2uuia88ba",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/pfh3dhvkpaq2uuia88ba?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/pfh3dhvkpaq2uuia88ba?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/pfh3dhvkpaq2uuia88ba?_a=BAMADKRi0"
+				},
+				{
+					"id": "b56ab360-1ea8-4290-9e27-ec40dee1cf31",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733605793/neystore/eaa0r2ezmamkmmvufhas.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/eaa0r2ezmamkmmvufhas",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/eaa0r2ezmamkmmvufhas?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/eaa0r2ezmamkmmvufhas?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/eaa0r2ezmamkmmvufhas?_a=BAMADKRi0"
+				},
+				{
+					"id": "3ded1e38-c806-40a7-b366-111f86354146",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1733606116/neystore/pp1f4udwvqbxveszousf.mp4",
+					"publicId": "neystore/pp1f4udwvqbxveszousf",
+					"width": 720,
+					"height": 720,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"id": "3c5cd555-5e8f-41b6-bdd3-7c01445e75a4",
+			"createdAt": "2024-12-07T21:09:55.133Z"
+		},
+		{
+			"title": "Bloques de cubo de serpiente mágica Juguetes para niños y adultos, rompecabezas 3D Montessori, juguete y tallo para mayores de 3 años, alivio del estrés",
+			"features": [
+				"Diseño de tamaño razonable: regla mágica de 48 bloques de la serie Macaron, adecuada para diferentes grupos de edad. Compacto y fácil de llevar para inquietarse sobre la marcha.",
+				"Alta elasticidad, no es fácil de romper: el rompecabezas triangular MOYU BLOCK tiene resorte de alta elasticidad que soporta gran tensión al girar. Fácil de girar tras pruebas de ajuste.",
+				"Alivio del estrés y concentración mejorada: este rompecabezas es un juguete sensorial atractivo que proporciona horas de entretenimiento para niños y adultos por igual.",
+				"Ejercicio habilidades de pensamiento lógico: el diseño giratorio desafía a los usuarios a pensar creativamente y resolver problemas al formar diferentes formas y patrones.",
+				"Perfecto para regalo: este juego ofrece una experiencia tranquila y inquieta, ideal para aulas, oficinas o en casa. Regalo perfecto para fiestas, incentivos o Navidad."
+			],
+			"details": null,
+			"price": 25,
+			"cost": 8,
+			"stock": 1,
+			"tags": ["TOYS", "MONTESSORI", "PSYCHOMOTRICITY", "SENSORY", "STRESS_RELIEF"],
+			"ranking": 4,
+			"slug": "bloques-cubo-serpiente-magica-juguetes-ninos-adultos",
+			"assets": [
+				{
+					"id": "0cf89c4f-6651-44e2-994c-85048588b584",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606282/neystore/niwn5r3uulv5kmpdezuz.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/niwn5r3uulv5kmpdezuz",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/niwn5r3uulv5kmpdezuz?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/niwn5r3uulv5kmpdezuz?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/niwn5r3uulv5kmpdezuz?_a=BAMADKRi0"
+				},
+				{
+					"id": "16713afa-9c9d-4f5f-b57d-d533a6083eb1",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606281/neystore/c5cxmaxaqvsuqr8xdzxt.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/c5cxmaxaqvsuqr8xdzxt",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/c5cxmaxaqvsuqr8xdzxt?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/c5cxmaxaqvsuqr8xdzxt?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/c5cxmaxaqvsuqr8xdzxt?_a=BAMADKRi0"
+				},
+				{
+					"id": "841510c4-a120-47ca-9024-0bff71760f97",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606282/neystore/ilc7kv0pv7pxlprd28vn.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/ilc7kv0pv7pxlprd28vn",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ilc7kv0pv7pxlprd28vn?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ilc7kv0pv7pxlprd28vn?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ilc7kv0pv7pxlprd28vn?_a=BAMADKRi0"
+				},
+				{
+					"id": "c2db7135-66eb-4cac-acbb-ba5939120e8a",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606282/neystore/exxz31ssoncxupualjgg.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/exxz31ssoncxupualjgg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/exxz31ssoncxupualjgg?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/exxz31ssoncxupualjgg?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/exxz31ssoncxupualjgg?_a=BAMADKRi0"
+				},
+				{
+					"id": "3f68d11c-83f0-40e4-848c-cfb12533fc3c",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606282/neystore/wdi9r2tvejhqkflfwrfv.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/wdi9r2tvejhqkflfwrfv",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/wdi9r2tvejhqkflfwrfv?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/wdi9r2tvejhqkflfwrfv?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/wdi9r2tvejhqkflfwrfv?_a=BAMADKRi0"
+				},
+				{
+					"id": "b606e07f-ff45-4494-849c-e5a32d0cc5e9",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606282/neystore/p2todzondpgcxowx0goc.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/p2todzondpgcxowx0goc",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/p2todzondpgcxowx0goc?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/p2todzondpgcxowx0goc?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/p2todzondpgcxowx0goc?_a=BAMADKRi0"
+				},
+				{
+					"id": "8e3f9de8-c0f1-4b76-b4d9-76b3ce569055",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606282/neystore/spt5jsyss95gf6wdqpis.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/spt5jsyss95gf6wdqpis",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/spt5jsyss95gf6wdqpis?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/spt5jsyss95gf6wdqpis?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/spt5jsyss95gf6wdqpis?_a=BAMADKRi0"
+				},
+				{
+					"id": "7b23b044-51cc-4cb1-89db-1e62fccc35d8",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606282/neystore/ialdufz4j2ctbtw0kbw0.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/ialdufz4j2ctbtw0kbw0",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ialdufz4j2ctbtw0kbw0?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ialdufz4j2ctbtw0kbw0?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ialdufz4j2ctbtw0kbw0?_a=BAMADKRi0"
+				},
+				{
+					"id": "ad258712-585e-4f90-aee4-45a8fc3f16a2",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606281/neystore/o24fw6cxnddqmdgzzcq2.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/o24fw6cxnddqmdgzzcq2",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/o24fw6cxnddqmdgzzcq2?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/o24fw6cxnddqmdgzzcq2?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/o24fw6cxnddqmdgzzcq2?_a=BAMADKRi0"
+				}
+			],
+			"id": "380214be-1a6c-4a04-b729-ff51f9fb3dc5",
+			"createdAt": "2024-12-07T21:18:02.783Z"
+		},
+		{
+			"title": "Ocho planetas hoyuelos Push Bubble Fidget juguetes niños sensorial autismo Squishy juguetes para aliviar el estrés para niños regalo",
+			"features": [
+				"Juguetes sensoriales para bebés: simples pero brillantes, empuja y explota, presiona y agárralos. Juguete portátil para mantener su atención.",
+				"Desarrollo infantil: involucra los sentidos, desarrolla habilidades motoras finas, exploración sensorial y apoya el aprendizaje de causa y efecto.",
+				"A partir de 6 meses: sin BPA, burbujas hechas de 100% silicona de grado alimenticio. La superficie lisa cuida la piel tierna de tu bebé.",
+				"Juguetes de regalo ideales: cuenta con 5 burbujas vibrantes en un marco de plástico. Perfecto para niños y también para adultos con falta de atención."
+			],
+			"details": null,
+			"price": 25,
+			"cost": 15,
+			"stock": 1,
+			"tags": ["TOYS", "LANGUAGE"],
+			"ranking": 3,
+			"slug": "ocho-planetas-hoyuelos-push-bubble-fidget-juguetes-ninos",
+			"assets": [
+				{
+					"id": "4eab10ea-c328-4f9d-89c7-797b2d386565",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606609/neystore/b93fxq7nuepkked4kx8f.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/b93fxq7nuepkked4kx8f",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/b93fxq7nuepkked4kx8f?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/b93fxq7nuepkked4kx8f?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/b93fxq7nuepkked4kx8f?_a=BAMADKRi0"
+				},
+				{
+					"id": "41f372cd-1b7a-46bd-823c-dc32526394c3",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606609/neystore/w0l06sxozoqirswz483w.webp",
+					"format": "webp",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/w0l06sxozoqirswz483w",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/w0l06sxozoqirswz483w?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/w0l06sxozoqirswz483w?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/w0l06sxozoqirswz483w?_a=BAMADKRi0"
+				},
+				{
+					"id": "7fd3c673-fcf9-4839-b36c-8a8a220484d6",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606610/neystore/q3geobngupqeeisdzt3l.webp",
+					"format": "webp",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/q3geobngupqeeisdzt3l",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/q3geobngupqeeisdzt3l?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/q3geobngupqeeisdzt3l?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/q3geobngupqeeisdzt3l?_a=BAMADKRi0"
+				},
+				{
+					"id": "3d3bc1de-b2f8-4ff7-9365-e1a6dfac0748",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606609/neystore/eqzzozyygfenhpqojv3f.webp",
+					"format": "webp",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/eqzzozyygfenhpqojv3f",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/eqzzozyygfenhpqojv3f?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/eqzzozyygfenhpqojv3f?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/eqzzozyygfenhpqojv3f?_a=BAMADKRi0"
+				},
+				{
+					"id": "42c8c382-f145-4c6f-82cc-ffa4dccbc9a9",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606609/neystore/uogte2umcflvkvmqb9ja.webp",
+					"format": "webp",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/uogte2umcflvkvmqb9ja",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/uogte2umcflvkvmqb9ja?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/uogte2umcflvkvmqb9ja?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/uogte2umcflvkvmqb9ja?_a=BAMADKRi0"
+				},
+				{
+					"id": "6ce2f89e-0d41-441f-8df7-d161d91a3cab",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606609/neystore/rnbniyrnftuy2bvpmbwq.webp",
+					"format": "webp",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/rnbniyrnftuy2bvpmbwq",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/rnbniyrnftuy2bvpmbwq?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/rnbniyrnftuy2bvpmbwq?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/rnbniyrnftuy2bvpmbwq?_a=BAMADKRi0"
+				},
+				{
+					"id": "f207e2e1-cd39-4e11-b02e-827af4221128",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1733606609/neystore/nnnsvm25fv6etihrbnqg.webp",
+					"format": "webp",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/nnnsvm25fv6etihrbnqg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/nnnsvm25fv6etihrbnqg?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/nnnsvm25fv6etihrbnqg?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/nnnsvm25fv6etihrbnqg?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "40e176c6-29dd-420a-b29b-5687fbfdf423",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1733606805/neystore/q1zl3f8gfbemx2os4oci.mp4",
+					"publicId": "neystore/q1zl3f8gfbemx2os4oci",
+					"width": 720,
+					"height": 1276,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"id": "1c08df71-9da7-4905-a23d-92bbf2969997",
+			"createdAt": "2024-12-07T21:23:30.621Z"
 		}
 	]
 }
+
