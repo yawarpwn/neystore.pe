@@ -55,7 +55,8 @@ const { data: products, error } = await ProductsModel.getAll({ category })
 		</aside>
 		<!-- Maiin Section -->
 		<section class="mt-4">
-			<ul class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
+			<ul
+				class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
 				{
 					products &&
 						products.length > 0 &&
