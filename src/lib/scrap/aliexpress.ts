@@ -22,7 +22,9 @@ export async function extractImagesFromAliExpress(page: Page): Promise<string[]>
 	for (const imgEl of imagesEl) {
 		const src = (await imgEl.getAttribute('src')) as string
 		//thumb image --> https://ae01.alicdn.com/kf/Sf1ee08e24c1a469caad908568bce42bfC/Lenovo-auriculares-inal-mbricos-LP40-Pro-TWS-cascos-deportivos-con-Bluetooth-5-1-reducci-n-de.jpg_80x80.jpg_.webp
-		const replaced = src.replace(/(80x80|120x120)/, '1000x1000')
+		//https://ae-pic-a1.aliexpress-media.com/kf/S5336e00098ac49df99e8927581c7c1ddf.jpg_220x220q75.jpg_.avif
+		const replaced = src.replace(/(80x80|120x120|220x220)/, '1000x1000')
+		console.log(replaced)
 
 		images.push(replaced)
 	}
