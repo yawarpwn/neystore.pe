@@ -4143,14 +4143,15 @@
 		},
 		{
 			"id": "6c0b1d87-d9fb-49d3-9755-0c66ef81d735",
-			"title": "Gateron Interruptores de llave de perfil bajo para teclados mecánicos de juegos  Montaje en placa rojo Gateron, 90 piezas",
+			"title": "Interruptor óptico Keychron de bajo perfil, 87 piezas para teclado inalámbrico mecánico ultradelgado",
 			"slug": "gateron-ks27-interruptores-llave-perfil-bajo-teclados",
-			"price": 160,
-			"cost": 160,
+			"price": 100,
+			"offert": 90,
+			"cost": 60,
 			"stock": 1,
 			"ranking": 4,
 			"features": [
-				"Rojo Gateron  Lineal  Previaje de 0.059 in  Recorrido total de 0.108 in  Actuación de 50cN",
+				"Negro Gateron  Lineal  Previaje de 0.059 in  Recorrido total de 0.108 in  Actuación de 50cN",
 				"Para teclados mecánicos para juegos de intercambio en caliente y teclados personalizados de bricolaje compatibles con interruptores de perfil bajo.",
 				"Lineal para juegos rápidos y receptivos utilizado por algunos de los mejores jugadores del mundo",
 				"Interruptores montados en placa diseño de 3 pines de alta compatibilidad",
@@ -4158,54 +4159,39 @@
 				"Extractor de interruptorextractor incluido"
 			],
 			"details": {
-				"Marca": "Ranked",
-				"Dispositivos compatibles": "PCB de teclado mecánico de perfil",
-				"Descripción del teclado": "Gaming",
-				"Usos Recomendados Para Producto": "Viajes",
+				"Marca": "Keychron",
+				"Dispositivos compatibles": "PCB de teclado mecánico de perfil bajo",
 				"Características especiales": "Intercambiable en caliente",
-				"Color": "Gateron Rojo",
-				"Número de teclas": 90,
-				"Estilo": "Personalizado",
-				"Dimensiones del producto": "0,39\"l. x 0,39\"an. x 0,39\"al. pulgadas",
-				"Componentes incluidos": "Extractor de Teclas"
+				"Color": "Gateron Negro",
+				"Número de teclas": 87,
+				"Dimensiones del producto": "0,39\"l. x 0,39\"an. x 0,39\"al. pulgadas"
 			},
 			"tags": ["KEYBOARDS", "TECHNOLOGY"],
 			"assets": [
 				{
-					"id": "00437907-13c9-41f6-8062-7d91e6615127",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552241/neystore/bdkmesl47i78v0f1szt2.jpg",
-					"format": "jpg",
-					"width": 285,
-					"height": 224,
+					"id": "d79721c2-09bd-4927-8c73-c81b1cf021a2",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1740081450/neystore/b4bd17xbyo5prvnhxevh.avif",
+					"publicId": "neystore/b4bd17xbyo5prvnhxevh",
+					"width": 960,
+					"height": 960,
+					"format": "avif",
 					"type": "image",
-					"publicId": "neystore/bdkmesl47i78v0f1szt2",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bdkmesl47i78v0f1szt2?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bdkmesl47i78v0f1szt2?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/bdkmesl47i78v0f1szt2?_a=BAMADKJu0"
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/b4bd17xbyo5prvnhxevh?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/b4bd17xbyo5prvnhxevh?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/b4bd17xbyo5prvnhxevh?_a=BAMADKRi0"
 				},
+
 				{
-					"id": "d63b6dc7-bc2c-4fd7-b7ab-6af4e327111e",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552241/neystore/qqrsyftngpvgzbtxtfoc.jpg",
-					"format": "jpg",
-					"width": 500,
-					"height": 500,
+					"id": "03fb01a5-a089-4523-9186-1db2cdb52692",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1740081806/neystore/lb2reahuapf2bqv3p4zh.avif",
+					"publicId": "neystore/lb2reahuapf2bqv3p4zh",
+					"width": 960,
+					"height": 714,
+					"format": "avif",
 					"type": "image",
-					"publicId": "neystore/qqrsyftngpvgzbtxtfoc",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qqrsyftngpvgzbtxtfoc?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/qqrsyftngpvgzbtxtfoc?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/qqrsyftngpvgzbtxtfoc?_a=BAMADKJu0"
-				},
-				{
-					"id": "9bb0a873-8e9a-4c56-a419-fba600f1503c",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552241/neystore/xc8ttlbrium4slfvgskr.jpg",
-					"format": "jpg",
-					"width": 500,
-					"height": 500,
-					"type": "image",
-					"publicId": "neystore/xc8ttlbrium4slfvgskr",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/xc8ttlbrium4slfvgskr?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/xc8ttlbrium4slfvgskr?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/xc8ttlbrium4slfvgskr?_a=BAMADKJu0"
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/lb2reahuapf2bqv3p4zh?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/lb2reahuapf2bqv3p4zh?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/lb2reahuapf2bqv3p4zh?_a=BAMADKRi0"
 				},
 				{
 					"id": "b7a42a65-719a-41ee-91ff-21753b560305",
@@ -4230,18 +4216,6 @@
 					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/tzgnafn7ljeac2rqwxzr?_a=BAMADKJu0",
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/tzgnafn7ljeac2rqwxzr?_a=BAMADKJu0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/tzgnafn7ljeac2rqwxzr?_a=BAMADKJu0"
-				},
-				{
-					"id": "956839d8-d64d-4615-9ee1-660307d9d392",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724552242/neystore/wsaktlpu9zarp5ga5ekt.jpg",
-					"format": "jpg",
-					"width": 500,
-					"height": 500,
-					"type": "image",
-					"publicId": "neystore/wsaktlpu9zarp5ga5ekt",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/wsaktlpu9zarp5ga5ekt?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/wsaktlpu9zarp5ga5ekt?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/wsaktlpu9zarp5ga5ekt?_a=BAMADKJu0"
 				}
 			],
 			"createdAt": "2024-11-09T04:23:50.766Z"
