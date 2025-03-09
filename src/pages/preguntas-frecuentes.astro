@@ -111,23 +111,27 @@ import { site } from '@/config'
 	h4,
 	h5,
 	h6 {
-		@apply font-bold;
+		font-weight: var(--font-weight-bold);
 	}
 
 	h1 {
-		@apply text-4xl;
+		font-size: var(--text-4xl);
+		line-height: var(--text-4xl--line-height);
 	}
 
 	h2 {
-		@apply text-2xl;
+		font-size: var(--text-2xl);
+		line-height: var(--text-2xl--line-height);
 	}
 
 	h3 {
-		@apply text-xl;
+		font-size: var(--text-xl);
+		line-height: var(--text-xl--line-height);
 	}
 
 	h4 {
-		@apply text-lg;
+		font-size: var(--text-lg);
+		line-height: var(--text-lg--line-height);
 	}
 
 	h1,
@@ -141,5 +145,10 @@ import { site } from '@/config'
 
 	p {
 		margin-top: 1rem;
+	}
+
+	ul {
+		list-style: disc;
+		padding-inline-start: 15px;
 	}
 </style>

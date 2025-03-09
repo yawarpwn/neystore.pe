@@ -22,7 +22,7 @@ const { categories, url, category } = Astro.props
 				href="/productos"
 				data-active={!category}
 				class:list={[
-					' flex-shrink-0 w-[max-content] flex-nowrap px-2 py-1',
+					' shrink-0 w-[max-content] flex-nowrap px-2 py-1',
 					!category && 'bg-emerald-200',
 				]}>
 				Todos
@@ -35,7 +35,7 @@ const { categories, url, category } = Astro.props
 							href={href}
 							data-active={active}
 							class:list={[
-								' flex-shrink-0 w-[max-content] flex-nowrap px-2 py-1',
+								' shrink-0 w-[max-content] flex-nowrap px-2 py-1',
 								active && 'bg-emerald-200',
 							]}>
 							{title}

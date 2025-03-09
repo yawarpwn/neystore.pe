@@ -1,6 +1,81 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+	--color-accent: oklch(var(--accent));
+	--color-background: oklch(var(--background));
+	--color-foreground: oklch(var(--foreground));
+	--color-border: oklch(var(--border));
+	--color-muted: oklch(var(--muted));
+	--color-muted-foreground: oklch(var(--muted-foreground));
+	--color-primary: oklch(var(--primary));
+	--color-primary-foreground: oklch(var(--primary-foreground));
+	--color-secondary: oklch(var(--secondary));
+	--color-secondary-foreground: oklch(var(--secondary-foreground));
+	--color-red: oklch(var(--red));
+	--color-green: oklch(var(--green));
+	--color-yellow: oklch(var(--yellow));
+	--color-blue: oklch(var(--blue));
+	--color-magenta: oklch(var(--magenta));
+	--color-cyan: oklch(var(--cyan));
+	--color-white: oklch(var(--white));
+	--color-black: oklch(var(--black));
+	--background-image-pepe: linear-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
+	--font-sans: Poppins, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+		'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@utility container {
+	margin-inline: auto;
+	padding-inline: 0.75rem;
+}
+
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentColor);
+	}
+}
+
+@utility our-card {
+	@apply rounded-md px-4 py-12  overflow-hidden relative text-white bg-cover;
+}
+
+@utility gradient-accent {
+	@apply bg-linear-to-r from-primary to-secondary;
+}
+
+@utility border-gradient {
+	border: 1px solid transparent;
+	background:
+		linear-gradient(oklch(var(--background)), oklch(var(--background))) no-repeat padding-box,
+		linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary))) border-box;
+
+	&:hover {
+		background:
+			linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary))) no-repeat padding-box,
+			linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary))) border-box;
+		color: oklch(var(--white));
+	}
+}
+
+@utility border-shadow {
+	@apply border-2 rounded-md shadow-[0_3px_0_0_currentColor];
+}
+
+@utility text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	margin: 2px 0px 0px 0px;
+	padding: 0;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-break: break-word;
+}
 
 @layer base {
 	:root {
@@ -30,46 +105,10 @@
 	}
 
 	* {
-		@apply border-border min-w-[0];
+		@apply border-border min-w-0;
 		scrollbar-width: thin;
 	}
 	body {
 		@apply bg-background text-foreground  min-h-[100svh] text-[14px] leading-7;
-	}
-}
-
-@layer components {
-	.gradient-accent {
-		@apply bg-gradient-to-r from-primary to-secondary;
-	}
-
-	.border-gradient {
-		border: 1px solid transparent;
-		background:
-			linear-gradient(oklch(var(--background)), oklch(var(--background))) no-repeat padding-box,
-			linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary))) border-box;
-
-		&:hover {
-			background:
-				linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary))) no-repeat padding-box,
-				linear-gradient(90deg, oklch(var(--primary)), oklch(var(--secondary))) border-box;
-			color: oklch(var(--white));
-		}
-	}
-
-	.border-shadow {
-		@apply border-2 rounded-md shadow-[0_3px_0_0_currentColor];
-	}
-
-	.text-truncate {
-		overflow: hidden;
-		text-overflow: ellipsis;
-		word-wrap: break-word;
-		margin: 2px 0px 0px 0px;
-		padding: 0;
-		display: -webkit-box;
-		-webkit-line-clamp: 2;
-		-webkit-box-orient: vertical;
-		word-break: break-word;
 	}
 }

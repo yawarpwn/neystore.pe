@@ -4,6 +4,6 @@ interface Props extends HTMLAttributes<'input'> {}
 ---
 
 <input
-	class:list={['px-2 py-1 rounded bg-background border', Astro.props.class]}
+	class:list={['px-2 py-1 rounded-sm bg-background border', Astro.props.class]}
 	{...Astro.props}
 />

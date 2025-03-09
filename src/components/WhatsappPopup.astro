@@ -30,11 +30,11 @@ const team = [
 	<article
 		data-state="closed"
 		id="container"
-		class="fixed z-40 right-2 bottom-2 flex items-center justify-center">
+		class="fixed z-40 right-2 bottom-2 flex items-center justify-center whatsapp-popup rounded-full bg-green-500">
 		<div
 			class={`window fixed bottom-16 right-2 p-4 shadow-sm rounded-md 
-bg-gradient-to-r from-primary to-secondary text-white
-transition-transform translate-x-full invisible`}>
+bg-linear-to-r from-primary to-secondary text-white
+transition-transform translate-x-full invisible `}>
 			<p class="mb-2 text-center">
 				Contacte con nosotros vía <strong>WhatsApp</strong>
 			</p>
@@ -45,16 +45,16 @@ transition-transform translate-x-full invisible`}>
 
 						return (
 							<a
-								class="flex bg-primary-foreground/20 items-center gap-4 p-2 hover:bg-white/40 hover:shadow-sm rounded-md cursor-pointer transition"
+								class="flex bg-primary-foreground/20 items-center gap-4 p-2 hover:bg-white/40 hover:shadow-xs rounded-md cursor-pointer transition"
 								href={whatsappLink}
 								target="_blank">
 								<img
-									class="rounded-sm"
+									class="rounded-xs"
 									alt="Foto de raquel Raquel Maldonado Ramirez"
 									title="Raquel Maldonado Ramirez"
 									width="60"
 									height="80"
-									class="rounded-sm"
+									class="rounded-xs"
 									src={member.image}
 								/>
 								<div class="wap__texts flex-1">
@@ -104,8 +104,77 @@ transition-transform translate-x-full invisible`}>
 	customElements.define('whatsapp-popup', WhatsappPopup)
 </script>
 <style>
+	.whatsapp-popup {
+		animation:
+			waves-whatsapp linear 3s infinite,
+			scale-in 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	}
+	#whatsapp-button {
+		animation: shake-animation linear 1.5s infinite;
+	}
+
+	@keyframes shake-animation {
+		0% {
+			transform: rotate(0) scale(1) skew(0.017rad);
+		}
+
+		25% {
+			transform: rotate(0) scale(1) skew(0.017rad);
+		}
+
+		35% {
+			transform: rotate(-0.3rad) scale(1) skew(0.017rad);
+		}
+
+		45% {
+			transform: rotate(0.3rad) scale(1) skew(0.017rad);
+		}
+
+		55% {
+			transform: rotate(-0.3rad) scale(1) skew(0.017rad);
+		}
+
+		65% {
+			transform: rotate(0.3rad) scale(1) skew(0.017rad);
+		}
+
+		75% {
+			transform: rotate(0) scale(1) skew(0.017rad);
+		}
+
+		100% {
+			transform: rotate(0) scale(1) skew(0.017rad);
+		}
+	}
+
+	@keyframes waves-whatsapp {
+		0% {
+			box-shadow:
+				0 8px 10px rgba(48, 191, 58, 0.3),
+				0 0 0 0 rgba(48, 191, 58, 0.2),
+				0 0 0 0 rgba(48, 191, 58, 0.2);
+		}
+		40% {
+			box-shadow:
+				0 8px 10px rgba(48, 191, 58, 0.3),
+				0 0 0 35px rgba(48, 191, 58, 0.2),
+				0 0 0 0 rgba(48, 191, 58, 0.2);
+		}
+		80% {
+			box-shadow:
+				0 8px 10px rgba(48, 191, 58, 0.3),
+				0 0 0 55px rgba(48, 191, 58, 0),
+				0 0 0 26.7px rgba(48, 191, 58, 0.067);
+		}
+		100% {
+			box-shadow:
+				0 8px 10px rgba(48, 191, 58, 0.3),
+				0 0 0 80px rgba(48, 191, 58, 0),
+				0 0 0 40px rgba(48, 191, 58, 0);
+		}
+	}
 	[data-state='open'] .window {
-		transform: translateX(0);
+		transform: translateX(-100%);
 		visibility: visible;
 	}
 

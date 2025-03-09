@@ -32,10 +32,10 @@ const pages = [
 
 <header data-state="closed" id="main-header" class="fixed z-50 left-1/2 -translate-x-1/2 top-2">
 	<div
-		class="relative bg-background shadow rounded-2xl px-6 py-2 flex items-center md:gap-6 justify-between">
+		class="relative bg-background shadow-sm rounded-2xl px-6 py-2 flex items-center md:gap-6 justify-between">
 		<a
 			href="/"
-			class="!text-inherit hover:scale-110 transition-transform duration-100"
+			class="text-inherit! hover:scale-110 transition-transform duration-100"
 			data-astro-reload>
 			<Logo />
 		</a>
@@ -117,7 +117,7 @@ const pages = [
 							class:list={[
 								'hover:scale-125 transition-transform duration-200 ',
 								name === 'instagram' &&
-									'bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#FCB045] rounded-md w-[30px] h-[30px]',
+									'bg-linear-to-br from-[#833AB4] via-[#FD1D1D] to-[#FCB045] rounded-md w-[30px] h-[30px]',
 							]}
 							href={link}
 							rel="noopener noreferrer"

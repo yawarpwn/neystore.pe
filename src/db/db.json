@@ -4180,7 +4180,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/b4bd17xbyo5prvnhxevh?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/b4bd17xbyo5prvnhxevh?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "03fb01a5-a089-4523-9186-1db2cdb52692",
 					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1740081806/neystore/lb2reahuapf2bqv3p4zh.avif",
@@ -7942,7 +7941,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/nbcsv9c0hxgpvuh0kkiy?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/nbcsv9c0hxgpvuh0kkiy?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "bae065de-fc8b-49ea-aa56-9f7e92be34bb",
 					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1737601989/neystore/cxiwcrzg1ove0wfwsigg.mp4",
@@ -7955,6 +7953,122 @@
 			],
 			"id": "353939bd-d4d1-43c4-a767-4469d0a668bb",
 			"createdAt": "2025-01-23T03:01:35.970Z"
+		},
+		{
+			"title": "Juguetes Montessori para bebés, bola rodante, torre de pila, entrenamiento de habilidades para los dedos, juegos educativos, pista de apilamiento giratoria, desarrollo de bebés",
+			"features": [
+				"Torre de bolas de 6 niveles para niños de 2, 3, 4 años, niñas y niños pequeños",
+				"Incluye 6 bolas",
+				"Juguetes de desarrollo educativo ideales para las habilidades motoras de los niños pequeños, coordinación mano-ojo",
+				"El nivel final está sellado, lo que puede sostener las bolas cuando caen a la final",
+				"Hermosa caja de regalo incluida, perfecta como regalo para niños pequeños"
+			],
+			"details": null,
+			"price": 40,
+			"cost": 24,
+			"stock": 1,
+			"tags": ["TOYS", "PSYCHOMOTRICITY", "STRESS_RELIEF", "MONTESSORI"],
+			"ranking": 3,
+			"slug": "juguetes-montessori-bebes-bola-rodante-torre-pila",
+			"assets": [
+				{
+					"id": "94db203d-d933-45b3-930d-b33b379a8104",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/pnx1oie6cxztrjkdl6rn.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/pnx1oie6cxztrjkdl6rn",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/pnx1oie6cxztrjkdl6rn?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/pnx1oie6cxztrjkdl6rn?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/pnx1oie6cxztrjkdl6rn?_a=BAMADKRi0"
+				},
+				{
+					"id": "8c5341a2-e6f4-4629-8703-01d0203b74ef",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/c2stmhema7twucenmbtq.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/c2stmhema7twucenmbtq",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/c2stmhema7twucenmbtq?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/c2stmhema7twucenmbtq?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/c2stmhema7twucenmbtq?_a=BAMADKRi0"
+				},
+				{
+					"id": "07b4d08c-206a-40ed-9a9d-fffa45a43da0",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/kcbrjznixvgzrfe6kvtp.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/kcbrjznixvgzrfe6kvtp",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/kcbrjznixvgzrfe6kvtp?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/kcbrjznixvgzrfe6kvtp?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/kcbrjznixvgzrfe6kvtp?_a=BAMADKRi0"
+				},
+				{
+					"id": "089cebcc-d608-431d-a167-5143967a709f",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/alh1eajhgsmtggi3yrhh.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/alh1eajhgsmtggi3yrhh",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/alh1eajhgsmtggi3yrhh?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/alh1eajhgsmtggi3yrhh?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/alh1eajhgsmtggi3yrhh?_a=BAMADKRi0"
+				},
+				{
+					"id": "35708c9b-62f7-42fd-95f4-3c96697780aa",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/rzuu6ygqavbyv3fbmf99.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/rzuu6ygqavbyv3fbmf99",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/rzuu6ygqavbyv3fbmf99?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/rzuu6ygqavbyv3fbmf99?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/rzuu6ygqavbyv3fbmf99?_a=BAMADKRi0"
+				},
+				{
+					"id": "09bd1c4f-0c9b-4279-ba26-13b2c66fc07f",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/vhnqqecoqlk6zzfzq82k.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/vhnqqecoqlk6zzfzq82k",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vhnqqecoqlk6zzfzq82k?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vhnqqecoqlk6zzfzq82k?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/vhnqqecoqlk6zzfzq82k?_a=BAMADKRi0"
+				},
+				{
+					"id": "a5465711-2185-4da5-ac29-24c71bd0e795",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/z7kue3xe8p6hl0den3bk.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/z7kue3xe8p6hl0den3bk",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/z7kue3xe8p6hl0den3bk?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/z7kue3xe8p6hl0den3bk?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/z7kue3xe8p6hl0den3bk?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "52f29fe8-ff50-4ec1-8b73-9558027ddf45",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1741477977/neystore/tqdwsswbdinoa769bwcc.mp4",
+					"publicId": "neystore/tqdwsswbdinoa769bwcc",
+					"width": 540,
+					"height": 720,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"id": "88007c6f-d2da-4085-b807-a1c214b0fe39",
+			"createdAt": "2025-03-08T23:48:42.288Z"
 		}
 	]
 }
+
