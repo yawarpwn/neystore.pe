@@ -7983,6 +7983,7 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/pnx1oie6cxztrjkdl6rn?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/pnx1oie6cxztrjkdl6rn?_a=BAMADKRi0"
 				},
+
 				{
 					"id": "8c5341a2-e6f4-4629-8703-01d0203b74ef",
 					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/c2stmhema7twucenmbtq.avif",
@@ -8055,7 +8056,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/z7kue3xe8p6hl0den3bk?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/z7kue3xe8p6hl0den3bk?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "52f29fe8-ff50-4ec1-8b73-9558027ddf45",
 					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1741477977/neystore/tqdwsswbdinoa769bwcc.mp4",
@@ -8068,6 +8068,154 @@
 			],
 			"id": "88007c6f-d2da-4085-b807-a1c214b0fe39",
 			"createdAt": "2025-03-08T23:48:42.288Z"
+		},
+		{
+			"title": "Trampolín de ejercicio de alta calidad para niños, con red protectora, equipado para deportes de interior, entretenimiento, soporta 100 KG",
+			"features": [
+				"Tela Oxford suave, duradera, saludable y respetuosa con el medio ambiente. La fibra de la tela tiene una alta resistencia y está protegida en el extremo de la cabeza del soporte, por lo que no rayará al bebé.",
+				"Soporte plegable de material de alta resistencia, que protege al bebé cuando juega en la valla. Malla de tela antideslizante.",
+				"Tela transpirable, el bebé puede observar el área circundante en la valla.",
+				"El soporte y la red están conectados por broches para un fácil desmontaje.",
+				" Bolsa de almacenamiento conveniente para que el bebé almacene pequeños juguetes y bocadillos para exhibir fotos."
+			],
+			"details": {
+				"Peso bruto del producto": "11kg",
+				"Capacidad de carga": "100 kg",
+				"Área del sitio": "1,4 M * 1,4 M",
+				"Material de la tubería de acero": "tubería de acero galvanizado",
+				"Material del paño de salto": "paño de salto PP",
+				"Material neto": "EPE"
+			},
+			"price": 300,
+			"offert": 280,
+			"cost": 180,
+			"stock": 1,
+			"tags": ["TOYS", "PSYCHOMOTRICITY", "SENSORY", "STRESS_RELIEF"],
+			"ranking": 4,
+			"slug": "trampolin-ejercicio-alta-calidad-ninos-red-protectora",
+			"assets": [
+				{
+					"id": "8d6f8002-94b9-4a02-a76c-ad0d0a0e5061",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742094789/neystore/ooqrq3xwl5hmctmzzn87.avif",
+					"format": "avif",
+					"width": 640,
+					"height": 640,
+					"publicId": "neystore/ooqrq3xwl5hmctmzzn87",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ooqrq3xwl5hmctmzzn87?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ooqrq3xwl5hmctmzzn87?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ooqrq3xwl5hmctmzzn87?_a=BAMADKRi0"
+				},
+				{
+					"id": "d39cf6ab-2cf1-4e1f-be58-d9c286bf5ad5",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742094788/neystore/uogyc8lxmcrgb8aanvpr.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/uogyc8lxmcrgb8aanvpr",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/uogyc8lxmcrgb8aanvpr?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/uogyc8lxmcrgb8aanvpr?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/uogyc8lxmcrgb8aanvpr?_a=BAMADKRi0"
+				},
+				{
+					"id": "7ca2c7a5-6195-4ecf-8c99-ae2e0936b220",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742094788/neystore/ceucxleubucyskdcblel.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/ceucxleubucyskdcblel",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ceucxleubucyskdcblel?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ceucxleubucyskdcblel?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ceucxleubucyskdcblel?_a=BAMADKRi0"
+				},
+				{
+					"id": "878f6f34-0f10-49cd-897b-c8622810d99e",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742094788/neystore/f6tjw9uvv0xpw7rgamev.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/f6tjw9uvv0xpw7rgamev",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/f6tjw9uvv0xpw7rgamev?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/f6tjw9uvv0xpw7rgamev?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/f6tjw9uvv0xpw7rgamev?_a=BAMADKRi0"
+				},
+				{
+					"id": "369698b8-9408-4041-8557-9a0d989ec226",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742094788/neystore/p4q9f5pol8ppt1yypxes.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/p4q9f5pol8ppt1yypxes",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/p4q9f5pol8ppt1yypxes?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/p4q9f5pol8ppt1yypxes?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/p4q9f5pol8ppt1yypxes?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "640d24a1-7c38-47a6-b07e-8fe2dbf437e2",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742095574/neystore/ce6f77ytzyqarxjmyr2x.webp",
+					"publicId": "neystore/ce6f77ytzyqarxjmyr2x",
+					"width": 960,
+					"height": 865,
+					"format": "webp",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ce6f77ytzyqarxjmyr2x?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ce6f77ytzyqarxjmyr2x?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ce6f77ytzyqarxjmyr2x?_a=BAMADKRi0"
+				},
+				{
+					"id": "39e124bb-8fe9-4984-a0a8-228a2c5d2f02",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742094788/neystore/qfxmkrj0e9cshvv4gw0n.avif",
+					"format": "avif",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/qfxmkrj0e9cshvv4gw0n",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qfxmkrj0e9cshvv4gw0n?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/qfxmkrj0e9cshvv4gw0n?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/qfxmkrj0e9cshvv4gw0n?_a=BAMADKRi0"
+				},
+				{
+					"id": "c01b2f08-cb65-44ef-8559-2d7052ee4d2c",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742094788/neystore/ifrdlccqbwkq3f3tj36d.avif",
+					"format": "avif",
+					"width": 800,
+					"height": 800,
+					"publicId": "neystore/ifrdlccqbwkq3f3tj36d",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ifrdlccqbwkq3f3tj36d?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ifrdlccqbwkq3f3tj36d?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ifrdlccqbwkq3f3tj36d?_a=BAMADKRi0"
+				},
+				{
+					"id": "87efa08d-5d2c-42e7-ae7c-ea42fab9261d",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742094788/neystore/zvcmckwucellevtcx6ut.avif",
+					"format": "avif",
+					"width": 1000,
+					"height": 1000,
+					"publicId": "neystore/zvcmckwucellevtcx6ut",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/zvcmckwucellevtcx6ut?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/zvcmckwucellevtcx6ut?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/zvcmckwucellevtcx6ut?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "37fcd9ce-b798-406d-8e08-e1ea768ee4c4",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1742095729/neystore/ljdmr3kt9ajoyyef3yuc.mp4",
+					"publicId": "neystore/ljdmr3kt9ajoyyef3yuc",
+					"width": 720,
+					"height": 720,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"id": "dfa03c41-e26d-4485-8a2c-6dab522ae6b1",
+			"createdAt": "2025-03-16T03:13:09.583Z"
 		}
 	]
 }
