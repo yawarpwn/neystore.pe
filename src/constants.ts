@@ -3,9 +3,9 @@ export const PRODUCT_CATEGORY = {
 	Tecnology: 'Tecnologia',
 } as const
 
+// TOYS: 'Juguetes',
+// TECHNOLOGY: 'Tecnología',
 export const PRODUCT_TAGS = {
-	TECHNOLOGY: 'Tecnología',
-	TOYS: 'Juguetes',
 	MONTESSORI: 'Montessori',
 	PSYCHOMOTRICITY: 'Psicomotricidad',
 	LANGUAGE: 'Lenguaje',
@@ -13,6 +13,6 @@ export const PRODUCT_TAGS = {
 	STRESS_RELIEF: 'Antiestrés',
 	MATH: 'Matemáticas',
 	KIT: 'Kit',
-	KEYCHRON: 'Keychron',
 	KEYBOARDS: 'Teclados',
+	GIFT: 'Regalo',
 } as const

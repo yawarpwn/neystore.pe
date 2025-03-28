@@ -1654,7 +1654,7 @@
 				"Estilo": "In-ear",
 				"Origen": "CN(Origen)"
 			},
-			"tags": ["TECHNOLOGY"],
+			"tags": ["TECHNOLOGY", "GIFT"],
 			"assets": [
 				{
 					"id": "f84d6cce-b5fb-4a35-beb5-9887a4fd4f19",
@@ -2259,95 +2259,6 @@
 			"createdAt": "2024-11-09T04:23:50.766Z"
 		},
 		{
-			"id": "ce3760eb-01c9-4607-9ea9-d177c8f2e0a7",
-			"title": "Termómetro IR sin contacto, medición rápida, ligero o portátil, equipo médico para la yema del dedo",
-			"slug": "termometro-ir-sin-contacto-medicion-rapida-ligero-o",
-			"price": 45,
-			"cost": 15,
-			"stock": 1,
-			"ranking": 4,
-			"features": null,
-			"details": {
-				"Origen": "BR"
-			},
-			"tags": ["TECHNOLOGY"],
-			"assets": [
-				{
-					"id": "a3e51c4e-f758-4307-8717-bfc27f65b22c",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163414/neystore/m0awxuxdf1lang8fghl7.webp",
-					"format": "webp",
-					"width": 1010,
-					"height": 1010,
-					"type": "image",
-					"publicId": "neystore/m0awxuxdf1lang8fghl7",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/m0awxuxdf1lang8fghl7?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/m0awxuxdf1lang8fghl7?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/m0awxuxdf1lang8fghl7?_a=BAMADKJu0"
-				},
-				{
-					"id": "44d02494-0367-45a8-828b-74bca2573802",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163414/neystore/sjsvipu89fny0p9poof4.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/sjsvipu89fny0p9poof4",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/sjsvipu89fny0p9poof4?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/sjsvipu89fny0p9poof4?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/sjsvipu89fny0p9poof4?_a=BAMADKJu0"
-				},
-				{
-					"id": "c7a275d8-6ea4-4b72-a1b4-03c34ff18afc",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163414/neystore/ql5vpfdwqyjbhkcxes85.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/ql5vpfdwqyjbhkcxes85",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ql5vpfdwqyjbhkcxes85?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ql5vpfdwqyjbhkcxes85?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/ql5vpfdwqyjbhkcxes85?_a=BAMADKJu0"
-				},
-				{
-					"id": "88495a8a-b795-47df-b493-b002610d08cb",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163414/neystore/ytswzfg3ttlaxbi18e3n.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/ytswzfg3ttlaxbi18e3n",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ytswzfg3ttlaxbi18e3n?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ytswzfg3ttlaxbi18e3n?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/ytswzfg3ttlaxbi18e3n?_a=BAMADKJu0"
-				},
-				{
-					"id": "c74c0bfd-a780-4fc4-b495-5b690b973425",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163415/neystore/qejqempxga5vtyr8epo1.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/qejqempxga5vtyr8epo1",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qejqempxga5vtyr8epo1?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/qejqempxga5vtyr8epo1?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/qejqempxga5vtyr8epo1?_a=BAMADKJu0"
-				},
-				{
-					"id": "4b1acabc-a16e-4cab-a6b4-33a4fb38349d",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719163415/neystore/hbgwsyft5earpgd67mob.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/hbgwsyft5earpgd67mob",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/hbgwsyft5earpgd67mob?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/hbgwsyft5earpgd67mob?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/hbgwsyft5earpgd67mob?_a=BAMADKJu0"
-				}
-			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
-		},
-		{
 			"id": "059bedfc-96f6-40a5-b51a-3fddc7c5bb49",
 			"title": "Lenovo auriculares TWS Air Pro6, inalámbricos por Bluetooth, con micrófono, 9D, estéreo Pro 6, para Xiaomi, Samsung",
 			"slug": "lenovoauriculares-tws-air-pro6-inalambricos-por-bluetooth",
@@ -2511,157 +2422,6 @@
 			"createdAt": "2024-11-09T04:23:50.766Z"
 		},
 		{
-			"id": "435ff7b6-30f4-4904-bc10-272c43be1993",
-			"title": "QOOVIBatería Externa de 20000mAh, cargador portátil ultrafino para iPhone 15, Xiaomi, Samsung y Huawei",
-			"slug": "qoovibateria-externa-20000mah-cargador-portatil-ultrafino",
-			"price": 140,
-			"cost": 75,
-			"stock": 1,
-			"ranking": 4,
-			"features": null,
-			"details": {
-				"Certificación": "Weee,RoHS,CE",
-				"Material de la carcasa": "Plástico",
-				"Compatible con tecnología de carga rápida": "No"
-			},
-			"tags": ["TECHNOLOGY"],
-			"assets": [
-				{
-					"id": "56643414-910c-47d2-b393-323e5340f4ef",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/vvs6s5bwdmpabh4uiaf1.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/vvs6s5bwdmpabh4uiaf1",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vvs6s5bwdmpabh4uiaf1?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vvs6s5bwdmpabh4uiaf1?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/vvs6s5bwdmpabh4uiaf1?_a=BAMADKJu0"
-				},
-				{
-					"id": "ea8471b8-7262-4343-b18f-3afb96807e8a",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/qa4afbgkotlvt63btngi.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/qa4afbgkotlvt63btngi",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qa4afbgkotlvt63btngi?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/qa4afbgkotlvt63btngi?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/qa4afbgkotlvt63btngi?_a=BAMADKJu0"
-				},
-				{
-					"id": "8443b33e-e27b-49ef-9a38-063c70298182",
-					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1719197471/neystore/fzaea0tg6rdlhljhubqv.mp4",
-					"format": "mp4",
-					"width": 1280,
-					"height": 720,
-					"type": "video",
-					"publicId": "neystore/fzaea0tg6rdlhljhubqv",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/fzaea0tg6rdlhljhubqv?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/fzaea0tg6rdlhljhubqv?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/fzaea0tg6rdlhljhubqv?_a=BAMADKJu0"
-				},
-				{
-					"id": "e5155502-e4ce-446e-b724-8c07fd171b8c",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/qbaoexatc0dsijhzr7pu.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/qbaoexatc0dsijhzr7pu",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qbaoexatc0dsijhzr7pu?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/qbaoexatc0dsijhzr7pu?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/qbaoexatc0dsijhzr7pu?_a=BAMADKJu0"
-				},
-				{
-					"id": "f4a9496c-ba49-412c-a65c-3271691d8ce6",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/ht6vwvpbbessyvzuxlmd.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/ht6vwvpbbessyvzuxlmd",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ht6vwvpbbessyvzuxlmd?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ht6vwvpbbessyvzuxlmd?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/ht6vwvpbbessyvzuxlmd?_a=BAMADKJu0"
-				},
-				{
-					"id": "87fb39c5-49c2-4017-aaa5-b3379a776acf",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/bay8u5gqmwkjaezrv4cq.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/bay8u5gqmwkjaezrv4cq",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bay8u5gqmwkjaezrv4cq?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bay8u5gqmwkjaezrv4cq?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/bay8u5gqmwkjaezrv4cq?_a=BAMADKJu0"
-				},
-				{
-					"id": "93e9f3bc-deb2-45fd-84f2-2fc9026937d4",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/kdcivh29tdi9tnkchoup.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/kdcivh29tdi9tnkchoup",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/kdcivh29tdi9tnkchoup?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/kdcivh29tdi9tnkchoup?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/kdcivh29tdi9tnkchoup?_a=BAMADKJu0"
-				},
-				{
-					"id": "e75fa874-9b75-4ab0-b997-ae16d1fa86d6",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/rmjhax8ktpi9l46rafa9.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/rmjhax8ktpi9l46rafa9",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/rmjhax8ktpi9l46rafa9?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/rmjhax8ktpi9l46rafa9?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/rmjhax8ktpi9l46rafa9?_a=BAMADKJu0"
-				},
-				{
-					"id": "f9af861e-910d-455d-b650-a20672042280",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/l76jxm49b5em2chvapj0.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/l76jxm49b5em2chvapj0",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/l76jxm49b5em2chvapj0?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/l76jxm49b5em2chvapj0?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/l76jxm49b5em2chvapj0?_a=BAMADKJu0"
-				},
-				{
-					"id": "c7db35c3-a600-44b2-b913-9d463561b414",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197474/neystore/aturi2ajzsevpnygfpkj.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/aturi2ajzsevpnygfpkj",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/aturi2ajzsevpnygfpkj?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/aturi2ajzsevpnygfpkj?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/aturi2ajzsevpnygfpkj?_a=BAMADKJu0"
-				},
-				{
-					"id": "443d3c8a-ece5-4ca7-9f5a-89b60ca564e4",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719197473/neystore/hdojcpsmssatwdztsiks.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/hdojcpsmssatwdztsiks",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/hdojcpsmssatwdztsiks?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/hdojcpsmssatwdztsiks?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/hdojcpsmssatwdztsiks?_a=BAMADKJu0"
-				}
-			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
-		},
-		{
 			"id": "f70dc076-1018-4a31-a2f7-212342e17e73",
 			"title": "Mochila portabebés ergonómica para bebé, portabebés frontal, canguro ergonómico, mochila de viaje",
 			"slug": "mochila-portabebes-ergonomica-bebe-portabebes-frontal",
@@ -2675,7 +2435,7 @@
 				"Capacidad de carga": "20 kg",
 				"Nombre de la marca": "macroupta"
 			},
-			"tags": [],
+			"tags": ["GIFT"],
 			"assets": [
 				{
 					"id": "828384c8-6d87-4ad5-bda0-3e0f98cece69",
@@ -2820,133 +2580,6 @@
 					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/o467cmmvfw3dcvfalkfe?_a=BAMADKJu0",
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/o467cmmvfw3dcvfalkfe?_a=BAMADKJu0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/o467cmmvfw3dcvfalkfe?_a=BAMADKJu0"
-				}
-			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
-		},
-		{
-			"id": "93a62bd9-955a-4b1c-a8d8-e37201159fe4",
-			"title": "Figuras de acción de Star Wars para niños, juguete de maestro Yoda, Darth, PVC, colección de figuras de Anime, modelo Mini, regalo, 5 piezas",
-			"slug": "figuras-accion-star-wars-ninos-juguete-maestro-yoda-darth",
-			"price": 50,
-			"cost": 28,
-			"stock": 1,
-			"ranking": 3,
-			"features": null,
-			"details": {
-				"ACG carácter": "Baby Yoda",
-				"Estado": "Artículos en stock",
-				"Advertencia": "not for unders 3 years old"
-			},
-			"tags": ["TOYS"],
-			"assets": [
-				{
-					"id": "a851cf5d-6d12-4508-a427-323a181ba525",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856653/neystore/uaatw5dqqhctow3ph9zk.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/uaatw5dqqhctow3ph9zk",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/uaatw5dqqhctow3ph9zk?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/uaatw5dqqhctow3ph9zk?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/uaatw5dqqhctow3ph9zk?_a=BAMADKJu0"
-				},
-				{
-					"id": "ef1652a8-1852-47fc-81b0-d1fdcaa9d136",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856653/neystore/hufhdiii6qxwpkozu62k.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/hufhdiii6qxwpkozu62k",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/hufhdiii6qxwpkozu62k?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/hufhdiii6qxwpkozu62k?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/hufhdiii6qxwpkozu62k?_a=BAMADKJu0"
-				},
-				{
-					"id": "05b5f251-4555-45c2-a1f5-2193bd4085ac",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856654/neystore/ny9rzj3xlhzn5mhfelj7.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/ny9rzj3xlhzn5mhfelj7",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ny9rzj3xlhzn5mhfelj7?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ny9rzj3xlhzn5mhfelj7?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/ny9rzj3xlhzn5mhfelj7?_a=BAMADKJu0"
-				},
-				{
-					"id": "bdce3222-5d32-4a37-b655-87610be0c752",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856653/neystore/eymbc1lrsht9b3dqcjol.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/eymbc1lrsht9b3dqcjol",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/eymbc1lrsht9b3dqcjol?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/eymbc1lrsht9b3dqcjol?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/eymbc1lrsht9b3dqcjol?_a=BAMADKJu0"
-				},
-				{
-					"id": "c7ba9254-4728-4f0a-bc3a-7ba4d7bb782f",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856654/neystore/x8ggqbrig38tjpq8yyj7.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/x8ggqbrig38tjpq8yyj7",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/x8ggqbrig38tjpq8yyj7?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/x8ggqbrig38tjpq8yyj7?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/x8ggqbrig38tjpq8yyj7?_a=BAMADKJu0"
-				},
-				{
-					"id": "8e371e78-06d9-4393-8d07-0c4d74d3320c",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856654/neystore/bke5cqkwpbenjcvrwojr.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/bke5cqkwpbenjcvrwojr",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bke5cqkwpbenjcvrwojr?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bke5cqkwpbenjcvrwojr?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/bke5cqkwpbenjcvrwojr?_a=BAMADKJu0"
-				},
-				{
-					"id": "903e0e01-729b-446e-91e2-99a9483a2bbd",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856654/neystore/skemngzob3zlvc0fjaio.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/skemngzob3zlvc0fjaio",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/skemngzob3zlvc0fjaio?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/skemngzob3zlvc0fjaio?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/skemngzob3zlvc0fjaio?_a=BAMADKJu0"
-				},
-				{
-					"id": "47328a73-894f-4f91-9280-27337903e6d0",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856653/neystore/yeytia08qo9dcoitjp0g.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/yeytia08qo9dcoitjp0g",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/yeytia08qo9dcoitjp0g?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/yeytia08qo9dcoitjp0g?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/yeytia08qo9dcoitjp0g?_a=BAMADKJu0"
-				},
-				{
-					"id": "adea6930-25ba-43f5-9be8-5191256a86bf",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856653/neystore/bdihgnftrtqcto4a1vt2.webp",
-					"format": "webp",
-					"width": 1804,
-					"height": 1920,
-					"type": "image",
-					"publicId": "neystore/bdihgnftrtqcto4a1vt2",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bdihgnftrtqcto4a1vt2?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bdihgnftrtqcto4a1vt2?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/bdihgnftrtqcto4a1vt2?_a=BAMADKJu0"
 				}
 			],
 			"createdAt": "2024-11-09T04:23:50.766Z"
@@ -3264,147 +2897,6 @@
 			"createdAt": "2024-11-09T04:23:50.766Z"
 		},
 		{
-			"id": "890914f3-9c4f-4103-854f-d5464447de3f",
-			"title": "Redmi reloj inteligente 4 versión Global, dispositivo con Pantalla AMOLED de 1,97 pulgadas, GPS, GNSS, Bluetooth, llamadas telefónicas, monitoreo del sueño",
-			"slug": "redmireloj-inteligente-4-version-global-dispositivo",
-			"price": 420,
-			"offert": 320,
-			"cost": 277,
-			"stock": 1,
-			"ranking": 5,
-			"features": [
-				"Pantalla AMOLED de 1.97 pulgadas con alta frecuencia de actualización de 60 Hz.",
-				"Diseño elegante con marco de aleación de aluminio.",
-				"Batería de larga duración, hasta 20 días en uso típico.",
-				"Carga magnética para una recarga rápida y fácil.",
-				"Monitoreo continuo de la frecuencia cardíaca.",
-				"Medición del nivel de oxígeno en sangre (SpO2).",
-				"Seguimiento detallado del sueño en diferentes etapas.",
-				"Más de 150 modos deportivos, incluyendo correr, nadar y ciclismo.",
-				"GPS integrado para un seguimiento preciso de rutas.",
-				"Guía de calentamiento para cada modo deportivo.",
-				"Realiza y recibe llamadas directamente desde el reloj.",
-				"Notificaciones de llamadas, mensajes y aplicaciones.",
-				"Control de música desde la muñeca.",
-				"Resistencia al agua para actividades acuáticas.",
-				"Variedad de esferas personalizables.",
-				"Chipset eficiente para optimizar el consumo de energía.",
-				"Reducción del estrés con ejercicios de respiración guiados."
-			],
-			"details": {
-				"Marca": "Xiaomi",
-				"Modelo": "Reloj Redmi 4",
-				"Forma": "Cuadrada",
-				"Tamaño de pantalla": "1,97 Pulgadas",
-				"Tecnología de conectividad": "Bluetooth",
-				"Estándar de comunicación inalámbrica": "Bluetooth",
-				"GPS": "Sin GPS",
-				"Duración de la batería": "20 Días",
-				"Capacidad de almacenamiento": "1 GB",
-				"Características especiales": "GNSS multisistema, llamadas Bluetooth"
-			},
-			"tags": ["TECHNOLOGY"],
-			"assets": [
-				{
-					"id": "f1918e94-0810-4086-8839-ea30c2c071ec",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724025317/neystore/ivfqabgiz6q3zcetxybp.jpg",
-					"format": "jpg",
-					"width": 698,
-					"height": 1088,
-					"type": "image",
-					"publicId": "neystore/ivfqabgiz6q3zcetxybp",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ivfqabgiz6q3zcetxybp?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ivfqabgiz6q3zcetxybp?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/ivfqabgiz6q3zcetxybp?_a=BAMADKJu0"
-				},
-				{
-					"id": "9102e5f8-f0fb-4c31-97bb-23be41764b97",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724025455/neystore/ludofbzu1eijtl0z0vvh.jpg",
-					"format": "jpg",
-					"width": 947,
-					"height": 1077,
-					"type": "image",
-					"publicId": "neystore/ludofbzu1eijtl0z0vvh",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ludofbzu1eijtl0z0vvh?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ludofbzu1eijtl0z0vvh?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/ludofbzu1eijtl0z0vvh?_a=BAMADKJu0"
-				},
-				{
-					"id": "c0462837-60e7-420e-9e25-791f56b7a5ba",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856990/neystore/ucrkjsd6mkaiunxxvfcq.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 999,
-					"type": "image",
-					"publicId": "neystore/ucrkjsd6mkaiunxxvfcq",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ucrkjsd6mkaiunxxvfcq?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ucrkjsd6mkaiunxxvfcq?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/ucrkjsd6mkaiunxxvfcq?_a=BAMADKJu0"
-				},
-				{
-					"id": "173b0bd9-59a5-4467-bc47-f4d3bec530d7",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/gwc2wnhtkftrp4ilun17.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/gwc2wnhtkftrp4ilun17",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/gwc2wnhtkftrp4ilun17?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/gwc2wnhtkftrp4ilun17?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/gwc2wnhtkftrp4ilun17?_a=BAMADKJu0"
-				},
-				{
-					"id": "deca4e35-08a0-4cdd-805e-6ab76386bfc1",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/nwowyksosy3mwbcbhrve.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/nwowyksosy3mwbcbhrve",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/nwowyksosy3mwbcbhrve?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/nwowyksosy3mwbcbhrve?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/nwowyksosy3mwbcbhrve?_a=BAMADKJu0"
-				},
-				{
-					"id": "b27a11ef-d3a1-4dd1-abc5-2f13dbc88fff",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/vexb2ymwjo3gftbtvly2.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/vexb2ymwjo3gftbtvly2",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vexb2ymwjo3gftbtvly2?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vexb2ymwjo3gftbtvly2?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/vexb2ymwjo3gftbtvly2?_a=BAMADKJu0"
-				},
-				{
-					"id": "5a477081-0919-4d36-94b8-1ba85f74143f",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856992/neystore/w13i52qsrj5ykbvymkd9.webp",
-					"format": "webp",
-					"width": 1000,
-					"height": 1000,
-					"type": "image",
-					"publicId": "neystore/w13i52qsrj5ykbvymkd9",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/w13i52qsrj5ykbvymkd9?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/w13i52qsrj5ykbvymkd9?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/w13i52qsrj5ykbvymkd9?_a=BAMADKJu0"
-				},
-				{
-					"id": "87cb94dd-eb12-4aca-9d95-306fdf7c76b5",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1719856991/neystore/p04wdn5a2a0o6t9ect0v.webp",
-					"format": "webp",
-					"width": 800,
-					"height": 800,
-					"type": "image",
-					"publicId": "neystore/p04wdn5a2a0o6t9ect0v",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/p04wdn5a2a0o6t9ect0v?_a=BAMADKJu0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/p04wdn5a2a0o6t9ect0v?_a=BAMADKJu0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/p04wdn5a2a0o6t9ect0v?_a=BAMADKJu0"
-				}
-			],
-			"createdAt": "2024-11-09T04:23:50.766Z"
-		},
-		{
 			"id": "8c1eda88-bdd9-4c3e-b818-59dd5c419d8d",
 			"title": "Juguete Sensorial en forma de Rana Antiestrés para Niños, Productos Sensoriales para Autismo, Juguetes de Viaje, Juguete Calmante",
 			"slug": "2pcs-sensory-fidget-toys-for-kids-squishy-glitter-leap-frog",
@@ -3638,7 +3130,7 @@
 				"Color de sombra": "Multicolor",
 				"Tipo de interruptor": "Remoto"
 			},
-			"tags": [],
+			"tags": ["TOYS", "STRESS_RELIEF", "SENSORY", "GIFT"],
 			"assets": [
 				{
 					"id": "c2711432-3608-4eee-944e-dd442ba9f497",
@@ -4244,7 +3736,7 @@
 				"Beneficios del producto": "Para acné y espinillas",
 				"Tipo de piel": "Todos"
 			},
-			"tags": ["TECHNOLOGY"],
+			"tags": ["TECHNOLOGY", "GIFT"],
 			"assets": [
 				{
 					"id": "15c07fc9-60cd-4963-82e2-21230dbf328f",
@@ -4638,7 +4130,7 @@
 				"Regalo ideal para bebés encontrarás que el juguete de respiración de koala para dormir es fácil de agarrar y sostener, especialmente adecuado para manos pequeñas, iluminación encantadora y hermosa música que pueden atraer rápidamente los ojos del bebé. La música puede calmar a su bebé y promover el desarrollo de audio del bebé."
 			],
 			"details": null,
-			"tags": ["TOYS", "STRESS_RELIEF", "SENSORY"],
+			"tags": ["TOYS", "STRESS_RELIEF", "SENSORY", "GIFT"],
 			"assets": [
 				{
 					"id": "7e3bae76-db41-4d15-b3a4-5f371c805c6d",
@@ -8219,4 +7711,3 @@
 		}
 	]
 }
-

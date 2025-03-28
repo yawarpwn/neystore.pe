@@ -1,0 +1,50 @@
+---
+import { ProductsModel } from '@/models/products'
+import { PRODUCT_TAGS } from '@/constants'
+import Icon from '@/components/Icon.astro'
+import ProductCard from '@/components/ProductCard.astro'
+import Layout from '@/layouts/Layout.astro'
+
+export async function getStaticPaths() {
+	const { data: products, error } = await ProductsModel.getAll()
+
+	if (error) throw error
+
+	return Object.entries(PRODUCT_TAGS).map(([key, value]) => {
+		const productsFiltered = products.filter((p) => p.tags.includes(key))
+		return {
+			params: { categories: key.toLowerCase() },
+			props: { products: productsFiltered },
+		}
+	})
+}
+
+const { products } = Astro.props
+---
+
+<Layout>
+	<div class="">
+		<section class="mt-4">
+			<ul
+				class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-2">
+				{
+					products.length > 0 &&
+						products.map((product) => (
+							<li>
+								<ProductCard
+									stock={product.stock}
+									id={product.id}
+									title={product.title}
+									price={product.price}
+									imgUrl={product.assets[0].smallUrl}
+									ranking={product.ranking}
+									slug={product.slug}
+									offert={product.offert}
+								/>
+							</li>
+						))
+				}
+			</ul>
+		</section>
+	</div>
+</Layout>

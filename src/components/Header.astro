@@ -5,9 +5,17 @@ import ProductSearch from './ProductSearch.astro'
 import { Icon } from 'astro-icon/components'
 import { cn } from '@/lib/utils'
 import { site } from '@/config'
+import { PRODUCT_TAGS } from '@/constants'
 const socialLinks = Object.entries(site.socialLinks)
 
 const pathname = Astro.url.pathname
+console.log({ pathname })
+
+const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
+	title: value,
+	href: `/${key.toLowerCase()}`,
+	isActive: pathname === `/${key.toLowerCase()}`,
+}))
 
 const normalizedPathName =
 	pathname.length > 1 && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname
@@ -30,95 +38,36 @@ const pages = [
 // -->
 ---
 
-<header data-state="closed" id="main-header" class="fixed z-50 left-1/2 -translate-x-1/2 top-2">
-	<div
-		class="relative bg-background shadow-sm rounded-2xl px-6 py-2 flex items-center md:gap-6 justify-between">
-		<a
-			href="/"
-			class="text-inherit! hover:scale-110 transition-transform duration-100"
-			data-astro-reload>
-			<Logo />
-		</a>
-
-		<!-- Desktop Nav -->
-		<nav class="hidden lg:flex gap-2 items-center">
-			{
-				pages.map((page) => (
-					<a
-						href={page.href}
-						data-astro-reload
-						class={cn(
-							'flex justify-center items-center  hover:text-primary ',
-							page.active && 'text-primary font-bold'
-						)}>
-						<span class="">{page.title}</span>
-					</a>
-				))
-			}
-		</nav>
-		<ProductSearch />
-		<!-- <div class="min-w-[200px] px-2 flex items-center"> -->
-		<!-- 	<button -->
-		<!-- 		id="open-search-dialog" -->
-		<!-- 		class="flex flex-1 items-center gap-2 rounded-md px-2 py-1 bg-gray-200"> -->
-		<!-- 		<span class="text-muted flex-1">Buscar...</span> -->
-		<!-- 		<span class="hidden">Producto...</span> -->
-		<!-- 		<span class="text-muted"> -->
-		<!-- 			<Icon class="" name="tabler:search" size={22} /> -->
-		<!-- 		</span> -->
-		<!-- 	</button> -->
-		<!-- </div> -->
-		<div class="hidden md:flex justify-center items-center gap-1">
-			{
-				socialLinks.map(([name, link]) => (
-					<a
-						class="hover:scale-125 transition-transform duration-200"
-						href={link}
-						rel="noopener noreferrer"
-						target="_blank">
-						<Icon name={name} size={30} />
-					</a>
-				))
-			}
-		</div>
-
-		<div class="lg:hidden">
-			<button
-				id="burger-button"
-				class="menu-burger-btn transition flex items-center"
-				aria-label="menu mobile">
-				<Icon name="tabler:menu" size={25} />
-				<Icon name="tabler:x" size={25} />
-			</button>
-		</div>
-
-		<!-- Mobile Menu -->
-		<nav
-			id="mobile-menu"
-			class="invisible left-0 flex flex-col lg:hidden absolute top-16 w-full bg-background rounded-2xl shadow-md py-8">
-			{
-				pages.map((page) => (
-					<a
-						href={page.href}
-						data-astro-reload
-						class={cn(
-							'flex justify-center items-center  hover:text-primary ',
-							page.active && 'text-primary font-bold'
-						)}>
-						<span class="">{page.title}</span>
-					</a>
-				))
-			}
-
-			<div class="flex gap-2 mx-auto mt-4">
+<header
+	data-state="closed"
+	id="main-header"
+	class="fixed z-50 left-1/2 -translate-x-1/2 top-2 lg:static lg:translate-none">
+	<Container>
+		<div
+			class="relative bg-background shadow-sm rounded-2xl px-6 py-2 flex items-center md:gap-6 justify-between lg:shadow-none lg:py-4">
+			<a
+				href="/"
+				class="text-inherit! hover:scale-110 transition-transform duration-100"
+				data-astro-reload>
+				<Logo />
+			</a>
+			<ProductSearch />
+			<!-- <div class="min-w-[200px] px-2 flex items-center"> -->
+			<!-- 	<button -->
+			<!-- 		id="open-search-dialog" -->
+			<!-- 		class="flex flex-1 items-center gap-2 rounded-md px-2 py-1 bg-gray-200"> -->
+			<!-- 		<span class="text-muted flex-1">Buscar...</span> -->
+			<!-- 		<span class="hidden">Producto...</span> -->
+			<!-- 		<span class="text-muted"> -->
+			<!-- 			<Icon class="" name="tabler:search" size={22} /> -->
+			<!-- 		</span> -->
+			<!-- 	</button> -->
+			<!-- </div> -->
+			<div class="hidden md:flex justify-center items-center gap-1">
 				{
 					socialLinks.map(([name, link]) => (
 						<a
-							class:list={[
-								'hover:scale-125 transition-transform duration-200 ',
-								name === 'instagram' &&
-									'bg-linear-to-br from-[#833AB4] via-[#FD1D1D] to-[#FCB045] rounded-md w-[30px] h-[30px]',
-							]}
+							class="hover:scale-125 transition-transform duration-200"
 							href={link}
 							rel="noopener noreferrer"
 							target="_blank">
@@ -127,7 +76,74 @@ const pages = [
 					))
 				}
 			</div>
-		</nav>
+
+			<div class="lg:hidden">
+				<button
+					id="burger-button"
+					class="menu-burger-btn transition flex items-center cursor-pointer"
+					aria-label="menu mobile">
+					<Icon name="tabler:menu" size={25} />
+					<Icon name="tabler:x" size={25} />
+				</button>
+			</div>
+
+			<!-- Mobile Menu -->
+			<nav
+				id="mobile-menu"
+				class="invisible left-0 flex flex-col lg:hidden absolute top-16 w-full bg-background rounded-2xl shadow-md py-8 gap-3">
+				{
+					categories.map(({ title, href, isActive }) => (
+						<a
+							href={href}
+							data-astro-reload
+							class:list={[
+								'flex items-center justify-between  hover:text-primary p-2 px-6',
+								isActive && 'text-primary font-bold',
+							]}>
+							<span class="">{title}</span>
+							<Icon name="tabler:chevron-right" />
+						</a>
+					))
+				}
+
+				<div class="flex gap-2 mx-auto mt-4">
+					{
+						socialLinks.map(([name, link]) => (
+							<a
+								class:list={[
+									'hover:scale-125 transition-transform duration-200 ',
+									name === 'instagram' &&
+										'bg-linear-to-br from-[#833AB4] via-[#FD1D1D] to-[#FCB045] rounded-md w-[30px] h-[30px]',
+								]}
+								href={link}
+								rel="noopener noreferrer"
+								target="_blank">
+								<Icon name={name} size={30} />
+							</a>
+						))
+					}
+				</div>
+			</nav>
+		</div>
+	</Container>
+	<div class="bg-black hidden lg:block">
+		<Container>
+			<nav class="flex gap-4 border justify-center">
+				{
+					categories.map(({ title, href, isActive }) => (
+						<a
+							href={href}
+							data-astro-reload
+							class:list={[
+								'flex items-center justify-between  hover:text-primary p-2 text-white',
+								isActive && 'text-primary font-bold',
+							]}>
+							<span class="">{title}</span>
+						</a>
+					))
+				}
+			</nav>
+		</Container>
 	</div>
 </header>
 
