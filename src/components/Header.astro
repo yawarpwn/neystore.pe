@@ -13,8 +13,8 @@ console.log({ pathname })
 
 const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
 	title: value,
-	href: `/${key.toLowerCase()}`,
-	isActive: pathname === `/${key.toLowerCase()}`,
+	href: `/productos/${key.toLowerCase()}`,
+	isActive: pathname === `/productos/${key.toLowerCase()}`,
 }))
 
 const normalizedPathName =
