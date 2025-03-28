@@ -12,7 +12,7 @@ export const PRODUCT_TAGS = {
 	SENSORY: 'Sensorial',
 	STRESS_RELIEF: 'Antiestrés',
 	MATH: 'Matemáticas',
-	KIT: 'Kit',
+	KITS: 'Kits',
 	KEYBOARDS: 'Teclados',
 	GIFT: 'Regalo',
 } as const
