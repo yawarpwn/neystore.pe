@@ -45,14 +45,14 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
 	<body>
 		<div class="page">
 			<Header />
-			<main class="relative mt-16 lg:mt-4 flex-1">
-				<Container>
+			<Container>
+				<main class="relative mt-16 lg:mt-4 flex-1">
 					<slot />
-				</Container>
-			</main>
-			<ScrollTopButton />
-			<WhatsappPopup />
-			<Footer />
+				</main>
+				<ScrollTopButton />
+				<WhatsappPopup />
+				<Footer />
+			</Container>
 		</div>
 		<style>
 			.page {
