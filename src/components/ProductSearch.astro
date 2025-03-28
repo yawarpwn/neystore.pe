@@ -21,7 +21,7 @@ const results = products.slice(5)
 <dialog
 	data-products={JSON.stringify(products)}
 	id="search-dialog"
-	class="absolute lg:fixed h-[100dvh] w-screen top-0 left-0 z-40 bg-white/80 backdrop-blur-sm"
+	class="fixed inset-0 border w-full h-full z-50 max-w-none max-h-none backdrop:backdrop-blur-lg"
 	tabindex="0">
 	<!-- Modal -->
 	<div
@@ -35,7 +35,7 @@ const results = products.slice(5)
 				class="flex flex-1 items-center gap-2 rounded-md py-1 px-2 bg-muted text-muted-foreground">
 				<input
 					autofocus
-					class="bg-transparent w-full border-none outline-hidden placeholder:text-muted"
+					class="bg-transparent w-full border-none outline-hidden placeholder:text-gray-500"
 					id="search-input"
 					type="search"
 					name="search-product"
