@@ -7959,7 +7959,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mx9bwa3jnynv8jplqbnp?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mx9bwa3jnynv8jplqbnp?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "1a40633c-66d9-4dec-929b-cabf506e7408",
 					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1751165039/neystore/zlsr8ib1qakus58u0zbq.mp4",
@@ -7972,6 +7971,118 @@
 			],
 			"id": "e451018e-0329-4c28-b87b-4189f92ca3e9",
 			"createdAt": "2025-06-29T02:39:28.102Z"
+		},
+		{
+			"title": "Pelotas antiestrés de unicornio, juguete para curar el estado de ánimo, juguete para apretar, alivio del estrés y la ansiedad, pelota antiestrés de unicornio, juguete de agua de Gel colorido",
+			"features": [
+				"Material TPR seguro: Duradero, sin BPA y no tóxico. Ideal para niños sin riesgos.",
+				"Alivia estrés y ansiedad: Apretar, estirar o aplastar ayuda a reducir tensión y mejora la concentración (ideal para TDAH/autismo).",
+				"Juguete educativo: Ejercita razonamiento, habilidades motoras finas y coordinación ojo-mano en niños.",
+				"Diseño único: Forma de unicornio con cuentas de hidrogel visibles en colores vibrantes.",
+				"Regalo perfecto: Para cumpleaños, Navidad, aulas o premios por su diseño atractivo.",
+				"Portátil y multifuncional: Uso en oficinas, viajes, bibliotecas o terapias (tamaño compacto: 11,5 x 7,5 cm)."
+			],
+			"details": {
+				"Material": "TPR + cuentas de hidrogel",
+				"Color": "Colorido",
+				"Tamaño": "11,5 x 7,5 cm/4,5 x 3 pulgadas (largo x ancho)",
+				"Tamaño del paquete": "11,5 x 7,5 x 5 cm/4,5 x 3 x 2 pulgadas (largo x ancho x alto)",
+				"Peso del paquete": "0,08 kg/2,8 oz"
+			},
+			"price": 15,
+			"cost": 40,
+			"stock": 1,
+			"tags": ["SENSORY", "STRESS_RELIEF"],
+			"ranking": 3,
+			"slug": "pelotas-antiestres-unicornio-juguete-curar-el-estado-animo",
+			"assets": [
+				{
+					"id": "1bec8eb0-573d-4452-bd97-a828b381b0f7",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165750/neystore/jzqd8gonyridl8xiudic.avif",
+					"format": "avif",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/jzqd8gonyridl8xiudic",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/jzqd8gonyridl8xiudic?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/jzqd8gonyridl8xiudic?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/jzqd8gonyridl8xiudic?_a=BAMADKRi0"
+				},
+				{
+					"id": "3b164c04-ba52-4cd7-af99-4cae36354928",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165750/neystore/luzbghvfabzhdhmfcc3t.avif",
+					"format": "avif",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/luzbghvfabzhdhmfcc3t",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/luzbghvfabzhdhmfcc3t?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/luzbghvfabzhdhmfcc3t?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/luzbghvfabzhdhmfcc3t?_a=BAMADKRi0"
+				},
+				{
+					"id": "9e6b2a5f-fafb-40cb-8b82-cd7b8b8ea1d1",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165750/neystore/kc0nw9i48xcjb9t7pl1v.avif",
+					"format": "avif",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/kc0nw9i48xcjb9t7pl1v",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/kc0nw9i48xcjb9t7pl1v?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/kc0nw9i48xcjb9t7pl1v?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/kc0nw9i48xcjb9t7pl1v?_a=BAMADKRi0"
+				},
+				{
+					"id": "496072bc-d793-4c62-bad6-e71b57d06db4",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165750/neystore/s53k5trzbldfnuk9nk5o.avif",
+					"format": "avif",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/s53k5trzbldfnuk9nk5o",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/s53k5trzbldfnuk9nk5o?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/s53k5trzbldfnuk9nk5o?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/s53k5trzbldfnuk9nk5o?_a=BAMADKRi0"
+				},
+				{
+					"id": "2aac23eb-65bc-4673-a12a-1591b53e57bb",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165750/neystore/mmzpwocgc5qfttlxtxxf.avif",
+					"format": "avif",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/mmzpwocgc5qfttlxtxxf",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mmzpwocgc5qfttlxtxxf?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mmzpwocgc5qfttlxtxxf?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mmzpwocgc5qfttlxtxxf?_a=BAMADKRi0"
+				},
+				{
+					"id": "5906d7ad-2449-45b8-9a6d-e94996fab6ab",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165750/neystore/y2mcaorkzg0lemmooabn.avif",
+					"format": "avif",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/y2mcaorkzg0lemmooabn",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/y2mcaorkzg0lemmooabn?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/y2mcaorkzg0lemmooabn?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/y2mcaorkzg0lemmooabn?_a=BAMADKRi0"
+				},
+				{
+					"id": "3cd7843a-1835-46c1-9440-26ec2af3aa8e",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165750/neystore/h1wdcww0cukoqiotgead.avif",
+					"format": "avif",
+					"width": 1200,
+					"height": 1200,
+					"publicId": "neystore/h1wdcww0cukoqiotgead",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/h1wdcww0cukoqiotgead?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/h1wdcww0cukoqiotgead?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/h1wdcww0cukoqiotgead?_a=BAMADKRi0"
+				}
+			],
+			"id": "21548d39-a7cf-405c-8166-aeb8dccd2012",
+			"createdAt": "2025-06-29T02:55:51.362Z"
 		}
 	]
 }
