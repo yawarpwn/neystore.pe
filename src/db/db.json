@@ -6,7 +6,7 @@
 			"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
 			"price": 400,
 			"cost": 323,
-			"stock": 2,
+			"stock": 0,
 			"ranking": 4.7,
 			"features": [
 				"Diseño del 75%: Permite a los usuarios acceder a todas las teclas multimedia y de función esenciales, pero con un espacio más pequeño.",
@@ -3356,7 +3356,7 @@
 			"price": 500,
 			"cost": 190,
 			"offert": 380,
-			"stock": 9,
+			"stock": 0,
 			"ranking": 5,
 			"features": [
 				"Teclado mecánico inalámbrico QMK/VIA actualizado permite a cualquiera dominar cualquier tecla o comandos macro en su diseño compacto del 75% a través de VIA, ha incluido teclas tanto para Windows como para macOS, y los usuarios pueden intercambiar en caliente con cualquier interruptor mecánico MX en una brisa.",
@@ -7475,7 +7475,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/pnx1oie6cxztrjkdl6rn?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/pnx1oie6cxztrjkdl6rn?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "8c5341a2-e6f4-4629-8703-01d0203b74ef",
 					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1741477721/neystore/c2stmhema7twucenmbtq.avif",
@@ -7646,7 +7645,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/p4q9f5pol8ppt1yypxes?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/p4q9f5pol8ppt1yypxes?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "640d24a1-7c38-47a6-b07e-8fe2dbf437e2",
 					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1742095574/neystore/ce6f77ytzyqarxjmyr2x.webp",
@@ -7695,7 +7693,6 @@
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/zvcmckwucellevtcx6ut?_a=BAMADKRi0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/zvcmckwucellevtcx6ut?_a=BAMADKRi0"
 				},
-
 				{
 					"id": "37fcd9ce-b798-406d-8e08-e1ea768ee4c4",
 					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1742095729/neystore/ljdmr3kt9ajoyyef3yuc.mp4",
@@ -7708,6 +7705,274 @@
 			],
 			"id": "dfa03c41-e26d-4485-8a2c-6dab522ae6b1",
 			"createdAt": "2025-03-16T03:13:09.583Z"
+		},
+		{
+			"title": "nuphy Air60 V2 Teclado inalámbrico portátil 60 teclado mecánico de bajo perfil compatible con QMKVIA compatible con Windows, Mac, Linux compatible con Bluetooth 5.12.4GHz (USB-C)",
+			"features": [
+				"Nueva versión Air60 V2 con diseño 60% (64 teclas) y soporte para QMK/VIA para personalización avanzada.",
+				"Compatibilidad multiplataforma: Windows, macOS y Linux (Bluetooth 5.1, 2.4GHz y USB-C).",
+				"Portabilidad mejorada: tamaño compacto sin teclado F dedicado pero con su funcionalidad integrada.",
+				"Conexión multipropósito: hasta 4 dispositivos simultáneos para alternar entre trabajo y ocio.",
+				"Retroiluminación RGB personalizable con barras laterales indicadoras (modo de conexión, batería y sistema).",
+				"Batería de larga duración (2500 mAh): hasta 90 horas con RGB y 150 horas sin luces.",
+				"Respuesta ultra rápida: tasa de sondeo de 1000Hz en modo inalámbrico para gaming sin delays."
+			],
+			"details": {
+				"Marca": "Nuphy",
+				"Sistema Operativo": "Windows, macOS o Linux",
+				"Tecnología de conectividad": "USB-C",
+				"Descripción del teclado": "Soporte Windows/Mac OS/sistema Linux",
+				"Usos Recomendados Para Producto": "Videojuegos",
+				"Características especiales": "Retroiluminado",
+				"Color": "Negro",
+				"Número de teclas": 64,
+				"Estilo": "Moderno",
+				"Dimensiones del producto": "29,72 cm (largo) x 10,72 cm (ancho) x 1,35 cm (alto)"
+			},
+			"price": 530,
+			"cost": 433,
+			"stock": 1,
+			"tags": ["KEYBOARDS"],
+			"ranking": 5,
+			"slug": "nuphy-air60-v2-teclado-inalambrico-portatil-60-teclado",
+			"assets": [
+				{
+					"id": "6b46ae76-42c3-49e2-8d4b-6d985711e654",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751163078/neystore/qs2woafxmdtpx5s2azgr.jpg",
+					"publicId": "neystore/qs2woafxmdtpx5s2azgr",
+					"width": 1456,
+					"height": 1051,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qs2woafxmdtpx5s2azgr?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/qs2woafxmdtpx5s2azgr?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/qs2woafxmdtpx5s2azgr?_a=BAMADKRi0"
+				},
+				{
+					"id": "225e8144-6b76-4db0-a5fc-e3612acae1bc",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751163740/neystore/ngxlp6pjalixkf8zzvkc.jpg",
+					"publicId": "neystore/ngxlp6pjalixkf8zzvkc",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ngxlp6pjalixkf8zzvkc?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ngxlp6pjalixkf8zzvkc?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ngxlp6pjalixkf8zzvkc?_a=BAMADKRi0"
+				},
+				{
+					"id": "6560cb32-f026-409e-a0c2-3917f61b32c6",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751163825/neystore/t5kxmxqc62tjgtkfnt9m.jpg",
+					"publicId": "neystore/t5kxmxqc62tjgtkfnt9m",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/t5kxmxqc62tjgtkfnt9m?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/t5kxmxqc62tjgtkfnt9m?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/t5kxmxqc62tjgtkfnt9m?_a=BAMADKRi0"
+				},
+				{
+					"id": "d9dbd7f9-3fc3-460d-b2f2-89710f37de18",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751161752/neystore/uoixlnfpdcalc0omwi7p.jpg",
+					"format": "jpg",
+					"width": 488,
+					"height": 353,
+					"publicId": "neystore/uoixlnfpdcalc0omwi7p",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/uoixlnfpdcalc0omwi7p?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/uoixlnfpdcalc0omwi7p?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/uoixlnfpdcalc0omwi7p?_a=BAMADKJu0"
+				},
+				{
+					"id": "e7adf675-7d60-4d51-a818-0d4e1876a6b4",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751161752/neystore/nym4b6naexf4nfzqzzjf.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/nym4b6naexf4nfzqzzjf",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/nym4b6naexf4nfzqzzjf?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/nym4b6naexf4nfzqzzjf?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/nym4b6naexf4nfzqzzjf?_a=BAMADKJu0"
+				},
+				{
+					"id": "673723dd-05bf-472c-a962-1b864c850e27",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751161752/neystore/bw6hacuxhiiz4lplo0dx.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/bw6hacuxhiiz4lplo0dx",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bw6hacuxhiiz4lplo0dx?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bw6hacuxhiiz4lplo0dx?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/bw6hacuxhiiz4lplo0dx?_a=BAMADKJu0"
+				},
+				{
+					"id": "f6ed3132-48b2-4320-8ca1-dd9d32c841c5",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751161752/neystore/xur1qwtcgaql39wndldx.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/xur1qwtcgaql39wndldx",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/xur1qwtcgaql39wndldx?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/xur1qwtcgaql39wndldx?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/xur1qwtcgaql39wndldx?_a=BAMADKJu0"
+				},
+				{
+					"id": "f6ccbc51-9363-4456-8727-2ef0d568be37",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751161752/neystore/xdlowwbwnxzydivc0k9m.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/xdlowwbwnxzydivc0k9m",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/xdlowwbwnxzydivc0k9m?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/xdlowwbwnxzydivc0k9m?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/xdlowwbwnxzydivc0k9m?_a=BAMADKJu0"
+				},
+				{
+					"id": "caa7d7de-2996-403d-a4bc-a452cffe35cd",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751161752/neystore/z1l4dwyxhg8j6kn0q2mx.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/z1l4dwyxhg8j6kn0q2mx",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/z1l4dwyxhg8j6kn0q2mx?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/z1l4dwyxhg8j6kn0q2mx?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/z1l4dwyxhg8j6kn0q2mx?_a=BAMADKJu0"
+				},
+				{
+					"id": "15e67aa1-4bd6-440e-8dd1-592cf030293c",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1751162858/neystore/jcimx1kl5sptdvatf1tw.mp4",
+					"publicId": "neystore/jcimx1kl5sptdvatf1tw",
+					"width": 1920,
+					"height": 1080,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"id": "0ebff12f-b297-42ee-b44a-c49f8dc412aa",
+			"createdAt": "2025-06-29T01:49:13.140Z"
+		},
+		{
+			"title": "nuphy Air75 V2 Teclado mecánico portátil 75, teclado inalámbrico, compatible con teclados Bluetooth/ 2.4G/USB-C RGB, compatible con Windows,Mac, Linux",
+			"features": [
+				"Diseño premium con carcasa inferior translúcida y marco de aluminio, incluye soportes ajustables para mayor ergonomía.",
+				"Conectividad multidispositivo: Bluetooth 5.1, 2.4GHz y USB-C (hasta 4 dispositivos simultáneos). Compatible con Windows/macOS/Linux/iOS/Android.",
+				"Retroiluminación RGB avanzada: 21 efectos preconfigurados + personalización ilimitada via software. Barras laterales indican estado de batería y modos.",
+				"Teclas PBT duraderas: resistentes al desgaste y tacto cómodo para uso prolongado.",
+				"Batería de larga duración (4000mAh): hasta 57 horas con RGB encendido y 220 horas sin iluminación.",
+				"Optimizado para gaming/productividad: soporte QMK/VIA para reprogramación de teclas y macros avanzadas.",
+				"Diseño 75% compacto: balance perfecto entre funcionalidad y espacio (teclado numérico no incluido)."
+			],
+			"details": {
+				"Marca": "Nuphy",
+				"Dispositivos compatibles": "PC, Portátil, Tablet",
+				"Tecnología de conectividad": "Bluetooth, 2.4 GHz, USB-C",
+				"Descripción del teclado": "Bluetooth",
+				"Usos Recomendados Para Producto": "Videojuegos, Oficina",
+				"Características especiales": "Retroiluminado",
+				"Color": "Negro",
+				"Número de teclas": 84,
+				"Color de retroiluminación del teclado": "RGB",
+				"Estilo": "Moderno"
+			},
+			"price": 600,
+			"cost": 500,
+			"stock": 1,
+			"tags": ["KEYBOARDS"],
+			"ranking": 5,
+			"slug": "nuphy-air75-v2-teclado-mecanico-portatil-75-teclado",
+			"assets": [
+				{
+					"id": "207ef511-126f-41fa-8fab-2dc2381ca4f2",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165105/neystore/hw61dg16hlkq1sjumebl.jpg",
+					"publicId": "neystore/hw61dg16hlkq1sjumebl",
+					"width": 1454,
+					"height": 977,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/hw61dg16hlkq1sjumebl?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/hw61dg16hlkq1sjumebl?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/hw61dg16hlkq1sjumebl?_a=BAMADKRi0"
+				},
+				{
+					"id": "0ca80c63-339d-4e90-abd4-a9000e68c029",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751164767/neystore/aweebfc4oepp2sc9tdfc.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/aweebfc4oepp2sc9tdfc",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/aweebfc4oepp2sc9tdfc?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/aweebfc4oepp2sc9tdfc?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/aweebfc4oepp2sc9tdfc?_a=BAMADKRi0"
+				},
+				{
+					"id": "d683ee27-f9bb-466e-b16e-2ddd3c96bce5",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751164767/neystore/yyrbmywle4bk3fiyb1o4.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/yyrbmywle4bk3fiyb1o4",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/yyrbmywle4bk3fiyb1o4?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/yyrbmywle4bk3fiyb1o4?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/yyrbmywle4bk3fiyb1o4?_a=BAMADKRi0"
+				},
+				{
+					"id": "8af6d9a9-da4e-411c-982d-ac5261031f8a",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751164768/neystore/ot0ymz9wf6cbvjhr9vxa.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/ot0ymz9wf6cbvjhr9vxa",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ot0ymz9wf6cbvjhr9vxa?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ot0ymz9wf6cbvjhr9vxa?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/ot0ymz9wf6cbvjhr9vxa?_a=BAMADKRi0"
+				},
+				{
+					"id": "a728169b-3481-4c65-b691-59186c72d4e9",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751164767/neystore/qjyivnbhsr3iqia0r5ki.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"publicId": "neystore/qjyivnbhsr3iqia0r5ki",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/qjyivnbhsr3iqia0r5ki?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/qjyivnbhsr3iqia0r5ki?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/qjyivnbhsr3iqia0r5ki?_a=BAMADKRi0"
+				},
+				{
+					"id": "4937f559-7605-4b38-a80a-2056f3bd3b7f",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165175/neystore/mx9bwa3jnynv8jplqbnp.jpg",
+					"publicId": "neystore/mx9bwa3jnynv8jplqbnp",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mx9bwa3jnynv8jplqbnp?_a=BAMADKRi0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mx9bwa3jnynv8jplqbnp?_a=BAMADKRi0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/mx9bwa3jnynv8jplqbnp?_a=BAMADKRi0"
+				},
+
+				{
+					"id": "1a40633c-66d9-4dec-929b-cabf506e7408",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1751165039/neystore/zlsr8ib1qakus58u0zbq.mp4",
+					"publicId": "neystore/zlsr8ib1qakus58u0zbq",
+					"width": 1920,
+					"height": 1080,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"id": "e451018e-0329-4c28-b87b-4189f92ca3e9",
+			"createdAt": "2025-06-29T02:39:28.102Z"
 		}
 	]
 }
+
