@@ -17,7 +17,7 @@ export async function extractTitleFromAliExpress(page: Page) {
 }
 
 export async function extractImagesFromAliExpress(page: Page): Promise<string[]> {
-	const imagesEl = await page.locator('.slider--img--K0YbWW2 > img').all()
+	const imagesEl = await page.locator('.slider--img--kD4mIg7 > img').all()
 	let images = []
 	for (const imgEl of imagesEl) {
 		const src = (await imgEl.getAttribute('src')) as string
