@@ -4118,7 +4118,7 @@
 			"id": "5236dc69-f53d-4f12-b746-a125c022e2d1",
 			"title": "Koala Respiración con luces musicales sensoriales, Koala calma y ayuda con el descanso y relajación",
 			"slug": "koala-alivio-koala-aliviar-la-respiracion-animal-peluche",
-			"price": 65,
+			"price": 40,
 			"cost": 40,
 			"stock": 1,
 			"ranking": 4,
@@ -4271,6 +4271,7 @@
 			"id": "bcbc7129-71e4-44e0-a5ef-5f2fd788329c",
 			"title": "Tablero de actividades Montessori de madera con 8 interruptores de luz LED, juguetes sensoriales para niños de 1 a 3 años",
 			"slug": "montessori-tablero-madera-8-interruptores-luz-led-juguetes",
+			"offert": 80,
 			"price": 100,
 			"cost": 60,
 			"stock": 1,
@@ -4773,7 +4774,7 @@
 			"title": "Cactus bailarín que imita sonidos, reproduce 120 canciones, recargable por USB, felpa suave, luces LED",
 			"slug": "cactus-bailarin-que-imita-sonidos",
 			"price": 60,
-			"offert": 40,
+			"offert": 30,
 			"cost": 15,
 			"stock": 1,
 			"ranking": 3,
@@ -5881,6 +5882,7 @@
 			],
 			"details": null,
 			"price": 90,
+			"offert": 70,
 			"cost": 60,
 			"stock": 1,
 			"tags": ["TOYS", "MATH", "MONTESSORI", "PSYCHOMOTRICITY", "LANGUAGE"],
@@ -5964,6 +5966,7 @@
 			],
 			"details": null,
 			"price": 100,
+			"offert": 80,
 			"cost": 53,
 			"stock": 1,
 			"tags": ["TOYS", "MATH", "MONTESSORI", "PSYCHOMOTRICITY", "LANGUAGE"],
@@ -7236,8 +7239,8 @@
 				"Colores": "Rojo, Azul, Morado, Amarillo, Verde, Naranja",
 				"Incluye": "2 Pienzas y 6 Tazitas organizadoras"
 			},
-			"price": 60,
-			"cost": 57,
+			"price": 40,
+			"cost": 30,
 			"stock": 1,
 			"tags": ["TOYS", "MONTESSORI", "PSYCHOMOTRICITY", "LANGUAGE", "MATH"],
 			"ranking": 4,
@@ -7731,7 +7734,7 @@
 			},
 			"price": 530,
 			"cost": 433,
-			"stock": 1,
+			"stock": 0,
 			"tags": ["KEYBOARDS"],
 			"ranking": 5,
 			"slug": "nuphy-air60-v2-teclado-inalambrico-portatil-60-teclado",
@@ -7880,7 +7883,8 @@
 				"Color de retroiluminación del teclado": "RGB",
 				"Estilo": "Moderno"
 			},
-			"price": 600,
+			"price": 550,
+			"offert": 470,
 			"cost": 500,
 			"stock": 1,
 			"tags": ["KEYBOARDS"],
@@ -8206,6 +8210,7 @@
 				"Diseño portátil y durable para uso en múltiples entornos, con materiales resistentes y fáciles de limpiar después del uso"
 			],
 			"price": 85,
+			"offert": 60,
 			"cost": 46,
 			"stock": 1,
 			"tags": ["MONTESSORI", "PSYCHOMOTRICITY", "LANGUAGE", "SENSORY", "STRESS_RELIEF", "KITS"],
@@ -8837,4 +8842,3 @@
 		}
 	]
 }
-

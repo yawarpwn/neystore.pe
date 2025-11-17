@@ -127,4 +127,15 @@
 	body {
 		@apply bg-none text-foreground  min-h-[100svh] text-[14px] leading-7;
 	}
+
+	/* Asegúrate de que tus inputs en móvil tengan al menos 16px.
+  Puedes usar '1rem' si el font-size de tu <body> es 16px.
+*/
+	input[type='search'],
+	input[type='text'],
+	input[type='email'],
+	textarea,
+	select {
+		font-size: 16px;
+	}
 }
