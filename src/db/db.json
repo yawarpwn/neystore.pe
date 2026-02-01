@@ -7875,13 +7875,12 @@
 				"Marca": "Nuphy",
 				"Dispositivos compatibles": "PC, Portátil, Tablet",
 				"Tecnología de conectividad": "Bluetooth, 2.4 GHz, USB-C",
-				"Descripción del teclado": "Bluetooth",
 				"Usos Recomendados Para Producto": "Videojuegos, Oficina",
 				"Características especiales": "Retroiluminado",
 				"Color": "Negro",
 				"Número de teclas": 84,
 				"Color de retroiluminación del teclado": "RGB",
-				"Estilo": "Moderno"
+				"Switches": "Gateron Marrón"
 			},
 			"price": 550,
 			"offert": 470,
@@ -7892,16 +7891,16 @@
 			"slug": "nuphy-air75-v2-teclado-mecanico-portatil-75-teclado",
 			"assets": [
 				{
-					"id": "207ef511-126f-41fa-8fab-2dc2381ca4f2",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1751165105/neystore/hw61dg16hlkq1sjumebl.jpg",
-					"publicId": "neystore/hw61dg16hlkq1sjumebl",
-					"width": 1454,
-					"height": 977,
+					"id": "246072af-3dfa-40a8-80b9-675d7c869313",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1763853818/neystore/rscvhssixysvhyatko9c.jpg",
+					"publicId": "neystore/rscvhssixysvhyatko9c",
+					"width": 1461,
+					"height": 983,
 					"format": "jpg",
 					"type": "image",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/hw61dg16hlkq1sjumebl?_a=BAMADKRi0",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/hw61dg16hlkq1sjumebl?_a=BAMADKRi0",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/hw61dg16hlkq1sjumebl?_a=BAMADKRi0"
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/rscvhssixysvhyatko9c?_a=BAMADKce0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/rscvhssixysvhyatko9c?_a=BAMADKce0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/rscvhssixysvhyatko9c?_a=BAMADKce0"
 				},
 				{
 					"id": "0ca80c63-339d-4e90-abd4-a9000e68c029",

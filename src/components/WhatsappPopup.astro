@@ -4,7 +4,7 @@ import { Icon } from 'astro-icon/components'
 const team = [
 	{
 		name: 'Raquel Maldonado',
-		job: 'Gerente Comercial',
+		job: 'Ejecutivo Ventas',
 		image: '/assets/team/raquel-maldonado.webp',
 		phone: '900224005',
 	},
@@ -18,9 +18,8 @@ const team = [
 
 	{
 		name: 'Milagro Saavedra',
-		job: 'Asistente Ventas',
-		image:
-			'https://img.freepik.com/vector-premium/cara-linda-chica-avatar-nina-retrato-ilustracion-plana-vectorial_192760-82.jpg?w=2000',
+		job: 'Ejecutivo Ventas',
+		image: '/assets/team/milagros_saavedra.webp',
 		phone: '900224005',
 	},
 ]
@@ -60,7 +59,7 @@ transition-transform translate-x-full invisible `}>
 								</div>
 								<div class="wap__texts flex-1">
 									<div class="name text-sm">{member.name}</div>
-									<div class="post text-xs font-bold">{member.job}</div>
+									<div class="post text-[10px] font-bold uppercase">{member.job}</div>
 									<div class="online text-xs">online</div>
 								</div>
 								<div class="whatsapp-wrap text-black">
