@@ -3633,6 +3633,170 @@
 			],
 			"createdAt": "2024-11-09T04:23:50.766Z"
 		},
+
+		{
+			"id": "195df8fa-582c-4cd4-9277-f4b4d41fa777",
+			"title": "Keychron K3 Max 75% Layout QMK/VIA Teclado mecánico inalámbrico personalizado, 2.4 GHz/Bluetooth/Cable 3 modos RGB retroiluminado interruptor rojo",
+			"slug": "keychron-k3-max-ultraslim-qmkvia-wireless-custom-mechanical",
+			"price": 580,
+			"offert": 485,
+			"cost": 385,
+			"stock": 2,
+			"ranking": 5,
+			"features": [
+				"Diseño compacto 75% ultradelgado y ergonómico",
+				"Conectividad de 3 modos: 2.4 GHz, Bluetooth 5.1 y USB-C",
+				"Programable con QMK/VIA (personalización de teclas y macros)",
+				"Interruptores rojos intercambiables en caliente (hot-swappable)",
+				"Retroiluminación RGB con teclas PBT de alta durabilidad",
+				"Estructura de aluminio con espuma acústica para escritura silenciosa"
+			],
+			"details": {
+				"Marca": "Keychron",
+				"Tipo": "Mecánico",
+				"Conectividad": "2.4Ghz, Bluetooth 5.1 y USB-C",
+				"Interruptores": "Low Profile Gateron mechanical 2.0",
+				"Color Interruptores": "Rojo",
+				"Perfil de Teclas": "Double-shot PBT",
+				"Total de teclas": "84 (75%)",
+				"Retroiluminación": "RGB personalizable",
+				"Distribución": "ENGLISH-ANSI",
+				"Espuma Acústica": "Almohadilla para interruptor de PCB y espuma de látex",
+				"Batería": "1550 mAh recargable de polímero de litio",
+				"Systemas compatibles": "MacOS/Windows/Linux/Android/iOS",
+				"Soporte QMK/VIA": "Sí",
+				"Material": "Aluminio, Tereftalato de polibutileno",
+				"Dimensiones": "340 x 100 x 40 mm",
+				"Peso": "800g"
+			},
+			"tags": ["KEYBOARDS"],
+			"assets": [
+				{
+					"id": "f1e14362-e800-4965-9064-a08e931f6e37",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1774188761/neystore/jjdsmgzavzjjf3snsyq3.avif",
+					"publicId": "neystore/jjdsmgzavzjjf3snsyq3",
+					"width": 960,
+					"height": 960,
+					"format": "avif",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50"
+				},
+
+				{
+					"id": "829c1e83-5f6d-4949-8f98-b2c62f93595c",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1774191225/neystore/bo3cfzcenq3xm67q16vh.avif",
+					"publicId": "neystore/bo3cfzcenq3xm67q16vh",
+					"width": 960,
+					"height": 960,
+					"format": "avif",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/bo3cfzcenq3xm67q16vh?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/bo3cfzcenq3xm67q16vh?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/bo3cfzcenq3xm67q16vh?_a=BAMADKM50"
+				},
+
+				{
+					"id": "6f63aa77-ce26-4bb9-bd46-c6ab9bd73738",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1774188545/neystore/mzgutexz9da1hj4dsdn3.avif",
+					"publicId": "neystore/mzgutexz9da1hj4dsdn3",
+					"width": 960,
+					"height": 960,
+					"format": "avif",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mzgutexz9da1hj4dsdn3?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mzgutexz9da1hj4dsdn3?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/mzgutexz9da1hj4dsdn3?_a=BAMADKM50"
+				},
+
+				{
+					"id": "344e06e9-af28-4d50-8ec3-a17051ed3e74",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1774190921/neystore/kcegplytls9p0hyi2t6w.avif",
+					"publicId": "neystore/kcegplytls9p0hyi2t6w",
+					"width": 960,
+					"height": 960,
+					"format": "avif",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/kcegplytls9p0hyi2t6w?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/kcegplytls9p0hyi2t6w?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/kcegplytls9p0hyi2t6w?_a=BAMADKM50"
+				},
+
+				{
+					"id": "7e1bc1bf-382b-4bab-815b-a3ddbc5c14f1",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1774190997/neystore/vmgfwcq2iqzmeymevusl.avif",
+					"publicId": "neystore/vmgfwcq2iqzmeymevusl",
+					"width": 960,
+					"height": 960,
+					"format": "avif",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vmgfwcq2iqzmeymevusl?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vmgfwcq2iqzmeymevusl?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/vmgfwcq2iqzmeymevusl?_a=BAMADKM50"
+				},
+
+				{
+					"id": "9b655289-4de2-4f6a-b456-7bfe6532b613",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1774191409/neystore/vmft1p90w4j8sntqe805.avif",
+					"publicId": "neystore/vmft1p90w4j8sntqe805",
+					"width": 960,
+					"height": 960,
+					"format": "avif",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vmft1p90w4j8sntqe805?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vmft1p90w4j8sntqe805?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/vmft1p90w4j8sntqe805?_a=BAMADKM50"
+				},
+
+				{
+					"id": "0cb5ad40-b4a1-47aa-9457-81a7c72039b9",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727918169/neystore/hj1ewd1uyymxllbhya2r.jpg",
+					"publicId": "neystore/hj1ewd1uyymxllbhya2r",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/hj1ewd1uyymxllbhya2r?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/hj1ewd1uyymxllbhya2r?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/hj1ewd1uyymxllbhya2r?_a=BAMADKJu0"
+				},
+				{
+					"id": "9df44eab-f430-4521-a140-b381eecf84b2",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1774196114/neystore/ageelolekvtvmwm0ixt5.mp4",
+					"publicId": "neystore/ageelolekvtvmwm0ixt5",
+					"width": 1920,
+					"height": 1080,
+					"format": "mp4",
+					"type": "video"
+				},
+				{
+					"id": "e17b2107-9974-4f6f-aa05-d45fd8e6e939",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1727917848/neystore/nzzwlscmaknh9wjkpccj.jpg",
+					"publicId": "neystore/nzzwlscmaknh9wjkpccj",
+					"width": 1331,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/nzzwlscmaknh9wjkpccj?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/nzzwlscmaknh9wjkpccj?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/nzzwlscmaknh9wjkpccj?_a=BAMADKJu0"
+				},
+				{
+					"id": "4beafad2-1642-48ab-a5c2-b013060528e7",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1724551075/neystore/haaq9ioxsujwdanks5gh.jpg",
+					"format": "jpg",
+					"width": 500,
+					"height": 500,
+					"type": "image",
+					"publicId": "neystore/haaq9ioxsujwdanks5gh",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/haaq9ioxsujwdanks5gh?_a=BAMADKJu0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/haaq9ioxsujwdanks5gh?_a=BAMADKJu0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/haaq9ioxsujwdanks5gh?_a=BAMADKJu0"
+				}
+			],
+			"createdAt": "2024-11-09T04:23:50.766Z"
+		},
 		{
 			"id": "6c0b1d87-d9fb-49d3-9755-0c66ef81d735",
 			"title": "Interruptor óptico Keychron de bajo perfil, 87 piezas para teclado inalámbrico mecánico ultradelgado",

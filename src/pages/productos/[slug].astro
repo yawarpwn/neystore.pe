@@ -137,16 +137,17 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 			}
 			<!-- K3 pro -->
 			{
-				product.id === '195df8fa-582c-4cd4-9277-f4b4d41fa953' && (
-					<video
-						src="https://cdn.shopify.com/videos/c/o/v/1badc26cb0bf43f093e23188e846ea5b.mp4"
-						autoplay
-						controlslist="nodownload"
-						loop
-						disablepictureinpicture
-						muted
-					/>
-				)
+				product.id === '195df8fa-582c-4cd4-9277-f4b4d41fa953' ||
+					(product.id === '195df8fa-582c-4cd4-9277-f4b4d41fa777' && (
+						<video
+							src="https://cdn.shopify.com/videos/c/o/v/1badc26cb0bf43f093e23188e846ea5b.mp4"
+							autoplay
+							controlslist="nodownload"
+							loop
+							disablepictureinpicture
+							muted
+						/>
+					))
 			}
 			<!-- Details -->
 			{
