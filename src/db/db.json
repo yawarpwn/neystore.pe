@@ -5,8 +5,8 @@
 			"title": "Keychrone K3 versión 2 Bluetooth , Teclado mecánico inalámbrico 84 teclas 75%, con interruptor Gateron de perfil bajo",
 			"slug": "keychron-teclado-mecanico-inalambrico-bluetooth-k3-version",
 			"price": 400,
-			"cost": 323,
-			"stock": 0,
+			"cost": 300,
+			"stock": 2,
 			"ranking": 4.7,
 			"features": [
 				"Diseño del 75%: Permite a los usuarios acceder a todas las teclas multimedia y de función esenciales, pero con un espacio más pequeño.",
@@ -137,6 +137,132 @@
 					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/c8trmrobqq4ugkdxatss?_a=BAMADKJu0",
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/c8trmrobqq4ugkdxatss?_a=BAMADKJu0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/c8trmrobqq4ugkdxatss?_a=BAMADKJu0"
+				}
+			],
+			"createdAt": "2024-11-09T04:23:50.766Z"
+		},
+
+		{
+			"id": "5d652261-2ad5-4ba1-8091-8e43a23be699",
+			"title": "Keychron K3 V3 QMK (Distribución ISO ESPAÑOL) Teclado Mecánico Personalizado Inalámbrico Interruptor de Perfil Bajo LSA Teclas con Retroiluminación",
+			"slug": "keychron-k3-v3",
+			"price": 530,
+			"cost": 350,
+			"stock": 4,
+			"offert": 500,
+			"ranking": 4.7,
+			"features": [
+				"Diseño del 75%: Un formato compacto que optimiza el espacio sin sacrificar las teclas multimedia y de función esenciales.",
+				"Firmware QMK y Launcher: Soporte de código abierto para remapeo de teclas, macros y personalización completa a través de una aplicación web sin necesidad de instalar software.",
+				"Perfil Ultra-delgado: Utiliza interruptores mecánicos de perfil bajo 2.0 que son un 33% más delgados que los convencionales, manteniendo una respuesta táctil distintiva.",
+				"Acústica Mejorada: Equipado con una combinación de espumas IXPE, EPDM y látex para un tipeo más silencioso, cómodo y con mejor soporte.",
+				"Conectividad Dual: Soporta Bluetooth 5.2 estable para conectar hasta 3 dispositivos simultáneamente y modo cableado mediante USB-C.",
+				"Compatibilidad Multiplataforma: Diseñado específicamente para Mac y Windows, con funciones multimedia idénticas a los teclados de Apple y compatibilidad total con Linux.",
+				"Intercambio en Caliente (Hot-Swappable): Opción que permite cambiar los interruptores mecánicos sin necesidad de soldadura para personalizar la experiencia de escritura.",
+				"Iluminación Dinámica: Luz blanca con 14 modos, ajustable en tono y brillo."
+			],
+			"details": {
+				"Modelo": "Keychron K3 Version 3",
+				"Interruptores": "Mecánico Keychron Low Profile 2.0 (Pre-lubricados)",
+				"Distribución": "75% ISO Layout Español",
+				"Retroiluminado": "Blanco (14 modos)",
+				"Interruptor": "Gateron Low-Profile Marrón ó rojo",
+				"Tecnología de conectividad": "Bluetooth 5.2 y USB-C",
+				"Firmware": "QMK con soporte Keychron Launcher",
+				"MCU": "Arquitectura ARM con 256KB Flash",
+				"Polling Rate": "1000 Hz (Modo cableado) / 90 Hz (Modo inalámbrico)",
+				"Teclas": "LSA Profile Shine-through ABS",
+				"Ángulos de inclinación": "2.5°, 4.2° y 6.5°",
+				"Estabilizadores": "Rediseñados para reducir el balanceo en teclas grandes",
+				"Sistema Operativo": "macOS / Windows / Linux"
+			},
+			"tags": ["KEYBOARDS"],
+			"assets": [
+				{
+					"id": "dd419691-65d8-4a5f-96d1-76ca066d140d",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1777737905/neystore/ohu499m1prsq5hgbq1le.jpg",
+					"publicId": "neystore/ohu499m1prsq5hgbq1le",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/ohu499m1prsq5hgbq1le?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/ohu499m1prsq5hgbq1le?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/ohu499m1prsq5hgbq1le?_a=BAMADKM50"
+				},
+
+				{
+					"id": "8d35d025-daa8-4c5a-9899-18fa6b6711cd",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1777738005/neystore/vumn1ykkgdysfcmpvtkt.jpg",
+					"publicId": "neystore/vumn1ykkgdysfcmpvtkt",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/vumn1ykkgdysfcmpvtkt?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/vumn1ykkgdysfcmpvtkt?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/vumn1ykkgdysfcmpvtkt?_a=BAMADKM50"
+				},
+
+				{
+					"id": "c8d689fb-0040-4a35-aac1-fd400247e17a",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1777679320/neystore/up3kwsyez0cy7cri2dqk.jpg",
+					"publicId": "neystore/up3kwsyez0cy7cri2dqk",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/up3kwsyez0cy7cri2dqk?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/up3kwsyez0cy7cri2dqk?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/up3kwsyez0cy7cri2dqk?_a=BAMADKM50"
+				},
+
+				{
+					"id": "8abd3870-a2fc-42fe-9bd0-6e440ac4e499",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1777679460/neystore/zcuwygdf2f8cjizuuxhd.jpg",
+					"publicId": "neystore/zcuwygdf2f8cjizuuxhd",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/zcuwygdf2f8cjizuuxhd?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/zcuwygdf2f8cjizuuxhd?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/zcuwygdf2f8cjizuuxhd?_a=BAMADKM50"
+				},
+
+				{
+					"id": "81aadf64-d902-4b11-837d-dd68d8aa1115",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1777679503/neystore/exfqoao1tkfuaxm7exmw.jpg",
+					"publicId": "neystore/exfqoao1tkfuaxm7exmw",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/exfqoao1tkfuaxm7exmw?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/exfqoao1tkfuaxm7exmw?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/exfqoao1tkfuaxm7exmw?_a=BAMADKM50"
+				},
+
+				{
+					"id": "af0e4419-524e-4c49-8a0c-8ce790efdadf",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1777679974/neystore/mhxq8o0mdysxwfk3x9db.avif",
+					"publicId": "neystore/mhxq8o0mdysxwfk3x9db",
+					"width": 960,
+					"height": 540,
+					"format": "avif",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/mhxq8o0mdysxwfk3x9db?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/mhxq8o0mdysxwfk3x9db?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_600/v1/neystore/mhxq8o0mdysxwfk3x9db?_a=BAMADKM50"
+				},
+				{
+					"id": "7246c88e-749a-407f-b283-f136ed275976",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1777736655/neystore/sovngvrtwazv2vklvgvx.mp4",
+					"publicId": "neystore/sovngvrtwazv2vklvgvx",
+					"width": 1080,
+					"height": 1920,
+					"format": "mp4",
+					"type": "video"
 				}
 			],
 			"createdAt": "2024-11-09T04:23:50.766Z"
