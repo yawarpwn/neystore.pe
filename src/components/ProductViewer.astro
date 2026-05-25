@@ -1,6 +1,5 @@
 ---
 import ProductShareButton from '@/components/ProductShareButton.astro'
-import Skeleton from '@/components/ui/Skeleton.astro'
 import type { Product } from '@/types'
 
 import ProductVideoDialog from '@/components/ProductVideoDialog.astro'
@@ -15,7 +14,7 @@ const { assets, id, title } = Astro.props
 const video = assets.find((asset) => asset.type === 'video')
 ---
 
-<div class="image-view-wrap w-full md:w-full flex flex-col gap-4">
+<div class="image-view-wrap flex flex-col gap-4">
 	{/* Main */}
 	<div id="main-image" class="image-view--previewWrap relative rounded-lg overflow-hidden">
 		<div class="embla">
@@ -29,6 +28,7 @@ const video = assets.find((asset) => asset.type === 'video')
 							if (asset.type === 'video') return
 							return (
 								<div class="embla__slide">
+									{' '}
 									<div class="embla__spinner absolute inset-0 bg-muted  flex items-center justify-center">
 										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="80">
 											<>
@@ -82,8 +82,8 @@ const video = assets.find((asset) => asset.type === 'video')
 														repeatCount="indefinite"
 														begin="0"
 													/>
-												</circle>
-											</>
+												</circle>{' '}
+											</>{' '}
 										</svg>
 									</div>
 									<img
@@ -109,7 +109,19 @@ const video = assets.find((asset) => asset.type === 'video')
 				{
 					assets.map((asset, index) => {
 						if (asset.type === 'video') {
-							return
+							return (
+								<div
+									class="embla-thumbs__item"
+									data-thumb-active={index === 0}
+									data-large-url={asset.mediumUrl}>
+									<ProductVideoDialog
+										video={{
+											url: asset.url,
+											title: title,
+										}}
+									/>
+								</div>
+							)
 						}
 
 						return (
@@ -127,27 +139,44 @@ const video = assets.find((asset) => asset.type === 'video')
 	</div>
 
 	<!-- Product Video -->
-	{
-		video && (
-			<div class="flex justify-center">
-				<ProductVideoDialog
-					video={{
-						url: video.url,
-						title: title,
-					}}
-				/>
-			</div>
-		)
-	}
+	<!-- { -->
+	<!-- 	video && ( -->
+	<!-- 		<div class="flex justify-center"> -->
+	<!-- 			<ProductVideoDialog -->
+	<!-- 				video={{ -->
+	<!-- 					url: video.url, -->
+	<!-- 					title: title, -->
+	<!-- 				}} -->
+	<!-- 			/> -->
+	<!-- 		</div> -->
+	<!-- 	) -->
+	<!-- } -->
 </div>
 <style>
 	.embla {
 		max-width: 48rem;
 		margin: auto;
-		--slide-height: 19rem;
+		--slide-height: auto;
 		--slide-spacing: 1rem;
 		--slide-size: 100%;
+
+		@media (width > 40rem) {
+			--slide-height: 450px;
+		}
+
+		@media (width > 48rem) {
+			--slide-height: 400px;
+		}
+
+		@media (width > 64rem) {
+			--slide-height: 400px;
+		}
+
+		@media (width > 80rem) {
+			--slide-height: 500px;
+		}
 	}
+
 	.embla__viewport {
 		overflow: hidden;
 	}
@@ -156,27 +185,29 @@ const video = assets.find((asset) => asset.type === 'video')
 		touch-action: pan-y pinch-zoom;
 		margin-left: calc(var(--slide-spacing) * -1);
 	}
+
 	.embla__slide {
 		transform: translate3d(0, 0, 0);
 		flex: 0 0 var(--slide-size);
 		min-width: 0;
 		padding-left: var(--slide-spacing);
-	}
-	.embla__slide__number {
-		box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
-		border-radius: 1.8rem;
-		font-size: 4rem;
-		font-weight: 600;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		height: var(--slide-height);
-		user-select: none;
 	}
+
+	/* Thumbs */
 	.embla-thumbs {
 		--thumbs-slide-spacing: 0.8rem;
 		--thumbs-slide-height: 6rem;
+		--thumbs-size: 64px;
 		margin-top: var(--thumbs-slide-spacing);
+
+		@media (width > 48rem) {
+			--thumbs-size: 40px;
+		}
+
+		@media (width > 64rem) {
+			--thumbs-size: 60px;
+		}
 	}
 	.embla-thumbs__viewport {
 		overflow: hidden;
@@ -190,17 +221,19 @@ const video = assets.find((asset) => asset.type === 'video')
 	.embla-thumbs__slide {
 		flex: 0 0 22%;
 		min-width: 0;
+		border: 1px solid lime;
 		padding-left: var(--thumbs-slide-spacing);
 	}
-	@media (min-width: 576px) {
+
+	@media (width > 48rem) {
 		.embla-thumbs__slide {
 			flex: 0 0 15%;
 		}
 	}
 
 	.embla-thumbs__item {
-		width: 64px;
-		height: 64px;
+		width: var(--thumbs-size);
+		height: var(--thumbs-size);
 		margin-left: 0.5rem;
 		/* border: 1px solid black; */
 		border-radius: 0.25rem;

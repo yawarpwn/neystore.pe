@@ -11,9 +11,8 @@ export interface Props {
 const { video } = Astro.props
 ---
 
-<Button id="show-dialog-btn">
+<Button size="icon" id="show-dialog-btn">
 	<Icon name="play" class="" size={24} />
-	<span>Ver video del producto</span>
 </Button>
 <dialog id="video-dialog" class="bg-transparent">
 	<div class="modal-box">

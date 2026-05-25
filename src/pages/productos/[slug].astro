@@ -42,8 +42,8 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 
 	<section class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
 		<article class="relative">
-			<div class="md:sticky md:h-svh top-16 left-0">
-				<div class="flex items-center md:h-[calc(100%-9rem)]">
+			<div class="md:sticky md:h-[calc(100svh-9rem)] top-16 left-0">
+				<div class="flex items-center h-full">
 					<ProductViewer id={product.id} {assets} {title} />
 				</div>
 			</div>
@@ -67,7 +67,6 @@ const productUrl = new URL(Astro.url.pathname, Astro.site)
 								// const getRandomColor = (max: number, min: number) =>
 								// 	Math.floor(Math.random() * (max - min) + min)
 								// const randomColor = getRandomColor(360, 0)
-
 								return (
 									<small class="shrink-0 text-sm bg-muted text-muted-foreground  px-2 py-0.5 rounded-md shadow-xs">
 										{PRODUCT_TAGS[tag as keyof typeof PRODUCT_TAGS]}
