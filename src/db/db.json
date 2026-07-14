@@ -137,6 +137,19 @@
 					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/c8trmrobqq4ugkdxatss?_a=BAMADKJu0",
 					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/c8trmrobqq4ugkdxatss?_a=BAMADKJu0",
 					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_800/v1/neystore/c8trmrobqq4ugkdxatss?_a=BAMADKJu0"
+				},
+
+				{
+					"id": "f1e14362-e800-4965-9064-a08e931f6e37",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1774188761/neystore/jjdsmgzavzjjf3snsyq3.avif",
+					"publicId": "neystore/jjdsmgzavzjjf3snsyq3",
+					"width": 960,
+					"height": 960,
+					"format": "avif",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50"
 				}
 			],
 			"createdAt": "2024-11-09T04:23:50.766Z"
@@ -823,7 +836,7 @@
 			"slug": "keychron-v1-qmkviateclado-mecanico-cable-personalizado",
 			"price": 380,
 			"cost": 285,
-			"stock": 1,
+			"stock": 0,
 			"ranking": 4,
 			"features": [
 				"Con QMK/VIA del V1, puedes reasignar intuitivamente tus claves favoritas y crear macros con cualquier tecla en cualquier sistema operativo (macOS, Windows o Linux) para un flujo de trabajo fluido. El firmware de código abierto significa infinitas posibilidades para diseños de teclado, accesos directos, efectos de retroiluminación y más.",
@@ -3764,10 +3777,9 @@
 			"id": "195df8fa-582c-4cd4-9277-f4b4d41fa777",
 			"title": "Keychron K3 Max 75% Layout QMK/VIA Teclado mecánico inalámbrico personalizado, 2.4 GHz/Bluetooth/Cable 3 modos RGB retroiluminado interruptor rojo",
 			"slug": "keychron-k3-max-ultraslim-qmkvia-wireless-custom-mechanical",
-			"price": 580,
-			"offert": 485,
+			"price": 500,
 			"cost": 385,
-			"stock": 0,
+			"stock": 2,
 			"ranking": 5,
 			"features": [
 				"Diseño compacto 75% ultradelgado y ergonómico",
@@ -3782,7 +3794,7 @@
 				"Tipo": "Mecánico",
 				"Conectividad": "2.4Ghz, Bluetooth 5.1 y USB-C",
 				"Interruptores": "Low Profile Gateron mechanical 2.0",
-				"Color Interruptores": "Rojo",
+				"Color Interruptores": "Azul",
 				"Perfil de Teclas": "Double-shot PBT",
 				"Total de teclas": "84 (75%)",
 				"Retroiluminación": "RGB personalizable",
@@ -3798,16 +3810,16 @@
 			"tags": ["KEYBOARDS"],
 			"assets": [
 				{
-					"id": "f1e14362-e800-4965-9064-a08e931f6e37",
-					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1774188761/neystore/jjdsmgzavzjjf3snsyq3.avif",
-					"publicId": "neystore/jjdsmgzavzjjf3snsyq3",
+					"id": "e26a44d7-6dd0-402e-92c6-b56dddeb14d3",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1784043042/neystore/xlgba9uocgdyljupo4ul.avif",
+					"publicId": "neystore/xlgba9uocgdyljupo4ul",
 					"width": 960,
 					"height": 960,
 					"format": "avif",
 					"type": "image",
-					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50",
-					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50",
-					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/jjdsmgzavzjjf3snsyq3?_a=BAMADKM50"
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/xlgba9uocgdyljupo4ul?_a=BAMADKcg0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/xlgba9uocgdyljupo4ul?_a=BAMADKcg0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/xlgba9uocgdyljupo4ul?_a=BAMADKcg0"
 				},
 
 				{
