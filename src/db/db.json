@@ -8187,7 +8187,7 @@
 			"price": 550,
 			"offert": 470,
 			"cost": 500,
-			"stock": 1,
+			"stock": 0,
 			"tags": ["KEYBOARDS"],
 			"ranking": 5,
 			"slug": "nuphy-air75-v2-teclado-mecanico-portatil-75-teclado",
@@ -8276,6 +8276,108 @@
 			],
 			"id": "e451018e-0329-4c28-b87b-4189f92ca3e9",
 			"createdAt": "2025-06-29T02:39:28.102Z"
+		},
+
+		{
+			"title": "NuPhy Air75 V3 Teclado Mecánico Inalámbrico Low Profile 75% RGB Hot-Swap",
+			"features": [
+				"⌨️ Formato 75%: 84 teclas, compacto y funcional",
+				"🔧 Hot-Swap: permite cambiar los switches fácilmente.",
+				"📏 Perfil ultradelgado: solo 13,2 mm de grosor.",
+				"🔇 Montaje con junta: escritura suave, cómoda y silenciosa.",
+				"🔋 Batería de 4000 mAh: excelente autonomía inalámbrica.",
+				"📡 Triple conexión: Bluetooth, 2.4 GHz y USB-C.",
+				"💻 Compatible con Mac, Linux, Windows y Android",
+				"🎨 Retroiluminación RGB: múltiples efectos personalizables.",
+				"🖥️ Hasta 4 dispositivos: cambia entre dispositivos fácilmente.",
+				"🎛️ Perilla multifunción: volumen, zoom y accesos personalizables.",
+				"🧩 Teclas PBT Double-Shot: resistentes y duraderas.",
+				"⚡ Polling Rate de hasta 1000 Hz: respuesta rápida.",
+				"🛠️ Personalizable con NuPhyIO: configura teclas, funciones e iluminación."
+			],
+			"details": {
+				"Marca": "Nuphy",
+				"Dispositivos compatibles": "PC, Portátil, Tablet",
+				"Tecnología de conectividad": "Bluetooth, 2.4 GHz, USB-C",
+				"Usos Recomendados Para Producto": "Videojuegos, Oficina",
+				"Características especiales": "Retroiluminado",
+				"Teclas": "Double-shot PBT",
+				"Bateria": "4000mAh",
+				"Peso": "724 gramos",
+				"Color": "Blanco",
+				"Número de teclas": 84,
+				"Dimensiones": "318.9 mm x 128.9 mm x 13.2 mm",
+				"Color de retroiluminación del teclado": "RGB",
+				"Switches": "Nano Rojo",
+				"Distribución": "ANSI 75% Inglés"
+			},
+			"price": 550,
+			"cost": 476,
+			"stock": 1,
+			"tags": ["KEYBOARDS"],
+			"ranking": 5,
+			"slug": "nuphy-air75-v3-teclado-mecanico-inalambrico",
+			"assets": [
+				{
+					"id": "870758b8-f51d-499c-b08d-2ceda713df68",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1787924287/neystore/b1iberwebz4wlbixloay.jpg",
+					"publicId": "neystore/b1iberwebz4wlbixloay",
+					"width": 1498,
+					"height": 1068,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/b1iberwebz4wlbixloay?_a=BAMADKcg0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/b1iberwebz4wlbixloay?_a=BAMADKcg0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/b1iberwebz4wlbixloay?_a=BAMADKcg0"
+				},
+				{
+					"id": "b89d8663-ff37-460c-a795-8a73fa6c9ea1",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1787924801/neystore/t7yw3j2g4ljrxixc6tac.jpg",
+					"publicId": "neystore/t7yw3j2g4ljrxixc6tac",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/t7yw3j2g4ljrxixc6tac?_a=BAMADKcg0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/t7yw3j2g4ljrxixc6tac?_a=BAMADKcg0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/t7yw3j2g4ljrxixc6tac?_a=BAMADKcg0"
+				},
+				{
+					"id": "87754578-043e-4a41-81fb-d2235ee585d7",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1787924849/neystore/hwt3jdw7hytbv1my95dk.jpg",
+					"publicId": "neystore/hwt3jdw7hytbv1my95dk",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/hwt3jdw7hytbv1my95dk?_a=BAMADKcg0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/hwt3jdw7hytbv1my95dk?_a=BAMADKcg0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_700/v1/neystore/hwt3jdw7hytbv1my95dk?_a=BAMADKcg0"
+				},
+				{
+					"id": "4c686a10-f76b-4451-b28b-a29f49723917",
+					"url": "https://res.cloudinary.com/dyshhk5h6/image/upload/v1787924893/neystore/tw4mkbfvhifa8hgv4bje.jpg",
+					"publicId": "neystore/tw4mkbfvhifa8hgv4bje",
+					"width": 1500,
+					"height": 1500,
+					"format": "jpg",
+					"type": "image",
+					"thumbUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_thumb,h_100/v1/neystore/tw4mkbfvhifa8hgv4bje?_a=BAMADKcg0",
+					"smallUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_200/v1/neystore/tw4mkbfvhifa8hgv4bje?_a=BAMADKcg0",
+					"mediumUrl": "https://res.cloudinary.com/dyshhk5h6/image/upload/c_scale,h_500/v1/neystore/tw4mkbfvhifa8hgv4bje?_a=BAMADKcg0"
+				},
+				{
+					"id": "44893c7a-5026-4efe-88d8-4db324f8433a",
+					"url": "https://res.cloudinary.com/dyshhk5h6/video/upload/v1787925165/neystore/fd3alryg437iymz4l5ia.mp4",
+					"publicId": "neystore/fd3alryg437iymz4l5ia",
+					"width": 1080,
+					"height": 1440,
+					"format": "mp4",
+					"type": "video"
+				}
+			],
+			"id": "e451018e-0329-4c28-b87b-4189f92ca3e9",
+			"createdAt": "2026-08-29T02:39:28.102Z"
 		},
 		{
 			"title": "Pelotas antiestrés de unicornio, juguete para curar el estado de ánimo, juguete para apretar, alivio del estrés y la ansiedad, pelota antiestrés de unicornio, juguete de agua de Gel colorido",
