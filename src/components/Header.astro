@@ -3,35 +3,17 @@ import Logo from '@/components/Logo.astro'
 import Container from './Container.astro'
 import ProductSearch from './ProductSearch.astro'
 import { Icon } from 'astro-icon/components'
-import { cn } from '@/lib/utils'
 import { site } from '@/config'
 import { PRODUCT_TAGS } from '@/constants'
 const socialLinks = Object.entries(site.socialLinks)
 
 const pathname = Astro.url.pathname
-console.log({ pathname })
 
 const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
 	title: value,
 	href: `/productos/${key.toLowerCase()}`,
 	isActive: pathname === `/productos/${key.toLowerCase()}`,
 }))
-
-const normalizedPathName =
-	pathname.length > 1 && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname
-
-const pages = [
-	{
-		title: 'Productos',
-		href: '/productos',
-		active: normalizedPathName.startsWith('/productos'),
-	},
-	{
-		title: 'Contacto',
-		href: '/contacto',
-		active: pathname === '/contacto',
-	},
-]
 
 // <!--
 // class='sticky z-50 top-0 left-0 h-[64px] bg-background/50 backdrop-blur-md saturate-150'

@@ -1,12 +1,13 @@
 ---
 // import Icon from '@/components/Icon.astro'
 import { Icon } from 'astro-icon/components'
+import { site } from '@/config/site'
 const team = [
 	{
 		name: 'Raquel Maldonado',
 		job: 'Ejecutivo Ventas',
 		image: '/assets/team/raquel-maldonado.webp',
-		phone: '900224005',
+		phone: site.phone,
 	},
 
 	// {
@@ -20,7 +21,7 @@ const team = [
 		name: 'Milagro Saavedra',
 		job: 'Ejecutivo Ventas',
 		image: '/assets/team/milagros_saavedra.webp',
-		phone: '900224005',
+		phone: site.phone,
 	},
 ]
 ---
