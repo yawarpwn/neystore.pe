@@ -21,54 +21,36 @@ const features = [
 		description: 'Calidad y seguridad para distinguirnos',
 	},
 ]
+// <div class="grid items-end md:grid-cols-4 md:place-items-center mt-16">
+// 	<div class="md:col-span-2 max-w-max relative z-20">
+// 		<h1
+// 			class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
+// 			Somos E-Commerce de productos
+// 			<span class="text-[#FFCC70]">Tecnológicos</span> y
+// 			<span class="text-[#ffcc70]">Juguetes</span>
+// 			didácticos
+// 			<!-- <span class="text-primary">la Tecnologia</span> -->
+// 		</h1>
+// 		<div class="px-10 xl:px-0">
+// 			<ul class="relative pl-6 lg:pl-10 mt-16">
+// 				{
+// 					features.map((feature) => (
+// 						<li>
+// 							<div class="flex items-center gap-4 mb-6">
+// 								<Icon name={feature.icon} class="text-[#ffcc70] size-8" />
+// 								<p class="text-sm md:text-xl text-pretty">{feature.description}</p>
+// 							</div>
+// 						</li>
+// 					))
+// 				}
+// 			</ul>
+// 		</div>
+// 	</div>
+// </div>
 ---
 
-<section
-	class={`flex items-center  overflow-clip bg-linear-to-tr relative   
-from-10% from-[#5901dd]  via-30% to-90% to-[#C850C0]  text-background`}>
-	<div class="pattern"></div>
-	<div class="max-w-(--breakpoint-xl) mx-auto">
-		<div class="grid items-end md:grid-cols-4 md:place-items-center mt-16">
-			<div class="md:col-span-2 max-w-max relative z-20">
-				<h1
-					class="text-3xl text-center lg:text-left sm:text-4xl/snug md:text-5xl/snug text-balance font-bold">
-					Somos E-Commerce de productos
-					<span class="text-[#FFCC70]">Tecnológicos</span> y
-					<span class="text-[#ffcc70]">Juguetes</span>
-					didácticos
-					<!-- <span class="text-primary">la Tecnologia</span> -->
-				</h1>
-				<div class="px-10 xl:px-0">
-					<ul class="relative pl-6 lg:pl-10 mt-16">
-						{
-							features.map((feature) => (
-								<li>
-									<div class="flex items-center gap-4 mb-6">
-										<Icon name={feature.icon} class="text-[#ffcc70] size-8" />
-										<p class="text-sm md:text-xl text-pretty">{feature.description}</p>
-									</div>
-								</li>
-							))
-						}
-					</ul>
-				</div>
-			</div>
-			<div class="md:col-span-2 z-20 relative">
-				<Image
-					class="main-image max-h-[500px]"
-					src={'/assets/images/mockup2.avif'}
-					alt="maqueta de la aplicación"
-					class="object-contain h-full w-full shadow-2xl"
-					width={500}
-					height={500}
-					loading="eager"
-					decoding="async"
-					class="inset-0 w-full h-full object-contain"
-				/>
-			</div>
-		</div>
-	</div>
-</section>
+<!-- <section --><!-- 	class={`flex items-center  overflow-clip bg-linear-to-tr relative    --><!-- from-10% from-[#5901dd]  via-30% to-90% to-[#C850C0]  text-background bg-[url(/assets/images/teclados-mobile.png)]`}> --><!-- </section> --><!-- <img src="/assets/images/teclados-mobile.png" /> -->
+<img src="/assets/images/teclados-desktop.png" />
 <style>
 	.main-image {
 		@media (min-width: 768px) {

@@ -8,6 +8,7 @@ import { PRODUCT_TAGS } from '@/constants'
 const socialLinks = Object.entries(site.socialLinks)
 
 const pathname = Astro.url.pathname
+const isHome = pathname === '/'
 
 const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
 	title: value,
@@ -23,10 +24,13 @@ const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
 <header
 	data-state="closed"
 	id="main-header"
-	class="fixed z-50 left-1/2 -translate-x-1/2 top-2 lg:static lg:translate-none">
+	class:list={[
+		'fixed z-50 left-1/2 -translate-x-1/2 top-2 lg:static lg:translate-none',
+		isHome && 'home-header',
+	]}>
 	<Container>
 		<div
-			class="relative bg-background shadow-sm rounded-2xl px-6 py-2 flex items-center md:gap-6 justify-between lg:shadow-none lg:py-4 lg:bg-transparent">
+			class="header-card relative bg-background shadow-sm rounded-2xl px-6 py-2 flex items-center md:gap-6 justify-between lg:shadow-none lg:py-4 lg:bg-transparent">
 			<a
 				href="/"
 				class="text-inherit! hover:scale-110 transition-transform duration-100"
@@ -107,7 +111,7 @@ const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
 				</div>
 			</nav>
 		</div>
-		<div class="bg-black hidden lg:block rounded-2xl overflow-hidden">
+		<div class="desktop-nav bg-black hidden lg:block rounded-2xl overflow-hidden">
 			<nav class="flex gap-4 border justify-center">
 				{
 					categories.map(({ title, href, isActive }) => (
@@ -172,4 +176,38 @@ const categories = Object.entries(PRODUCT_TAGS).map(([key, value]) => ({
 	/* :global([data-mobile-menu-expanded]) { */
 	/* 	overflow-y: hidden; */
 	/* } */
+
+	@media (min-width: 64rem) {
+		:global(.home-header) {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			transform: none;
+			width: 100%;
+			color: oklch(var(--white));
+		}
+
+		:global(.home-header .header-card) {
+			background: oklch(0% 0 0 / 0.3);
+			backdrop-filter: blur(10px) saturate(1.2);
+		}
+
+		:global(.home-header .desktop-nav) {
+			background: transparent;
+		}
+
+		:global(.home-header #open-search-dialog) {
+			background: oklch(0% 0 0 / 0.35);
+		}
+
+		:global(.home-header #open-search-dialog .text-muted-foreground) {
+			color: oklch(100% 0 0 / 0.7);
+		}
+
+		:global(.home-header[data-scroll='active'] .header-card),
+		:global(.home-header[data-scroll='active'] .desktop-nav) {
+			background: oklch(0% 0 0 / 0.75);
+		}
+	}
 </style>
